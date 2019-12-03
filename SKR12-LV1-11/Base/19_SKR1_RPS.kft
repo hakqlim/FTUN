@@ -1,0 +1,242 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 모델 개정\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",41
+"#XEventData"
+1,"S1-GRT-F","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+2,"S1-PSV","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+3,"S1-PSV_FAIL","B",0,0
+6.76E-05,0,6.76E-05,0,0,"L",0,"","",0,0,0
+""
+""
+4,"S1-TOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+5,"S1-RPRDF","B",0,0
+1.52154E-06,0,2.37E-05,0,0,"l",0,"d","",0.0642,0,0
+"FAILURE TO SCRAM DUE TO MECHANICAL FAILURES (CEA 16/36; SD A/B Subgrp 4/9)"
+"CEA or CRDM: NUREG/CR-5500 V.10 (5%, mean, 95%): (3.4e-7, 1.7e-5, 6.4e-5), CCF 50% more (1.2e-9, 5.5e-8, 2.1e-7)"
+6,"S1-GRP-TOP","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO INTERRUPTION OF DRCS PWR ON DEMAND (RP&DP P5: Hi PZR Pr.)"
+""
+7,"S1-GRP-P-TCB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RPS FAILS TO INTERRUPT DRCS PWR (RPP5: Hi PZR Pr.)"
+""
+8,"S1-GDP-TOP","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DPS FAILS TO INTERRUPT DRCS PWR (DPP5: Hi PZR Pr.)"
+""
+9,"S1-GRP-TCB1&3","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RPS FAILS TO INTERRUPT POWER OF TCB 1-3 RACK"
+""
+10,"S1-GRP-TCB2&4","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RPS FAILS TO INTERRUPT POWER OF TCB 2-4 RACK"
+""
+11,"S1-GDP-P5-MG1&2","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF AUTO RX TRIP BY DPS"
+""
+12,"S1-GRP-OP-RTM2-ALT","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO MANUAL RX TRIP BY ALTINATE MEANS (DPS, MG POWER CB OPEN)"
+"ALT MEANS: DPS Manual Trip(RO), MG Power Breaker Open(EO)"
+13,"S1-DPCKF-MG1-SN","B",0,0
+0.03791,0,0.03791,0,0,"L",0,"","",0,0,0
+"NO TRIP SIGNAL TO MG-1 OUTPUT BREAKER (DPP5)"
+""
+14,"S1-DPCKF-MG2-SN","B",0,0
+0.03791,0,0.03791,0,0,"L",0,"","",0,0,0
+"NO TRIP SIGNAL TO MG-2 OUTPUT BREAKER (DPP5)"
+""
+15,"S1-XXOMF-DCN","D",0,0
+0.001,0,0.001,0,0,"Lognormal",0,"","",0,0,0
+"FAILURE OF MCR OPERATOR'S MODULE (OM) OR DCN"
+"Engineering Judgement (undeveloped event). Incl. DCS Network Failure"
+16,"S1-RPOPV-RT-M2","B",0,0
+0.03,0,0.03,0,0,"Lognormal",0,"","",0,0,0
+"OPERATOR FAILS TO MANUALLY INITIATE REACTOR TRIP WITH RPS SIGNAL"
+"KAERI/TR-4558 표A-20 (시뮬레이터 시험자료 기반 평가); 자동신호의 성공조건하에서 TCB 고장에 의한 no Rx Trip 상황(TCB, DPS, & MG-Set PWR); RPOPV-RT-M1과는 mutual exclusive."
+17,"S1-GDP-P-C1","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE TO INTERRUPT MG-1 POWER BY DPS CH.1 TRIP SIGNAL"
+""
+18,"S1-GDP-P-C2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE TO INTERRUPT MG-2 POWER BY DPS CH.2 TRIP SIGNAL (DPP5)"
+""
+19,"S1-DPTCA-MG1","B",0,0
+0.0077526,3,1.18E-06,13140,0,"l",0,"","h",0,0,0
+"MG-1 OUTPUT BREAKER FAILS TO ACTUATE (OPEN BY DPS)"
+"KAERI/TR-4558 표A-7 Experience only_'DPTC'(1.18e-6/h, EF=3.3)"
+20,"S1-DPTCK-MG2","B",0,0
+0.0004163146,3,1.18E-06,13140,0,"l",0,"","h",0.0537,0,0
+"CCF OF ALL MG SET OUTPUT BREAKERS (OPEN BY DPS)"
+"Sys. Level CCF(1/2), CCF Factor 'DPS' (KAERI/TR-4558: 0.0537), Assume EF=10."
+21,"S1-DPSKM-PM1","B",0,0
+0.00209,0,0.00209,0,0,"l",0,"","",0,0,0
+"DPS CH.1 CABINET IS IN BYPASS (T&M)"
+"OPR-1000 data 준용(KAERI/TR-4558 표A-9, A-10): 시험UA(2.260E-04), 정비UA(1.8612E-03). Assume EF=3."
+22,"S1-DPTCA-MG2","B",0,0
+0.0077526,3,1.18E-06,13140,0,"l",0,"","h",0,0,0
+"MG-2 OUTPUT BREAKER FAILS TO ACTUATE (OPEN BY DPS)"
+"KAERI/TR-4558 표A-7 Experience only_'DPTC'(1.18e-6/h, EF=3.3)"
+23,"S1-DPSKM-PM2","B",0,0
+0.00209,0,0.00209,0,0,"l",0,"","",0,0,0
+"DPS CH.2 CABNET IS IN BYPASS (T&M)"
+"OPR-1000 data 준용(KAERI/TR-4558 표A-9, A-10): 시험UA(2.260E-04), 정비UA(1.8612E-03). Assume EF=3."
+24,"S1-GRP-P-TCB1","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RPS TCB-1 FAILS TO OPEN ON SCRAM DEMAND"
+""
+25,"S1-GRP-P-TCB3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RPS TCB-3 FAILS TO OPEN ON SCRAM DEMAND"
+""
+26,"S1-RPRBO-TCB3-C","B",0,0
+5.55E-05,0,5.55E-05,0,0,"Lognormal",0,"","",0,0,0
+"TRIP CIRCUIT BRAKER TCB-3 FAILS TO OPEN"
+"KAERI/TR-4558 표A-7 Bayesian_'RB'(5.55e-5/d, EF=2.77); Cf. OPR-1000(1*/3072d), CEN-327(1*/58576d, med=4.5e-5/d, EF=2.12)"
+27,"S1-RPP-TCB3-SN","B",0,0
+0.0001363,0,0.0001363,0,0,"L",0,"","",0,0,0
+"FAILURE OF UV AND SHUNT TRIP FOR TCB-3"
+""
+28,"S1-RPRBW-TCB","B",0,0
+5.43345E-06,0,5.55E-05,0,0,"Lognormal",0,"","",0.0979,0,0
+"CCF OF TCB-1 2 3 & 4 (FTO)"
+"CCCG 4; Sys. Level CCF (specific 2-of-4 logic). CCF Factor 'Trip Circuit Breaker' (KAERI/TR-4558: 0.0979); Assume EF=10."
+29,"S1-RPRBM-C","B",0,0
+0.000291,0,0.000291,0,0,"lognormal",0,"","",0,0,0
+"RPS CH.C SIGNAL IS IN BYPASS (T&M)"
+"LCL T&M Effect, OPR-1000준용(KAERI/TR-4558 표A-9, A-10 이용 재계산): 시험UA(2.240E-04), 정비UA(6.7257E-05). 시험UA=1h/744h/6. Assume EF=3."
+30,"S1-RPRBO-TCB1-A","B",0,0
+5.55E-05,0,5.55E-05,0,0,"Lognormal",0,"","",0,0,0
+"TRIP CIRCUIT BRAKER TCB-1 FAILS TO OPEN"
+"KAERI/TR-4558 표A-7 Bayesian_'RB'(5.55e-5/d, EF=2.77); Cf. OPR-1000(1*/3072d), CEN-327(1*/58576d, med=4.5e-5/d, EF=2.12)"
+31,"S1-RPRBM-A","B",0,0
+0.000291,0,0.000291,0,0,"Lognormal",0,"","",0,0,0
+"RPS CH.A SIGNAL IS IN BYPASS (T&M)"
+"LCL T&M Effect, OPR-1000준용(KAERI/TR-4558 표A-9, A-10 이용 재계산): 시험UA(2.240E-04), 정비UA(6.7257E-05). 시험UA=1h/744h/6. Assume EF=3."
+32,"S1-GRP-P-TCB2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RPS TCB-2 FAILS TO OPEN ON SCRAM DEMAND (P5)"
+""
+33,"S1-GRP-P-TCB4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RPS TCB-4 FAILS TO OPEN ON SCRAM DEMAND (P5)"
+""
+34,"S1-RPRBO-TCB2-B","B",0,0
+5.55E-05,0,5.55E-05,0,0,"Lognormal",0,"","",0,0,0
+"TRIP CIRCUIT BRAKER TCB-2 FAILS TO OPEN"
+"KAERI/TR-4558 표A-7 Bayesian_'RB'(5.55e-5/d, EF=2.77); Cf. OPR-1000(1*/3072d), CEN-327(1*/58576d, med=4.5e-5/d, EF=2.12)"
+35,"S1-RPP-TCB2-SN","B",0,0
+0.0001363,0,0.0001363,0,0,"L",0,"","",0,0,0
+"FAILURE OF UV AND SHUNT TRIP FOR TCB-2"
+""
+36,"S1-RPRBW-TCB4","B",0,0
+5.43345E-06,0,5.55E-05,0,0,"Lognormal",0,"","",0.0979,0,0
+"CCF OF TCB-1 2 3 & 4 (FTO)"
+"CCCG 4; Sys. Level CCF (specific 2-of-4 logic). CCF Factor 'Trip Circuit Breaker' (KAERI/TR-4558: 0.0979); Assume EF=10."
+37,"S1-RPRBM-B","B",0,0
+0.000291,0,0.000291,0,0,"Lognormal",0,"","",0,0,0
+"RPS CH.B SIGNAL IS IN BYPASS (T&M)"
+"LCL T&M Effect, OPR-1000준용(KAERI/TR-4558 표A-9, A-10 이용 재계산): 시험UA(2.240E-04), 정비UA(6.7257E-05). 시험UA=1h/744h/6. Assume EF=3."
+38,"S1-RPP-TCB1-SN","B",0,0
+0.0001363,0,0.0001363,0,0,"L",0,"","",0,0,0
+"FAILURE OF UV AND SHUNT TRIP FOR TCB-1"
+""
+39,"S1-RPRBO-TCB4-D","B",0,0
+5.55E-05,0,5.55E-05,0,0,"Lognormal",0,"","",0,0,0
+"TRIP CIRCUIT BRAKER TCB-4 FAILS TO OPEN"
+"KAERI/TR-4558 표A-7 Bayesian_'RB'(5.55e-5/d, EF=2.77); Cf. OPR-1000(1*/3072d), CEN-327(1*/58576d, med=4.5e-5/d, EF=2.12)"
+40,"S1-RPP-TCB4-SN","B",0,0
+0.0001363,0,0.0001363,0,0,"L",0,"","",0,0,0
+"FAILURE OF UV AND SHUNT TRIP FOR TCB-4"
+""
+41,"S1-RPRBM-D","B",0,0
+0.000291,0,0.000291,0,0,"lognormal",0,"","",0,0,0
+"RPS CH.D SIGNAL IS IN BYPASS (T&M)"
+"LCL T&M Effect, OPR-1000준용(KAERI/TR-4558 표A-9, A-10 이용 재계산): 시험UA(2.240E-04), 정비UA(6.7257E-05). 시험UA=1h/744h/6. Assume EF=3."
+"#TreeLogic"
+1,"+",2
+5
+6
+2,"+",1
+3
+4,"+",2
+1
+2
+6,"*",2
+7
+8
+7,"+",2
+9
+10
+8,"*",2
+11
+12
+9,"*",2
+24
+25
+10,"*",2
+32
+33
+11,"+",2
+17
+18
+12,"+",2
+15
+16
+17,"+",4
+19
+13
+20
+21
+18,"+",4
+22
+14
+20
+23
+24,"+",4
+30
+38
+28
+31
+25,"+",4
+26
+27
+28
+29
+32,"+",4
+34
+35
+36
+37
+33,"+",4
+39
+40
+36
+41
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

@@ -1,0 +1,2510 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 ¸ðµ¨ °³Á¤\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",431
+"#XEventData"
+1,"S1-HCCQSCCPA","B",0,4
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"CCW Pump Room A Cubicle Cooler AH16A Fails to Start"
+""
+2,"S1-HCCQRCCPA","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"CCW Pump Room A Cubicle Cooler AH16A Fails to Run"
+""
+3,"S1-HCCQMCCPA","B",0,4
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for CCW Pump Room A Unavailble due to Maintenance"
+""
+4,"S1-WOVVTCC-1083A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for CCW Pump Room A Fails to Remain Open"
+""
+5,"S1-WOVVTCC-1082A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler (CCW Pp A) Fails to Remain Open"
+""
+6,"S1-WOOPUCC-1083A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (CCW Pp A) Remains Closed after T&M"
+""
+7,"S1-WOOPUCC-1082A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (CCW Pp A) Remains Closed after T&M"
+""
+8,"S1-HCCQSCCPB","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"CCW Pump Room B Cubicle Cooler AH16A Fails to Start"
+""
+9,"S1-HCCQRCCPB","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"CCW Pump Room Cubicle Cooler 16B Fails to Run"
+""
+10,"S1-HCCQMCCPB","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for CCW Pump Room B Unavailble due to Maintenance"
+""
+11,"S1-WOVVTCC-1083B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for CCW Pump Room B Fails to Remain Open"
+""
+12,"S1-WOVVTCC-1082B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for CCW Pump Room B Fails to Remain Open"
+""
+13,"S1-WOOPUCC-1083B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (CCW Pp B) Remains Closed after T&M"
+""
+14,"S1-WOOPUCC-1082B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (CCW Pp A) Remains Closed after T&M"
+""
+15,"S1-GHC-CCPA-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH16A"
+""
+16,"S1-GHC-CCPA-CW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+17,"S1-GWO-TRA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Essential Chilled Water from TrainA"
+""
+18,"S1-GHC-CCPB-SS","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH16B"
+""
+19,"S1-GHC-CCPB-CW","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+20,"S1-HCCQSCSPA","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"Cubicle Cooler for  CSS Pump A Room Fails to Start"
+""
+21,"S1-HCCQRCSPA","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"Cubicle Cooler for CSS  Pump A Room Fails to Run"
+""
+22,"S1-HCCQMCSPA","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for CSP A Unavailable due to Maintenance"
+""
+23,"S1-WOVVTCS-1047A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for CS Pump Room A Fails to Remain Open"
+""
+24,"S1-WOVVTCS-1046A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for CS Pp A Room Fails to Remain Open"
+""
+25,"S1-WOOPUCS-1047A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (CS Pp A) Remains Closed after T&M"
+""
+26,"S1-WOOPUCS-1046A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (CS Pp A) Remains Closed after T&M"
+""
+27,"S1-GWO-TRB","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Essential Chilled Water from Train B"
+""
+28,"S1-HCCQSCSPB","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"Cubicle Cooler for  CSS Pump B Room Fails to Start"
+""
+29,"S1-HCCQRCSPB","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"Cubicle Cooler for CSS Pump B Room Fails to Run"
+""
+30,"S1-HCCQMCSPB","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for CSP B Unavailable due to Maintenance"
+""
+31,"S1-WOVVTCS-1047B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for CS Pump Room B Fails to Remain Open"
+""
+32,"S1-WOVVTCS-1046B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for CS Pump Room B Fails to Remain Open"
+""
+33,"S1-WOOPUCS-1047B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (CS Pp B) Remains Closed after T&M"
+""
+34,"S1-WOOPUCS-1046B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (CS Pp B) Remains Closed after T&M"
+""
+35,"S1-GHC-CSPA-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH03A"
+""
+36,"S1-GHC-CSPA-CW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+37,"S1-GHC-CSPB-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH03B"
+""
+38,"S1-GHC-CSPB-CW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+39,"S1-HCCQSCHGP1","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"Cubicle Cooler for Charging Pump 1 Room Fails to Start"
+""
+40,"S1-HCCQRCHGP1","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"Cubicle Cooler AH09A for CHG Pump 1 Room  Fails to Run"
+""
+41,"S1-HCCQMCHP1","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for Chg Pump 1 Room Unavailable due to Maintenance"
+""
+42,"S1-WOVVTCH-1062A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for Chg Pp 1 Room  Fails to Remain Open"
+""
+43,"S1-WOVVTCH-1061A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for Chg. Pp 1 Room Fails to Remain Open"
+""
+44,"S1-WOOPUCH-1062A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (Chg Pp 1) Remains Closed after T&M"
+""
+45,"S1-WOOPUCH-1061A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (Chg Pp 1) Remains Closed after T&M"
+""
+46,"S1-HCCQSCHGP2","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"Cubicle Cooler for Charging Pump 2 Room Fails to Start"
+""
+47,"S1-HCCQRCHGP2","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"Cubicle Cooler AH09B for CHG Pump Room 2 Fails to Run"
+""
+48,"S1-HCCQMCHP2","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for Chg Pump 2 Room Unavailable due to Maintenance"
+""
+49,"S1-WOVVTCH-1062B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for Chg Pp 2 Room  Fails to Remain Open"
+""
+50,"S1-WOVVTCH-1061B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for Chg. Pp 2 Room Fails to Remain Open"
+""
+51,"S1-WOOPUCH-1062B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (Chg Pp 2) Remains Closed after T&M"
+""
+52,"S1-WOOPUCH-1061B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (Chg Pp 2) Remains Closed after T&M"
+""
+53,"S1-GHC-CHP1-CW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+54,"S1-GHC-CHP1-SS","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH08A"
+""
+55,"S1-GHC-CHP2-SS","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH09B"
+""
+56,"S1-GHC-CHP2-CW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+57,"S1-GHV-CWTRANOR","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of ECW Room A Cooling"
+""
+58,"S1-GHV-CWTRA-EXH","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Exhaust Fans"
+""
+59,"S1-GHV-CWTRA-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Supply AHU"
+""
+60,"S1-GHV-AH07A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of ECW Exhaust Fan AH07A"
+""
+61,"S1-GHV-AH08A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of ECW Exhaust Fan AH08A"
+""
+62,"S1-GHV-HV01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of ESF SWGRAND Eqip. Room Supply AHU HV 01A"
+""
+63,"S1-GHV-AH07ASUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support System"
+""
+64,"S1-HEABRAH08AA","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"Fails to Run"
+""
+65,"S1-GHV-AH08ABCCF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF"
+""
+66,"S1-GHV-AH08ASUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support system"
+""
+67,"S1-HEABMAH08AA","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"","",0,0,10
+"Fan AH08 Unavailable due to T&M"
+""
+68,"S1-GHV-HV01AINFANS","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ESF SWGR&EQIP.ROOM SUPPLY AHU HV01A"
+""
+69,"S1-GHV-HV01AOUTFANS","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ESF SWGR&EQIP.ROOM RETURN AHU HV01A"
+""
+70,"S1-HEFLPFT01AA","B",0,0
+2.3664E-06,1,9.86E-08,24,0,"L",0,"h","h",0,0,8.4
+"FILTER FT01A PLUGGED"
+""
+71,"S1-GHV-AH08ACNTFAIL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"loss of ecw pump exhaust fan AH08 actuation signal"
+""
+72,"S1-GHV-AH01AFAIL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ESF SWGR & EQIP.ROOM SUPPLY AHU HV01A"
+""
+73,"S1-GHV-AH02AFAIL","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ESF SWGR & EQIP.ROOM SUPPLY AHU HV02A"
+""
+74,"S1-GHV-AH03AFAIL","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ESF ROOM RETURN FAN AH03A"
+""
+75,"S1-GHV-AH044AFAIL","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ROOM STNDBY RETURN FAN AH04A"
+""
+76,"S1-HEABKD2AH03A03N","B",0,0
+9.37728E-05,1,0.000111,24,0,"L",0,"h","",0.0352,0,1.7
+"RUNNING CCF OF AH03A/AH03B"
+""
+77,"S1-HEABRAH03AA","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"FAILS TO RUN AH03A"
+""
+78,"S1-HEABRAH04AA","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"FAILS TO RUN"
+""
+79,"S1-HEABSAH04AA","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"Fails to Start"
+""
+80,"S1-GHV-AH04ASUP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM"
+""
+81,"S1-GHV-AH04ABCCF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF AH04A"
+""
+82,"S1-HEABMAH04AA","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"","",0,0,10
+"Fan AH04 Unavailable due to T&M"
+""
+83,"S1-HEABRAH01AA","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"FAILS TO RUN AH01A"
+""
+84,"S1-HEABRAH02AA","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"FAILS TO RUN"
+""
+85,"S1-HEABSAH02AA","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"FAILS TO START"
+""
+86,"S1-GHV-AH02ABCCF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF"
+""
+87,"S1-GHV-AH02ASUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM"
+""
+88,"S1-HEABMAH02AA","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"","",0,0,10
+"Fan AH02 Unavailable due to T&M"
+""
+89,"S1-GHV-AH02ACNTFAIL","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF DG high volume exhaust fan AH02 actuation signal"
+""
+90,"S1-HEOPVAH02AA","B",0,0
+0.011,0,0.011,0,0,"L",0,"","",0,0,0
+"Opeartor Fails to Start Fan AH02"
+""
+91,"S1-GHV-AH02A-SIG","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of PUMP Exhaust Fan AH02 Actuation Signal"
+""
+92,"S1-HESKYAH02AA","B",0,0
+0.000446,0,0.000446,0,0,"L",0,"","",0,0,0
+"Failure of ECW PP/CHILL. DIV. A Fan AH02 Actuating Circuit"
+""
+93,"S1-HESKWD2AH02A02B","B",0,0
+1.56992E-05,0,0.000446,0,0,"L",0,"","",0.0352,0,0
+"Demand CCF of ECW Pump/CHiller Room FAN AH02A02B"
+""
+94,"S1-GHV-AH04ASIG","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF DG high volume exhaust fan AH02 actuation signal"
+""
+95,"S1-HEOPVAH04AA","B",0,0
+0.011,0,0.011,0,0,"L",0,"","",0,0,0
+"Opeartor Fails to Start Fan AH04"
+""
+96,"S1-GHV-AH04A-SIG","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of High Volume Exhaust Fan AH02 Actuation Signal"
+""
+97,"S1-HESKYAH04AA","B",0,0
+0.000446,0,0.000446,0,0,"L",0,"","",0,0,0
+"Failure of ECW PP/CHILL. DIV. A Fan AH04 Actuating Circuit"
+""
+98,"S1-GHV-AH08A-SIG","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of PUMP Exhaust Fan AH08 Actuation Signal"
+""
+99,"S1-HELCKQ4PA03AB-2842/3782","B",0,0
+2.4408E-07,1,4.52E-07,24,0,"L",0,"h","h",0.0225,0,0
+"CCF OF LOOP CONTROLLER PA03A-08"
+""
+100,"S1-GHV-AH08ASIGNAL","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF ECW PUMP ROOM EXHAUST FAN AH08A"
+""
+101,"S1-HEDOFAH08A","B",0,0
+6.36E-05,1,2.65E-06,24,0,"L",0,"h","h",0,0,2.8
+"Failure of ECW Pump/Chill. ROom Exhaust Fan AH08A Digital I/O Card (28-4-13)"
+""
+102,"S1-HEOPVAH08AA","B",0,0
+0.011,0,0.011,0,0,"L",0,"","",0,0,0
+"OPEARTOR FAILS TO START ECW STNDBY EXHAUST FAN"
+""
+103,"S1-GHV-PA03A082842","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF LOOP CONTROLLER PA03A"
+""
+104,"S1-GHV-AH08ASTRTSIG","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Standby Exhaust Fan AH08A Actuation Signal"
+""
+105,"S1-HELCFPA03A-2842-1","B",0,0
+1.0848E-05,1,4.52E-07,24,0,"L",0,"h","h",0,0,0
+"FAILURE OF LOOP CONTROLLER PA03A-08-2842"
+""
+106,"S1-HELCFPA03A-2842-2","B",0,0
+1.0848E-05,1,4.52E-07,24,0,"L",0,"h","h",0,0,0
+"FAILURE OF LOOP CONTROLLER PA03A-082842"
+""
+107,"S1-HESKYAH08AA","B",0,0
+0.000446,0,0.000446,0,0,"L",0,"","",0,0,0
+"FAILURE OF ECW AH08A ACTUATING CIRCUIT"
+""
+108,"S1-HESKWD2AH08A08B","B",0,0
+1.56992E-05,0,0.000446,0,0,"L",0,"","",0.0352,0,0
+"DEMAND CCF"
+""
+109,"S1-HDABS-04A","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"High Volume Exhaust Fan 04A Fails to Start"
+""
+110,"S1-HDABR-04A","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"High Volume Exhaust Fan 04A Fails to Run"
+""
+111,"S1-HDABM-04A","B",0,0
+8.98E-05,0,8.98E-05,0,0,"L",0,"","",0,0,10
+"High Volumn Exhaust Fan 04A Unavailable due to Maintenance"
+""
+112,"S1-GHD-AH04A-S","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Start Signal Failure for AH04A"
+""
+113,"S1-HDISAAH04A","B",0,0
+6.333334E-09,3,7.6E-07,0.01666667,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for Fan AH04A"
+""
+114,"S1-HDABS-04B","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"High Volume Exhaust Fan 04B Fails to Start"
+""
+115,"S1-HDABR-04B","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"High Volume Exhaust Fan 04B Fails to Run"
+""
+116,"S1-HDABM-04B","B",0,0
+8.98E-05,0,8.98E-05,0,0,"L",0,"","",0,0,10
+"High Volumn Exhaust Fan 04B Unavailable due to Maintenance"
+""
+117,"S1-GHD-AH04B-S","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Start Signal Failure for AH04B"
+""
+118,"S1-GHD-AH06B-S","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Start Signal Failure for AH06B"
+""
+119,"S1-HDISAAH04B","B",0,0
+6.333334E-09,3,7.6E-07,0.01666667,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for Fan AH04B"
+""
+120,"S1-HDISAAH06B","B",0,0
+6.333334E-09,3,7.6E-07,0.01666667,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for Fan AH06B"
+""
+121,"S1-GHD-AH06A-S","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Start Signal Failure for AH06A"
+""
+122,"S1-HDISAAH06A","B",0,0
+6.333334E-09,3,7.6E-07,0.01666667,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for Fan AH06A"
+""
+123,"S1-HCCQSHPPA","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"Cubicle Cooler for HPSI Pump A Room Fails to Start"
+""
+124,"S1-HCCQRHPPA","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"Cubicle Cooler for HPSI Pump A Room Fails to Run"
+""
+125,"S1-HCCQMHPPA","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for HPSI Pump A Unavailable due to Maintenance"
+""
+126,"S1-WOVVTHS-1050A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for HPSI Pump Room A Fails to Remain Open"
+""
+127,"S1-WOVVTHS-1049A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for HPSI Pump Room A Fails to Remain Open"
+""
+128,"S1-WOOPUHS-1050A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (HS Pp A) Remains Closed after T&M"
+""
+129,"S1-WOOPUHS-1049A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (HS Pp A) Remains Closed after T&M"
+""
+130,"S1-HCCQSHPPB","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"Cubicle Cooler for HPSI Pump B Room Fails to Start"
+""
+131,"S1-HCCQRHPPB","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"Cubicle Cooler for HPSI Pump B Room Fails to Run"
+""
+132,"S1-HCCQMHPPB","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for HPSI Pump B Unavailable due to Maintenance"
+""
+133,"S1-WOVVTHS-1050B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for HPSI Pump Room B Fails to Remain Open"
+""
+134,"S1-WOVVTHS-1049B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for HPSI Pump Room B Fails to Remain Open"
+""
+135,"S1-WOOPUHS-1050B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (HS Pp B) Remains Closed after T&M"
+""
+136,"S1-WOOPUHS-1049B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (HS Pp B) Remains Closed after T&M"
+""
+137,"S1-GHC-HPSIPA-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH04A"
+""
+138,"S1-GHC-HPSIPA-CW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+139,"S1-GHC-HPSIPB-SS","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH04B"
+""
+140,"S1-GHC-HPSIPB-CW","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+141,"S1-HCCQSLPPA","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"Cubicle Cooler for LPSI Pump A Room Fails to Start"
+""
+142,"S1-HCCQRLPPA","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"Cubicle Cooler for LPSI Pump A Room Fails to Run"
+""
+143,"S1-HCCQMLPPA","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for LPSI Pump A Unavailable due to Maintenance"
+""
+144,"S1-WOVVTLS-1059A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for LPSI Pump Room A Fails to Remain Open"
+""
+145,"S1-WOVVTLS-1058A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for LPSI Pump Room A Fails to Remain Open"
+""
+146,"S1-WOOPULS-1059A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (LS Pp A) Remains Closed after T&M"
+""
+147,"S1-WOOPULS-1058A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (LS Pp A) Remains Closed after T&M"
+""
+148,"S1-HCCQSLPPB","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"Cubicle Cooler for LPSI Pump B Room Fails to Start"
+""
+149,"S1-HCCQRLPPB","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"Cubicle Cooler for LPSI Pump B Room Fails to Run"
+""
+150,"S1-HCCQMLPPB","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for LPSI Pump B Unavailable due to Maintenance"
+""
+151,"S1-WOVVTLS-1059B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for LPSI Pump Room B Fails to Remain Open"
+""
+152,"S1-WOVVTLS-1058B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for LPSI Pump Room B Fails to Remain Open"
+""
+153,"S1-WOOPULS-1059B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (LS Pp B) Remains Closed after T&M"
+""
+154,"S1-WOOPULS-1058B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (LS Pp B) Remains Closed after T&M"
+""
+155,"S1-GHC-LPSIPA-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH02A"
+""
+156,"S1-GHC-LPSIPA-CW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+157,"S1-GHC-LPSIPB-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH02B"
+""
+158,"S1-GEM-05B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of power from 480V AC MCC BUS MC05B"
+""
+159,"S1-GHC-LPSIPB-CW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+160,"S1-HCCQSAFMP1A","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"Cubicle Cooler for AFW MDP 01A Room Fails to Start"
+""
+161,"S1-HCCQRAFMP1A","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"Cubicle Cooler for AFW MDP 01A Room Fails to Run"
+""
+162,"S1-HCCQMAFMP1A","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for AFW MDP 01A Unavailble due to Maintenance"
+""
+163,"S1-GHC-AFMP01A-SS","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH13A"
+""
+164,"S1-WOVVTAF-1035A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for AFW MDP 01A Room  Fails to Remain Open"
+""
+165,"S1-WOVVTAF-1034A","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for AFW MDP 01A Room Fails to Remain Open"
+""
+166,"S1-WOOPUAF-1035A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (AFW MDP 01A) Remains Closed after T&M"
+""
+167,"S1-WOOPUAF-1034A","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (AFW MDP 01A) Remains Closed after T&M"
+""
+168,"S1-GHC-AFMP01A-CW","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+169,"S1-HCCQSAFMP2B","B",0,0
+0.00311,0,0.00311,0,15.9,"L",0,"","",0,0,13.5
+"Cubicle Cooler for AFW Pump 02B Room Fails to Start"
+""
+170,"S1-HCCQRAFMP2B","B",0,0
+9.12E-05,1,3.8E-06,24,1.14,"L",0,"h","h",0,0,8.4
+"Cubicle Cooler for AFW MDP 02B Room Fails to Run"
+""
+171,"S1-HCCQMAFMP2B","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,10
+"Cubicle Cooler for AFW MDP 02B Unavailble due to Maintenance"
+""
+172,"S1-GHC-AFMP02B-SS","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH13B"
+""
+173,"S1-WOVVTAF-1035B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Inlet Valve of Cubicle Cooler for AFW MDP 02B Room Fails to Remain Open"
+""
+174,"S1-WOVVTAF-1034B","B",0,0
+2.78568E-05,3,6.36E-09,8760,3.9,"L",0,"h","h",0,0,8.4
+"Outlet Valve of Cubicle Cooler for AFW MDP 02B Room Fails to Remain Open"
+""
+175,"S1-WOOPUAF-1035B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Inlet Valve of Cubicle Cooler (AFW MDP 02B) Remains Closed after T&M"
+""
+176,"S1-WOOPUAF-1034B","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"Outlet Valve of Cubicle Cooler (AFW MDP 02B) Remains Closed after T&M"
+""
+177,"S1-GHC-AFMP02B-CW","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Chilled Water to Cubicle Cooler Cooling Coil"
+""
+178,"S1-GHH-ESW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Servcice Water Pump Room Cooling"
+""
+179,"S1-GHH-AH01A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Normally Running ESW Pump Room AHU AH01A"
+""
+180,"S1-HHABSAH01A","B",0,1
+0.00289,0,0.00289,0,15.9,"L",0,"","",0,0,18.6
+"ESW Pump Room AHU AH01A Fails to Start"
+""
+181,"S1-HHABRAH01A","B",0,0
+0.002664,1,0.000111,24,1.17,"L",0,"h","h",0,0,1.7
+"ESW Pump Room AHU AH01A Fails to Run"
+""
+182,"S1-GHH-01A-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH01A"
+""
+183,"S1-HHABMAH01A","B",0,1
+0.000388,0,0.000388,0,4.4,"L",0,"","",0,0,10
+"ESW Pump Room AHU 01A Unavailable due to Maintenance"
+""
+184,"S1-GEM-07A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Power from 480V MCC MC07A"
+""
+185,"S1-GHH-01A-S","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Start Signal Failure"
+""
+186,"S1-HHISAAH01A","B",0,0
+0.0033288,3,7.6E-07,8760,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for Fan AH01A"
+""
+187,"S1-HHISAAH02A","B",0,0
+0.0066576,3,7.6E-07,17520,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for Fan AH02A"
+""
+188,"S1-GHD-DG","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of EDG/AAC Room Cooling"
+""
+189,"S1-GHD-DG01A","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of EDG A Room Cooling"
+""
+190,"S1-GHD-DG01B","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Room Cooling for 1E DG-01B"
+""
+191,"S1-GHD-DG01E","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Room Cooling for AAC 1E DG-01E"
+""
+192,"S1-GHH-CW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of ECW PUMP/CHILLER Room Cooling"
+""
+193,"S1-GHH-CWTRA","*",0,2
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of ECW PUMP/CHILLER Room Cooling A"
+""
+194,"S1-GHH-CWTRB","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of ECW PUMP/CHILLER Room Cooling B"
+""
+195,"S1-GHH-SWTRA","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of ESW pump room A cooling"
+""
+196,"S1-GEM-07B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Power from 480V MCC MC07B"
+""
+197,"S1-GHH-AH01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Normally Running ESW Pump Room AHU AH01B"
+""
+198,"S1-HHABSAH01B","B",0,0
+0.00289,0,0.00289,0,15.9,"L",0,"","",0,0,18.6
+"ESW Pump Room AHU AH01B Fails to Start"
+""
+199,"S1-HHABRAH01B","B",0,0
+0.002664,1,0.000111,24,1.17,"L",0,"h","h",0,0,1.7
+"ESW Pump Room AHU AH01B Fails to Run"
+""
+200,"S1-GHH-01B-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH01B"
+""
+201,"S1-HHABMAH01B","B",0,0
+0.000388,0,0.000388,0,4.4,"L",0,"","",0,0,10
+"ESW Pump Room AHU 01B Unavailable due to Maintenance"
+""
+202,"S1-GHH-02B-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH02B"
+""
+203,"S1-HHISAAH02B","B",0,0
+0.0066576,3,7.6E-07,17520,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for Fan AH02B"
+""
+204,"S1-GHH-01B-S","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Start Signal Failure"
+""
+205,"S1-HHISAAH01B","B",0,0
+0.0033288,3,7.6E-07,8760,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for Fan AH01B"
+""
+206,"S1-GHH-SWTRB","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of ESW pump room B cooling"
+""
+207,"S1-GHD-AH03A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of DG-01A High Volume Exhaust Fan AH03A"
+""
+208,"S1-GHD-AH04A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of DG-01A High Volume Exhaust Fan AH04A"
+""
+209,"S1-HDABS-03A","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"High Volume Exhaust Fan 03A Fails to Start"
+""
+210,"S1-GHD-CCF-03A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Failure of Exhaust Fans for AH03A"
+""
+211,"S1-HDABR-03A","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"High Volume Exhaust Fan 03A Fails to Run"
+""
+212,"S1-GHD-AH03A-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH03A"
+""
+213,"S1-HDABM-03A","B",0,0
+8.98E-05,0,8.98E-05,0,0,"L",0,"","",0,0,10
+"High Volumn Exhaust Fan 03A Unavailable due to Maintenance"
+""
+214,"S1-HDABK-EDG-AB","B",0,4
+9.37728E-05,1,0.000111,24,0,"L",0,"h","h",0.0352,0,1.7
+"RUNNING CCF FOR EDG EXHAUST FANS (A: 03A, B: 03B) (2/2)"
+""
+215,"S1-HDABW-EDG-AB","B",0,4
+8.0342E-05,0,0.00289,0,0,"L",0,"","",0.0278,0,18.6
+"DEMAND CCF FOR EDG EXHAUST FANS (A: 03A, B: 03B) (2/2)"
+""
+216,"S1-GEM-02A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Power AT 480V MCC Bus MC02A"
+""
+217,"S1-GEA-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel A"
+""
+218,"S1-GHD-AH03B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of DG-01B High Volume Exhaust Fan AH03B"
+""
+219,"S1-HDABS-03B","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"High Volume Exhaust Fan 03B Fails to Start"
+""
+220,"S1-HDABR-03B","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"High Volume Exhaust Fan 03B Fails to Run"
+""
+221,"S1-GHD-AH03B-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH03B"
+""
+222,"S1-HDABM-03B","B",0,0
+8.98E-05,0,8.98E-05,0,0,"L",0,"","",0,0,10
+"High Volumn Exhaust Fan 03B Unavailable due to Maintenance"
+""
+223,"S1-GHD-CCF-03B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Failure of Exhaust Fans for AH03B"
+""
+224,"S1-GHD-CCF-04A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Failure of Exhaust Fans for AH04A"
+""
+225,"S1-GHD-AH04A-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH04A"
+""
+226,"S1-GHD-AH04B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of DG-01B High Volume Exhaust Fan AH04B"
+""
+227,"S1-GHD-AH04B-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH04B"
+""
+228,"S1-GHD-CCF-04B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Failure of Exhaust Fans for AH04B"
+""
+229,"S1-HDABW-EDG04-AB","B",0,4
+8.0342E-05,0,0.00289,0,0,"L",0,"","",0.0278,0,18.6
+"DEMAND CCF FOR EDG EXHAUST FANS (A: 04A, B: 43B) (2/2)"
+""
+230,"S1-HDABK-EDG04-AB","B",0,4
+9.37728E-05,1,0.000111,24,0,"L",0,"h","h",0.0352,0,1.7
+"RUNNING CCF FOR EDG EXHAUST FANS (A: 04A, B: 43B) (2/2)"
+""
+231,"S1-GHD-SUFAN46","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of AAC DG-01E High Volume Supply Fan AH46"
+""
+232,"S1-GHD-SUFAN45","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of AAC DG-01E High Volume Supply Fan AH45"
+""
+233,"S1-HDABS45","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"High Volume Supply Fan AH45 Fails to Start"
+""
+234,"S1-HDABR45","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"High Volume Supply Fan AH45 Fails to Run"
+""
+235,"S1-HDABM45","B",0,0
+8.98E-05,0,8.98E-05,0,0,"L",0,"","",0,0,10
+"High Volumn Supply Fan 45 Unavailable due to Maintenance"
+""
+236,"S1-HDABS46","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"High Volume Supply Fan AH46 Fails to Start"
+""
+237,"S1-HDABR46","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"High Volume Supply Fan AH46 Fails to Run"
+""
+238,"S1-HDABM46","B",0,0
+8.98E-05,0,8.98E-05,0,0,"L",0,"","",0,0,10
+"High Volumn Supply Fan 46 Unavailable due to Maintenance"
+""
+239,"S1-HCCQK-LPSI1-AB","B",0,0
+4.93392E-06,1,3.8E-06,24,0,"L",0,"h","h",0.0541,0,8.4
+"Running CCF of Cubicle Cooler for LPSI Pump Rooms A: 02A, B:02B (2/2)"
+""
+240,"S1-HCCQW-LPSI1-AB","B",0,0
+0.00021148,0,0.00311,0,0,"L",0,"","",0.068,0,13.5
+"Demanding CCF of Cubicle Cooler for LPSI Pump Rooms A: 02A, B:02B (2/2)"
+""
+241,"S1-GHC-LSPP01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF LPSI PUMP 1 ROOM COOLING"
+""
+242,"S1-GHC-LSPP01B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF LPSI PUMP 2 ROOM COOLING"
+""
+243,"S1-GHC-LS","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF LPSI PUMP ROOM COOLING"
+""
+244,"S1-GHC-CS","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of CS Pump Room Cooling"
+""
+245,"S1-GHC-CSPP01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF CSS PUMP 1 ROOM COOLING"
+""
+246,"S1-GHC-CSPP01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF CSS PUMP 2 ROOM COOLING"
+""
+247,"S1-HCCQW-CSP-AB","B",0,0
+0.00021148,0,0.00311,0,0,"L",0,"","",0.068,0,13.5
+"Demand CCF of Cubicle Cooler for CSS  Pump Rooms A: 03A, B: 03B (2/2)"
+""
+248,"S1-HCCQK-CSP-AB","B",0,0
+4.93392E-06,1,3.8E-06,24,0,"L",0,"h","h",0.0541,0,8.4
+"Running CCF of Cubicle Cooler for CSS  Pump Rooms A: 03A, B: 03B (2/2)"
+""
+249,"S1-GEM-05A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of power from 480V AC MCC BUS MC05A"
+""
+250,"S1-GEA-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel B"
+""
+251,"S1-GHC-HS","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of HPSI Pump Room Cooling"
+""
+252,"S1-GHC-HSPP01A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of HPSI Pump A Room Cooling"
+""
+253,"S1-GHC-HSPP01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of HPSI Pump B Room Cooling"
+""
+254,"S1-HCCQW-HPSI-AB","B",0,0
+0.00021148,0,0.00311,0,0,"L",0,"","",0.068,0,13.5
+"Demanding CCF of Cubicle Cooler for HPSI Pump Rooms A:04A, B:04B (2/2)"
+""
+255,"S1-HCCQK-HPSI-AB","B",0,0
+4.93392E-06,1,3.8E-06,24,0,"L",0,"h","h",0.0541,0,8.4
+"Running CCF of Cubicle Cooler for HPSI Pump Rooms A:04A, B:04B (2/2)"
+""
+256,"S1-GHC-AFMDP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of AFW MDP Room Cooling"
+""
+257,"S1-HCCQW-AFMP-AB","B",0,0
+0.00021148,0,0.00311,0,0,"L",0,"","",0.068,0,13.5
+"Demand CCF of Cubicle Cooler for AFW MDP Room A: 13A, B:13B (2/2)"
+""
+258,"S1-HCCQK-AFMP-AB","B",0,0
+4.93392E-06,1,3.8E-06,24,0,"L",0,"h","h",0.0541,0,8.4
+"Running CCF of Cubicle Cooler for AFW MDP Rooms A: 13A, B:13B (2/2)"
+""
+259,"S1-GEM-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 480V AC MCC MC01B"
+""
+260,"S1-GEM-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 480V AC MCC MC01A"
+""
+261,"S1-GHC-CV","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF ROOM COOLING FOR CVCS CHG PUM"
+""
+262,"S1-GHC-CVPP01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF ROOM COOLING FOR CVCS CHG PUMP 1"
+""
+263,"S1-GHC-CVPP01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF ROOM COOLING FOR CVCS CHG PUMP 2"
+""
+264,"S1-HCCQW-CHGP-AB","B",0,4
+0.000109472,0,0.00311,0,0,"L",0,"","",0.0352,0,13.5
+"Demand CCF for CV Room Cooling A: 08A, B:08B (2/2)"
+""
+265,"S1-HCCQK-CHGP-AB","B",0,4
+2.53536E-06,1,3.8E-06,24,0,"L",0,"h","h",0.0278,0,8.4
+"Running CCF for CV Room Cooling A: 08A, B:08B (2/2)"
+""
+266,"S1-GHC-CC","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of CCW Pump Room Cooling"
+""
+267,"S1-GHC-CCPP01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of CCW Pump A Room Cooling"
+""
+268,"S1-GHC-CCPP01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of CCW Pump B Room Cooling"
+""
+269,"S1-HCCQW-CCP-AB","B",0,4
+0.000109472,0,0.00311,0,0,"L",0,"","",0.0352,0,13.5
+"Demand CCF of CCW Pump Room Cubicle Coolers A: 16A, B:16B (2/2)"
+""
+270,"S1-HCCQK-CCP-AB","B",0,0
+2.53536E-06,1,3.8E-06,24,0,"L",0,"h","h",0.0278,0,8.4
+"Running CCF of CCW Pump Room Cubicle Coolers A: 16A, B:16B (2/2)"
+""
+271,"S1-GHH-AH03A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Standby ESW Pump Room AHU AH03A"
+""
+272,"S1-HHABSAH03A","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"ESW Pump Room AHU AH03A Fails to Start"
+""
+273,"S1-HHABRAH03A","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"ESW Pump Room AHU AH03A Fails to Run"
+""
+274,"S1-GHH-03A-SS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Support Systems for AH03A"
+""
+275,"S1-GHH-03A-S","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Start Signal Failure"
+""
+276,"S1-HHABMAH03A","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"","",0,0,10
+"ESW Pump Room AHU 03A Unavailable due to Maintenance"
+""
+277,"S1-GHH-AH03B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Standby ESW Pump Room AHU AH03B"
+"Failure of Standby ESW Pump Room AHU AH02B"
+278,"S1-HHABSAH03B","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"ESW Pump Room AHU AH03B Fails to Start"
+""
+279,"S1-HHABRAH03B","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"ESW Pump Room AHU AH03B Fails to Run"
+""
+280,"S1-GHH-03B-S","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Start Signal Failure"
+""
+281,"S1-HHABMAH03B","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"","",0,0,10
+"ESW Pump Room AHU 03B Unavailable due to Maintenance"
+""
+282,"S1-GHH-ABW-SW-A","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+283,"S1-HHABW-SW-AB","B",0,0
+1.8785E-05,0,0.00289,0,0,"L",0,"","",0.0065,0,18.6
+"CCF (2/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+284,"S1-HHABW-SW-ABC","B",0,0
+9.9127E-06,0,0.00289,0,0,"L",0,"","",0.00343,0,18.6
+"CCF (3/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+285,"S1-HHABW-SW-ABCD","B",0,0
+1.57505E-05,0,0.00289,0,0,"L",0,"","",0.00545,0,18.6
+"CCF (4/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+286,"S1-HHABW-SW-ABD","B",0,0
+9.9127E-06,0,0.00289,0,0,"L",0,"","",0.00343,0,18.6
+"CCF (3/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+287,"S1-HHABW-SW-AC","B",0,0
+1.8785E-05,0,0.00289,0,0,"L",0,"","",0.0065,0,18.6
+"CCF (2/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+288,"S1-HHABW-SW-ACD","B",0,0
+9.9127E-06,0,0.00289,0,0,"L",0,"","",0.00343,0,18.6
+"CCF (3/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+289,"S1-HHABW-SW-AD","B",0,0
+1.8785E-05,0,0.00289,0,0,"L",0,"","",0.0065,0,18.6
+"CCF (2/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+290,"S1-GHH-ABW-SW-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+291,"S1-GHH-ABW-SW-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+292,"S1-GHH-ABW-SW-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+293,"S1-GHH-ABW-SW-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+294,"S1-HHABW-SW-BC","B",0,0
+1.8785E-05,0,0.00289,0,0,"L",0,"","",0.0065,0,18.6
+"CCF (2/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+295,"S1-HHABW-SW-BCD","B",0,0
+9.9127E-06,0,0.00289,0,0,"L",0,"","",0.00343,0,18.6
+"CCF (3/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+296,"S1-HHABW-SW-BD","B",0,0
+1.8785E-05,0,0.00289,0,0,"L",0,"","",0.0065,0,18.6
+"CCF (2/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+297,"S1-GHH-ABW-SW-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+298,"S1-GHH-ABW-SW-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+299,"S1-GHH-ABW-SW-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+300,"S1-GHH-ABW-SW-C","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+301,"S1-HHABW-SW-CD","B",0,0
+1.8785E-05,0,0.00289,0,0,"L",0,"","",0.0065,0,18.6
+"CCF (2/4) DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+302,"S1-GHH-ABW-SW-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+303,"S1-GHH-ABW-SW-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+304,"S1-GHH-ABW-SW-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+305,"S1-GHH-ABW-SW-D","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+306,"S1-GHH-ABW-SW-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+307,"S1-GHH-ABW-SW-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+308,"S1-GHH-ABW-SW-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : DEMAND CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+309,"S1-GHH-ABK-SW-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+310,"S1-HHABK-SW-AB","B",0,0
+1.217448E-05,1,0.000111,24,0,"L",0,"h","h",0.00457,0,1.7
+"CCF (2/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+311,"S1-HHABK-SW-ABC","B",0,0
+7.40592E-06,1,0.000111,24,0,"L",0,"h","h",0.00278,0,1.7
+"CCF (3/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+312,"S1-HHABK-SW-ABCD","B",0,0
+1.254744E-05,1,0.000111,24,0,"L",0,"h","h",0.00471,0,1.7
+"CCF (4/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+313,"S1-HHABK-SW-ABD","B",0,0
+7.40592E-06,1,0.000111,24,0,"L",0,"h","h",0.00278,0,1.7
+"CCF (3/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+314,"S1-HHABK-SW-AC","B",0,0
+1.217448E-05,1,0.000111,24,0,"L",0,"h","h",0.00457,0,1.7
+"CCF (2/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+315,"S1-HHABK-SW-ACD","B",0,0
+7.40592E-06,1,0.000111,24,0,"L",0,"h","h",0.00278,0,1.7
+"CCF (3/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+316,"S1-HHABK-SW-AD","B",0,0
+1.217448E-05,1,0.000111,24,0,"L",0,"h","h",0.00457,0,1.7
+"CCF (2/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+317,"S1-GHH-ABK-SW-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+318,"S1-GHH-ABK-SW-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+319,"S1-GHH-ABK-SW-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+320,"S1-GHH-ABK-SW-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+321,"S1-HHABK-SW-BC","B",0,0
+1.217448E-05,1,0.000111,24,0,"L",0,"h","h",0.00457,0,1.7
+"CCF (2/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+322,"S1-HHABK-SW-BCD","B",0,0
+7.40592E-06,1,0.000111,24,0,"L",0,"h","h",0.00278,0,1.7
+"CCF (3/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+323,"S1-HHABK-SW-BD","B",0,0
+1.217448E-05,1,0.000111,24,0,"L",0,"h","h",0.00457,0,1.7
+"CCF (2/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+324,"S1-GHH-ABK-SW-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+325,"S1-GHH-ABK-SW-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+326,"S1-GHH-ABK-SW-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+327,"S1-GHH-ABK-SW-C","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+328,"S1-HHABK-SW-CD","B",0,0
+1.217448E-05,1,0.000111,24,0,"L",0,"h","h",0.00457,0,1.7
+"CCF (2/4) RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+329,"S1-GHH-ABK-SW-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+330,"S1-GHH-ABK-SW-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+331,"S1-GHH-ABK-SW-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+332,"S1-GHH-ABK-SW-D","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+333,"S1-GHH-ABK-SW-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+334,"S1-GHH-ABK-SW-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+335,"S1-GHH-ABK-SW-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : RUNNING CCF FOR ESW Pump Room AHU A:01A, B:03A, C:01B, D:03B"
+""
+336,"S1-HHABK-CW-AB","B",0,0
+9.37728E-05,1,0.000111,24,0,"L",0,"h","h",0.0352,0,1.7
+"RUNNING CCF A: AH08A, B: 08B (2/2)"
+""
+337,"S1-HHABW-CW-AB","B",0,0
+8.0342E-05,0,0.00289,0,0,"L",0,"","",0.0278,0,18.6
+"DEMAND CCF  A: AH08A, B: 08B (2/2)"
+""
+338,"S1-HHABK-CW07-AB","B",0,0
+9.37728E-05,1,0.000111,24,0,"L",0,"h","h",0.0352,0,1.7
+"Fails to Run A: 07A, B: 07B (2/2)"
+""
+339,"S1-HHABW-CW07-AB","B",0,0
+8.0342E-05,0,0.00289,0,0,"L",0,"","",0.0278,0,18.6
+"Running CCF A: 07A, B: 07B (2/2)"
+""
+340,"S1-GHV-CWTRBNOR","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of ECW Room B Cooling"
+""
+341,"S1-GHV-CWTRB-EXH","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Exhaust Fans"
+""
+342,"S1-GHV-CWTRB-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Supply AHU"
+""
+343,"S1-GHV-AH07B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of ECW Exhaust Fan AH07B"
+""
+344,"S1-GHV-AH08B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of ECW Exhaust Fan AH08B"
+""
+345,"S1-GHV-AH07BSUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support System"
+""
+346,"S1-GHV-HV01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of ESF SWGRAND Eqip. Room Supply AHU HV 01B"
+""
+347,"S1-GHV-HV01BINFANS","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ESF SWGR&EQIP.ROOM SUPPLY AHU HV01B"
+""
+348,"S1-GHV-HV01BOUTFANS","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ESF SWGR&EQIP.ROOM RETURN AHU HV01B"
+""
+349,"S1-HEFLPFT01BB","B",0,0
+2.3664E-06,1,9.86E-08,24,0,"L",0,"h","h",0,0,8.4
+"FILTER FT01B PLUGGED"
+""
+350,"S1-GHV-AH01BFAIL","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ESF SWGR & EQIP.ROOM SUPPLY AHU HV01B"
+""
+351,"S1-HHCWK-HCWSW-AB","B",0,0
+3.9072E-06,0,0.000111,24,0,"L",0,"h","",0.0352,0,1.7
+"RUNNING CCF A: AH01A, B: AH01B (2/2)"
+""
+352,"S1-GHV-AH02BFAIL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ESF SWGR & EQIP.ROOM SUPPLY AHU HV02B"
+""
+353,"S1-HEABRAH02BB","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"FAILS TO RUN"
+""
+354,"S1-HEABSAH02BB","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"FAILS TO START"
+""
+355,"S1-GHV-AH02ABCCF1","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF"
+""
+356,"S1-GHV-AH02BSUP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM"
+""
+357,"S1-HEABMAH02BB","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"","",0,0,10
+"Fan AH09 Unavailable due to T&M"
+""
+358,"S1-HHCWK-HCWSW02-AB","B",0,0
+3.9072E-06,0,0.000111,24,0,"L",0,"h","",0.0352,0,1.7
+"RUNNING CCF A: AH02A, B: 02B (2/2)"
+""
+359,"S1-HHCWW-HCWSW02-AB","B",0,0
+8.0342E-05,0,0.00289,0,0,"L",0,"","",0.0278,0,18.6
+"DEMAND CCF A: AH02A, B: 02B (2/2)"
+""
+360,"S1-GHV-AH02BCNTFAIL","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF DG high volume exhaust fan AH02 actuation signal"
+""
+361,"S1-HEOPVAH02BB","B",0,0
+0.011,0,0.011,0,0,"L",0,"","",0,0,0
+"Opeartor Fails to Start Fan AH02"
+""
+362,"S1-GHV-AH02B-SIG","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of PUMP Exhaust Fan AH02 Actuation Signal"
+""
+363,"S1-GHV-AH03BFAIL","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ESF ROOM RETURN FAN AH03B"
+""
+364,"S1-GHV-AH044BFAIL","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ROOM STNDBY RETURN FAN AH04b"
+""
+365,"S1-HEABRAH04BB","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"FAILS TO RUN"
+""
+366,"S1-HEABSAH04BB","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"Fails to Start"
+""
+367,"S1-GHV-AH04BSUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM"
+""
+368,"S1-GHV-AH04ABCCFB","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF AH04B"
+""
+369,"S1-HEABMAH04BB","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"","",0,0,10
+"Fan AH04 Unavailable due to T&M"
+""
+370,"S1-GHV-AH04BSIG","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF DG high volume exhaust fan AH02 actuation signal"
+""
+371,"S1-HEOPVAH04BB","B",0,0
+0.011,0,0.011,0,0,"L",0,"","",0,0,0
+"Opeartor Fails to Start Fan AH04"
+""
+372,"S1-GHV-AH04B-SIG","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of High Volume Exhaust Fan AH02 Actuation Signal"
+""
+373,"S1-HHCWW-HCWAH04-AB","B",0,0
+8.0342E-05,0,0.00289,0,0,"L",0,"","",0.0278,0,18.6
+"Demand CCF of ECW Pump/CHiller Room FAN AH04A/04B"
+""
+374,"S1-HHCWK-AH04-AB","B",0,0
+3.9072E-06,0,0.000111,24,0,"L",0,"h","",0.0352,0,1.7
+"RUNNING CCF AH04A/04B"
+""
+375,"S1-HHCWW-AH04-AB","B",0,0
+8.0342E-05,0,0.00289,0,0,"L",0,"","",0.0278,0,18.6
+"DEMAND CCF AH04A/04B"
+""
+376,"S1-GHC-AFMP01A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of AFW MDP 02A Room Cooling"
+""
+377,"S1-GHC-AFMP02B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of AFW MDP 02B Room Cooling"
+""
+378,"S1-HEABRAH03BB","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"FAILS TO RUN AH03B"
+""
+379,"S1-HEABRAH01BB","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"FAILS TO RUN AH01B"
+""
+380,"S1-GEM-02B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Power AT 480V MCC Bus MC02B"
+""
+381,"S1-GHV-AH08BSUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support system"
+""
+382,"S1-GHV-AH08N-CNTFAIL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"loss of ecw pump exhaust fan AH08 actuation signal"
+""
+383,"S1-GHV-AH08B-SIGFAIL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of PUMP Exhaust Fan AH08 Actuation Signal"
+""
+384,"S1-GHV-AH08B-SIGNAL","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF ECW PUMP ROOM EXHAUST FAN AH08B"
+""
+385,"S1-GHV-PA03B-07-3782","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF LOOP CONTROLLER PA03B"
+""
+386,"S1-HEDOFAH08B","B",0,0
+6.36E-05,1,2.65E-06,24,0,"L",0,"h","h",0,0,2.8
+"Failure of ECW Pump/Chill. ROom Exhaust Fan AH08B Digital I/O Card"
+""
+387,"S1-GHV-AH08B-STRTSIG","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Standby Exhaust Fan AH08A Actuation Signal"
+""
+388,"S1-HESKYAH08BB","B",0,0
+0.000446,0,0.000446,0,0,"L",0,"","",0,0,0
+"FAILURE OF ECW AH08B ACTUATING CIRCUIT"
+""
+389,"S1-HEOPVAH08BB","B",0,0
+0.011,0,0.011,0,0,"L",0,"","",0,0,0
+"OPEARTOR FAILS TO START ECW STNDBY EXHAUST FAN"
+""
+390,"S1-HELCFPA03B-3782-1","B",0,0
+1.0848E-05,1,4.52E-07,24,0,"L",0,"h","h",0,0,0
+"FAILURE OF LOOP CONTROLLER PA03B-3782-1"
+""
+391,"S1-HELCFPA03B-3782-2","B",0,0
+1.0848E-05,1,4.52E-07,24,0,"L",0,"h","h",0,0,0
+"S1-VELCFPA03B-3782-2"
+""
+392,"S1-HESKYAH04BB","B",0,0
+0.000446,0,0.000446,0,0,"L",0,"","",0,0,0
+"Failure of ECW PP/CHILL. DIV. B Fan AH04 Actuating Circuit"
+""
+393,"S1-GEX-PA03A-07","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A-07)"
+""
+394,"S1-GEX-PA03B-07","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03B-07)"
+""
+395,"S1-GEX-PA03A-08","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A-08)"
+""
+396,"S1-GHV-AH08AMC","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF MANUAL CONTROL FOR ECW"
+""
+397,"S1-GHV-AH08BMC","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF MANUAL CONTROL FOR ECW"
+""
+398,"S1-GHV-AH08AAC","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF AUTO CONTROL"
+""
+399,"S1-GHV-AH08BAC","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF AUTO CONTROL"
+""
+400,"S1-HDABW-AB","B",0,0
+0.000101728,0,0.00289,0,0,"L",0,"","",0.0352,0,18.6
+"Demand CCF of High Volume Supply Fan A: AH45, B: AH46"
+""
+401,"S1-HDABK-AB","B",0,0
+7.40592E-05,1,0.000111,24,0,"L",0,"h","h",0.0278,0,1.7
+"Running CCF of High Volume Supply Fan A: AH45, B: AH46"
+""
+402,"S1-GHC-CCPP01A-RUN","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of CCW Pump A Room Cooling(Running)"
+""
+403,"S1-GHH-SWTRA-1A-RUN","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of ESW pump room A cooling"
+""
+404,"S1-GHH-AH01A-RUN","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Normally Running ESW Pump Room AHU AH01A"
+""
+405,"S1-GHV-WO-CHA-ALT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF ECW ROOM A COOLING BY HIGH VOLUME FANS"
+""
+406,"S1-GHV-AH09A-FAIL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF EXHAUST FAN AH09"
+""
+407,"S1-HEABMAH09","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"","",0,0,0
+"FAN AH09 UNAVAILABLE DUE TO T&M"
+""
+408,"S1-HEABRAH09","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","",0,0,0
+"FAN AH09 FAILS TO RUN"
+""
+409,"S1-HEABSAH09","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,0
+"FAN AH09 FAILS TO START"
+""
+410,"S1-GHV-AH09A-SUPPORT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPPORT SYSTEM FOR AH09"
+""
+411,"S1-GHV-AH09A-CNTFAIL","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF HIGH VOLUME EXHAUST FAN AH09 ACTUATION SIGNAL"
+""
+412,"S1-HEOPVAH09AA","B",0,0
+0.011,0,0.011,0,0,"L",0,"","",0,0,0
+"OPERATOR FAILS TO START FAN AH09"
+""
+413,"S1-GHV-AH09A-SIGNAL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF HIGH VOLUME EXHAUST FAN AH09 ACTUATION SIGNAL"
+""
+414,"S1-HESKYAH09AA","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,0
+"FAILURE OF ECW PP/CHILL.DIV.A FAN AH09 ACTUATING CIRCUIT"
+""
+415,"S1-HEABW-AH-AB","B",0,0
+0.000101728,0,0.00289,0,0,"L",0,"","",0.0352,0,0
+"DEMAND CCF OF ECW PUMP/CHILLER ROMM FAN AH09/AH10"
+""
+416,"S1-GHV-WO-CHB-ALT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF ECW ROOM A COOLING BY HIGH VOLUME FANS"
+""
+417,"S1-GHV-AH10B-FAIL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPPLY FAN AH10"
+""
+418,"S1-HEABSAH10","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,0
+"FAN AH10 FAILS TO START"
+""
+419,"S1-HEABRAH10","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","",0,0,0
+"FAN AH10 FAILS TO RUN"
+""
+420,"S1-HEABMAH10","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"","",0,0,0
+"FAN AH10 UNAVAILABLE DUE TO T&M"
+""
+421,"S1-GHV-AH10B-SUPPORT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPPORT SYSTEM FOR AH10"
+""
+422,"S1-GHV-AH10B-CNTFAIL","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF HIGH VOLUME EXHAUST FAN AH10 ACTUATION SIGNAL"
+""
+423,"S1-HEOPVAH10BB","B",0,0
+0.011,0,0.011,0,0,"L",0,"","",0,0,0
+"OPERATOR FAILS TO START FAN AH10"
+""
+424,"S1-GHV-AH10B-SIGNAL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF HIGH VOLUME EXHAUST FAN AH10 ACTUATION SIGNAL"
+""
+425,"S1-HESKYAH10BB","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,0
+"FAILURE OF ECW PP/CHILL.DIV.B FAN AH10 ACTUATING CIRCUIT"
+""
+426,"S1-GNM-16M","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT N1E 480V MOTOR CONTROL CENTER BUS MC16M"
+""
+427,"S1-GNM-16N","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT N1E 480V MOTOR CONTROL CENTER BUS MC16N"
+""
+428,"S1-HEABSAH08AA","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"Fails to Start"
+""
+429,"S1-HEABSAH08BB","B",0,0
+0.00289,0,0.00289,0,0,"L",0,"","",0,0,18.6
+"Fails to Start"
+""
+430,"S1-HEABRAH08BB","B",0,0
+0.002664,1,0.000111,24,0,"L",0,"h","h",0,0,1.7
+"Fails to Run"
+""
+431,"S1-HEABMAH08BB","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"","",0,0,10
+"Fan AH08 Unavailable due to T&M"
+""
+"#TreeLogic"
+15,"+",3
+260
+16
+217
+16,"+",5
+4
+5
+17
+6
+7
+18,"+",3
+259
+19
+250
+19,"+",5
+11
+12
+13
+14
+27
+35,"+",3
+249
+36
+217
+36,"+",5
+23
+24
+17
+25
+26
+37,"+",3
+158
+38
+250
+38,"+",5
+31
+32
+33
+34
+27
+53,"+",5
+42
+43
+17
+44
+45
+54,"+",3
+249
+53
+217
+55,"+",3
+158
+56
+250
+56,"+",5
+49
+50
+51
+52
+27
+57,"+",2
+58
+59
+58,"*",2
+60
+61
+59,"+",1
+62
+60,"+",3
+338
+339
+63
+61,"+",5
+64
+428
+65
+67
+66
+62,"+",4
+68
+17
+69
+70
+63,"+",3
+217
+260
+395
+65,"+",2
+336
+337
+66,"+",3
+71
+260
+395
+68,"*",2
+72
+73
+69,"*",2
+74
+75
+71,"+",2
+98
+217
+72,"+",4
+249
+351
+83
+217
+73,"+",5
+84
+85
+86
+87
+88
+74,"+",5
+76
+77
+249
+217
+395
+75,"+",5
+78
+79
+80
+81
+82
+80,"+",4
+94
+249
+217
+395
+81,"+",2
+374
+375
+86,"+",2
+358
+359
+87,"+",3
+249
+89
+217
+89,"*",2
+90
+91
+91,"+",2
+92
+93
+94,"*",2
+95
+96
+96,"+",2
+97
+373
+98,"+",2
+99
+100
+100,"*",2
+396
+398
+103,"+",2
+105
+106
+104,"+",2
+107
+108
+112,"+",2
+113
+393
+117,"+",2
+119
+394
+118,"+",2
+120
+394
+121,"+",2
+122
+393
+137,"+",3
+249
+138
+217
+138,"+",5
+126
+127
+17
+128
+129
+139,"+",3
+158
+140
+250
+140,"+",5
+133
+134
+135
+136
+27
+155,"+",3
+156
+217
+249
+156,"+",5
+144
+145
+17
+146
+147
+157,"+",3
+158
+159
+250
+159,"+",5
+151
+152
+153
+154
+27
+163,"+",3
+260
+168
+217
+168,"+",5
+164
+165
+17
+166
+167
+172,"+",3
+259
+177
+250
+177,"+",5
+173
+174
+175
+176
+27
+178,"+",3
+195
+206
+403
+179,"+",6
+180
+181
+182
+183
+282
+309
+182,"+",3
+184
+185
+217
+185,"+",1
+186
+188,"+",3
+189
+190
+191
+189,"*",2
+207
+208
+190,"*",2
+218
+226
+191,"+",2
+232
+231
+192,"+",2
+193
+194
+193,"*",2
+405
+57
+194,"*",2
+416
+340
+195,"*",2
+179
+271
+197,"+",6
+198
+199
+200
+201
+300
+327
+200,"+",3
+196
+204
+250
+202,"+",3
+196
+280
+250
+204,"+",1
+205
+206,"*",2
+197
+277
+207,"+",5
+209
+211
+210
+212
+213
+208,"+",5
+109
+110
+224
+225
+111
+210,"+",2
+215
+214
+212,"+",3
+216
+112
+217
+218,"+",5
+219
+220
+221
+222
+223
+221,"+",3
+117
+250
+380
+223,"+",2
+215
+214
+224,"+",2
+229
+230
+225,"+",3
+121
+217
+216
+226,"+",5
+114
+115
+227
+116
+228
+227,"+",3
+118
+250
+380
+228,"+",2
+229
+230
+231,"+",5
+236
+237
+238
+400
+401
+232,"+",5
+233
+234
+235
+400
+401
+241,"+",6
+141
+142
+155
+239
+240
+143
+242,"+",6
+148
+149
+157
+239
+240
+150
+243,"+",2
+241
+242
+244,"+",2
+245
+246
+245,"+",6
+20
+21
+35
+247
+248
+22
+246,"+",6
+28
+29
+37
+30
+247
+248
+251,"+",2
+252
+253
+252,"+",6
+123
+124
+137
+254
+255
+125
+253,"+",6
+130
+131
+139
+254
+255
+132
+256,"+",2
+376
+377
+261,"+",2
+262
+263
+262,"+",6
+39
+40
+54
+41
+264
+265
+263,"+",6
+46
+47
+55
+48
+264
+265
+266,"+",3
+267
+268
+402
+267,"+",6
+1
+2
+15
+269
+270
+3
+268,"+",6
+8
+9
+18
+269
+270
+10
+271,"+",6
+272
+273
+274
+276
+293
+320
+274,"+",3
+184
+275
+217
+275,"+",1
+187
+277,"+",6
+278
+279
+202
+281
+305
+332
+280,"+",1
+203
+282,"+",3
+290
+291
+292
+290,"+",3
+283
+287
+289
+291,"+",3
+284
+286
+288
+292,"+",1
+285
+293,"+",3
+297
+298
+299
+297,"+",3
+283
+294
+296
+298,"+",3
+284
+286
+295
+299,"+",1
+285
+300,"+",3
+302
+303
+304
+302,"+",3
+287
+294
+301
+303,"+",3
+284
+288
+295
+304,"+",1
+285
+305,"+",3
+306
+307
+308
+306,"+",3
+289
+296
+301
+307,"+",3
+286
+288
+295
+308,"+",1
+285
+309,"+",3
+317
+318
+319
+317,"+",3
+310
+314
+316
+318,"+",3
+311
+313
+315
+319,"+",1
+312
+320,"+",3
+324
+325
+326
+324,"+",3
+310
+321
+323
+325,"+",3
+311
+313
+322
+326,"+",1
+312
+327,"+",3
+329
+330
+331
+329,"+",3
+314
+321
+328
+330,"+",3
+311
+315
+322
+331,"+",1
+312
+332,"+",3
+333
+334
+335
+333,"+",3
+316
+323
+328
+334,"+",3
+313
+315
+322
+335,"+",1
+312
+340,"+",2
+341
+342
+341,"*",2
+343
+344
+342,"+",1
+346
+343,"+",3
+338
+339
+345
+344,"+",5
+430
+429
+65
+431
+381
+345,"+",3
+250
+259
+394
+346,"+",4
+347
+348
+349
+27
+347,"*",2
+350
+352
+348,"*",2
+363
+364
+350,"+",4
+158
+351
+379
+250
+352,"+",5
+353
+354
+355
+356
+357
+355,"+",2
+358
+359
+356,"+",3
+158
+360
+250
+360,"*",2
+361
+362
+362,"+",2
+92
+93
+363,"+",5
+76
+378
+158
+250
+394
+364,"+",5
+365
+366
+367
+368
+369
+367,"+",4
+158
+370
+250
+394
+368,"+",2
+374
+375
+370,"*",2
+371
+372
+372,"+",2
+392
+373
+376,"+",6
+160
+161
+257
+258
+162
+163
+377,"+",6
+169
+170
+257
+258
+171
+172
+381,"+",3
+382
+259
+394
+382,"+",2
+383
+250
+383,"+",2
+99
+384
+384,"*",2
+397
+399
+385,"+",2
+390
+391
+387,"+",2
+388
+108
+393,"+",1
+217
+394,"+",1
+250
+395,"+",1
+217
+396,"+",3
+101
+102
+103
+397,"+",3
+386
+389
+385
+398,"+",3
+103
+101
+104
+399,"+",3
+385
+386
+387
+402,"+",3
+2
+15
+270
+403,"*",2
+404
+271
+404,"+",3
+181
+182
+309
+405,"+",1
+406
+406,"+",4
+407
+408
+409
+410
+410,"+",2
+426
+411
+411,"*",2
+412
+413
+413,"+",2
+414
+415
+416,"+",1
+417
+417,"+",4
+418
+419
+420
+421
+421,"+",2
+427
+422
+422,"*",2
+423
+424
+424,"+",2
+425
+415
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

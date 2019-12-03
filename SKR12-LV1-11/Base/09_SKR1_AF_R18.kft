@@ -1,0 +1,3971 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 ¸ðµ¨ °³Á¤\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",630
+"#XEventData"
+1,"S1-GAF-TOP-N","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AT LEAST 1/4 AFW PUMP TO 1/2 SG"
+""
+2,"S1-GAF-SG1","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFFICIENT AFW TO SG1"
+""
+3,"S1-GAF-SG2","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFFICIENT AFW TO SG2"
+""
+4,"S1-GAF-TRAINA","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TRAIN A (MP A, TP A)"
+""
+5,"S1-GAF-TRAINB","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TRAIN B (MP B, TP B)"
+""
+6,"S1-GAF-STR-AA","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP A"
+""
+7,"S1-GAF-STR-BB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP B"
+""
+8,"S1-GAF-MPA","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP A DISCH. LINE"
+""
+9,"S1-AFCVO1007A","B",0,0
+1.3E-05,0,1.3E-05,0,0,"l",0,"","",0,0,8.4
+"AFW MP A DISCH. LINE CV 1007A FAILS TO OPEN (TRAIN A1)"
+""
+10,"S1-AFLVT0035","B",0,0
+0.0001431,3,0.000954,0.3,0,"l",0,"h","h",0,0,9.1
+"AFW MOD. SOL. VV 0035 TRANSFER CLOSED (TRAIN A1)"
+""
+11,"S1-AFMVT0043","B",0,0
+6.675E-09,3,4.45E-08,0.3,0,"l",0,"h","h",0,0,8.4
+"AFW ISO. MOV 0043 TRANSFER CLOSED (TRAIN A1)"
+""
+12,"S1-GAF-TPB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP B DISCH. LINE"
+""
+13,"S1-AFCVO1008B","B",0,0
+1.3E-05,0,1.3E-05,0,0,"l",0,"","",0,0,8.4
+"AFW TP01B DISCH. LINE CV V1008B FAILS TO OPEN (TRAIN B1)"
+""
+14,"S1-AFLVT0036","B",0,0
+0.0001431,3,0.000954,0.3,0,"l",0,"h","h",0,0,9.1
+"AFW MOD. SOL. VV 0036 TRANSFER CLOSED (TRAIN B2)"
+""
+15,"S1-AFMVT0044","B",0,0
+6.675E-09,3,4.45E-08,0.3,0,"l",0,"h","h",0,0,8.4
+"AFW ISOL. MOV 0044 TRANSFER CLOSED (TRAIN B2)"
+""
+16,"S1-GAF-TPA","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP A DISCH. LINE"
+""
+17,"S1-AFCVO1008A","B",0,0
+1.3E-05,0,1.3E-05,0,0,"l",0,"","",0,0,8.4
+"AFW TP A DISCH. LINE CV V1008A FAILS TO OPEN (TRAIN A2)"
+""
+18,"S1-AFLVT0037","B",0,0
+0.0001431,3,0.000954,0.3,0,"l",0,"h","h",0,0,9.1
+"AFW MOD. SOL VV 0037AB TRANSFER CLOSED (TRAIN A2)"
+""
+19,"S1-GAF-MPB","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP B DISCH. LINE"
+""
+20,"S1-AFCVO1007B","B",0,0
+1.3E-05,0,1.3E-05,0,0,"l",0,"","",0,0,8.4
+"AFW MP B DISCH. LINE V1007B FAILS TO OPEN (TRAIN B2)"
+""
+21,"S1-AFLVT0038","B",0,0
+0.0001431,3,0.000954,0.3,0,"l",0,"h","h",0,0,9.1
+"AFW MOD. SOL. VV 0038 TRANSFER CLSOED (TRAIN B1)"
+""
+22,"S1-GAF-MPA-1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP A"
+""
+23,"S1-AFCVO1003A","B",0,0
+1.3E-05,0,1.3E-05,0,0,"l",0,"","",0,0,8.4
+"AFW MP A DISCH. LINE CV V1003A FAILS TO OPEN"
+""
+24,"S1-AFVVT1005A","B",0,0
+9.540001E-10,3,6.36E-09,0.3,0,"l",0,"h","h",0,0,8.4
+"AFW MP A DISCH. LINE VV V1005A FAILS CLOSED"
+""
+25,"S1-AFOPUV1005A","B",0,0
+2.5E-05,0,2.5E-05,0,0,"l",0,"","",0,0,0
+"VV 1005A is not restored after maintenance of MP A"
+""
+26,"S1-GAF-TPB-1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP B"
+""
+27,"S1-AFCVO1004B","B",0,0
+1.3E-05,0,1.3E-05,0,0,"l",0,"","",0,0,8.4
+"AFW TP B DISCH. LINE CV V1004B FAILS TO OPEN"
+""
+28,"S1-AFVVT1006B","B",0,0
+9.540001E-10,3,6.36E-09,0.3,0,"l",0,"h","h",0,0,8.4
+"AFW TP B DISCH. LINE VV V1006B FAILS CLOSED"
+""
+29,"S1-AFOPUV1006B","B",0,0
+2.5E-05,0,2.5E-05,0,0,"l",0,"","",0,0,0
+"VV 1006B is not restored after maintenance of TP B"
+""
+30,"S1-GAF-TPA-1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP A"
+""
+31,"S1-AFCVO1004A","B",0,0
+1.3E-05,0,1.3E-05,0,0,"l",0,"","",0,0,8.4
+"AFW TP A DISCH. LINE CV V1004A FAILS TO OPEN"
+""
+32,"S1-AFVVT1006A","B",0,0
+9.540001E-10,3,6.36E-09,0.3,0,"l",0,"h","h",0,0,8.4
+"AFW TP A DISCH. LINE VV 1006A FAILS CLOSED"
+""
+33,"S1-AFOPUV1006A","B",0,0
+2.5E-05,0,2.5E-05,0,0,"l",0,"","",0,0,0
+"VV 1006A is not restored after maintenance of TP A"
+""
+34,"S1-GAF-MPB-1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP B"
+""
+35,"S1-AFCVO1003B","B",0,0
+1.3E-05,0,1.3E-05,0,0,"l",0,"","",0,0,8.4
+"AFW MP B DISCH. LINE CV 1003B FAILS TO OPEN"
+""
+36,"S1-AFVVT1005B","B",0,0
+9.540001E-10,3,6.36E-09,0.3,0,"l",0,"h","h",0,0,8.4
+"AFW MP B DISCH. LINE VV 1005B FAILS CLOSED"
+""
+37,"S1-AFOPUV1005B","B",0,0
+2.5E-05,0,2.5E-05,0,0,"l",0,"","",0,0,0
+"VV 1005B is not restored after maintenance of MP B"
+""
+38,"S1-AFVVT1001A","B",0,0
+7.02144E-06,3,6.36E-09,2208,0,"l",0,"h","h",0,0,8.4
+"AFW MP A SUCTION LINE VV V1001A FAILS CLOSED"
+""
+39,"S1-GAF-MPA-2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW MP A"
+""
+40,"S1-AFLVO0035","B",0,0
+0.000954,0,0.000954,0,8.07,"l",0,"","",0,0,9.1
+"AFW MODULATING SOV 0035 FAILS TO OPERATE"
+""
+41,"S1-GAF-CSSOV0035","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF SOV 0035"
+""
+42,"S1-GED-01A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01A"
+""
+43,"S1-AFVVT1002B","B",0,0
+7.02144E-06,3,6.36E-09,2208,0,"l",0,"h","h",0,0,8.4
+"AFW TP B SUCTION LINE VV V1002B FAILS CLOSED"
+""
+44,"S1-GAF-TPB-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW TP B"
+""
+45,"S1-AFLVO0036","B",0,0
+0.000954,0,0.000954,0,0,"l",0,"","",0,0,9.1
+"AFW MODULATING AOV 0036 FAILS TO OPERATE (TRAIN B2)"
+""
+46,"S1-GAF-CSSOV0036","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAilure of Control Signal for AF SOV 0036"
+""
+47,"S1-GED-01B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01B"
+""
+48,"S1-AFVVT1002A","B",0,0
+7.02144E-06,3,6.36E-09,2208,0,"l",0,"h","h",0,0,8.4
+"AFW TP A SUCTION LINE VV V1002A FAILS CLOSED"
+""
+49,"S1-GAF-TPA-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW TP A"
+""
+50,"S1-AFLVO0037","B",0,0
+0.000954,0,0.000954,0,0,"l",0,"","",0,0,9.1
+"AFW MODULATING SOV 0037 FAILS TO OPERATE (TRAIN A2)"
+""
+51,"S1-GAF-CSSOV0037","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF SOV 0037"
+""
+52,"S1-AFVVT1001B","B",0,0
+7.02144E-06,3,6.36E-09,2208,0,"l",0,"h","h",0,0,8.4
+"AFW MP B SUCTION LINE VV V1001B FAILS CLOSED"
+""
+53,"S1-GAF-MPB-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW MP B"
+""
+54,"S1-AFLVO0038","B",0,0
+0.000954,0,0.000954,0,8.07,"l",0,"","",0,0,9.1
+"AFW MODULATING SOV 0038 FAILS TO OPERATE"
+""
+55,"S1-GAF-CSSOV0038","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF SOV 0038"
+""
+56,"S1-AFMPMA","B",0,0
+0.00395,0,0.00395,0,0,"l",0,"","",0,0,10
+"AFW MP A UNAVAILABLE DUE TO T&M"
+""
+57,"S1-GAF-MPA-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW MP A (CONTINUED)"
+""
+58,"S1-AFMPSA","B",0,0
+0.00185,0,0.00185,0,0,"l",0,"","",0,0,4.6
+"AFW MP A FAILS TO START"
+""
+59,"S1-AFMPRA","B",0,0
+0.0001392,1,5.8E-06,24,0,"l",0,"h","h",0,0,8.4
+"AFW MP A FAILS TO RUN"
+""
+60,"S1-AFPPWCSTA","B",0,0
+2E-05,0,2E-05,0,0,"",0,"","",0,0,0
+"AFW MP A & TP A Failure due to Steam Binding - same suction from CST A"
+""
+61,"S1-GAF-CSMV0043","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MV 0043"
+""
+62,"S1-GEM-08AVIC","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER WHEN VALVE IS CLOSED"
+""
+63,"S1-AFTPMB","B",0,0
+0.00544,0,0.00544,0,0,"l",0,"","",0,0,10
+"AFW TP B UNAVAILABLE DUE TO T&M"
+""
+64,"S1-GAF-TPB-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW TP B (CONTINUED)"
+""
+65,"S1-AFTPSB","B",0,0
+0.00952,0,0.00952,0,0,"l",0,"","",0,0,10.7
+"AFW TP B FAILS TO START"
+""
+66,"S1-AFTPRB","B",0,0
+0.001764,1,7.35E-05,24,0,"l",0,"h","h",0,0,8.4
+"AFW TP B FAILS TO RUN"
+""
+67,"S1-AFMVO0044","B",0,0
+0.00107,0,0.00107,0,0,"l",0,"","",0,0,3.6
+"AFW ISOL. MOV 0044 FAILS TO OPEN DURING CYCLING OP. (TRAIN A1)"
+""
+68,"S1-GAF-CSMV0044","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MV 0044"
+""
+69,"S1-GEM-08BVIC","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER WHEN VALVE IS CLOSED DURING CYCLING OP."
+""
+70,"S1-AFTPMA","B",0,0
+0.00544,0,0.00544,0,0,"l",0,"","",0,0,10
+"AFW TP A UNAVAILABLE DUE TO T&M"
+""
+71,"S1-GAF-TPA-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW TP A (CONTINUED)"
+""
+72,"S1-AFTPSA","B",0,0
+0.00952,0,0.00952,0,0,"l",0,"","",0,0,10.7
+"AFW TP A FAILS TO START"
+""
+73,"S1-AFTPRA","B",0,0
+0.001764,1,7.35E-05,24,0,"l",0,"h","h",0,0,8.4
+"AFW TP A FAILS TO RUN"
+""
+74,"S1-AFPPWCSTB","B",0,0
+2E-05,0,2E-05,0,0,"",0,"","",0,0,0
+"AFW MP B & TP B Failure due to Steam Binding - same suction from CST B"
+""
+75,"S1-AFMVO0045","B",0,0
+0.00107,0,0.00107,0,0,"l",0,"","",0,0,3.6
+"AFW ISOL. MOV 0045 FAILS TO OPEN DURING CYCLING OP. (TRAIN A2)"
+""
+76,"S1-GAF-CSMV0045","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MV 0045"
+""
+77,"S1-GED-01CVIC","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER WHEN VALVE IS CLOSED DURING CYCLING OP."
+""
+78,"S1-AFMPMB","B",0,0
+0.00395,0,0.00395,0,0,"l",0,"","",0,0,10
+"AFW MP B UNAVAILABLE DUE TO T&M"
+""
+79,"S1-GAF-MPB-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW MP B (CONTINUED)"
+""
+80,"S1-AFMPSB","B",0,0
+0.00185,0,0.00185,0,0,"l",0,"","",0,0,4.6
+"AFW MP B FAILS TO START"
+""
+81,"S1-AFMPRB","B",0,0
+0.0001392,1,5.8E-06,24,0,"l",0,"h","h",0,0,8.4
+"AFW MP B FAILS TO RUN"
+""
+82,"S1-AFMVO0046","B",0,0
+0.00107,0,0.00107,0,1.61,"l",0,"","",0,0,3.6
+"AFW ISOL. MOV 0046 FAILS TO OPEN DURING CYCLING OP."
+""
+83,"S1-GAF-CSMV0046","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MV 0046"
+""
+84,"S1-GED-01DVIC","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER WHEN VALVE IS CLOSED"
+""
+85,"S1-GAF-MPA-M","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"AFW MP A MINI FLOW LINE FAILURE"
+""
+86,"S1-GAF-MPA-S","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SUPPORTING SYSTEM FOR AFW MP A"
+""
+87,"S1-GEM-08A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER AT 480V MOTOR CONTROL CENTER BUS MC08A"
+""
+88,"S1-AFCLOSEDTM","B",0,0
+0.5,0,0.5,0,1,"l",0,"","",0,0,1
+"TIME FRACTION THAT AFW ISOL MOV'S CLOSED"
+""
+89,"S1-GAF-TPB-M","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"AFW TP B MINI FLOW LINE FAILURE"
+""
+90,"S1-GAF-TPBST","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF STEAM SUPPLY FOR AFW TP B"
+""
+91,"S1-GED-01C","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER AT 125V DC BUS DC01C"
+""
+92,"S1-GAF-TPA-M","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"AFW TP A MINI FLOW LINE FAILURE"
+""
+93,"S1-GAF-TPAST","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF STEAM SUPPLY FOR AFW TP A"
+""
+94,"S1-GED-01D","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of power at 125V DC BUS DC01D"
+""
+95,"S1-GAF-MPB-M","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"AFW MP B MINI FLOW LINE FAILURE"
+""
+96,"S1-GAF-MPB-S","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SUPPORTING SYSTEM FOR AFW MP B"
+""
+97,"S1-GEM-08B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER AT 480V MCC BUS MC08B"
+""
+98,"S1-GAF-MPA-M1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"AFW MP A MINI FLOW LINE FAILURE (CONTINUED)"
+""
+99,"S1-CDVVT1167","B",0,0
+7.02144E-06,3,6.36E-09,2208,3.9,"l",0,"h","h",0,0,8.4
+"CD VV V1167 IN AFW MINI FLOW RETURN LINE A FAILS CLOSED"
+""
+100,"S1-GAF-MPARM","=",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW MP A DUE TO NO ROOM COOLING"
+""
+101,"S1-GAF-CSMPA","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MP A"
+""
+102,"S1-GEK-01A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of power at 4.16 KV SWGR BUS SW01A"
+""
+103,"S1-GAF-TPB-M1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"AFW TP01B MINI FLOW LINE FAILURE (CONTINUED)"
+""
+104,"S1-GMS-ATPB","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF STEAM SUPPLY FROM SG1 TO AT A (AF TBN TA B)"
+""
+105,"S1-ATCVO1020B","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"l",0,"","",0,0,8.4
+"AT CV V1020B IN AFW TBN TA01B LINE FAILS TO OPEN"
+""
+106,"S1-ATAVO0010","B",0,0
+0.00111,0,0.00111,0,1.53,"l",0,"","",0,0,4.3
+"AT AFW TBN TA01B STEAM ISO. AV 010 FAILS TO OPERATE"
+""
+107,"S1-GAF-PCS0010","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of  Signal for AFW Turbine Steam ISO. VV AF010"
+""
+108,"S1-GEA-01B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel B"
+""
+109,"S1-GAF-TPA-M1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"AFW TP02A MINI FLOW LINE FAILURE (CONTINUED)"
+""
+110,"S1-CDVVT1196","B",0,0
+7.02144E-06,3,6.36E-09,2208,3.9,"l",0,"h","h",0,0,8.4
+"CD VV V1196 IN AFW MINI FLOW RETURN LINE B FAILS CLOSED"
+""
+111,"S1-GMS-ATPA","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF STEAM SUPPLY FROM SG1 TO AT B (AF TBN TA A)"
+""
+112,"S1-ATCVO1020A","B",0,0
+1.3E-05,0,1.3E-05,0,0,"l",0,"","",0,0,8.4
+"AT CV V1020A IN AFW TBN TA A LINE FAILS TO OPEN"
+""
+113,"S1-ATAVO0009","B",0,0
+0.00111,0,0.00111,0,0,"l",0,"","",0,0,4.3
+"AT AFW TBN TA A STEAM ISO. AV 009 FAILS TO OPERATE"
+""
+114,"S1-GAF-PCS0009","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of  Signal for AFW Turbine Steam ISO. VV 009"
+""
+115,"S1-GEA-01A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel A"
+""
+116,"S1-GAF-MPB-M1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"AFW MP B MINI FLOW LINE FAILURE (CONTINUED)"
+""
+117,"S1-GAF-MP02BRM","=",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW MP02B DUE TO NO ROOM COOLING"
+""
+118,"S1-GAF-CSMPB","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MP B"
+""
+119,"S1-GEK-01B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of power at 4.16 KV SWGR BUS SW01B"
+""
+120,"S1-AFVVT1011A","B",0,0
+7.02144E-06,3,6.36E-09,2208,3.9,"l",0,"h","h",0,0,8.4
+"AFW MP01A MINI FLOW LINE VV V1011A FAILS CLOSED"
+""
+121,"S1-AFCVO1012A","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"l",0,"","",0,0,8.4
+"AFW MP01A MINI FLOW LINE CV V1012A FAILS TO OPEN"
+""
+122,"S1-GHC-AFMP01A","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of AFW MP A Room Cooling"
+""
+123,"S1-AFVVT1013B","B",0,0
+7.02144E-06,3,6.36E-09,2208,0,"l",0,"h","h",0,0,8.4
+"AFW TP B MINI FLOW LINE VV V1013B FAILS CLOSED"
+""
+124,"S1-AFCVO1014B","B",0,0
+1.3E-05,0,1.3E-05,0,0,"l",0,"","",0,0,8.4
+"AFW TP B MINI FLOW LINE CV V1014B FAILS TO OPEN"
+""
+125,"S1-MSVVT1151","B",0,0
+4.0848E-05,3,3.7E-08,2208,0,"l",0,"h","h",0,0,8.4
+"MS-AT VV 1151 FOR AFW TBN TA B FAILS CLOSED"
+""
+126,"S1-MSAVO0110","B",0,0
+0.00111,0,0.00111,0,0,"l",0,"","",0,0,4.3
+"MS-AT AOV 110 FOR AFW TBN TA B FAILS TO OPEN"
+""
+127,"S1-GMS-PCS0110","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of  Signal for AFW Turbine Steam Suply VV 110"
+""
+128,"S1-AFVVT1013A","B",0,0
+7.02144E-06,3,6.36E-09,2208,3.9,"l",0,"h","h",0,0,8.4
+"AFW TP02A MINI FLOW LINE VV V1013A FAILS CLOSED"
+""
+129,"S1-AFCVO1014A","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"l",0,"","",0,0,8.4
+"AFW TP02A MINI FLOW LINE CV V1014A FAILS TO OPEN"
+""
+130,"S1-MSVVT1152","B",0,0
+4.0848E-05,3,3.7E-08,2208,0,"l",0,"h","h",0,0,8.4
+"MS-AT VV 1152 FOR AFW TBN TA A FAILS CLOSED"
+""
+131,"S1-MSAVO0109","B",0,0
+0.00111,0,0.00111,0,0,"l",0,"","",0,0,4.3
+"MS-AT AOV 109 FOR AFW TBN TA A FAILS TO OPEN"
+""
+132,"S1-GMS-PCS0109","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of  Signal for AFW Turbine Steam Suply VV 109"
+""
+133,"S1-AFVVT1011B","B",0,0
+7.02144E-06,3,6.36E-09,2208,3.9,"l",0,"h","h",0,0,8.4
+"AFW MP02B MINI FLOW LINE VV V1011B FAILS CLOSED"
+""
+134,"S1-AFCVO1012B","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"l",0,"","",0,0,8.4
+"AFW MP02B MINI FLOW LINE CV V1012B FAILS TO OPEN"
+""
+135,"S1-GHC-AFMP02B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of AFW MP 02B Room Cooling"
+""
+136,"S1-GNA-01N","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of N1E 120V AC Distribution Panel DP01N"
+""
+137,"S1-GNA-01M","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of N1E 120V AC Distribution Panel DP01M"
+""
+138,"S1-GEA-01C","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel C"
+""
+139,"S1-GEA-01D","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel D"
+""
+140,"S1-DPSKAPLC1","B",0,0
+0.00434976,3,3.94E-06,2208,10,"l",0,"h","h",0,0,2.8
+"Failure of DPS Ch.1 Signal Processor (PLC1)"
+"plant-experience only (2/453593hr; Y34+U34 experience), test interval-3months. Assume EF=10."
+141,"S1-DPSKWPLCALL","B",0,0
+0.00434976,3,3.94E-06,2208,10,"l",0,"h","h",0,0,2.8
+"CCF of DPS Ch.1 & 2 Signal processors (PLC1 & 2)"
+"0.4928*4.4092e-6/h (beta=0.4928 : CPC in CEN-327). Assume EF=10."
+142,"S1-GDP-AF1L-TOP","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No signal from DPS for SG1 Lo LVL (DAF1L)"
+"WR 22.2%"
+143,"S1-GDP-AF1L-PLC1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No signal from DAF1L Ch.1 Signal Processor (PLC1)"
+""
+144,"S1-GDP-AF1L-PLC2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No signal from DAF1L Ch.2 Signal Processor (PLC2)"
+""
+145,"S1-GDP-AF2L-TOP","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No signal from DPS for SG2 Lo LVL (DAF2L)"
+"WR 22.2%"
+146,"S1-GDP-AF2L-PLC1","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No signal from DAF2L Ch.1 Signal Processor (PLC1)"
+""
+147,"S1-GDP-AF2L-PLC2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No signal from DAF2L Ch.2 Signal Processor (PLC2)"
+""
+148,"S1-DPSKAPLC2","B",0,0
+0.00434976,3,3.94E-06,2208,10,"l",0,"h","h",0,0,2.8
+"Failure of DPS Ch.2 Signal Processor (PLC2)"
+"plant-experience only (2/453593hr; Y34+U34 experience), test interval-3months. Assume EF=10."
+149,"S1-GDP-LL-SG1-X","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SG1 Lo LVL measument loop for DAF1L Ch.1"
+""
+150,"S1-DPSKMPLC","B",0,0
+0.000226,0,0.000226,0,3,"l",0,"","",0,0,3
+"DPS is in Bypass (T&M)"
+"0.5/2208hr; Test time : U34 & Y34 - 0.5hr. Test interval - 3months, Assume EF=3."
+151,"S1-FWLTYLT1115X","B",0,0
+0.00044676,2,1.02E-07,4380,2.26935,"l",0,"h","h",0,0,8.4
+"SG1 Lo LVL transmitter LT-1115X fails to provide proper output during operation"
+"Beyes<2/1814371h, WASH-1400('PT')>, Annunciated = lamda*MTTR(Tau) , unrepairable, Tau = failure exposure time (assume 1/2 yr until the next hot standby)."
+152,"S1-FWLTKLT1115XY","B",0,0
+1.241993E-05,2,1.02E-07,4380,10,"l",0,"h","h",0.0278,0,8.4
+"CCF of SG1 Lo LVL transmitter LT-1115X & Y"
+"2.1479e-6/h*0.0878 (Beta,CEN-327), Annunciated = lamda*MTTR(Tau), unrepairable, Tau = failure exposure time (assume 1/2yr <-- No tech spec)."
+153,"S1-PNMLYLT1115X","B",0,0
+4.0032E-05,2,5.56E-07,72,2.57,"l",0,"h","h",0,0,2.57
+"measurement loop for SG1 Lo LVL LT-1115X fails to provide proper output"
+"Bayes <1*/4071840h, IEEE500 (2.2596e-6/h, EF=5)>, Loop Power Supplier, Repairable, Assume failure exposure time=72h=MTTR). (CEN-327: 36/15472346h)"
+154,"S1-PNMLKLT1115XY","B",0,0
+1.11289E-06,2,5.56E-07,72,10,"l",0,"h","h",0.0278,0,10
+"CCF of measurement loops for SG1 Lo LVL LT-1115X & Y"
+"0.1*5.3313e-7/h. Loop Power Supplier, Assume beta=0.1(CEN-327), EF=10, and failure exposure time=72hrs."
+155,"S1-GDP-LL-SG1-Y","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SG1 Lo LVL measument loop for DAF1L Ch.2"
+""
+156,"S1-FWLTYLT1115Y","B",0,0
+0.00044676,2,1.02E-07,4380,2.26935,"l",0,"h","h",0,0,8.4
+"SG1 Lo LVL transmitter LT-1115Y fails to provide proper output during operation"
+"Beyes<2/1814371h, WASH-1400('PT')>, Annunciated = lamda*MTTR(Tau) , unrepairable, Tau = failure exposure time (assume 1/2 yr until the next hot standby)."
+157,"S1-PNMLYLT1115Y","B",0,0
+4.0032E-05,2,5.56E-07,72,2.57,"l",0,"h","h",0,0,2.57
+"measurement loop for SG1 Lo LVL LT-1115Y fails to provide proper output"
+"Bayes <1*/4071840h, IEEE500 (2.2596e-6/h, EF=5)>, Loop Power Supplier, Repairable, Assume failure exposure time=72h=MTTR). (CEN-327: 36/15472346h)"
+158,"S1-GDP-LL-SG2-X","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SG2 Lo LVL measument loop for DAF2L Ch.1"
+""
+159,"S1-FWLTYLT1125X","B",0,0
+0.00044676,2,1.02E-07,4380,2.26935,"l",0,"h","h",0,0,8.4
+"SG2 Lo LVL transmitter LT-1125X fails to provide proper output during operation"
+"Beyes<2/1814371h, WASH-1400('PT')>, Annunciated = lamda*MTTR(Tau) , unrepairable, Tau = failure exposure time (assume 1/2 yr until the next hot standby)."
+160,"S1-FWLTKLT1125XY","B",0,0
+1.241993E-05,2,1.02E-07,4380,10,"l",0,"h","h",0.0278,0,8.4
+"CCF of SG2 Lo LVL transmitter LT-1125X & Y"
+"2.1479e-6/h*0.0878 (Beta,CEN-327), Annunciated = lamda*MTTR(Tau), unrepairable, Tau = failure exposure time (assume 1/2yr <-- No tech spec)."
+161,"S1-PNMLYLT1125X","B",0,0
+4.0032E-05,2,5.56E-07,72,2.57,"l",0,"h","h",0,0,2.57
+"measurement loop for SG2 Lo LVL LT-1125X fails to provide proper output"
+"Bayes <1*/4071840h, IEEE500 (2.2596e-6/h, EF=5)>, Loop Power Supplier, Repairable, Assume failure exposure time=72h=MTTR). (CEN-327: 36/15472346h)"
+162,"S1-PNMLKLT1125XY","B",0,0
+1.11289E-06,2,5.56E-07,72,10,"l",0,"h","h",0.0278,0,10
+"CCF of measurement loops for SG2 Lo LVL LT-1125X & Y"
+"0.1*5.3313e-7/h. Loop Power Supplier, Assume beta=0.1(CEN-327), EF=10, and failure exposure time=72hrs."
+163,"S1-GDP-LL-SG2-Y","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SG2 Lo LVL measument loop for DAF2L Ch.2"
+""
+164,"S1-FWLTYLT1125Y","B",0,0
+0.00044676,2,1.02E-07,4380,2.26935,"l",0,"h","h",0,0,8.4
+"SG2 Lo LVL transmitter LT-1125Y fails to provide proper output during operation"
+"Beyes<2/1814371h, WASH-1400('PT')>, Annunciated = lamda*MTTR(Tau) , unrepairable, Tau = failure exposure time (assume 1/2 yr until the next hot standby)."
+165,"S1-PNMLYLT1125Y","B",0,0
+4.0032E-05,2,5.56E-07,72,2.57,"l",0,"h","h",0,0,2.57
+"measurement loop for SG2 Lo LVL LT-1125Y fails to provide proper output"
+"Bayes <1*/4071840h, IEEE500 (2.2596e-6/h, EF=5)>, Loop Power Supplier, Repairable, Assume failure exposure time=72h=MTTR). (CEN-327: 36/15472346h)"
+166,"S1-GAF-ARCSOV0035","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for AF SOV 35AA"
+""
+167,"S1-GFS-ARCSOV0035","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal From ESFAS-ARC Relay K-402"
+""
+168,"S1-FSRSALV0035","B",0,0
+0.000221796,3,3.03E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-402 for AF SOV35AA"
+""
+169,"S1-GAF-ARCMV0043","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for MV-43 AA"
+""
+170,"S1-GFS-ARCMV0043","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal from ESFAS-ARC Relay K635(cycling) for AF MV 43 AA"
+""
+171,"S1-FSRSAMV0043","B",0,0
+0.000221796,3,3.03E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-635(cycling) for AF MV43 AA"
+""
+172,"S1-GFS-ARCMP01A","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for AF MP01A"
+""
+173,"S1-FSRSAMP01A","B",0,0
+0.000221796,3,3.03E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-402 for AF MP 01A"
+""
+174,"S1-GAF-ARCMP01A","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for AF MP 01A"
+""
+175,"S1-GAF-ARCSOV0036","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Siganl Generation for AF SOV 36BA"
+""
+176,"S1-GFS-ARCSOV0036","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal frm ESFAS-ARC Relay K-113"
+""
+177,"S1-FSRSASOV0036","B",0,0
+3.03E-07,3,3.03E-07,2,5,"l",0,"m","m",0,0,5
+"FAilure of ESFAS-ARC Relay K-113 for AF SOV 36BA"
+""
+178,"S1-GAF-ARCMV0044","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No signal Generation for AF MV 44BA"
+""
+179,"S1-GFS-ARCMV0044","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal From ESFAS-ARC Relay K-635(cycling) for AF MV44"
+""
+180,"S1-FSRSAMV0044","B",0,0
+0.000221796,3,3.03E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-635(cycling) for AF MV 44 BA"
+""
+181,"S1-GAF-ARCSOV0038","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for AF SOV 38 BB"
+""
+182,"S1-GFS-ARCSOV0038","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal From ESFAS-ARC Relay K112 for AF SOV 38 BB"
+""
+183,"S1-FSRSALV0038","B",0,0
+0.000221796,3,3.03E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-112 for AF SOV 38 BB"
+""
+184,"S1-GAF-ARCMV0046","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for AF MV46 BB"
+""
+185,"S1-GFS-ARCMV0046","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal From ESFAS-ARC Relay K-736(cycling) for AF MV 46BB"
+""
+186,"S1-FSRSAMV0046","B",0,0
+0.000221796,3,3.03E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-736(cycling) for AF MV 46 BB"
+""
+187,"S1-GAF-ARCMP02B","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal generation for AF MP 02BB"
+""
+188,"S1-GFS-ARCMP02B","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal From ESFAS-ARC Relay K-112 for AF MP 02BB"
+""
+189,"S1-FSRSAMP02B","B",0,0
+0.000221796,3,3.03E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-112 for Af MP 02BB"
+""
+190,"S1-GAF-ARCSOV0037","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal generation for AF SOV 37 AB"
+""
+191,"S1-GFS-ARCSOV0037","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal From ESFAS-ARC Relay K-413 for AF SOV 37 AB"
+""
+192,"S1-FSRSALV0037","B",0,0
+0.000221796,3,3.03E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-413 for AF SOV 37AB"
+""
+193,"S1-GAF-ARCMV0045","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for AF MV 45 AB"
+""
+194,"S1-GFS-ARCMV0045","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal From ESFAS-ARC Relay K-736(cycling) for AF MV45"
+""
+195,"S1-FSRSAMV0045","B",0,0
+0.000221796,3,3.03E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-736(cycling) for AF MV 45 AB"
+""
+196,"S1-GAF-PCSSOV0035","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF SOV 35AA"
+""
+197,"S1-AFISASOV0035","B",0,0
+0.00055632,3,7.6E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of PCS for AF SOV 35AA"
+""
+198,"S1-GAF-PCSMV0043","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF MV 43AA"
+""
+199,"S1-AFISAMV0043","B",0,0
+0.00055632,3,7.6E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of PCS for AF MV 43AA"
+""
+200,"S1-GAF-PCSSOV0036","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for Af SOV 36BA"
+""
+201,"S1-AFISASOV0036","B",0,0
+0.00055632,3,7.6E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of PCS for AF SOV 36BA"
+""
+202,"S1-GAF-PCSMV0044","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF MV 44BA"
+""
+203,"S1-AFISAMV0044","B",0,0
+0.00055632,3,7.6E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of PCS for AF MV 44BA"
+""
+204,"S1-GAF-PCSSOV0037","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF SOV 37AB"
+""
+205,"S1-AFISASOV0037","B",0,0
+0.00055632,3,7.6E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of PCS for AF SOV 37AB"
+""
+206,"S1-GAF-PCSMV0045","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF MV 45 AB"
+""
+207,"S1-AFISAMV0045","B",0,0
+0.00055632,3,7.6E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of PCS for AF MV 45 AB"
+""
+208,"S1-GAF-PCSSOV0038","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF SOV 38 BB"
+""
+209,"S1-AFISASOV0038","B",0,0
+0.00055632,3,7.6E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of PCS for AF SOV 38 BB"
+""
+210,"S1-GAF-PCSMV0046","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAilure of PCS Card for AF MV 46BB"
+""
+211,"S1-AFISAMV0046","B",0,0
+0.00055632,3,7.6E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of PCS for AF MV 46BB"
+""
+212,"S1-GAF-PCSMP01A","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF MP 01A"
+""
+213,"S1-AFISAMP01A","B",0,0
+0.00055632,3,7.6E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of PCS for MP 01AA"
+""
+214,"S1-GAF-PCSMP02B","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF MP 02BB"
+""
+215,"S1-AFISAMP02B","B",0,0
+0.00055632,3,7.6E-07,1464,5,"l",0,"h","h",0,0,5
+"Failure of PCS for AF MP 02BB"
+""
+216,"S1-GAF-CARD0009","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF Turbine Iso. VV 009"
+""
+217,"S1-GAF-ARC0009","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for AF Turbine Iso. VV 009A"
+""
+218,"S1-AFISASOV0009","B",0,0
+0.00055632,3,7.6E-07,1464,0,"",0,"h","h",0,0,0
+"FAilure of PCS for AF Turbine Iso. VV 009"
+""
+219,"S1-GFS-ARC0009","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal from ESFAS-ARC Relay for AF 009"
+""
+220,"S1-FSRSASOV0009","B",0,0
+3.03E-07,3,3.03E-07,2,0,"",0,"m","m",0,0,0
+"Failure of ESFAS-ARC Relay K112 for AF SOV 009"
+""
+221,"S1-GAF-CARD0010","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF Turbine Iso. VV 010"
+""
+222,"S1-GAF-ARC0010","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for AF Turbine Iso. VV 010"
+""
+223,"S1-AFISASOV0010","B",0,0
+0.00055632,3,7.6E-07,1464,0,"",0,"h","h",0,0,0
+"FAilure of PCS for AF Turbine Iso. VV 010"
+""
+224,"S1-GFS-ARC0010","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal from ESFAS-ARC Relay for AF 010"
+""
+225,"S1-FSRSASOV0010","B",0,0
+3.03E-07,3,3.03E-07,2,0,"",0,"m","m",0,0,0
+"Failure of ESFAS-ARC Relay K402 for AF SOV 010"
+""
+226,"S1-MSISASOV0110","B",0,0
+0.00055632,3,7.6E-07,1464,0,"",0,"h","h",0,0,0
+"FAilure of PCS for AF Turbine Steam SuppIy VV 110"
+""
+227,"S1-GFS-ARC0110","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal from ESFAS-ARC Relay for AF 110"
+""
+228,"S1-FSRSASOV0110","B",0,0
+3.03E-07,3,3.03E-07,2,0,"",0,"m","m",0,0,0
+"Failure of ESFAS-ARC Relay K402 for MS SOV 110"
+""
+229,"S1-MSISASOV0109","B",0,0
+0.00055632,3,7.6E-07,1464,0,"",0,"h","h",0,0,0
+"FAilure of PCS for AF Turbine Steam SuppIy VV 109"
+""
+230,"S1-GFS-ARC0109","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal from ESFAS-ARC Relay for AF 109"
+""
+231,"S1-FSRSASOV0109","B",0,0
+3.03E-07,3,3.03E-07,2,0,"",0,"m","m",0,0,0
+"Failure of ESFAS-ARC Relay K112 for MS SOV 109"
+""
+232,"S1-GMS-CARD0109","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF Turbine Steam Sup. VV 109"
+""
+233,"S1-GMS-ARC0109","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for AF Turbine Steam Iso. VV 109"
+""
+234,"S1-GMS-CARD0110","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF Turbine Steam Sup. VV 110"
+""
+235,"S1-GMS-ARC0110","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"No Signal Generation for AF Turbine Steam Iso. VV 110"
+""
+236,"S1-DWTKBDWST","B",0,0
+7.656E-07,1,3.19E-08,24,5.5,"l",0,"h","h",0,0,8.4
+"TANKS FAIL CATASTROPHICALLY"
+""
+237,"S1-AFOPHALTWT","B",0,0
+3.3E-05,0,3.3E-05,0,10,"l",0,"","",0,0,10
+"OPERATOR FAILS TO ARRANGE ALTERNATIVE WATER SOURCE"
+""
+238,"S1-CDVVO1183B","B",0,0
+0.000743,0,0.000743,0,0,"l",0,"","",0,0,8.4
+"CD AFW BACKUP LINE VV V1183B FAILS TO OPEN"
+""
+239,"S1-CDVVO1179A","B",0,0
+0.000743,0,0.000743,0,9.01,"l",0,"","",0,0,8.4
+"CD AFW BACKUP LINE VV V1179A FAILS TO OPEN"
+""
+240,"S1-GMH-TOP-N","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"MSHR; INSUFF FLOW FROM AT LEAST 1/4 AFW PUMP TO 1/2 SG"
+""
+241,"S1-GCD-DEMIWT","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF FLOW FROM DEMI. WATER STORAGE TANK"
+""
+242,"S1-GAF-CVW-CP-A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+243,"S1-AFCVW-CP-AB","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+244,"S1-AFCVW-CP-ABC","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+245,"S1-AFCVW-CP-ABCD","B",0,0
+3.406E-08,0,1.3E-05,0,0,"l",0,"","",0.00262,0,8.4
+"CCF (4/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+246,"S1-AFCVW-CP-ABD","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+247,"S1-AFCVW-CP-AC","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+248,"S1-AFCVW-CP-ACD","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+249,"S1-AFCVW-CP-AD","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+250,"S1-GAF-CVW-CP-A-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+251,"S1-GAF-CVW-CP-A-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+252,"S1-GAF-CVW-CP-A-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+253,"S1-GAF-CVW-DL-A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+254,"S1-AFCVW-DL-AB","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+255,"S1-AFCVW-DL-ABC","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+256,"S1-AFCVW-DL-ABCD","B",0,0
+3.406E-08,0,1.3E-05,0,0,"l",0,"","",0.00262,0,8.4
+"CCF (4/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+257,"S1-AFCVW-DL-ABD","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+258,"S1-AFCVW-DL-AC","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+259,"S1-AFCVW-DL-ACD","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+260,"S1-AFCVW-DL-AD","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+261,"S1-GAF-CVW-DL-A-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+262,"S1-GAF-CVW-DL-A-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+263,"S1-GAF-CVW-DL-A-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+264,"S1-GAF-LVW-A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+265,"S1-AFLVW-AB","B",0,0
+6.89742E-06,0,0.000954,0,0,"l",0,"","",0.00723,0,9.1
+"CCF (2/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+266,"S1-AFLVW-ABC","B",0,0
+3.55842E-06,0,0.000954,0,0,"l",0,"","",0.00373,0,9.1
+"CCF (3/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+267,"S1-AFLVW-ABCD","B",0,0
+2.862E-06,0,0.000954,0,0,"l",0,"","",0.003,0,9.1
+"CCF (4/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+268,"S1-AFLVW-ABD","B",0,0
+3.55842E-06,0,0.000954,0,0,"l",0,"","",0.00373,0,9.1
+"CCF (3/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+269,"S1-AFLVW-AC","B",0,0
+6.89742E-06,0,0.000954,0,0,"l",0,"","",0.00723,0,9.1
+"CCF (2/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+270,"S1-AFLVW-ACD","B",0,0
+3.55842E-06,0,0.000954,0,0,"l",0,"","",0.00373,0,9.1
+"CCF (3/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+271,"S1-AFLVW-AD","B",0,0
+6.89742E-06,0,0.000954,0,0,"l",0,"","",0.00723,0,9.1
+"CCF (2/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+272,"S1-GAF-LVW-A-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+273,"S1-GAF-LVW-A-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+274,"S1-GAF-LVW-A-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+275,"S1-GAF-CVW-SG-A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B (TRAIN A1)"
+""
+276,"S1-AFCVW-SG-AB","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"lognormal",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+277,"S1-AFCVW-SG-ABC","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+278,"S1-AFCVW-SG-ABCD","B",0,0
+3.406E-08,0,1.3E-05,0,0,"l",0,"","",0.00262,0,8.4
+"CCF (4/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+279,"S1-AFCVW-SG-ABD","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+280,"S1-AFCVW-SG-AC","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+281,"S1-AFCVW-SG-ACD","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+282,"S1-AFCVW-SG-AD","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+283,"S1-GAF-CVW-SG-A-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+284,"S1-GAF-CVW-SG-A-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+285,"S1-GAF-CVW-SG-A-4","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+286,"S1-AFCVW-CP-BCD","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+287,"S1-AFCVW-CP-BD","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+288,"S1-AFCVW-CP-CD","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+289,"S1-GAF-LVW-B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038 (TRAIN B2)"
+""
+290,"S1-AFLVW-BC","B",0,0
+6.89742E-06,0,0.000954,0,0,"l",0,"","",0.00723,0,9.1
+"CCF (2/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+291,"S1-AFLVW-BCD","B",0,0
+3.55842E-06,0,0.000954,0,0,"l",0,"","",0.00373,0,9.1
+"CCF (3/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+292,"S1-AFLVW-BD","B",0,0
+6.89742E-06,0,0.000954,0,0,"l",0,"","",0.00723,0,9.1
+"CCF (2/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+293,"S1-GAF-LVW-B-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+294,"S1-GAF-LVW-B-3","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+295,"S1-GAF-LVW-B-4","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+296,"S1-GAF-MVW-B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046 (TRAIN B2)"
+""
+297,"S1-AFMVW-AB","B",0,0
+5.3821E-06,0,0.00107,0,0,"l",0,"","",0.00503,0,3.6
+"CCF (2/4) DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+298,"S1-AFMVW-ABC","B",0,0
+1.4017E-06,0,0.00107,0,0,"l",0,"","",0.00131,0,3.6
+"CCF (3/4) DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+299,"S1-AFMVW-ABCD","B",0,0
+2.0437E-06,0,0.00107,0,0,"l",0,"","",0.00191,0,3.6
+"CCF (4/4) CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+300,"S1-AFMVW-ABD","B",0,0
+1.4017E-06,0,0.00107,0,0,"l",0,"","",0.00131,0,3.6
+"CCF (3/4) CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+301,"S1-AFMVW-BC","B",0,0
+5.3821E-06,0,0.00107,0,0,"l",0,"","",0.00503,0,3.6
+"CCF (2/4) DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+302,"S1-AFMVW-BCD","B",0,0
+1.4017E-06,0,0.00107,0,0,"l",0,"","",0.00131,0,3.6
+"CCF (3/4) CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+303,"S1-AFMVW-BD","B",0,0
+5.3821E-06,0,0.00107,0,0,"l",0,"","",0.00503,0,3.6
+"CCF (2/4) CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+304,"S1-GAF-MVW-B-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+305,"S1-GAF-MVW-B-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+306,"S1-GAF-MVW-B-4","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+307,"S1-GAF-CVW-SG-D","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B (TRAIN B1)"
+""
+308,"S1-AFCVW-SG-BCD","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+309,"S1-AFCVW-SG-BD","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+310,"S1-AFCVW-SG-CD","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+311,"S1-GAF-CVW-SG-D-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+312,"S1-GAF-CVW-SG-D-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+313,"S1-GAF-CVW-SG-D-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+314,"S1-AFCVW-CP-BC","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+315,"S1-GAF-CVW-DL-C","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+316,"S1-AFCVW-DL-BC","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+317,"S1-AFCVW-DL-BCD","B",0,0
+2.249E-08,0,1.3E-05,0,0,"l",0,"","",0.00173,0,8.4
+"CCF (3/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+318,"S1-AFCVW-DL-CD","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+319,"S1-GAF-CVW-DL-C-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+320,"S1-GAF-CVW-DL-C-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+321,"S1-GAF-CVW-DL-C-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+322,"S1-GAF-LVW-C","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038 (TRAIN A2)"
+""
+323,"S1-AFLVW-CD","B",0,0
+6.89742E-06,0,0.000954,0,0,"l",0,"","",0.00723,0,9.1
+"CCF (2/4) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+324,"S1-GAF-LVW-C-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+325,"S1-GAF-LVW-C-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+326,"S1-GAF-LVW-C-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+327,"S1-GAF-MVW-C","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046 (TRAIN A2)"
+""
+328,"S1-AFMVW-AC","B",0,0
+5.3821E-06,0,0.00107,0,0,"l",0,"","",0.00503,0,3.6
+"CCF (2/4) DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+329,"S1-AFMVW-ACD","B",0,0
+1.4017E-06,0,0.00107,0,0,"l",0,"","",0.00131,0,3.6
+"CCF (3/4) CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+330,"S1-AFMVW-CD","B",0,0
+5.3821E-06,0,0.00107,0,0,"l",0,"","",0.00503,0,3.6
+"CCF (2/4) CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+331,"S1-GAF-MVW-C-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+332,"S1-GAF-MVW-C-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+333,"S1-GAF-MVW-C-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+334,"S1-GAF-CVW-SG-C","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B (TRAIN A2)"
+""
+335,"S1-AFCVW-SG-BC","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+336,"S1-GAF-CVW-SG-C-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+337,"S1-GAF-CVW-SG-C-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+338,"S1-GAF-CVW-SG-C-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+339,"S1-GAF-CVW-DL-B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+340,"S1-AFCVW-DL-BD","B",0,0
+6.499999E-08,0,1.3E-05,0,0,"l",0,"","",0.005,0,8.4
+"CCF (2/4) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+341,"S1-GAF-CVW-DL-B-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+342,"S1-GAF-CVW-DL-B-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+343,"S1-GAF-CVW-DL-B-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+344,"S1-GAF-LVW-D","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+345,"S1-GAF-LVW-D-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+346,"S1-GAF-LVW-D-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+347,"S1-GAF-LVW-D-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+348,"S1-GAF-CVW-SG-B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B (TRAIN B2)"
+""
+349,"S1-GAF-CVW-SG-B-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+350,"S1-GAF-CVW-SG-B-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+351,"S1-GAF-CVW-SG-B-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+352,"S1-GAF-MVW-A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046 (TRAIN A1)"
+""
+353,"S1-AFMVW-AD","B",0,0
+5.3821E-06,0,0.00107,0,0,"l",0,"","",0.00503,0,3.6
+"CCF (2/4) CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+354,"S1-GAF-MVW-A-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+355,"S1-GAF-MVW-A-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+356,"S1-GAF-MVW-A-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+357,"S1-GAF-CVW-DL-D","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+358,"S1-GAF-CVW-DL-D-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+359,"S1-GAF-CVW-DL-D-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+360,"S1-GAF-CVW-DL-D-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+361,"S1-GAF-SG1-TRA1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN A1"
+""
+362,"S1-GAF-SG1-TRB1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN B1"
+""
+363,"S1-GAF-TRA1-VLV","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V0035, V0043, V1007A (TRAIN A1)"
+""
+364,"S1-GAF-SG2-TRA2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN A2"
+""
+365,"S1-GAF-SG2-TRB2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN B2"
+""
+366,"S1-GAF-TRB1-VLV","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V0038, V0046, V1008B (TRAIN B1)"
+""
+367,"S1-GAF-TRA2-VLV","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V0037, V0045, V1008A (TRAIN A2)"
+""
+368,"S1-GAF-TRB2-VLV","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V0036, V0044, V1007B (TRAIN B2)"
+""
+369,"S1-GAF-CVW-CP-D","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+370,"S1-GAF-CVW-CP-D-2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+371,"S1-GAF-CVW-CP-D-3","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+372,"S1-GAF-CVW-CP-D-4","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+373,"S1-GAF-CVW-CP-C","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+374,"S1-GAF-CVW-CP-C-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+375,"S1-GAF-CVW-CP-C-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+376,"S1-GAF-CVW-CP-C-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+377,"S1-GAF-CVW-CP-B","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+378,"S1-GAF-CVW-CP-B-2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+379,"S1-GAF-CVW-CP-B-3","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+380,"S1-GAF-CVW-CP-B-4","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : DEMAND CCF FOR CV A:1012A B:1012B C:1014A D:1014B"
+""
+381,"S1-GAF-SG1-MSHR","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFFICIENT AFW FROM TR. A TO SG1"
+""
+382,"S1-GAF-SG1-TRA1-MSHR","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN A1"
+""
+383,"S1-GAF-TRAINA-MSHR","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TRAIN A (MP A, TP A)"
+""
+384,"S1-GAF-MPA-MSHR","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP A DISCH. LINE"
+""
+385,"S1-GAF-MPA-1-MSHR","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP01A"
+""
+386,"S1-GAF-CSTA-MSHR","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM WATER SOURCE A"
+""
+387,"S1-GAF-TPA-MSHR","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP A DISCH. LINE"
+""
+388,"S1-GAF-TPA-1-MSHR","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP A"
+""
+389,"S1-GAF-SG1-TRB1-MSHR","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN B1"
+""
+390,"S1-GAF-TRAINB-MSHR","*",0,1
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TRAIN B (MP B, TP B)"
+""
+391,"S1-GAF-TPB-MSHR","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP01B DISCH. LINE"
+""
+392,"S1-GAF-TPB-1-MSHR","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP B"
+""
+393,"S1-GAF-CSTB-MSHR","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM WATER SOURCE B"
+""
+394,"S1-GAF-STR-BB-MSHR","+",-1,1
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP B"
+""
+395,"S1-GAF-MPB-MSHR","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP B DISCH. LINE"
+""
+396,"S1-GAF-MPB-1-MSHR","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP02B"
+""
+397,"S1-GAF-SG2-MSHR","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFFICIENT AFW FROM TR. A TO SG2"
+""
+398,"S1-GAF-SG2-TRA2-MSHR","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN A2"
+""
+399,"S1-GAF-SG2-TRB2-MSHR","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN B2"
+""
+400,"S1-AFMPW-AB","B",0,0
+0.00010175,0,0.00185,0,0,"l",0,"","",0.055,0,4.6
+"CCF (DEMAND) OF AFW MP A & B (2/2) A:MP A B:MP B"
+""
+401,"S1-AFMPK-AB","B",0,0
+1.021728E-06,1,5.8E-06,24,0,"l",0,"h","h",0.00734,0,8.4
+"CCF (RUNNING) OF AFW MP A & B (2/2) A:MP A B:MP B"
+""
+402,"S1-AFTPW-AB","B",0,0
+4.8076E-05,0,0.00952,0,0,"l",0,"","",0.00505,0,10.7
+"CCF (DEMAND) OF AFW TP A&B (2/2) A:TP A B:TP B"
+""
+403,"S1-AFTPK-AB","B",0,0
+1.88748E-05,1,7.35E-05,24,0,"l",0,"h","h",0.0107,0,8.4
+"CCF (RUNNING) OF AFW TP A & B (2/2) A:TP A B:TP B"
+""
+404,"S1-AFCVW-TP-AB","B",0,0
+2.145E-07,0,1.3E-05,0,0,"l",0,"","",0.0165,0,8.4
+"CCF OF AT CV 1020A & B IN AFW TBN LINES (2/2) A:1020A B:1020B"
+""
+405,"S1-AFAVW-TP2-AB","B",0,0
+3.2523E-05,0,0.00111,0,0,"l",0,"","",0.0293,0,4.3
+"CCF OF AT AFW TBN. STEAM ISOL. AOV 009 & 010 (2/2) A:V0009 B:V0010"
+""
+406,"S1-AFAVW-TP1-AB","B",0,0
+3.2523E-05,0,0.00111,0,0,"l",0,"","",0.0293,0,4.3
+"CCF OF MS-AT AOV 109 & 110 FOR AFW TBN TA01B (2/2) A:V0109 B:V0110"
+""
+407,"S1-AFVVT1348","B",0,0
+6.36E-09,0,6.36E-09,0,0,"l",0,"","",0,0,8.4
+"V1348 FAIL CLOSED"
+""
+408,"S1-GAF-FLOW-RWT","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF FLOW FROM RAW WATER TANK"
+""
+409,"S1-AFRWT","B",0,0
+7.656E-07,1,3.19E-08,24,0,"l",0,"h","h",0,0,8.4
+"RWT FAILS CATASTROFICALLY"
+""
+410,"S1-AFVVO1186","B",0,0
+0.000743,0,0.000743,0,0,"l",0,"","",0,0,8.4
+"V1186 FAILS TO OPEN"
+""
+411,"S1-AFVVT1184","B",0,0
+6.8688E-06,3,6.36E-09,2160,0,"l",0,"h","h",0,0,8.4
+"V1184 TRANSFER CLOSED"
+""
+412,"S1-AFVVT1185","B",0,0
+6.8688E-06,3,6.36E-09,2160,0,"l",0,"h","h",0,0,8.4
+"V1185 TRANSFER CLOSED"
+""
+413,"S1-AFVVO1208","B",0,0
+0.000743,0,0.000743,0,0,"l",0,"","",0,0,8.4
+"V1208 FAILS TO OPEN"
+""
+414,"S1-GAF-SGTR","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"SGTR-INSUFFICIENT FLOW FROM SG2 (SG1 ISOLATION)"
+""
+415,"S1-GAF-SGTR-TRB2","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN B2 TO SG2"
+""
+416,"S1-GAF-SG2-TRA2-1008A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V1008A"
+""
+417,"S1-GAF-SG2-TRA2-0037","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SV0037"
+""
+418,"S1-GAF-SG2-TRA2-0045","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF MV0045"
+""
+419,"S1-GAF-SGTR-TRA2-ISF2","+",-1,1
+0,0,0,0,0,"l",0,"","",0,0,0
+"ISOLATION FAILURE OF TRAIN A2 TO SG1"
+""
+420,"S1-AFMVC0043","B",0,0
+0.00107,0,0.00107,0,0,"l",0,"","",0,0,3.6
+"MV0043 FAILS TO CLOSE"
+""
+421,"S1-GAF-SG2-TRB2-VLV","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SV0036, MV0044, V1007B"
+""
+422,"S1-GAF-SG2-TRB2-0044","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF MV0044"
+""
+423,"S1-GAF-SG2-TRA2-VLV","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SV0037, MV0045, V1008A"
+""
+424,"S1-GAF-MSLB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"MSLB-INSUFFICIENT FLOW FROM SG2 (SG1 ISOLATION)"
+""
+425,"S1-AFSVC0035","B",0,0
+0.000954,0,0.000954,0,0,"l",0,"","",0,0,9.1
+"SV0035 FAILS TO CLOSE"
+""
+426,"S1-AFPPWALL","B",0,0
+1E-06,0,1E-06,0,0,"l",0,"","",0,0,0
+"QUADRUPLE CCF(DEMAND) OF ALL AFWS PUMPS due to Steam Binding"
+""
+427,"S1-GAF-M-SGTR","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"SGTR(MSHR)-INSUFFICIENT FLOW FROM SG2 (SG1 ISOLATION)"
+""
+428,"S1-GAF-M-MSLB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"MSLB-INSUFFICIENT FLOW FROM SG2 (SG1 ISOLATION)"
+""
+429,"S1-GAF-SGTR-ISO-SG1","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"SGTR-INSUFFICIENT FLOW FROM SG1 (SG2 ISOLATION)"
+""
+430,"S1-GAF-SGTR-ISO-SG2","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"SGTR-INSUFFICIENT FLOW FROM SG2 (SG1 ISOLATION)"
+""
+431,"S1-GAF-SGTR-TRA2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN A2 TO SG2"
+""
+432,"S1-GAF-SGTR-TRA1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN A1 TO SG1"
+""
+433,"S1-GAF-SGTR-TRB1","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN B1 TO SG1"
+""
+434,"S1-GAF-SGTR-TRB1-ISF1","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"ISOLATION FAILURE OF TRAIN B1 TO SG2"
+""
+435,"S1-AFMVC0044","B",0,0
+0.00107,0,0.00107,0,0,"l",0,"","",0,0,3.6
+"MV0044 FAILS TO CLOSE"
+""
+436,"S1-GAF-SG1-TRA1-VLV","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SV0035, MV0043, V1007A"
+""
+437,"S1-GAF-SG1-TRB1-VLV","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SV0038, MV0046, V1008B"
+""
+438,"S1-GAF-MV0043","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of MV0043"
+""
+439,"S1-GAF-CV1007A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of CV1007A"
+""
+440,"S1-GAF-SV0038","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SV0038"
+""
+441,"S1-GAF-MV0046","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of MV0046"
+""
+442,"S1-GAF-CV1008B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of CV1008B"
+""
+443,"S1-GAF-SV0037","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SV0037"
+""
+444,"S1-GAF-MV0045","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of MV0045"
+""
+445,"S1-GAF-CV1008A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of CV1008A"
+""
+446,"S1-GAF-SV0036","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SV0036"
+""
+447,"S1-GAF-MV0044","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of MV0044"
+""
+448,"S1-GAF-CV1007B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of CV1007B"
+""
+449,"S1-AFMVO0043","B",0,0
+0.00107,0,0.00107,0,0,"l",0,"","",0,0,3.6
+"AFW ISOL. MOV 0043 FAILS TO OPEN DURING CYCLING OP."
+""
+450,"S1-GAF-SG2-TRB2-0036","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SV0036"
+""
+451,"S1-GAF-SG2-TRB2-1007B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V1007B"
+""
+452,"S1-GAF-SG1-TRA1-0035","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SV0035"
+""
+453,"S1-GAF-SG1-TRA1-0043","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF MV0043"
+""
+454,"S1-GAF-SG1-TRA1-1007A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V1007A"
+""
+455,"S1-GAF-SG1-TRB1-0038","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SV0038"
+""
+456,"S1-GAF-SG1-TRB1-0046","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF MV0046"
+""
+457,"S1-GAF-SG1-TRB1-1008B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V1008B"
+""
+458,"S1-GAF-MSLB-ISO-SG1","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"MSLB-INSUFFICIENT FLOW FROM SG1 (SG2 ISOLATION)"
+""
+459,"S1-GAF-MSLB-TRA1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN A TO SG1"
+""
+460,"S1-GAF-MSLB-TRB1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN B TO SG1"
+""
+461,"S1-GAF-MSLB-TRB1-ISF1","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"ISOLATION FAILURE OF TRAIN B1 TO SG2"
+""
+462,"S1-GAF-MSLB-ISO-SG2","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"SGTR-INSUFFICIENT FLOW FROM SG2 (SG1 ISOLATION)"
+""
+463,"S1-GAF-MSLB-TRA2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN A TO SG2"
+""
+464,"S1-GAF-MSLB-TRB2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN B TO SG2"
+""
+465,"S1-GAF-MSLB-TRA2-ISF2","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"ISOLATION FAILURE OF TRAIN A2 TO SG1"
+""
+466,"S1-GAF-MSLB-ISF2-0043","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Isolation failure of 0043"
+""
+467,"S1-GAF-MSLB-ISF2-0035","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Isolation failure of 0035"
+""
+468,"S1-GAF-MSLB-ISF1-0044","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Isolation failure of 0044"
+""
+469,"S1-GAF-MSLB-ISF1-0036","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Isolation failure of 0036"
+""
+470,"S1-AFSVC0036","B",0,0
+0.000954,0,0.000954,0,0,"l",0,"","",0,0,9.1
+"SV0036 FAILS TO CLOSE"
+""
+471,"S1-GAF-SGTR1-ISO-SG1","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"SGTR-INSUFFICIENT FLOW FROM SG1 (SG2 ISOLATION)"
+""
+472,"S1-GAF-M-SGTR-TRA1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN A TO SG1"
+""
+473,"S1-GAMF-SGTR-TRB1","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN B TO SG1"
+""
+474,"S1-GAF-SGTR2-ISO-SG2","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"SGTR-INSUFFICIENT FLOW FROM SG2 (SG1 ISOLATION)"
+""
+475,"S1-GAF-M-SGTR-TRA2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN A TO SG2"
+""
+476,"S1-GAF-M-SGTR-TRB2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN B TO SG2"
+""
+477,"S1-GAF-MSLB1-ISO-SG1","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"MSLB-INSUFFICIENT FLOW FROM SG1 (SG2 ISOLATION)"
+""
+478,"S1-GAF-MSLB2-ISO-SG2","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"MSLB-INSUFFICIENT FLOW FROM SG2 (SG1 ISOLATION)"
+""
+479,"S1-GAF-M-MSLB-TRA1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN A TO SG1"
+""
+480,"S1-GAMF-MSLB-TRB1","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN B TO SG1"
+""
+481,"S1-GAF-M-MSLB-TRA2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN A TO SG2"
+""
+482,"S1-GAF-M-MSLB-TRB2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"NO FLOW FROM TRAIN B TO SG2"
+""
+483,"S1-AFCVW-SBOT-DL-CD","B",0,0
+2.145E-07,0,1.3E-05,0,0,"l",0,"","",0.0165,0,8.4
+"CCF (2/2) DEMAND CCF FOR CV A:1003A B:1003B C:1004A D:1004B"
+""
+484,"S1-AFLVW-ISO-AD","B",0,0
+2.79522E-05,0,0.000954,0,0,"l",0,"","",0.0293,0,9.1
+"CCF (2/2) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+485,"S1-AFMVW-ISO-AD","B",0,0
+1.5301E-05,0,0.00107,0,0,"l",0,"","",0.0143,0,3.6
+"CCF (2/2) DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+486,"S1-AFCVW-ISO-SG-AD","B",0,0
+2.145E-07,0,1.3E-05,0,0,"l",0,"","",0.0165,0,8.4
+"CCF (2/2) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+487,"S1-AFLVW-ISO-BC","B",0,0
+2.79522E-05,0,0.000954,0,0,"l",0,"","",0.0293,0,9.1
+"CCF (2/2) DEMAND CCF FOR LV A:0035 B:0036 C:0037 D:0038"
+""
+488,"S1-AFMVW-ISO-BC","B",0,0
+1.5301E-05,0,0.00107,0,0,"l",0,"","",0.0143,0,3.6
+"CCF (2/2) DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+489,"S1-AFCVW-ISO-SG-BC","B",0,0
+2.145E-07,0,1.3E-05,0,0,"l",0,"","",0.0165,0,8.4
+"CCF (2/2) DEMAND CCF FOR CV A:1007A B:1007B C:1008A D:1008B"
+""
+490,"S1-GAF-AFSTA","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFST A TO AFW TR. A PUMPS (MP A, TP A)"
+""
+491,"S1-AFTKAFSTA","B",0,0
+7.656E-07,1,3.19E-08,24,0,"lognormal",0,"h","h",0,0,8.4
+"AFST FAILS CATASTROFICALLY"
+""
+492,"S1-GAF-AFSTB","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"AFST B FAILS CATASTROFICALLY"
+""
+493,"S1-AFTKAFSTB","B",0,0
+7.656E-07,1,3.19E-08,24,0,"lognormal",0,"h","h",0,0,8.4
+"AFST FAILS CATASTROFICALLY"
+""
+494,"S1-GAF-ALT-WATER-A","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF AF WATER SUPPLY SYSTEM"
+""
+495,"S1-GAF-ALT-VALVE","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF OPENING OF ALT SUPPLY LINE FROM CST&RWT"
+""
+496,"S1-GAF-ALT-ISO-A","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF ISOLATION OF NORMAL SUPPLY LINE FROM AFST"
+""
+497,"S1-GAF-ALT-FLOW","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF FLOW FROM CST/RWT/DWST"
+""
+498,"S1-GAF-FLOW-CST","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF FLOW FROM CST"
+""
+499,"S1-AFTKCST","B",0,0
+7.656E-07,1,3.19E-08,24,0,"l",0,"h","h",0,0,8.4
+"CST FAILS CATASTROFICALLY"
+""
+500,"S1-AFVVO1287","B",0,0
+0.000743,0,0.000743,0,0,"l",0,"","",0,0,8.4
+"AFW BACKUP MAKEUP LINE FROM CST VALVE V1287 FAILS TO OPEN"
+""
+501,"S1-AFVVT1347","B",0,0
+6.36E-09,0,6.36E-09,0,0,"l",0,"","",0,0,8.4
+"V1347 FAIL CLOSED"
+""
+502,"S1-GAF-ALT-WATER-B","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF AF WATER SUPPLY SYSTEM"
+""
+503,"S1-GAF-ALT-ISO-B","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF ISOLATION OF NORMAL SUPPLY LINE FROM AFST"
+""
+504,"S1-GAF-OPER-A1","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN A1 FLOW CONTROL"
+""
+505,"S1-GAF-OPER-B1","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN B1 FLOW CONTROL"
+""
+506,"S1-GAF-OPER-A2","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN A2 FLOW CONTROL"
+""
+507,"S1-GAF-OPER-B2","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN B2 FLOW CONTROL"
+""
+508,"S1-GAF-SG1-TRA1-OPER","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN A1 FLOW CONTROL"
+""
+509,"S1-GAF-SG1-TRB1-OPER","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN B1 FLOW CONTROL"
+""
+510,"S1-GAF-SG1-TRA2-OPER","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN A2 FLOW CONTROL"
+""
+511,"S1-GAF-SG1-TRB2-OPER","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN B2 FLOW CONTROL"
+""
+512,"S1-AFMVT0046","B",0,0
+6.675E-09,3,4.45E-08,0.3,0,"l",0,"h","h",0,0,8.4
+"AFW ISO. MOV 0046 TRANSFER CLOSED (TRAIN B1)"
+""
+513,"S1-AFMVT0045","B",0,0
+6.675E-09,3,4.45E-08,0.3,0,"l",0,"h","h",0,0,8.4
+"AFW ISOL. MOV 0045 TRANSFER CLOSED (TRAIN A2)"
+""
+514,"S1-GAF-MVW-D","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046 (TRAIN B1)"
+""
+515,"S1-GAF-MVW-D-2","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+516,"S1-GAF-MVW-D-3","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+517,"S1-GAF-MVW-D-4","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : CCF Logic for Train A : DEMAND CCF FOR MV A:0043 B:0044 C:0045 D:0046"
+""
+518,"S1-GEA-01B_NB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel B"
+""
+519,"S1-GEX-PA03A-03_NB","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03A-03)"
+""
+520,"S1-GEA-01A_NB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel A  (No Credit for Battery)"
+""
+521,"S1-GEX-PA03B-03_NB","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03B-03)"
+""
+522,"S1-GED-01A_SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01A (SBO ONLY)"
+""
+523,"S1-GEA-01A_SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel A (SBO ONLY)"
+""
+524,"S1-GEA-01B_SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel B (SBO ONLY)"
+""
+525,"S1-GED-01B_SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01B (SBO ONLY)"
+""
+526,"S1-GAF-TRB1-VLV-SBOT","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V0038, V0046, V1008B (TRAIN B1)"
+""
+527,"S1-GEX-PA03C-01_NB","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03C-01)"
+""
+528,"S1-GEA-01C_NB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel C"
+""
+529,"S1-GEX-PA03D-01_NB","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03D-01)"
+""
+530,"S1-GEA-01D_NB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel D"
+""
+531,"S1-GED-01A_NB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01A"
+""
+532,"S1-GED-01C_NB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER AT 125V DC BUS DC01C"
+""
+533,"S1-GED-01B_NB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01B"
+""
+534,"S1-GAF-SV0035","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SV0035"
+""
+535,"S1-GAF-CS0035","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF SOV 0035"
+""
+536,"S1-GAF-CSSV0035","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF SOV 35AA"
+""
+537,"S1-GEX-PA03B-10_NB","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03B-10)"
+""
+538,"S1-GAF-TP01B-S_NB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SUPPORTING SYSTEM FOR AFW TP B"
+""
+539,"S1-GED-01D_NB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Loss of power at 125V DC BUS DC01D"
+""
+540,"S1-GED-01DVIC_NB","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER WHEN VALVE IS CLOSED"
+""
+541,"S1-GAF-TP02A-S_NB","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SUPPORTING SYSTEM FOR AFW TP A"
+""
+542,"S1-GED-01CVIC_NB","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER WHEN VALVE IS CLOSED DURING CYCLING OP."
+""
+543,"S1-GMH-TOP-SBO","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"MSHR; INSUFF FLOW FROM AT LEAST 1/4 AFW PUMP TO 1/2 SG (SBO)"
+""
+544,"S1-GAF-SG1-MSHR-SBO","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFFICIENT AFW FROM TR. A TO SG1"
+""
+545,"S1-GAF-SG1-TRA1-MSHR-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN A1"
+""
+546,"S1-GAF-SG1-TRB1-MSHR-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN B1"
+""
+547,"S1-GAF-TRAINA-MSHR-SBO","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TRAIN A (MP A, TP A)"
+""
+548,"S1-GAF-MPA-MSHR-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP A DISCH. LINE"
+""
+549,"S1-GAF-TPA-MSHR-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP A DISCH. LINE"
+""
+550,"S1-GAF-MPA-1-MSHR-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW MP01A"
+""
+551,"S1-GAF-MPA-2-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW MP A"
+""
+552,"S1-GAF-MPA-3-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW MP01A (CONTINUED)"
+""
+553,"S1-GAF-SG2-MSHR-SBO","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFFICIENT AFW FROM TR. A TO SG2"
+""
+554,"S1-GAF-MP01A-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SUPPORTING SYSTEM FOR AFW MP01A"
+""
+555,"S1-GAF-TPA-1-MSHR-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP A"
+""
+556,"S1-GAF-TPA-2-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW TP A"
+""
+557,"S1-GAF-TPA-3-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW TP A (CONTINUED)"
+""
+558,"S1-GAF-TPA-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SUPPORTING SYSTEM FOR AFW TP A"
+""
+559,"S1-GAF-TRA1-VLV-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V0035, V0043, V1007A (TRAIN A1)"
+""
+560,"S1-GAF-OPER-A1-SBO","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN A1 FLOW CONTROL"
+""
+561,"S1-GAF-SV0035-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SV0035"
+""
+562,"S1-GAF-CS0035-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF SOV 0035"
+""
+563,"S1-GAF-CSSV0035-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF SOV 35AA"
+""
+564,"S1-GEX-PA03B-10-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03B-10)"
+""
+565,"S1-GAF-MV0043-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of MV0043"
+""
+566,"S1-GAF-CSMV0043-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MV 0043"
+""
+567,"S1-GAF-PCSMV0043-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF MV 43AA"
+""
+568,"S1-GEX-PA03A-03-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03A-03)"
+""
+569,"S1-GAF-TRAINB-MSHR-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TRAIN B (TP B)"
+""
+570,"S1-GAF-TPB-MSHR-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP B DISCH. LINE"
+""
+571,"S1-GAF-TPB-1-MSHR-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP B"
+""
+572,"S1-GAF-TPB-2-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW TP B"
+""
+573,"S1-GAF-TPB-3-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF AFW TP B (CONTINUED)"
+""
+574,"S1-GAF-TP01B-S-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF SUPPORTING SYSTEM FOR AFW TP B"
+""
+575,"S1-GAF-TRB1-VLV-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V0038, V0046, V1008B (TRAIN B1)"
+""
+576,"S1-GAF-OPER-B1-SBO","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN B1 FLOW CONTROL"
+""
+577,"S1-GAF-SV0038-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SV0038"
+""
+578,"S1-GAF-CSSOV0038-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF SOV 0038"
+""
+579,"S1-GAF-PCSSOV0038-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF SOV 38 BB"
+""
+580,"S1-GAF-MV0046-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of MV0046"
+""
+581,"S1-GAF-CSMV0046-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MV 0046"
+""
+582,"S1-GAF-PCSMV0046-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAilure of PCS Card for AF MV 46BB"
+""
+583,"S1-GEX-PA03D-01-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03D-01)"
+""
+584,"S1-GED-01DVIC-SBO","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER WHEN VALVE IS CLOSED"
+""
+585,"S1-GAF-SG2-TRA2-MSHR-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN A2"
+""
+586,"S1-GAF-TRA2-VLV-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V0037, V0045, V1008A (TRAIN A2)"
+""
+587,"S1-GAF-OPER-A2-SBO","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN A2 FLOW CONTROL"
+""
+588,"S1-GAF-SV0037-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SV0037"
+""
+589,"S1-GAF-MV0045-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of MV0045"
+""
+590,"S1-GAF-CSSOV0037-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF SOV 0037"
+""
+591,"S1-GAF-PCSSOV0037-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF SOV 37AB"
+""
+592,"S1-GAF-CSMV0045-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MV 0045"
+""
+593,"S1-GAF-PCSMV0045-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF MV 45 AB"
+""
+594,"S1-GEX-PA03C-01-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03C-01)"
+""
+595,"S1-GED-01CVIC-SBO","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"LOSS OF POWER WHEN VALVE IS CLOSED DURING CYCLING OP."
+""
+596,"S1-GAF-CSMP01A-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MP 01A"
+""
+597,"S1-GAF-PCSMP01A-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF MP 01A"
+""
+598,"S1-GAF-SG2-TRB2-MSHR-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM TRAIN B2"
+""
+599,"S1-GAF-TRB2-VLV-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF V0036, V0044, V1007B (TRAIN B2)"
+""
+600,"S1-GAF-OPER-B2-SBO","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAILURE OF TRAIN B2 FLOW CONTROL"
+""
+601,"S1-GAF-SV0036-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of SV0036"
+""
+602,"S1-GAF-CSSOV0036-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"FAilure of Control Signal for AF SOV 0036"
+""
+603,"S1-GAF-PCSSOV0036-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for Af SOV 36BA"
+""
+604,"S1-GAF-MV0044-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of MV0044"
+""
+605,"S1-GAF-CSMV0044-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of Control Signal for AF MV 0044"
+""
+606,"S1-GAF-PCSMV0044-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"Failure of PCS Card for AF MV 44BA"
+""
+607,"S1-GEX-PA03B-03-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03B-03)"
+""
+608,"S1-GAF-TOP-SBO","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AT LEAST 1/4 AFW PUMP TO 1/2 SG (SBO)"
+""
+609,"S1-GAF-SG1-SBO","*",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW THROUGH AFW TO SG 1 (SBO-TP)"
+""
+610,"S1-GAF-SG2-SBO","*",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW THROUGH AFW TO SG 2 (SBO-TP)"
+""
+611,"S1-GAF-SG1-TRA1-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFFICIENT FLOW FROM TRAIN A1"
+""
+612,"S1-GAF-SG1-TRB1-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFFICIENT FLOW FROM TRAIN B1"
+""
+613,"S1-GAF-TPB-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP01B DISCH. LINE"
+""
+614,"S1-GAF-TPB-1-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP B"
+""
+615,"S1-GAF-SG2-TRA2-SBO","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFFICIENT FLOW FROM TRAIN A2"
+""
+616,"S1-GAF-SG2-TRB2-SBO","+",-1,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"INSUFFICIENT FLOW FROM TRAIN B2"
+""
+617,"S1-GEX-PA03A-03","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03A-03)"
+""
+618,"S1-GEX-PA03B-03","+",0,0
+0,0,0,0,0,"l",0,"","",0,0,0
+"PCS Card Power (PA03B-03)"
+""
+619,"S1-FSAFAS1A","B",0,1
+5.461E-05,0,5.461E-05,0,0,"L",0,"","",0,0,0
+"Failure of AFAS-1 Train A"
+""
+620,"S1-FSAFAS2B","B",0,1
+5.761E-05,0,5.761E-05,0,0,"L",0,"","",0,0,0
+"Failure of AFAS-2 Train B"
+""
+621,"S1-FSAFAS1B","B",0,1
+5.461E-05,0,5.461E-05,0,0,"L",0,"","",0,0,0
+"Failure of AFAS-1 Train B"
+""
+622,"S1-FSAFAS2A","B",0,1
+5.761E-05,0,5.761E-05,0,0,"L",0,"","",0,0,0
+"Failure of AFAS-2 Train A"
+""
+623,"S1-GFS-AFASA","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+624,"S1-GFS-AFASB","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+625,"S1-GAF-TPA-1-SHR-SBO","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"INSUFF FLOW FROM AFW TP A"
+""
+626,"S1-GFS-AFAS1A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of AFAS-1 Train A"
+""
+627,"S1-FSPMW-AB","B",0,0
+0.000140279,3,3.96E-06,1440,0,"L",0,"","",0.0492,0,0
+"CCF OF GC PM3 MODULES"
+""
+628,"S1-GFS-AFAS2B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of AFAS-2 Train B"
+""
+629,"S1-GFS-AFAS1B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of AFAS-1 Train B"
+""
+630,"S1-GFS-AFAS2A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of AFAS-2 Train A"
+""
+"#TreeLogic"
+1,"*",2
+2
+3
+2,"*",2
+361
+362
+3,"*",2
+364
+365
+4,"*",2
+8
+16
+5,"*",2
+19
+12
+6,"+",1
+8
+7,"+",1
+19
+8,"+",5
+22
+23
+24
+25
+253
+12,"+",5
+26
+27
+28
+29
+357
+16,"+",5
+30
+31
+32
+33
+315
+19,"+",5
+34
+35
+36
+37
+339
+22,"+",3
+490
+38
+39
+26,"+",3
+492
+43
+44
+30,"+",3
+490
+48
+49
+34,"+",3
+492
+52
+53
+39,"+",8
+56
+57
+58
+59
+400
+401
+60
+426
+41,"+",2
+196
+166
+44,"+",8
+63
+64
+65
+66
+74
+426
+402
+403
+46,"+",2
+200
+175
+49,"+",8
+70
+71
+72
+73
+402
+403
+60
+426
+51,"+",2
+204
+190
+53,"+",8
+78
+79
+80
+81
+400
+401
+74
+426
+55,"+",2
+208
+181
+57,"+",2
+85
+86
+61,"+",2
+198
+169
+62,"*",2
+87
+88
+64,"+",3
+89
+90
+538
+68,"+",2
+202
+178
+69,"*",2
+97
+88
+71,"+",3
+92
+93
+541
+76,"+",2
+206
+193
+77,"*",2
+532
+88
+79,"+",2
+95
+96
+83,"+",2
+210
+184
+84,"*",2
+539
+88
+85,"+",2
+98
+99
+86,"+",4
+100
+101
+102
+42
+89,"+",2
+103
+110
+90,"+",6
+104
+105
+404
+106
+107
+405
+92,"+",2
+109
+99
+93,"+",6
+111
+112
+404
+113
+114
+405
+95,"+",2
+116
+110
+96,"+",4
+117
+118
+119
+47
+98,"+",3
+120
+121
+242
+100,"=",1
+122
+101,"+",2
+212
+174
+103,"+",3
+123
+124
+369
+104,"+",4
+406
+130
+131
+132
+107,"+",2
+221
+222
+109,"+",3
+128
+129
+373
+111,"+",4
+125
+126
+127
+406
+114,"+",2
+216
+217
+116,"+",3
+133
+134
+377
+117,"=",1
+135
+118,"+",2
+214
+187
+127,"+",2
+234
+235
+132,"+",2
+232
+233
+142,"+",2
+143
+144
+143,"+",4
+140
+149
+141
+150
+144,"+",4
+148
+155
+141
+150
+145,"+",2
+146
+147
+146,"+",4
+140
+158
+141
+150
+147,"+",4
+148
+163
+141
+150
+149,"+",5
+151
+152
+153
+154
+137
+155,"+",5
+156
+152
+157
+154
+136
+158,"+",5
+159
+160
+161
+162
+137
+163,"+",5
+164
+160
+165
+162
+136
+166,"*",2
+167
+142
+167,"+",2
+168
+624
+169,"*",2
+170
+142
+170,"+",2
+171
+626
+172,"+",2
+173
+623
+174,"*",2
+172
+142
+175,"*",2
+176
+142
+176,"+",2
+177
+623
+178,"*",2
+179
+142
+179,"+",2
+180
+628
+181,"*",2
+182
+145
+182,"+",2
+183
+623
+184,"*",2
+185
+145
+185,"+",2
+186
+629
+187,"*",2
+188
+145
+188,"+",2
+189
+624
+190,"*",2
+191
+145
+191,"+",2
+192
+623
+193,"*",2
+194
+145
+194,"+",2
+195
+620
+196,"+",2
+197
+537
+198,"+",2
+199
+519
+200,"+",2
+201
+519
+202,"+",2
+203
+521
+204,"+",2
+205
+537
+206,"+",2
+207
+527
+208,"+",2
+209
+519
+210,"+",2
+211
+529
+212,"+",2
+213
+617
+214,"+",2
+215
+618
+216,"+",1
+218
+217,"*",2
+219
+145
+219,"+",2
+220
+624
+221,"+",1
+223
+222,"*",2
+224
+142
+224,"+",2
+225
+623
+227,"+",2
+228
+623
+230,"+",2
+231
+624
+232,"+",1
+229
+233,"*",2
+230
+145
+234,"+",1
+226
+235,"*",2
+227
+142
+240,"*",2
+381
+397
+241,"+",1
+236
+242,"+",3
+250
+251
+252
+250,"+",3
+243
+247
+249
+251,"+",3
+244
+246
+248
+252,"+",1
+245
+253,"+",3
+261
+262
+263
+261,"+",3
+254
+258
+260
+262,"+",3
+255
+257
+259
+263,"+",1
+256
+264,"+",3
+272
+273
+274
+272,"+",3
+265
+269
+271
+273,"+",3
+266
+268
+270
+274,"+",1
+267
+275,"+",3
+283
+284
+285
+283,"+",3
+276
+280
+282
+284,"+",3
+277
+279
+281
+285,"+",1
+278
+289,"+",3
+293
+294
+295
+293,"+",3
+265
+290
+292
+294,"+",3
+266
+268
+291
+295,"+",1
+267
+296,"+",3
+304
+305
+306
+304,"+",3
+297
+301
+303
+305,"+",3
+298
+300
+302
+306,"+",1
+299
+307,"+",3
+311
+312
+313
+311,"+",3
+282
+309
+310
+312,"+",3
+279
+281
+308
+313,"+",1
+278
+315,"+",3
+319
+320
+321
+319,"+",3
+258
+316
+318
+320,"+",3
+255
+259
+317
+321,"+",1
+256
+322,"+",3
+324
+325
+326
+324,"+",3
+269
+290
+323
+325,"+",3
+266
+270
+291
+326,"+",1
+267
+327,"+",3
+331
+332
+333
+331,"+",3
+328
+301
+330
+332,"+",3
+298
+329
+302
+333,"+",1
+299
+334,"+",3
+336
+337
+338
+336,"+",3
+280
+335
+310
+337,"+",3
+277
+281
+308
+338,"+",1
+278
+339,"+",3
+341
+342
+343
+341,"+",3
+254
+316
+340
+342,"+",3
+255
+257
+317
+343,"+",1
+256
+344,"+",3
+345
+346
+347
+345,"+",3
+271
+292
+323
+346,"+",3
+268
+270
+291
+347,"+",1
+267
+348,"+",3
+349
+350
+351
+349,"+",3
+276
+335
+309
+350,"+",3
+277
+279
+308
+351,"+",1
+278
+352,"+",3
+354
+355
+356
+354,"+",3
+297
+328
+353
+355,"+",3
+298
+300
+329
+356,"+",1
+299
+357,"+",3
+358
+359
+360
+358,"+",3
+260
+340
+318
+359,"+",3
+257
+259
+317
+360,"+",1
+256
+361,"+",2
+4
+363
+362,"+",2
+5
+366
+363,"+",4
+439
+504
+10
+11
+364,"+",2
+4
+367
+365,"+",2
+5
+368
+366,"+",4
+442
+505
+21
+512
+367,"+",4
+445
+506
+18
+513
+368,"+",4
+448
+507
+14
+15
+369,"+",3
+370
+371
+372
+370,"+",3
+249
+287
+288
+371,"+",3
+246
+248
+286
+372,"+",1
+245
+373,"+",3
+374
+375
+376
+374,"+",3
+247
+314
+288
+375,"+",3
+244
+248
+286
+376,"+",1
+245
+377,"+",3
+378
+379
+380
+378,"+",3
+243
+314
+287
+379,"+",3
+244
+246
+286
+380,"+",1
+245
+381,"*",2
+382
+389
+382,"+",2
+383
+363
+383,"*",2
+384
+387
+384,"+",5
+385
+23
+24
+25
+253
+385,"+",3
+386
+38
+39
+386,"+",3
+237
+494
+497
+387,"+",5
+388
+31
+32
+33
+315
+388,"+",3
+48
+49
+386
+389,"+",2
+390
+366
+390,"*",2
+395
+391
+391,"+",5
+392
+27
+28
+29
+357
+392,"+",3
+43
+44
+393
+393,"+",3
+237
+502
+497
+394,"+",1
+395
+395,"+",5
+396
+35
+36
+37
+339
+396,"+",3
+393
+52
+53
+397,"*",2
+398
+399
+398,"+",2
+367
+383
+399,"+",2
+368
+390
+408,"+",5
+409
+410
+411
+412
+413
+414,"+",2
+429
+430
+415,"+",2
+5
+421
+416,"+",2
+17
+489
+417,"+",4
+50
+51
+533
+487
+418,"+",4
+75
+76
+77
+488
+419,"+",3
+420
+61
+62
+421,"+",4
+451
+511
+14
+15
+422,"+",4
+67
+68
+69
+488
+423,"+",4
+416
+510
+18
+513
+424,"+",2
+458
+462
+427,"+",2
+471
+474
+428,"+",2
+477
+478
+429,"*",2
+432
+433
+430,"*",2
+431
+415
+431,"+",3
+6
+423
+419
+432,"+",2
+4
+436
+433,"+",3
+7
+437
+434
+434,"+",3
+435
+68
+69
+436,"+",4
+454
+508
+10
+11
+437,"+",4
+457
+509
+21
+512
+438,"+",4
+449
+61
+62
+352
+439,"+",2
+9
+275
+440,"+",4
+54
+55
+531
+344
+441,"+",4
+82
+83
+540
+514
+442,"+",2
+13
+307
+443,"+",4
+50
+51
+533
+322
+444,"+",4
+75
+76
+542
+327
+445,"+",2
+17
+334
+446,"+",4
+45
+46
+531
+289
+447,"+",4
+67
+68
+69
+296
+448,"+",2
+20
+348
+450,"+",4
+45
+46
+531
+487
+451,"+",2
+20
+489
+452,"+",4
+40
+41
+533
+484
+453,"+",4
+449
+61
+62
+485
+454,"+",2
+9
+486
+455,"+",4
+54
+55
+531
+484
+456,"+",4
+82
+83
+84
+485
+457,"+",2
+13
+486
+458,"*",2
+459
+460
+459,"+",2
+4
+436
+460,"+",3
+7
+437
+461
+461,"+",2
+468
+469
+462,"*",2
+463
+464
+463,"+",3
+6
+423
+465
+464,"+",2
+5
+421
+465,"*",2
+466
+467
+466,"+",3
+420
+61
+62
+467,"+",3
+425
+41
+533
+468,"+",4
+435
+68
+69
+108
+469,"+",3
+470
+46
+531
+471,"*",2
+472
+473
+472,"+",2
+383
+436
+473,"+",3
+395
+437
+434
+474,"*",2
+475
+476
+475,"+",3
+384
+423
+419
+476,"+",2
+390
+421
+477,"*",2
+479
+480
+478,"*",2
+481
+482
+479,"+",2
+383
+436
+480,"+",3
+394
+437
+461
+481,"+",3
+384
+423
+465
+482,"+",2
+390
+421
+490,"+",2
+491
+501
+492,"+",2
+493
+407
+494,"+",2
+495
+496
+495,"*",2
+239
+238
+496,"+",1
+501
+497,"*",3
+498
+408
+241
+498,"+",2
+499
+500
+502,"+",2
+495
+503
+503,"+",1
+407
+504,"*",2
+534
+438
+505,"*",2
+440
+441
+506,"*",2
+443
+444
+507,"*",2
+446
+447
+508,"*",2
+452
+453
+509,"*",2
+455
+456
+510,"*",2
+417
+418
+511,"*",2
+450
+422
+514,"+",3
+515
+516
+517
+515,"+",3
+353
+303
+330
+516,"+",3
+300
+329
+302
+517,"+",1
+299
+519,"+",1
+520
+521,"+",1
+518
+526,"+",4
+442
+576
+21
+512
+527,"+",1
+528
+529,"+",1
+530
+534,"+",4
+40
+535
+264
+533
+535,"+",2
+536
+166
+536,"+",2
+197
+537
+537,"+",1
+518
+538,"+",1
+539
+540,"*",2
+539
+88
+541,"+",1
+532
+542,"*",2
+532
+88
+543,"*",2
+544
+553
+544,"*",2
+545
+546
+545,"+",2
+547
+559
+546,"+",2
+569
+575
+547,"*",2
+548
+549
+548,"+",5
+550
+23
+24
+25
+253
+549,"+",5
+555
+31
+32
+33
+315
+550,"+",3
+386
+38
+551
+551,"+",8
+56
+552
+58
+59
+400
+401
+60
+426
+552,"+",2
+85
+554
+553,"*",2
+585
+598
+554,"+",4
+100
+596
+102
+522
+555,"+",3
+48
+556
+386
+556,"+",8
+70
+557
+72
+73
+402
+403
+60
+426
+557,"+",3
+92
+93
+558
+558,"+",5
+625
+31
+32
+33
+315
+559,"+",4
+439
+560
+10
+11
+560,"*",2
+561
+565
+561,"+",4
+40
+562
+264
+525
+562,"+",2
+563
+166
+563,"+",2
+197
+564
+564,"+",1
+524
+565,"+",4
+449
+566
+62
+352
+566,"+",2
+567
+169
+567,"+",2
+199
+568
+568,"+",1
+523
+569,"+",1
+570
+570,"+",5
+571
+27
+28
+29
+357
+571,"+",3
+43
+572
+393
+572,"+",8
+63
+573
+65
+66
+74
+426
+402
+403
+573,"+",3
+89
+90
+574
+574,"+",1
+94
+575,"+",4
+442
+576
+21
+512
+576,"*",2
+577
+580
+577,"+",4
+54
+578
+522
+344
+578,"+",2
+579
+181
+579,"+",2
+209
+568
+580,"+",4
+82
+581
+584
+514
+581,"+",2
+582
+184
+582,"+",2
+211
+583
+583,"+",1
+139
+584,"*",2
+138
+88
+585,"+",2
+547
+586
+586,"+",4
+445
+587
+18
+513
+587,"*",2
+588
+589
+588,"+",4
+50
+590
+525
+322
+589,"+",4
+75
+592
+595
+327
+590,"+",2
+591
+190
+591,"+",2
+205
+564
+592,"+",2
+593
+193
+593,"+",2
+207
+594
+594,"+",1
+138
+595,"*",2
+91
+88
+596,"+",2
+597
+174
+597,"+",2
+213
+568
+598,"+",2
+599
+569
+599,"+",4
+448
+600
+14
+15
+600,"*",2
+601
+604
+601,"+",4
+45
+602
+522
+289
+602,"+",2
+603
+175
+603,"+",2
+201
+568
+604,"+",4
+67
+605
+69
+296
+605,"+",2
+606
+178
+606,"+",2
+203
+607
+607,"+",1
+524
+608,"*",2
+609
+610
+609,"*",2
+611
+612
+610,"*",2
+615
+616
+611,"+",2
+558
+559
+612,"+",2
+613
+526
+613,"+",5
+614
+27
+28
+29
+483
+614,"+",3
+492
+43
+572
+615,"+",2
+558
+586
+616,"+",2
+613
+599
+617,"+",1
+115
+618,"+",1
+108
+623,"*",2
+626
+630
+624,"*",2
+629
+628
+625,"+",3
+490
+48
+556
+626,"+",2
+619
+627
+628,"+",2
+620
+627
+629,"+",2
+621
+627
+630,"+",2
+622
+627
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

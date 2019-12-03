@@ -1,0 +1,4 @@
+Event        95%-5%HCLPF     1%HCLPF      05%_PF      50%_PF      95%_PF     Mean_PF
+#S1SEISMIC-1 No_solution No_solution   4.708E-04   4.806E-04   4.826E-04   4.792E-04
+#S1SEISMIC-2       0.295       0.295   1.347E-07   1.661E-06   1.140E-05   3.210E-06
+#S1SEISMIC-3       0.495       0.494   1.290E-08   2.748E-07   2.399E-06   6.322E-07

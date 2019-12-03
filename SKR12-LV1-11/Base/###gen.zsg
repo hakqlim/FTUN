@@ -1,0 +1,22 @@
+
+KCUT Version 4.9 2009.10.15 + Uncertainty
+Boolean Equation Reduction Program + Uncertainty
+Copyright  Han, S.H.         KAERI
+          Thu Sep 28 18:18:14 2017
+
+
+LEVEL ( 0.000e+000 )  . 
+RDEQN . 
+VALUE . 
+GENPRG ( S1-SKR12-INT-CDF / PROBA * 1.000e-011 / LOGICALLOOP /  / 
+
+warning - no data for some events  (0 cut sets, 0 sec)
+SAVERAW ( S1-SKR12-INT-CDF )  . 
+##TOP = S1-SKR12-INT-CDF . 
+MERGE ( ##TOP )  . 
+S1-SKR12-INT-CDF_POST = ##TOP . 
+MERGE ( S1-SKR12-INT-CDF_POST )  . 
+SAVERAW ( S1-SKR12-INT-CDF_POST / APPEND )  . 
+
+
+Execution time 0 seconds (gen:0, exp:0, abs:0), Return Code = 2

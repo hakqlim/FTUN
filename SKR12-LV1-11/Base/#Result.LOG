@@ -1,0 +1,416 @@
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 1.9.0.8 KAERI (64 BIT, JAN 10, 2019)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+ [A].    0.05 sec.  MCS # =           0 (Read FT)
+---------------------------------------------------------------------------
+ INITIATORS THAT ARE NOT DEFINED IN THE DATA BLOCK
+---------------------------------------------------------------------------
+ %S1-LL-CL1B
+ %S1-LL-CL2A
+ %S1-LL-CL2B
+ %S1-ML-CL1B
+ %S1-ML-CL2A
+ %S1-ML-CL2B
+ %S1-MSLB-IC-SG2
+ %S1-MSLB-OC-SG2
+ %S1-SGTR-SG2
+ ---[WARNING]---------------------------------------------------------------
+ MSG1 = 9 initiators are not defined in the data block.
+ MSG2 = Examine your initiators. See [#Result.LOG].
+ ---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ HOUSE EVENTS THAT ARE NOT DEFINED IN THE DATA BLOACK
+---------------------------------------------------------------------------
+ %S1-LL-CL1B
+ %S1-LL-CL2A
+ %S1-LL-CL2B
+ %S1-ML-CL1B
+ %S1-ML-CL2A
+ %S1-ML-CL2B
+ %S1-MSLB-IC-SG2
+ %S1-MSLB-OC-SG2
+ %S1-SGTR-SG2
+ S1-GCV-P02RUN/P01SB
+ NOT FOUND
+---------------------------------------------------------------------------
+ GATES DEFINED IN INPUT AND RULE FILES  THE SAME NAME
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ Gate [S1-GHV-AH03AFAIL] has duplicated inputs [S1-GEA-01A]
+ Gate [S1-GHV-AH03AFAIL[1]] has duplicated inputs [S1-GEA-01A[1]]
+ Gate [S1-GHV-AH03AFAIL[2]] has duplicated inputs [S1-GEA-01A[2]]
+ Gate [S1-GHV-AH03BFAIL] has duplicated inputs [S1-GEA-01B]
+ Gate [S1-GHV-AH03BFAIL[1]] has duplicated inputs [S1-GEA-01B[1]]
+ Gate [S1-GHV-AH03BFAIL[2]] has duplicated inputs [S1-GEA-01B[2]]
+ Gate [S1-GHV-AH04ASUP] has duplicated inputs [S1-GEA-01A]
+ Gate [S1-GHV-AH04ASUP[1]] has duplicated inputs [S1-GEA-01A[1]]
+ Gate [S1-GHV-AH04ASUP[2]] has duplicated inputs [S1-GEA-01A[2]]
+ Gate [S1-GHV-AH04BSUP] has duplicated inputs [S1-GEA-01B]
+ Gate [S1-GHV-AH04BSUP[1]] has duplicated inputs [S1-GEA-01B[1]]
+ Gate [S1-GHV-AH04BSUP[2]] has duplicated inputs [S1-GEA-01B[2]]
+ Gate [S1-GHV-AH07ASUP] has duplicated inputs [S1-GEA-01A]
+ Gate [S1-GHV-AH07ASUP[1]] has duplicated inputs [S1-GEA-01A[1]]
+ Gate [S1-GHV-AH07ASUP[2]] has duplicated inputs [S1-GEA-01A[2]]
+ Gate [S1-GHV-AH07BSUP] has duplicated inputs [S1-GEA-01B]
+ Gate [S1-GHV-AH07BSUP[1]] has duplicated inputs [S1-GEA-01B[1]]
+ Gate [S1-GHV-AH07BSUP[2]] has duplicated inputs [S1-GEA-01B[2]]
+ ---[WARNING]---------------------------------------------------------------
+ MSG1 = 18 events are duplicated in the fault tree.
+ MSG2 = See [#Result.LOG].
+ ---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=0 by /ASSP=0)
+---------------------------------------------------------------------------
+ S1-MFOPHSUFWP
+ S1-MFOPHSUFWP-LD
+ S1-MXOPHRWT-MD,
+ ---[WARNING]---------------------------------------------------------------
+ MSG1 = 3 events are not defined (type and probability).
+ MSG2 = Their probabilities are set to one. See [#Result.LOG].
+ ---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [###gen.kir]
+---------------------------------------------------------------------------
+ INPUT  FILE      = ###gen.kir
+ OUTPUT FILE      = #Result.raw
+ TOP EVENT      # = 1 (S1-INT-CDF ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-014
+ GATE           # =        5545
+ EVENT          # =        1978
+-GATE           # =         199
+-EVENT          # =          12
+ EVENT (P=1)    # =         228
+ EVENT (P>1)    # =           4
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =          15 (MAX = 7.4400e-001)
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =          12
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+ TOP EVENT        = S1-INT-CDF
+ INITIATING EVENT = 7.4400e-001 %S1-GTRN
+                  = 6.1700e-009 %S1-ISL
+                  = 7.4600e-007 %S1-LL-CL1A
+                  = 7.7600e-002 %S1-LOCV
+                  = 2.5900e-003 %S1-LODCA
+                  = 2.5900e-003 %S1-LODCB
+                  = 4.3100e-002 %S1-LOFW
+                  = 2.4800e-002 %S1-LOOP
+                  = 2.2100e-004 %S1-ML-CL1A
+                  = 3.6700e-004 %S1-MSLB-IC-SG1
+                  = 7.7000e-003 %S1-MSLB-OC-SG1
+                  = 3.6300e-008 %S1-RVR
+                  = 4.9200e-003 %S1-SGTR-SG1
+                  = 1.7300e-003 %S1-SL
+                  = 2.4600e-004 %S1-TLOCCW
+ EVENT (P=1)      = 1.0000e+000 #S1-CSGTR-03
+                  = 1.0000e+000 #S1-CSGTR-05
+                  = 1.0000e+000 #S1-CSGTR-07
+                  = 1.0000e+000 #S1-CSGTR-09
+                  = 1.0000e+000 #S1-CSGTR-10
+                  = 1.0000e+000 #S1-CSGTR-11
+                  = 1.0000e+000 #S1-CSGTR-12
+                  = 1.0000e+000 #S1-CSGTR-13
+                  = 1.0000e+000 #S1-CSLOCA-02
+                  = 1.0000e+000 #S1-CSLOCA-04
+                  = 1.0000e+000 #S1-CSLOCA-05
+                  = 1.0000e+000 #S1-CSLOCA-06
+                  = 1.0000e+000 #S1-CSLOCA-08
+                  = 1.0000e+000 #S1-CSLOCA-09
+                  = 1.0000e+000 #S1-CSLOCA-10
+                  = 1.0000e+000 #S1-CSLOCA-12
+                  = 1.0000e+000 #S1-CSLOCA-13
+                  = 1.0000e+000 #S1-CSLOCA-14
+                  = 1.0000e+000 #S1-CSLOCA-16
+                  = 1.0000e+000 #S1-CSLOCA-17
+                  = 1.0000e+000 #S1-CSLOCA-18
+                  = 1.0000e+000 #S1-CSLOCA-19
+                  = 1.0000e+000 #S1-GIE-ATWS-03
+                  = 1.0000e+000 #S1-GIE-ATWS-04
+                  = 1.0000e+000 #S1-GIE-ATWS-05
+                  = 1.0000e+000 #S1-GIE-ATWS-06
+                  = 1.0000e+000 #S1-GIE-ATWS-07
+                  = 1.0000e+000 #S1-GIE-ATWS-09
+                  = 1.0000e+000 #S1-GIE-ATWS-10
+                  = 1.0000e+000 #S1-GIE-ATWS-11
+                  = 1.0000e+000 #S1-GIE-ATWS-12
+                  = 1.0000e+000 #S1-GIE-ATWS-13
+                  = 1.0000e+000 #S1-GIE-ATWS-15
+                  = 1.0000e+000 #S1-GIE-ATWS-16
+                  = 1.0000e+000 #S1-GIE-ATWS-17
+                  = 1.0000e+000 #S1-GIE-ATWS-18
+                  = 1.0000e+000 #S1-GIE-ATWS-21
+                  = 1.0000e+000 #S1-GIE-ATWS-22
+                  = 1.0000e+000 #S1-GIE-ATWS-23
+                  = 1.0000e+000 #S1-GIE-ATWS-24
+                  = 1.0000e+000 #S1-GIE-ATWS-25
+                  = 1.0000e+000 #S1-GIE-ATWS-27
+                  = 1.0000e+000 #S1-GIE-ATWS-28
+                  = 1.0000e+000 #S1-GIE-ATWS-29
+                  = 1.0000e+000 #S1-GIE-ATWS-30
+                  = 1.0000e+000 #S1-GIE-ATWS-31
+                  = 1.0000e+000 #S1-GIE-ATWS-33
+                  = 1.0000e+000 #S1-GIE-ATWS-34
+                  = 1.0000e+000 #S1-GIE-ATWS-35
+                  = 1.0000e+000 #S1-GIE-ATWS-36
+                  = 1.0000e+000 #S1-GIE-GTRN-03
+                  = 1.0000e+000 #S1-GIE-GTRN-04
+                  = 1.0000e+000 #S1-GIE-GTRN-05
+                  = 1.0000e+000 #S1-GIE-GTRN-06
+                  = 1.0000e+000 #S1-GIE-GTRN-08
+                  = 1.0000e+000 #S1-GIE-GTRN-09
+                  = 1.0000e+000 #S1-GIE-GTRN-10
+                  = 1.0000e+000 #S1-GIE-GTRN-11
+                  = 1.0000e+000 #S1-GIE-ISLOCA-1
+                  = 1.0000e+000 #S1-GIE-LLOCA-2
+                  = 1.0000e+000 #S1-GIE-LLOCA-3
+                  = 1.0000e+000 #S1-GIE-LLOCA-4
+                  = 1.0000e+000 #S1-GIE-LLOCA-5
+                  = 1.0000e+000 #S1-GIE-LLOCA-6
+                  = 1.0000e+000 #S1-GIE-LOCV-03
+                  = 1.0000e+000 #S1-GIE-LOCV-04
+                  = 1.0000e+000 #S1-GIE-LOCV-05
+                  = 1.0000e+000 #S1-GIE-LOCV-06
+                  = 1.0000e+000 #S1-GIE-LOCV-08
+                  = 1.0000e+000 #S1-GIE-LOCV-09
+                  = 1.0000e+000 #S1-GIE-LOCV-10
+                  = 1.0000e+000 #S1-GIE-LOCV-11
+                  = 1.0000e+000 #S1-GIE-LODCA-03
+                  = 1.0000e+000 #S1-GIE-LODCA-04
+                  = 1.0000e+000 #S1-GIE-LODCA-05
+                  = 1.0000e+000 #S1-GIE-LODCA-06
+                  = 1.0000e+000 #S1-GIE-LODCA-08
+                  = 1.0000e+000 #S1-GIE-LODCA-09
+                  = 1.0000e+000 #S1-GIE-LODCA-10
+                  = 1.0000e+000 #S1-GIE-LODCA-11
+                  = 1.0000e+000 #S1-GIE-LODCB-03
+                  = 1.0000e+000 #S1-GIE-LODCB-04
+                  = 1.0000e+000 #S1-GIE-LODCB-05
+                  = 1.0000e+000 #S1-GIE-LODCB-06
+                  = 1.0000e+000 #S1-GIE-LODCB-08
+                  = 1.0000e+000 #S1-GIE-LODCB-09
+                  = 1.0000e+000 #S1-GIE-LODCB-10
+                  = 1.0000e+000 #S1-GIE-LODCB-11
+                  = 1.0000e+000 #S1-GIE-LOFW-03
+                  = 1.0000e+000 #S1-GIE-LOFW-04
+                  = 1.0000e+000 #S1-GIE-LOFW-05
+                  = 1.0000e+000 #S1-GIE-LOFW-06
+                  = 1.0000e+000 #S1-GIE-LOFW-08
+                  = 1.0000e+000 #S1-GIE-LOFW-09
+                  = 1.0000e+000 #S1-GIE-LOFW-10
+                  = 1.0000e+000 #S1-GIE-LOFW-11
+                  = 1.0000e+000 #S1-GIE-LOOP-03
+                  = 1.0000e+000 #S1-GIE-LOOP-04
+                  = 1.0000e+000 #S1-GIE-LOOP-05
+                  = 1.0000e+000 #S1-GIE-LOOP-06
+                  = 1.0000e+000 #S1-GIE-LOOP-08
+                  = 1.0000e+000 #S1-GIE-LOOP-09
+                  = 1.0000e+000 #S1-GIE-LOOP-10
+                  = 1.0000e+000 #S1-GIE-LOOP-11
+                  = 1.0000e+000 #S1-GIE-MLOCA-2
+                  = 1.0000e+000 #S1-GIE-MLOCA-3
+                  = 1.0000e+000 #S1-GIE-MLOCA-4
+                  = 1.0000e+000 #S1-GIE-MLOCA-5
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-03
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-04
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-05
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-06
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-08
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-09
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-10
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-11
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-13
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-14
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-15
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-16
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-18
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-19
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-20
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-21
+                  = 1.0000e+000 #S1-GIE-MSLB-IC-23
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-03
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-04
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-05
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-06
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-08
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-09
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-10
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-11
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-13
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-14
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-15
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-16
+                  = 1.0000e+000 #S1-GIE-MSLB-OC-18
+                  = 1.0000e+000 #S1-GIE-RVR-1
+                  = 1.0000e+000 #S1-GIE-SBO-R-03
+                  = 1.0000e+000 #S1-GIE-SBO-R-04
+                  = 1.0000e+000 #S1-GIE-SBO-R-05
+                  = 1.0000e+000 #S1-GIE-SBO-R-06
+                  = 1.0000e+000 #S1-GIE-SBO-R-08
+                  = 1.0000e+000 #S1-GIE-SBO-R-09
+                  = 1.0000e+000 #S1-GIE-SBO-R-10
+                  = 1.0000e+000 #S1-GIE-SBO-R-11
+                  = 1.0000e+000 #S1-GIE-SBO-R-12
+                  = 1.0000e+000 #S1-GIE-SBO-R-14
+                  = 1.0000e+000 #S1-GIE-SBO-R-15
+                  = 1.0000e+000 #S1-GIE-SBO-R-16
+                  = 1.0000e+000 #S1-GIE-SBO-R-17
+                  = 1.0000e+000 #S1-GIE-SBO-R-18
+                  = 1.0000e+000 #S1-GIE-SBO-R-20
+                  = 1.0000e+000 #S1-GIE-SBO-R-21
+                  = 1.0000e+000 #S1-GIE-SBO-R-22
+                  = 1.0000e+000 #S1-GIE-SBO-R-23
+                  = 1.0000e+000 #S1-GIE-SBO-R-25
+                  = 1.0000e+000 #S1-GIE-SBO-R-26
+                  = 1.0000e+000 #S1-GIE-SBO-R-27
+                  = 1.0000e+000 #S1-GIE-SBO-R-28
+                  = 1.0000e+000 #S1-GIE-SBO-R-29
+                  = 1.0000e+000 #S1-GIE-SBO-R-30
+                  = 1.0000e+000 #S1-GIE-SBO-R-31
+                  = 1.0000e+000 #S1-GIE-SBO-S-03
+                  = 1.0000e+000 #S1-GIE-SBO-S-04
+                  = 1.0000e+000 #S1-GIE-SBO-S-05
+                  = 1.0000e+000 #S1-GIE-SBO-S-06
+                  = 1.0000e+000 #S1-GIE-SBO-S-08
+                  = 1.0000e+000 #S1-GIE-SBO-S-09
+                  = 1.0000e+000 #S1-GIE-SBO-S-10
+                  = 1.0000e+000 #S1-GIE-SBO-S-11
+                  = 1.0000e+000 #S1-GIE-SBO-S-12
+                  = 1.0000e+000 #S1-GIE-SBO-S-14
+                  = 1.0000e+000 #S1-GIE-SBO-S-15
+                  = 1.0000e+000 #S1-GIE-SBO-S-16
+                  = 1.0000e+000 #S1-GIE-SBO-S-17
+                  = 1.0000e+000 #S1-GIE-SBO-S-18
+                  = 1.0000e+000 #S1-GIE-SBO-S-20
+                  = 1.0000e+000 #S1-GIE-SBO-S-21
+                  = 1.0000e+000 #S1-GIE-SBO-S-22
+                  = 1.0000e+000 #S1-GIE-SBO-S-23
+                  = 1.0000e+000 #S1-GIE-SBO-S-25
+                  = 1.0000e+000 #S1-GIE-SBO-S-26
+                  = 1.0000e+000 #S1-GIE-SBO-S-27
+                  = 1.0000e+000 #S1-GIE-SBO-S-28
+                  = 1.0000e+000 #S1-GIE-SBO-S-29
+                  = 1.0000e+000 #S1-GIE-SBO-S-30
+                  = 1.0000e+000 #S1-GIE-SBO-S-31
+                  = 1.0000e+000 #S1-GIE-SGTR-03
+                  = 1.0000e+000 #S1-GIE-SGTR-05
+                  = 1.0000e+000 #S1-GIE-SGTR-07
+                  = 1.0000e+000 #S1-GIE-SGTR-10
+                  = 1.0000e+000 #S1-GIE-SGTR-12
+                  = 1.0000e+000 #S1-GIE-SGTR-14
+                  = 1.0000e+000 #S1-GIE-SGTR-16
+                  = 1.0000e+000 #S1-GIE-SGTR-17
+                  = 1.0000e+000 #S1-GIE-SGTR-18
+                  = 1.0000e+000 #S1-GIE-SGTR-19
+                  = 1.0000e+000 #S1-GIE-SGTR-20
+                  = 1.0000e+000 #S1-GIE-SGTR-22
+                  = 1.0000e+000 #S1-GIE-SGTR-23
+                  = 1.0000e+000 #S1-GIE-SGTR-24
+                  = 1.0000e+000 #S1-GIE-SGTR-25
+                  = 1.0000e+000 #S1-GIE-SGTR-26
+                  = 1.0000e+000 #S1-GIE-SLOCA-02
+                  = 1.0000e+000 #S1-GIE-SLOCA-04
+                  = 1.0000e+000 #S1-GIE-SLOCA-05
+                  = 1.0000e+000 #S1-GIE-SLOCA-06
+                  = 1.0000e+000 #S1-GIE-SLOCA-08
+                  = 1.0000e+000 #S1-GIE-SLOCA-09
+                  = 1.0000e+000 #S1-GIE-SLOCA-10
+                  = 1.0000e+000 #S1-GIE-SLOCA-12
+                  = 1.0000e+000 #S1-GIE-SLOCA-13
+                  = 1.0000e+000 #S1-GIE-SLOCA-14
+                  = 1.0000e+000 #S1-GIE-SLOCA-16
+                  = 1.0000e+000 #S1-GIE-SLOCA-17
+                  = 1.0000e+000 #S1-GIE-SLOCA-18
+                  = 1.0000e+000 #S1-GIE-SLOCA-19
+                  = 1.0000e+000 #S1-GIE-TLOCCW-2
+                  = 1.0000e+000 #S1-GIE-TLOCCW-3
+                  = 1.0000e+000 #S1-GIE-TLOCCW-4
+                  = 1.0000e+000 #S1-GIE-TLOCCW-5
+                  = 1.0000e+000 S1-HEOPVAH02BB-CD
+                  = 1.0000e+000 S1-HEOPVAH08BB-CD
+                  = 1.0000e+000 S1-MXOPHRWT-MD1
+                  = 1.0000e+000 S1-WHOPHMV0027-CD
+                  = 1.0000e+000 S1-WTOPHHE03VALVES-MD
+ EVENT (P>1)      = 3.0300e+000 S1-RCOPHPCON-MD1
+                  = 2.0900e+000 S1-SDOPHLATE-MD1
+                  = 5.9670e+000 S1-SDOPHLATE-MD2
+                  = 5.9867e+000 S1-WHOPHMV0027-MD
+ ---[WARNING]---------------------------------------------------------------
+ MSG1 = 4 events have probability larger than 1.
+	Assign them as initiators. Else, 
+	FTREX does not guarantee all MCSs.
+ MSG2 = 3.030e+000 S1-RCOPHPCON-MD1
+	2.090e+000 S1-SDOPHLATE-MD1
+	5.967e+000 S1-SDOPHLATE-MD2
+	5.987e+000 S1-WHOPHMV0027-MD
+ ---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ C:\Program Files (x86)\Ftrex\FTREX.exe ###gen.kir #Result.raw /ASSP=0 /SEQ=0 /Rule=###RecRule.kir /RCUT=1 /AMCS=2
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+ [B].    0.25 sec.  MCS # =           0 (Check logical loops)
+ [C].    0.26 sec.  MCS # =           0 (Restructure FT)
+ [D].    0.30 sec.  MCS # =           0 (Break logical loops)
+                                        Broken  loop # = 10203
+                                        Created gate # = 17341
+                                        Final   gate # = 19364
+                                        Module 1     # = 548
+                                        Module 2     # = 18
+ [E].    0.51 sec.  MCS # =           0 (Solve top event)
+                 346468  +
+ [F].   13.38 sec.  MCS # =      346468 (S1-INT-CDF Expand module 2)
+ [G].   13.39 sec.  MCS # =      346468 (S1-INT-CDF Expand module 1)
+ [H].   14.73 sec.  MCS # =     1770220 (S1-INT-CDF Delmex A * /A)
+ [I].   15.22 sec.  MCS # =     1770220 (S1-INT-CDF Delterm G1 * /G2)
+ [J].   39.72 sec.  MCS # =      448612 (S1-INT-CDF Write MCSs)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ TOP EVENT        = S1-INT-CDF
+ TRUNCATION       = 1.0000e-014
+ PROB (SUM)       = 4.5668e-006 (4.566777e-006)
+ PROB (MCUB)      = 4.5668e-006 (4.566767e-006)
+ CUTSET #         =      448612
+
+ [K].   40.12 sec.  MCS # =      448612 (Recover cutsets)
+ [L].   40.14 sec.  MCS # =      448612 (Perform rule-based post-processing)
+ [M].   40.17 sec.  MCS # =           1 (C__1 Expand module 1)
+ ---[WARNING]---------------------------------------------------------------
+ MSG1 = 17 out of 35 rules have no effect.
+ MSG2 = See [#Result.LOG].
+ ---------------------------------------------------------------------------
+ [N].   41.79 sec.  MCS # =      448605 (After recovery)
+ [O].   41.83 sec.  MCS # =      448605 (S1-INT-CDF Write MCSs)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ TOP EVENT        = S1-INT-CDF
+ TRUNCATION       = 1.0000e-014
+ PROB (SUM)       = 1.4147e-005 (1.414682e-005)
+ PROB (MCUB)      = 1.4147e-005 (1.414674e-005)
+ CUTSET #         =      448605
+
+ BYTES REMAINING  = 0.0000e+000 MBytes
+ BYTES USED PEAK  = 1.9973e+002 MBytes

@@ -1,0 +1,138 @@
+"#2 CONPAS v3.0, developed by [KAERI]#"
+"Title=",""
+"UserName=",""
+"Comments=",""
+"PageInsert=",""
+"#NoEvent=",5,14,7
+"--- Event Tree Information ---"
+"Head Information"
+0,"S1-GIE-TLOCCW","TOTAL LOSS OF COMPONENT COOLING WATER","","",""
+1,"RT","REACTOR TRIP","","",""
+2,"SHR","DELIVER FW AND STEAM REMOVAL","","",""
+3,"RSF","RCP SEAL FAILURE","","",""
+4,"MSHR","MAINTAIN SECONDARY HEAT REMOVAL","","",""
+"Branch Information"
+0,-1,2,"S1-IE-TLOCCW",0,""
+1
+11
+1,0,2,"",0,""
+2
+8
+2,1,2,"",0,""
+3
+6
+3,2,2,"",0,""
+4
+5
+4,3,0,"",0,""
+5,3,0,"S1-GMSHR3",0,""
+6,2,1,"S1-GRSF",0,""
+7
+7,6,0,"",0,""
+8,1,1,"S1-GSHR3",0,""
+9
+9,8,1,"",0,""
+10
+10,9,0,"",0,""
+11,0,1,"S1-GRT-F",0,""
+12
+12,11,1,"",0,""
+13
+13,12,1,"",0,""
+14
+14,13,0,"",0,""
+"Sequence Information"
+"SEQ#","FREA","STATE","CONSEQUNCE","F_SEQUNCE","S_REMARKS","R_METRICS"
+1,"0","","","","",""
+2,"","OK","","S1-IE-TLOCCW /RT /SHR /RSF /MSHR","",""
+3,"2.736e-9","CD","","S1-IE-TLOCCW /RT /SHR /RSF S1-GMSHR3","",""
+4,"7.134e-8","CD","","S1-IE-TLOCCW /RT /SHR S1-GRSF","",""
+5,"1.291e-8","CD","","S1-IE-TLOCCW /RT S1-GSHR3","",""
+6,"3.824e-10","CD","","S1-IE-TLOCCW S1-GRT-F","",""
+""
+"ET Print margin"
+"Top= ","1.55"
+"Bot= ","3.15"
+"Left = ","1.35"
+"Right = ","1.35"
+"ScaleDown = ","1.0"
+"HeadRow = ","1.55"
+"SeqCol = ","3.6"
+"ThickTree = "," 6"
+"ThickEvent = "," 3"
+"Bot Title = "," 1.5"
+"Seq Freq = "," 1"
+"Seq Bin = "," 1"
+"Seq Num = "," 1"
+"HFSize = ","5"
+"BFSize = ","5"
+"SFSize = ","5"
+"TFSize = ","11"
+"SFSize = ","5"
+"HFName = ","Arial"
+"BFName = ","Arial"
+"SFName = ","Arial"
+"TFName = ","Arial"
+"SFName = ","Arial"
+"FBold = ",0
+"111"
+0
+"","","","","",""
+"","","","",""
+""
+1
+"","","","","",""
+"","","","",""
+""
+2
+"","","","","",""
+"","","","",""
+""
+3
+"","","","","",""
+"","","","",""
+""
+4
+"","","","","",""
+"","","","",""
+""
+5
+"","","","","",""
+"","","","",""
+""
+6
+"","","","","",""
+"","","","",""
+""
+7
+"","","","","",""
+"","","","",""
+""
+8
+"","","","","",""
+"","","","",""
+""
+9
+"","","","","",""
+"","","","",""
+""
+10
+"","","","","",""
+"","","","",""
+""
+11
+"","","","","",""
+"","","","",""
+""
+12
+"","","","","",""
+"","","","",""
+""
+13
+"","","","","",""
+"","","","",""
+""
+14
+"","","","","",""
+"","","","",""
+""

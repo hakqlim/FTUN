@@ -1,0 +1,115 @@
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Release\FT_Read.exe.config
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Release\FT_Read.exe
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Release\FT_Read.pdb
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Release\FT_Read.xml
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.Form1.resources
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.frmMessage.resources
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.Resources.resources
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FTA.vbproj.GenerateResource.Cache
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.exe
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.xml
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.pdb
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Release\FT_Read.exe.config
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Release\FT_Read.exe
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Release\FT_Read.pdb
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Release\FT_Read.xml
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Release\FTA.vbprojAssemblyReference.cache
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Release\FT_Read.Form1.resources
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Release\FT_Read.frmMessage.resources
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Release\FT_Read.Resources.resources
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Release\FTA.vbproj.GenerateResource.cache
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Release\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Release\FT_Read.exe
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Release\FT_Read.xml
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Release\FT_Read.pdb
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\bin\Release\FT_Read.exe.config
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\bin\Release\FT_Read.exe
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\bin\Release\FT_Read.pdb
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\bin\Release\FT_Read.xml
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FTA.vbprojAssemblyReference.cache
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.Form1.resources
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.frmMessage.resources
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.Resources.resources
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FTA.vbproj.GenerateResource.cache
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.exe
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.xml
+C:\Users\kings\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\obj\Release\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\bin\Release\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\bin\Release\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\bin\Release\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final\FTA\bin\Release\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\obj\Release\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\obj\Release\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\obj\Release\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\obj\Release\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\obj\Release\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\obj\Release\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\obj\Release\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\obj\Release\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\obj\Release\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\bin\Release\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\bin\Release\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\bin\Release\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x2\FTA\bin\Release\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.pdb
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.exe
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.xml
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.pdb
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.exe.config
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.exe
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.pdb
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.xml
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbprojAssemblyReference.cache
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.Form1.resources
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.frmMessage.resources
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.Resources.resources
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbproj.GenerateResource.cache
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbproj.CoreCompileInputs.cache
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.exe.config
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.exe
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.pdb
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.xml
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbprojAssemblyReference.cache
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.Form1.resources
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.frmMessage.resources
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.Resources.resources
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbproj.GenerateResource.cache
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbproj.CoreCompileInputs.cache
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.exe
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.xml
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.pdb
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.exe.config
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.exe
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.pdb
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\bin\Release\FT_Read.xml
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbprojAssemblyReference.cache
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.Form1.resources
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.frmMessage.resources
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.Resources.resources
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbproj.GenerateResource.cache
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FTA.vbproj.CoreCompileInputs.cache
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.exe
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.xml
+H:\Work\FTA_Execise - x06 - 복사본 - 복사본\FTA.Base.Final - xx06x3\FTA\obj\Release\FT_Read.pdb

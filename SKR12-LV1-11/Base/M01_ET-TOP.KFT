@@ -1,0 +1,161 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 ¸ðµ¨ °³Á¤\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",28
+"#XEventData"
+1,"S1-INT-CDF","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+2,"S1-INT-CDF-ETS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+3,"S1-GLOCA-GROUP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+4,"S1-GIE-LLOCA","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"LARGE LOCA"
+""
+5,"S1-GIE-MLOCA","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"MEDIUM LOCA"
+""
+6,"S1-GIE-SLOCA","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"SMALL LOCA"
+""
+7,"S1-GIE-SGTR","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"STEAM GENERATOR TUBE RUPTURE"
+""
+8,"S1-GIE-CSGTR-SGTR","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"STEAM GENERATOR TUBE RUPTURE"
+""
+9,"S1-GIE-CSLOCA-SL","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CONSEQUENTIAL SMALL LOCA"
+""
+10,"S1-GIE-ISLOCA","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"INTERFACING SYSTEM LOCA"
+""
+11,"S1-GIE-RVR","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"REACTOR VESSEL RUPTURE"
+""
+12,"S1-GIE-MSLB-IC","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAIN STEAM LINE BREAK (INSIDE CONTAINMENT)"
+""
+13,"S1-GIE-MSLB-OC","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAIN STEAM LINE BREAK (OUTSIDE CONTAINMENT)"
+""
+14,"S1-GIE-LOFW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF FEEDWATER"
+""
+15,"S1-GIE-LOCV","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF CONDENSER VACUUM"
+""
+16,"S1-GTRAN-GROUP1","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+17,"S1-GIE-TLOCCW","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"TOTAL LOSS OF COMPONENT COOLING WATER"
+""
+18,"S1-GTRAN-GROUP2","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+19,"S1-GIE-LODCA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF CLASS 1E 125V DC BUS A"
+""
+20,"S1-GIE-LODCB","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF CLASS 1E 125V DC BUS B"
+""
+21,"S1-GIE-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF OFFSITE POWER"
+""
+22,"S1-GIE-SBO-S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"STATION BLACKOUT (EDG FAILS TO START)"
+""
+23,"S1-GIE-SBO-R","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"STATION BLACKOUT (EDG FAILS TO RUN)"
+""
+24,"S1-GIE-GTRN","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GENERAL TRANSIENT"
+""
+25,"S1-GIE-ATWS","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ANTICIPATED TRANSIENTS WITHOUT SCRAM"
+""
+26,"S1-CSLOCA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CONSEQUENTIAL SMALL LOCA"
+""
+27,"S1-CSGTR","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"STEAM GENERATOR TUBE RUPTURE"
+""
+28,"S1-DAM","?",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DISALLOWED CCF AND NONSENSE CUTSETS"
+""
+"#TreeLogic"
+1,"*",2
+2
+-28
+2,"+",3
+3
+16
+18
+3,"+",8
+4
+5
+6
+26
+7
+27
+10
+11
+16,"+",7
+12
+13
+14
+15
+17
+24
+25
+18,"+",5
+19
+20
+21
+22
+23
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

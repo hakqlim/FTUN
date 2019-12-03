@@ -1,0 +1,443 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 ¸ðµ¨ °³Á¤\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",78
+"#XEventData"
+1,"S1-GIEF-TOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIEF-TOTAL"
+""
+2,"S1-GIEF-LOCA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+3,"S1-GIEF-GTRN1","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+4,"S1-GIEF-GTRN2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+5,"S1-IE-LLOCA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LARGE LOCA IE FREQUENCY"
+""
+6,"S1-IE-MLOCA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MEDIUM LOCA IE FREQUENCY"
+""
+7,"%S1-LL-CL1A","H",0,0
+7.46E-07,4,7.46E-07,0,0,"L",0,"y","",0,0,0
+"LARGE LOCA - RCS COLD LEG 1A BREAK (SKR1)"
+""
+8,"%S1-LL-CL1B","H",0,0
+7.46E-07,4,7.46E-07,0,0,"L",0,"y","",0,0,0
+"LARGE LOCA - RCS COLD LEG 1B BREAK (SKR1)"
+""
+9,"%S1-LL-CL2A","H",0,0
+7.46E-07,4,7.46E-07,0,0,"L",0,"y","",0,0,0
+"LARGE LOCA - RCS COLD LEG 2A BREAK (SKR1)"
+""
+10,"%S1-LL-CL2B","H",0,0
+7.46E-07,4,7.46E-07,0,0,"L",0,"y","",0,0,0
+"LARGE LOCA - RCS COLD LEG 2B BREAK (SKR1)"
+""
+11,"%S1-ML-CL1A","H",0,0
+0.000221,4,0.000221,0,0,"L",0,"y","",0,0,0
+"MEDIUM LOCA - RCS COLD LEG 1A BREAK (SKR1)"
+""
+12,"%S1-ML-CL1B","H",0,0
+0.000221,4,0.000221,0,0,"L",0,"y","",0,0,0
+"MEDIUM LOCA - RCS COLD LEG 1B BREAK (SKR1)"
+""
+13,"%S1-ML-CL2A","H",0,0
+0.000221,4,0.000221,0,0,"L",0,"y","",0,0,0
+"MEDIUM LOCA - RCS COLD LEG 2A BREAK (SKR1)"
+""
+14,"%S1-ML-CL2B","H",0,0
+0.000221,4,0.000221,0,0,"L",0,"y","",0,0,0
+"MEDIUM LOCA - RCS COLD LEG 2B BREAK (SKR1)"
+""
+15,"S1-IE-SLOCA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SMALL LOCA IE FREQUENCY"
+""
+16,"%S1-SL","H",0,0
+0.00173,4,0.00173,0,0,"L",0,"y","",0,0,0
+"SMALL LOCA"
+""
+17,"S1-IE-SGTR","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SGTR IE FREQUENCY"
+""
+18,"%S1-SGTR-SG1","H",0,0
+0.00492,4,0.00492,0,0,"L",0,"y","",0,0,0
+"SGTR occurs at SG #1"
+""
+19,"%S1-SGTR-SG2","H",0,0
+0.00492,4,0.00492,0,0,"L",0,"y","",0,0,0
+"SGTR occurs at SG #2"
+""
+20,"S1-IE-ISLOCA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ISLOCA IE  FREQUENCY"
+""
+21,"%S1-ISL","H",0,0
+6.17E-09,4,6.17E-09,0,0,"L",0,"y","",0,0,0
+"INTERFACING SYSTEM LOCA"
+""
+22,"S1-IE-RVR","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"REACTOR VESSEL RUPTURE IE FREQUENCY"
+""
+23,"%S1-RVR","H",0,0
+3.63E-08,4,3.63E-08,0,0,"L",0,"y","",0,0,0
+"Excess LOCA - Reactor Vessel Rupture - Occurrence"
+""
+24,"S1-IE-MSLB-IC","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAIN STEAM LINE BREAK (INSIDE CONTAINMENT) FREQUENCY"
+""
+25,"S1-IE-MSLB-OC","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAIN STEAM LINE BREAK (OUTSIDE CONTAINMENT) FREQUENCY"
+""
+26,"%S1-MSLB-OC-SG1","H",0,0
+0.0077,4,0.0077,0,0,"L",0,"y","",0,0,0
+"MSLB-OC OCCURS AT SG #1"
+""
+27,"%S1-MSLB-OC-SG2","H",0,0
+0.0077,4,0.0077,0,0,"L",0,"y","",0,0,0
+"MSLB-OC OCCURS AT SG #2"
+""
+28,"%S1-MSLB-IC-SG1","H",0,0
+0.000367,4,0.000367,0,0,"Lognormal",0,"y","",0,0,0
+"LSSB-IC OCCURS AT SG #1"
+""
+29,"%S1-MSLB-IC-SG2","H",0,0
+0.000367,4,0.000367,0,0,"L",0,"y","",0,0,0
+"LSSB-IC OCCURS AT SG #2"
+""
+30,"S1-IE-LOFW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF MAIN FEEDWATER IE FREQUENCY"
+""
+31,"%S1-LOFW","H",0,0
+0.0431,4,0.0431,0,0,"L",0,"y","",0,0,0
+"LOSS OF FEEDWATER OCCURS"
+""
+32,"S1-IE-LOCV","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF CONDENSER VACUUM IE FREQUENCY"
+""
+33,"%S1-LOCV","H",0,0
+0.0776,4,0.0776,0,0,"L",0,"y","",0,22.5,0.003278
+"LOSS OF CONDENSER VACCUUM & HEAT SINK OCCURS"
+""
+34,"S1-IE-TLOCCW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF ONE CCW TRAIN IE FREQUENCY(TOTAL)"
+""
+35,"S1-IE-LODCA","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF ONE 125V DC BUS IE FREQUENCY"
+""
+36,"%S1-LODCA","H",0,0
+0.00259,4,0.00259,0,0,"L",0,"y","",0,0,0
+"LOSS OF DC BUS 12-MC01A OCCURS"
+""
+37,"S1-IE-LODCB","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF ONE 125V DC BUS IE FREQUENCY"
+""
+38,"%S1-LODCB","H",0,0
+0.00259,4,0.00259,0,0,"L",0,"y","",0,0,0
+"LOSS OF DC BUS 12-MC01B OCCURS"
+""
+39,"S1-IE-LOOP","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOOP IE FREQUENCY"
+""
+40,"S1-IE-SBOS","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"IE FREQUENCY OF SBO (DG FAILS TO START)"
+""
+41,"S1-GIE-LOOP-14","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-LOOP Sequence 14"
+""
+42,"S1-IE-SBOR","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"IE FREQUENCY OF SBO (DG FAILS TO RUN)"
+""
+43,"S1-GIE-LOOP-13","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-LOOP Sequence 13"
+""
+44,"S1-IE-GTRN","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GENERAL TRANSIENTS IE FREQUENCY"
+""
+45,"%S1-GTRN","H",0,0
+0.744,4,0.744,0,0,"L",0,"y","",0,0,0
+"GENERAL TRANSIENT OCCURS"
+""
+46,"S1-IE-ATWS","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"ANTICIPATED TRANSIENT WITHOUT SCRAM IE FREQUENCY"
+""
+47,"S1-GIE-ATWS-SL","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SL INDUCED ATWS"
+""
+48,"S1-GIE-SLOCA-20","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-SLOCA Sequence 20"
+""
+49,"S1-IE-CSLOCA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CONSEQUENTIAL SMALL LOCA IE FREQUENCY"
+""
+50,"S1-GIE-ATWS-SGTR","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SGTR INDUCED ATWS"
+""
+51,"S1-GIE-SGTR-27","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-SGTR Sequence 20"
+""
+52,"S1-GIE-ATWS-MSLB-IC","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MSLB-IC INDUCED ATWS"
+""
+53,"S1-GIE-MSLB-IC-24","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-MSLB-IC Sequence 24"
+""
+54,"S1-GIE-ATWS-MSLB-OC","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MSLB-OC INDUCED ATWS"
+""
+55,"S1-GIE-MSLB-OC-19","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-MSLB-OC Sequence 19"
+""
+56,"S1-GIE-ATWS-LOFW","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOFW INDUCED ATWS"
+""
+57,"S1-GIE-ATWS-LOCV","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOCV INDUCED ATWS"
+""
+58,"S1-GIE-ATWS-LODCA","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LODCA INDUCED ATWS"
+""
+59,"S1-GIE-ATWS-LODCB","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LODCB INDUCED ATWS"
+""
+60,"S1-GIE-ATWS-LOOP","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOOP INDUCED ATWS"
+""
+61,"S1-GIE-ATWS-GTRN","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GTRN INDUCED ATWS"
+""
+62,"S1-GIE-GTRN-12","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-GTRN Sequence 12"
+""
+63,"S1-GIE-LOOP-15","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-LOOP Sequence 15"
+""
+64,"S1-GIE-LODCB-13","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-LODCB Sequence 13"
+""
+65,"S1-GIE-LODCA-13","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-LODCA Sequence 13"
+""
+66,"S1-GIE-LOCV-13","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-LOCV Sequence 13"
+""
+67,"S1-GIE-LOFW-13","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"GIE-LOFW Sequence 13"
+""
+68,"S1-PSV-OPEN","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SMALL LOCA (PSV OPEN)"
+""
+69,"S1-GIE-MSLB-IC-22","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MSLB-IC INDUCED CSLOCA"
+""
+70,"S1-GIE-MSLB-OC-17","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MSLB-OC INDUCED CSLOCA"
+""
+71,"S1-GIE-LOFW-12","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOFW INDUCED CSLOCA"
+""
+72,"S1-GIE-LOCV-12","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOCV INDUCED CSLOCA"
+""
+73,"S1-GIE-LODCA-12","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LODCA INDUCED CSLOCA"
+""
+74,"S1-GIE-LODCB-12","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LODCB INDUCED CSLOCA"
+""
+75,"S1-GIE-LOOP-12","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOOP INDUCED CSLOCA"
+""
+76,"S1-IE-CSGTR","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CONSEQUENTIAL STEAM GENERATOR TUBE RUPTURE"
+""
+77,"%S1-LOOP","H",0,0
+0.0248,4,0.0248,0,0,"L",0,"y","",0,0,0
+"LOSS OF OFFSITE POWER OCCURS"
+""
+78,"%S1-TLOCCW","H",0,0
+0.000246,4,0.000246,0,0,"L",0,"y","",0,0,0
+"TOTAL LOSS OF A CCW OCCURS"
+""
+"#TreeLogic"
+1,"+",3
+2
+3
+4
+2,"+",8
+5
+6
+15
+49
+17
+76
+20
+22
+3,"+",7
+24
+25
+30
+32
+34
+44
+46
+4,"+",5
+35
+37
+39
+40
+42
+5,"+",4
+7
+8
+9
+10
+6,"+",4
+11
+12
+13
+14
+15,"+",1
+16
+17,"+",2
+18
+19
+20,"+",1
+21
+22,"+",1
+23
+24,"+",2
+28
+29
+25,"+",2
+26
+27
+30,"+",1
+31
+32,"+",1
+33
+34,"+",1
+78
+35,"+",1
+36
+37,"+",1
+38
+39,"+",1
+77
+40,"+",1
+41
+42,"+",1
+43
+44,"+",1
+45
+46,"+",10
+47
+50
+52
+54
+56
+57
+58
+59
+60
+61
+47,"=",1
+48
+49,"+",1
+68
+50,"=",1
+51
+52,"=",1
+53
+54,"=",1
+55
+56,"=",1
+67
+57,"=",1
+66
+58,"=",1
+65
+59,"=",1
+64
+60,"=",1
+63
+61,"=",1
+62
+68,"+",5
+71
+72
+73
+74
+75
+76,"+",2
+69
+70
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

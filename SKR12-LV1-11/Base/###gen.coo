@@ -1,0 +1,28 @@
+
+KCUT Version 4.9 2009.10.15 + Uncertainty
+Boolean Equation Reduction Program + Uncertainty
+Copyright  Han, S.H.         KAERI
+          Thu Sep 28 18:18:14 2017
+
+
+  gates causing logical loop
+
+  gates included in logical loop 
+
+  multiple occurence gates included in logical loop 
+
+  multiple occurence gates not included in logical loop 
+
+Break Loop
+
+
+ Next Event's Value = 0
+   S1-DAM       S1-GIE-LLOCA   S1-GIE-MLOCA   S1-GIE-SLOCA   S1-GIE-CSLOCA-SL
+   S1-GIE-SGTR   S1-GIE-CSGTR-SGTR   S1-GIE-ISLOCA   S1-GIE-RVR   S1-GIE-MSLB-IC
+   S1-GIE-MSLB-OC   S1-GIE-LOFW   S1-GIE-LOCV   S1-GIE-TLOCCW   S1-GIE-GTRN
+   S1-GIE-ATWS   S1-GIE-LODCA   S1-GIE-LODCB   S1-GIE-LOOP   S1-GIE-SBO-S
+   S1-GIE-SBO-R
+warning - no data for some events
+Execution time 0 seconds (gen:0, exp:0, abs:0), Return Code = 2
+
+End of CUT Run 

@@ -1,0 +1,12 @@
+LIBRARY aigo
+EXPORTS
+   APlusB
+   BiN
+   Geom
+   Poiss
+   Expon
+   LogN
+   Gamma
+   Norma
+   UniFoR
+   BetaR

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project name="SKR12-MPAS">
+  <PageGroup>
+    <Page name="Base" type="Folder">
+      <Properties name="Properties" type="Properties" PSAScope="ET/FT" Description="" Remark="" ReferencePage="Base" UseReferencePage="True" UseReferenceFlag="True" UseReferenceRecovery="True" TopEvent="S1-INT-CDF" CutOff="1e-14" CutSetGenerator="Ftrex" RecoveryExe="Ftrex" SuccessBranchDelTerm="True" UseSequenceNumber="True" MinimizeBetweenSequence="False" PdsBranchOrHead="Head" PdsResultType="Number" PdsModelDetail="Full" PdsMethod="Propagation" CetBranchOrHead="Branch" CetResultType="Logic" CetModelDetail="Full" CetMethod="Propagation" StcBranchOrHead="Branch" StcResultType="Number" StcModelDetail="Full" StcMethod="Propagation" SaveAllLogic="True">
+      </Properties>
+      <Model name="Model" type="Folder">
+        <FT name="Fault Tree" type="Folder">
+          <File name="M01_ET-TOP.KFT" type="FT">
+          </File>
+          <File name="M03_IE-FRQUENCY.KFT" type="FT">
+          </File>
+          <File name="M06_EDG_FTS_R_R1.kft" type="FT">
+          </File>
+          <File name="M02_ET-SUPPORT_R2.kft" type="FT">
+          </File>
+          <File name="05_SKR1_SDC.kft" type="FT">
+          </File>
+          <File name="07_SKR1_RCGV.kft" type="FT">
+          </File>
+          <File name="10_SKR1_BD.kft" type="FT">
+          </File>
+          <File name="19_SKR1_RPS.kft" type="FT">
+          </File>
+          <File name="03_SKR1_SIT_R1.kft" type="FT">
+          </File>
+          <File name="04-SKR1_SD_R3.kft" type="FT">
+          </File>
+          <File name="11_SKR1_MS_R2.kft" type="FT">
+          </File>
+          <File name="02_SKR1_LPSI_MPAS-R1.KFT" type="FT">
+          </File>
+          <File name="M04_SKR12_DAM-R1.KFT" type="FT">
+          </File>
+          <File name="15_SKR12_EP_R1.KFT" type="FT">
+          </File>
+          <File name="01_SKR1_HPSI_R6.kft" type="FT">
+          </File>
+          <File name="06_SKR1_CS_R8.kft" type="FT">
+          </File>
+          <File name="08_SKR1_MF_R10.kft" type="FT">
+          </File>
+          <File name="09_SKR1_AF_R18.kft" type="FT">
+          </File>
+          <File name="12_SKR1_CV_R9.KFT" type="FT">
+          </File>
+          <File name="13_SKR12_CC_R17.KFT" type="FT">
+          </File>
+          <File name="14_SKR1_CW_R8.kft" type="FT">
+          </File>
+          <File name="16_SKR12_HVAC_R9.KFT" type="FT">
+          </File>
+          <File name="17_SKR1_IA_R15.kft" type="FT">
+          </File>
+          <File name="18_SKR1_SW_R15.kft" type="FT">
+          </File>
+        </FT>
+        <ET name="Event Tree" type="Folder">
+          <File name="01-LLOCA.KET" type="ET">
+          </File>
+          <File name="02-MLOCA.KET" type="ET">
+          </File>
+          <File name="03-SLOCA.KET" type="ET">
+          </File>
+          <File name="04-CSLOCA.KET" type="ET">
+          </File>
+          <File name="07-ISLOCA-R1.KET" type="ET">
+          </File>
+          <File name="09-SKR1_MSLB-IC_MPAS-R1.KET" type="ET">
+          </File>
+          <File name="10-SKR1_MSLB-OC_MPAS-R1.KET" type="ET">
+          </File>
+          <File name="11-SKR1_LOFW_MPAS-R1.KET" type="ET">
+          </File>
+          <File name="12-SKR1_LOCV_MPAS-R1.KET" type="ET">
+          </File>
+          <File name="08-SKR1_RVR_MPAS-R1.KET" type="ET">
+          </File>
+          <File name="16-SKR1_LOOP_MPAS-R1.KET" type="ET">
+          </File>
+          <File name="13-SKR1_TLOCCW_MPAS-R1.KET" type="ET">
+          </File>
+          <File name="19-SKR1_GTRN_MPAS-R1.KET" type="ET">
+          </File>
+          <File name="06-SKR1_CSGTR_MPAS-R2.KET" type="ET">
+          </File>
+          <File name="14-SKR1_LODCA_MPAS-R2.KET" type="ET">
+          </File>
+          <File name="15-SKR1_LODCB_MPAS-R2.KET" type="ET">
+          </File>
+          <File name="05-SKR1_SGTR_MPAS-R3.KET" type="ET">
+          </File>
+          <File name="17-SKR1_SBO-S_MPAS-R2.KET" type="ET">
+          </File>
+          <File name="18-SKR1_SBO-R_MPAS-R2.KET" type="ET">
+          </File>
+          <File name="20-SKR1_ATWS_MPAS-R2.KET" type="ET">
+          </File>
+        </ET>
+        <Data name="Data" type="Folder">
+          <File name="data.mdb" type="Data">
+          </File>
+          <File name="SKR12 Dataflag-R1.kfg" type="Data">
+          </File>
+          <File name="Data1.xls" type="Data">
+          </File>
+          <File name="SKR12-Recovery.krc" type="Data">
+          </File>
+        </Data>
+      </Model>
+      <OneTop name="OneTop" type="Folder">
+      </OneTop>
+      <Result name="Result" type="Folder">
+      </Result>
+    </Page>
+    <Page name="SEIS-BASE" type="Folder">
+      <Properties name="Properties" type="Properties" PSAScope="ET/FT" CutSetGenerator="Ftrex" Description="" Remark="" ReferencePage="Base" UseReferencePage="True" UseReferenceFlag="False" UseReferenceRecovery="False" TopEvent="S1-SEIS-CDF" CutOff="1e-13" RecoveryExe="Ftrex" SuccessBranchDelTerm="True" UseSequenceNumber="True" MinimizeBetweenSequence="True" PdsBranchOrHead="Head" PdsResultType="Number" PdsModelDetail="Full" PdsMethod="Propagation" CetBranchOrHead="Branch" CetResultType="Logic" CetModelDetail="Full" CetMethod="Propagation" StcBranchOrHead="Branch" StcResultType="Number" StcModelDetail="Full" StcMethod="Propagation" SaveAllLogic="False" EngineParameter="/flag=#base.flag.txt">
+      </Properties>
+      <Model name="Model" type="Folder">
+        <FT name="Fault Tree" type="Folder">
+          <File name="S1-Seis-Top-M.kft" type="FT">
+          </File>
+          <File name="S1-SEIS-DUMMY.KFT" type="FT">
+          </File>
+        </FT>
+        <ET name="Event Tree" type="Folder">
+          <File name="S1-Seis-Top.ket" type="ET">
+          </File>
+        </ET>
+        <Data name="Data" type="Folder" PdsResultType="Number" PdsBranchOrHead="Head" PdsModelDetail="Full" PdsMethod="Propagation" CetResultType="Logic" CetBranchOrHead="Branch" CetModelDetail="Full" CetMethod="Propagation" StcResultType="Number" StcBranchOrHead="Branch" StcModelDetail="Full" StcMethod="Propagation">
+        </Data>
+      </Model>
+      <OneTop name="OneTop" type="Folder">
+      </OneTop>
+      <Result name="Result" type="Folder">
+      </Result>
+    </Page>
+    <Page name="S015" type="Folder">
+      <Properties name="Properties" type="Properties" PSAScope="ET/FT" CutSetGenerator="Ftrex" Description="" Remark="" ReferencePage="SEIS-BASE" UseReferencePage="True" UseReferenceFlag="True" UseReferenceRecovery="True" TopEvent="S1-SEIS-CDF" CutOff="1e-13" RecoveryExe="Ftrex" SuccessBranchDelTerm="True" UseSequenceNumber="True" MinimizeBetweenSequence="False" PdsBranchOrHead="Head" PdsResultType="Number" PdsModelDetail="Full" PdsMethod="Propagation" CetBranchOrHead="Branch" CetResultType="Logic" CetModelDetail="Full" CetMethod="Propagation" StcBranchOrHead="Branch" StcResultType="Number" StcModelDetail="Full" StcMethod="Propagation" SaveAllLogic="False" EngineParameter="/flag=#base.flag.txt /L_FILE=#S_ONETOP.FTP">
+      </Properties>
+      <Model name="Model" type="Folder">
+        <FT name="Fault Tree" type="Folder">
+        </FT>
+        <ET name="Event Tree" type="Folder">
+        </ET>
+        <Data name="Data" type="Folder" PdsResultType="Number" PdsBranchOrHead="Head" PdsModelDetail="Full" PdsMethod="Propagation" CetResultType="Logic" CetBranchOrHead="Branch" CetModelDetail="Full" CetMethod="Propagation" StcResultType="Number" StcBranchOrHead="Branch" StcModelDetail="Full" StcMethod="Propagation">
+          <File name="S015.sima.txt" type="Data">
+          </File>
+        </Data>
+      </Model>
+      <OneTop name="OneTop" type="Folder">
+      </OneTop>
+      <Result name="Result" type="Folder">
+      </Result>
+    </Page>
+  </PageGroup>
+  <Document name="Document" type="Folder">
+  </Document>
+</Project>

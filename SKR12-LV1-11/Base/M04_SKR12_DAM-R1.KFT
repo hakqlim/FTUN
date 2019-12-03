@@ -1,0 +1,750 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 ¸ðµ¨ °³Á¤\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",126
+"#XEventData"
+1,"S1-G-DAM","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DISALLOWED MAINTENACE & TEST"
+""
+2,"S1-G-DAM#1","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+3,"S1-CCMPM001PA","B",0,0
+0.000407,0,0.000407,0,2.3,"L",0,"","",0,0,2.3
+"CC MP 01PA unavailable due to maintenance"
+""
+4,"S1-CCMPM002PA","B",0,0
+0.000407,0,0.000407,0,2.3,"L",0,"","",0,0,2.3
+"CC MP 02PA unavailable due to maintenance"
+""
+5,"S1-CCMPM001PB","B",0,0
+0.000407,0,0.000407,0,2.3,"L",0,"","",0,0,2.3
+"CC MP 01PB unavailable due to maintenance"
+""
+6,"S1-CCMPM002PB","B",0,0
+0.000407,0,0.000407,0,0,"L",0,"","",0,0,0
+"CC MP 02PB unavailable due to maintenance"
+""
+7,"S1-WOCUM001A","B",0,0
+0.00339,0,0.00339,0,0,"L",0,"","",0,0,10
+"Essential Chiller 01A Unavailable during T&M"
+"2 Times"
+8,"S1-WOCUM002A","B",0,0
+0.00339,0,0.00339,0,0,"L",0,"","",0,0,10
+"Essential Chiller 02A Unavailable during T&M"
+"2 Times"
+9,"S1-WOCUM001B","B",0,0
+0.00339,0,0.00339,0,0,"L",0,"","",0,0,10
+"Essential Chiller 01B Unavailable during T&M"
+"2 Times"
+10,"S1-WOCUM002B","B",0,0
+0.00339,0,0.00339,0,0,"L",0,"","",0,0,10
+"Essential Chiller 02CB Unavailable DURING T&M"
+"2 Times"
+11,"S1-WOMPM001PA","B",0,0
+0.000348,0,0.000348,0,0,"L",0,"","",0,0,10
+"ECW Pump 01PA Unavailable due to Maintenance"
+"Standby + Running ==> 2 times"
+12,"S1-WOMPM002PA","B",0,0
+0.000348,0,0.000348,0,0,"L",0,"","",0,0,10
+"ECW Pump 02P Unavailable due to Maintenance"
+"Standby + Running => 2 Times"
+13,"S1-G-DAM_SWA","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR SW A"
+""
+14,"S1-G-DAM_SWB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR SW B"
+""
+15,"S1-SWMPM002PA","B",0,0
+0.00411,0,0.00411,0,2.3,"L",0,"","",0,0,2.3
+"ESW pump 02PA unavailable during test & maintenance"
+""
+16,"S1-SWMPM001PA","B",0,0
+0.00411,0,0.00411,0,0,"L",0,"","",0,0,0
+"ESW pump 01PA unavailable during test & maintenance"
+""
+17,"S1-SWMPM001PB","B",0,0
+0.00411,0,0.00411,0,0,"L",0,"","",0,0,0
+"ESW pump 01PB unavailable during test & maintenance"
+""
+18,"S1-SWMPM002PB","B",0,0
+0.00411,0,0.00411,0,0,"L",0,"","",0,0,0
+"ESW pump 02PB unavailable during test & maintenance"
+""
+19,"S1-HHABMAH01A","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"h","h",0,0,10
+"ESW Pump Room AHU 01A Unavailable due to Maintenance"
+""
+20,"S1-HHABMAH03A","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"h","h",0,0,10
+"ESW Pump Room AHU 03A Unavailable due to Maintenance"
+""
+21,"S1-HHABMAH01B","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"h","h",0,0,10
+"ESW Pump Room AHU 01B Unavailable due to Maintenance"
+""
+22,"S1-HHABMAH03B","B",0,0
+0.000388,0,0.000388,0,0,"L",0,"h","h",0,0,10
+"ESW Pump Room AHU 03B Unavailable due to Maintenance"
+""
+23,"S1-G-DAM_EDA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR 125V DC A&C"
+""
+24,"S1-G-DAM_EDA1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR 125V DC BATTERY CHARGER"
+""
+25,"S1-G-DAM_EDA2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR 125V DC BATTERY"
+""
+26,"S1-EDBCMBC01A","B",0,0
+0.0003,0,0.0003,0,2.8,"L",0,"","",0,0,2.8
+"1E BATTERY CHARGER BC01A UNAVAILABLE DUE TO MAINTENANCE"
+""
+27,"S1-EDBCMBC01C","B",0,0
+0.0003,0,0.0003,0,2.8,"L",0,"","",0,0,2.8
+"1E BATTERY CHARGER BC01C UNAVAILABLE DUE TO MAINTENANCE"
+""
+28,"S1-G-DAM_EDB","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR 125V DC A&C"
+""
+29,"S1-G-DAM_EDB1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR 125V DC BATTERY CHARGER"
+""
+30,"S1-G-DAM_EDB2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR 125V DC BATTERY"
+""
+31,"S1-EDBCMBC01B","B",0,0
+0.0003,0,0.0003,0,2.8,"L",0,"","",0,0,2.8
+"1E BATTERY CHARGER BC01B UNAVAILABLE DUE TO MAINTENANCE"
+""
+32,"S1-EDBCMBC01D","B",0,0
+0.0003,0,0.0003,0,2.8,"L",0,"","",0,0,2.8
+"1E BATTERY CHARGER BC01D UNAVAILABLE DUE TO MAINTENANCE"
+""
+33,"S1-EDBYMBT01B","B",0,0
+0.000142,0,0.000142,0,2.8,"L",0,"","",0,0,2.8
+"1E BATTERY BT01B UNAVAILABLE DUE TO MAINTENANCE"
+""
+34,"S1-EDBYMBT01D","B",0,0
+0.000142,0,0.000142,0,2.8,"L",0,"","",0,0,2.8
+"1E BATTERY BT01D UNAVAILABLE DUE TO MAINTENANCE"
+""
+35,"S1-EDBYMBT01A","B",0,0
+0.000142,0,0.000142,0,2.8,"L",0,"","",0,0,2.8
+"1E BATTERY BT01A UNAVAILABLE DUE TO MAINTENANCE"
+""
+36,"S1-EDBYMBT01C","B",0,0
+0.000142,0,0.000142,0,2.8,"L",0,"","",0,0,2.8
+"1E BATTERY BT01C UNAVAILABLE DUE TO MAINTENANCE"
+""
+37,"S1-EGDGM01B","B",0,0
+0.000167,0,0.000167,0,2.3,"L",0,"","",0,0,2.3
+"1E DG-01B UNAVAILABLE DUE TO MAINTENANCE"
+""
+38,"S1-EGDGM01A","B",0,0
+0.000167,0,0.000167,0,2.3,"L",0,"","",0,0,2.3
+"1E DG-01A UNAVAILABLE DUE TO MAINTENANCE"
+""
+39,"S1-EOXHMSATA","B",0,0
+0.00043,0,0.00043,0,4.4,"L",0,"","",0,0,4.4
+"SAT TR02M UNAVAILABLE DUE TO MAINTENANCE"
+""
+40,"S1-EOXHMSATB","B",0,0
+0.00043,0,0.00043,0,4.4,"L",0,"","",0,0,4.4
+"SAT TR02N UNAVAILABLE DUE TO MAINTENANCE"
+""
+41,"S1-HCCQMAFMP1A","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,4.4
+"Cubicle Cooler for AFW MDP 01A Unavailble due to Maintenance"
+""
+42,"S1-HCCQMAFMP2B","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,4.4
+"Cubicle Cooler for AFW MDP 02B Unavailble due to Maintenance"
+""
+43,"S1-G-DAM_CS","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR CONTAINMENT SPARY SYSTEM"
+""
+44,"S1-CSHXMHE01A","B",0,0
+0.00027,0,0.00027,0,1.6,"L",0,"","",0,0,1.6
+"CS HX HE01A UNAVAILABLE DUE TO MAINTENANCE"
+""
+45,"S1-CSHXMHE02B","B",0,0
+0.00027,0,0.00027,0,0,"L",0,"","",0,0,0
+"CS HX HE02B UNAVAILABLE DUE TO MAINTENANCE"
+""
+46,"S1-CSMPMCSSPA","B",0,0
+8.74E-06,0,8.74E-06,0,2.3,"L",0,"","",0,0,2.3
+"CSS PUMP 1 unavailable due to maintenance"
+""
+47,"S1-CSMPMCSSPB","B",0,0
+8.74E-06,0,8.74E-06,0,0,"L",0,"","",0,0,0
+"CSS PUMP 1 unavailable due to maintenance"
+""
+48,"S1-HCCQMCSPA","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,4.4
+"Cubicle Cooler for CSP A Unavailable due to Maintenance"
+""
+49,"S1-HCCQMCSPB","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,4.4
+"Cubicle Cooler for CSP B Unavailable due to Maintenance"
+""
+50,"S1-HDABM45","B",0,0
+8.98E-05,0,8.98E-05,0,0,"L",0,"","",0,0,0
+"High Volumn Supply Fan 45 Unavailable due to Maintenance"
+""
+51,"S1-HDABM46","B",0,0
+8.98E-05,0,8.98E-05,0,0,"L",0,"","",0,0,0
+"High Volumn Supply Fan 46 Unavailable due to Maintenance"
+""
+52,"S1-G-DAM_DG_ABE","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SAT & EDG MAINTENANCE"
+""
+53,"S1-G-DAM_EDG","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DIESEL ENGINE GENERATOR MAINTENANCE"
+""
+54,"S1-EGDGM01E","B",0,0
+0.000167,0,0.000167,0,10,"L",0,"","",0,0,10
+"AAC DG-01E UNAVAILABLE DUE TO MAINTENANCE"
+""
+55,"S1-G-DAM_SAT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SAT MAINTENANCE"
+""
+56,"S1-G-DAM_EDBC","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"BATTERY & CHARGER MAINTENANCE"
+""
+57,"S1-G-DAM_EDBC1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"BATTERY & CHARGER MAINTENANCE"
+""
+58,"S1-G-DAM_EDBC2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"BATTERY & CHARGER MAINTENANCE"
+""
+59,"S1-G-DAM_EDBC3","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"BATTERY & CHARGER MAINTENANCE"
+""
+60,"S1-G-DAM_EDBC4","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"BATTERY & CHARGER MAINTENANCE"
+""
+61,"S1-G-DAM_HP","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR HPSI SYSTEM"
+""
+62,"S1-HCCQMHPPA","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,4.4
+"Cubicle Cooler for HPSI Pump A Unavailable due to Maintenance"
+""
+63,"S1-HSMPM0001A","B",0,0
+1.79E-05,0,1.79E-05,0,2.3,"L",0,"","",0,0,2.3
+"HPSI TRAIN-1 UNAVAILABLE DUE TO MAINTENANCE"
+""
+64,"S1-HCCQMHPPB","B",0,0
+0.000178,0,0.000178,0,4.4,"L",0,"","",0,0,4.4
+"Cubicle Cooler for HPSI Pump B Unavailable due to Maintenance"
+""
+65,"S1-HSMPM0002B","B",0,0
+1.79E-05,0,1.79E-05,0,2.3,"L",0,"","",0,0,2.3
+"HPSI TRAIN-2 UNAVAILABLE DUE TO MAINTENANCE"
+""
+66,"S1-G-DAM_LP","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR LPSI SYSTEM"
+""
+67,"S1-LSMPMLPSI1A","B",0,0
+0.00176,0,0.00176,0,2.3,"L",0,"","",0,0,2.3
+"LPSI PUMP 1 unavailable due to maintenance"
+""
+68,"S1-SCHXM1A","B",0,0
+0.00027,0,0.00027,0,0,"l",0,"","",0,0,0
+"SDC HX1A UNAVAILABLE DUE TO MAINTENANCE"
+""
+69,"S1-LSMPMLPSI1B","B",0,0
+0.00176,0,0.00176,0,0,"L",0,"","",0,0,0
+"LPSI PUMP 1B unavailable due to maintenance"
+""
+70,"S1-SCHXM2B","B",0,0
+0.00027,0,0.00027,0,0,"l",0,"","",0,0,0
+"SDC HX2B UNAVAILABLE DUE TO MAINTENANCE"
+""
+71,"S1-G-DAM#2","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+72,"S1-AFOPUV1005A","B",0,0
+2.5E-05,0,2.5E-05,0,0,"l",0,"","",0,0,0
+"VV 1005A is not restored after maintenance of MP A"
+""
+73,"S1-AFOPUV1005B","B",0,0
+2.5E-05,0,2.5E-05,0,0,"l",0,"","",0,0,0
+"VV 1005B is not restored after maintenance of MP B"
+""
+74,"S1-AFOPUV1006A","B",0,0
+2.5E-05,0,2.5E-05,0,0,"l",0,"","",0,0,0
+"VV 1006A is not restored after maintenance of TP A"
+""
+75,"S1-AFOPUV1006B","B",0,0
+2.5E-05,0,2.5E-05,0,0,"l",0,"","",0,0,0
+"VV 1006B is not restored after maintenance of TP B"
+""
+76,"S1-G-DAM-AFOP-2","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+77,"S1-G-DAM-AFOP-3","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+78,"S1-G-DAM-AFOP-4","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+79,"S1-G-DAM-AFOP1-2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+80,"S1-G-DAM-AFOP2-2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+81,"S1-G-DAM-AFOP3-2","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+82,"S1-G-DAM-AFOP4-2","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+83,"S1-G-DAM-AFOP5-2","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+84,"S1-G-DAM-AFOP6-2","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+85,"S1-G-DAM-AFOP1-3","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+86,"S1-G-DAM-AFOP2-3","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+87,"S1-G-DAM-AFOP3-3","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+88,"S1-WOMPM001PB","B",0,0
+0.000348,0,0.000348,0,0,"L",0,"","",0,0,10
+"ECW Pump 01PB Unavailable due to Maintenance"
+"Standby + Running ==> 2 times"
+89,"S1-WOMPM002PB","B",0,0
+0.000348,0,0.000348,0,0,"L",0,"","",0,0,10
+"ECW Pump 02PB Unavailable due to Maintenance"
+"Standby + Running => 2 Times"
+90,"S1-G-DAM#3","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+91,"S1-GDAM_AFA","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+92,"S1-GDAM_AFB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+93,"S1-GDAM_CCA","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR CCW A"
+""
+94,"S1-GDAM_CCB","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR CCW B"
+""
+95,"S1-GDAM-HVAC","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+96,"S1-GDAM-HVAC-AF","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+97,"S1-G-DAM_CW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR ECW"
+""
+98,"S1-G-DAM_CWCUA","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+99,"S1-G-DAM_CWCUB","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+100,"S1-G-DAM_CWMPA","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+101,"S1-G-DAM_CWMPB","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+102,"S1-G-DAM_ED","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+103,"S1-G-DAM_EG","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+104,"S1-G-DAM_EP","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST OF ELECTRICAL DISTRIBUTION SYSTEM"
+""
+105,"S1-G-DAM_SW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+106,"S1-G-DAM_HX","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MAINTENACE & TEST FOR HX"
+""
+107,"S1-G-DAM_HX-CS","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+108,"S1-GDAM-HVAC-CS","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+109,"S1-GDAM-HVAC-HP","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+110,"S1-G-DAM_HX-SC","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+111,"S1-GDAM-HVAC-LP","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+112,"S1-HCCQMLPPA","B",0,0
+0.000178,0,0.000178,0,0,"L",0,"","",0,0,4.4
+"Cubicle Cooler for LPSI Pump A Unavailable due to Maintenance"
+""
+113,"S1-HCCQMLPPB","B",0,0
+0.000178,0,0.000178,0,0,"L",0,"","",0,0,4.4
+"Cubicle Cooler for LPSI Pump B Unavailable due to Maintenance"
+""
+114,"S1-GDAM-AB-SW","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+115,"S1-GDAM-AB-SWA","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+116,"S1-GDAM-AB-SWB","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+117,"S1-GDAM-AB-AAC","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"AAC DG HVAC MAINTENANCE"
+""
+118,"S1-DAM","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+119,"S1-AFTPM02A","B",0,0
+0.00544,0,0.00544,0,0,"l",0,"","",0,0,2.7
+"AFW TP A UNAVAILABLE DUE TO T&M"
+""
+120,"S1-AFMPM02B","B",0,0
+0.00395,0,0.00395,0,0,"l",0,"","",0,0,2.6
+"AFW MP B UNAVAILABLE DUE TO T&M"
+""
+121,"S1-AFMPM01A","B",0,0
+0.00395,0,0.00395,0,0,"l",0,"","",0,0,2.6
+"AFW MP A UNAVAILABLE DUE TO T&M"
+""
+122,"S1-AFTPM01B","B",0,0
+0.00544,0,0.00544,0,0,"l",0,"","",0,0,2.7
+"AFW TP B UNAVAILABLE DUE TO T&M"
+""
+123,"S1-GDAM_AFA1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+124,"S1-GDAM_AFA2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+125,"S1-GDAM_AFB1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+126,"S1-GDAM_AFB2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+"#TreeLogic"
+1,"+",3
+2
+71
+90
+2,"+",6
+43
+106
+52
+56
+61
+66
+13,"*",2
+16
+15
+14,"+",2
+17
+18
+23,"+",2
+24
+25
+24,"*",2
+26
+27
+25,"*",2
+35
+36
+28,"+",2
+29
+30
+29,"*",2
+31
+32
+30,"*",2
+33
+34
+43,"*",2
+46
+47
+52,"*",2
+53
+55
+53,"+",3
+38
+37
+54
+55,"+",2
+39
+40
+56,"+",4
+57
+58
+59
+60
+57,"*",2
+35
+26
+58,"*",2
+33
+31
+59,"*",2
+36
+27
+60,"*",2
+34
+32
+61,"*",2
+63
+65
+66,"*",2
+67
+69
+71,"+",3
+76
+77
+78
+76,"+",6
+79
+80
+81
+82
+83
+84
+77,"+",3
+85
+86
+87
+78,"*",4
+72
+73
+74
+75
+79,"*",2
+72
+73
+80,"*",2
+72
+74
+81,"*",2
+72
+75
+82,"*",2
+73
+74
+83,"*",2
+73
+75
+84,"*",2
+74
+75
+85,"*",3
+72
+73
+74
+86,"*",3
+72
+74
+75
+87,"*",3
+73
+74
+75
+90,"+",10
+91
+92
+93
+94
+95
+97
+102
+103
+104
+105
+91,"+",2
+123
+124
+92,"+",2
+125
+126
+93,"*",2
+3
+4
+94,"*",2
+5
+6
+95,"+",6
+96
+108
+109
+111
+114
+117
+96,"*",2
+41
+42
+97,"+",4
+98
+99
+100
+101
+98,"*",2
+7
+8
+99,"*",2
+9
+10
+100,"*",2
+11
+12
+101,"*",2
+88
+89
+102,"+",2
+23
+28
+103,"*",2
+38
+37
+104,"*",2
+39
+40
+105,"+",2
+13
+14
+106,"+",2
+107
+110
+107,"*",2
+44
+45
+108,"*",2
+48
+49
+109,"*",2
+62
+64
+110,"*",2
+68
+70
+111,"*",2
+112
+113
+114,"+",2
+115
+116
+115,"*",2
+19
+20
+116,"*",2
+21
+22
+117,"*",2
+50
+51
+118,"+",1
+1
+123,"*",2
+121
+122
+124,"*",2
+119
+122
+125,"*",2
+120
+122
+126,"*",2
+120
+121
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

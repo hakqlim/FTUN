@@ -1,0 +1,288 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=","H:\Work\FTA_Execise - x06 - 복사본 - 복사본\SKR12-LV1-11\SEIS-BASE\data.mdb"
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",64
+"#XEventData"
+1,"S1-SEIS-CDF","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+2,"S1-DAM","?",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DISALLOWED CCF AND COCNSENSE CUTSETS"
+""
+3,"S1-SEIS","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SK1 Seismic PSA Model"
+""
+4,"S1-SEISMIC","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Seismic IET"
+""
+5,"S1-GIE-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Offsite Power"
+""
+6,"S1-GIE-GTRN","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"General transient"
+""
+7,"S1-CSLOCA","?",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+8,"S1-GIE-SBO-R","?",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+9,"S1-GIE-SBO-S","?",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+10,"S1-GIE-ATWS","?",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+11,"%S10_S1-SEIS","H",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+12,"S1-SEISMIC-3","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 3"
+""
+13,"S1-SEISMIC-4","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 4"
+""
+14,"S1-SEISMIC-6","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 6"
+""
+15,"%S1-SEIS","H",0,0
+1,4,1,0,0,"L",0,"","",0,0,0
+""
+""
+16,"S1-SLEP_S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Essential Power"
+""
+17,"#S1-SEISMIC-6","B",0,0
+1,0,1,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 6 Event"
+""
+18,"S1-SEIS_SBCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Battery Charger Structal Failure"
+""
+19,"S1-SEIS-SIRSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"125V dc Control Center Structural Failure"
+""
+20,"S1-SEIS-SDCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"125V dc Control Center Structural Failure"
+""
+21,"S1-SEIS_SIRSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Inventer Structural Failure"
+""
+22,"S1-SEIS_SDCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"125V dc Control Center Structural Failure"
+""
+23,"S1-SEIS_SSWSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"4.16kV SWGR Structural Failure"
+""
+24,"S1-SEIS_SLCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"480V LC Structural Failure"
+""
+25,"S1-GSEIS_LC","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Function Recovery"
+""
+26,"S1-SEIS_SLCRC","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"480V LC Funcitonal Failure"
+""
+27,"S1-SEIS_OP-HR","B",0,0
+0.01,0,0.01,0,0,"L",0,"","",0,0,0
+"Failure of Function Recovery"
+""
+28,"S1-GSEIS_SWGR","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Function Recovery"
+""
+29,"S1-SEIS_SSWRC","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"4.16kV SWGR Functional Failure"
+""
+30,"S1-SELP-S","?",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+31,"S1-SELP_S","?",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+32,"S1-SLEP_S_N","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Essential Power"
+""
+33,"S1-SLOCS_S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Control due to seismic"
+""
+34,"S1-SEIS_PCSSF","B",0,0
+0.1,0,0.1,0,0,"L",0,"","",0,0,0
+"PCS Cabnet Structural Failure"
+""
+35,"#S1-SEISMIC-5","B",0,0
+1,0,1,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 5 Event"
+""
+36,"S1-SSLOCA_S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Small LOCA due to seismic"
+""
+37,"S1-SEIS-SIPCB","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Instrument Pipe Failure"
+""
+38,"#S1-SEISMIC-4","B",0,0
+1,0,1,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 4 Event"
+""
+39,"S1-SEIS-SICPB","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Instrument Pipe Failure"
+""
+40,"S1-SLOCS_S_N","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Control due to seismic"
+""
+41,"S1-SSLOCA_S_N","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Small LOCA due to seismic"
+""
+42,"S1-SLLOCA_S","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LLOCA due to seismic"
+""
+43,"S1-SEIS_SITSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Safety Injection Tank Failure"
+""
+44,"S1-SEIS-CHKVL","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SIT Sheck Valve Failure"
+""
+45,"#S1-SEISMIC-3","B",0,0
+1,0,1,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC  Sequence 3 Event"
+""
+46,"S1-GSEIS_LC_N","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Function Recovery"
+""
+47,"S1-GSEIS_SWGR_N","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Function Recovery"
+""
+48,"S1-SEIS_SICPB","B",0,0
+0.1,0,0.1,0,0,"L",0,"","",0,0,0
+"Instrument Pipe Failure"
+""
+49,"DUMMY","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+50,"S1-SEISMIC-1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 1"
+""
+51,"S1-SEISMIC-2","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 2"
+""
+52,"S1-SLLOCA_S_N","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LLOCA due to seismic"
+""
+53,"S1-SLOOP_S_N","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Offsite Power due to Seismic"
+""
+54,"S1-SEIS_SLOOP","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of offsite power"
+""
+55,"#S1-SEISMIC-1","B",0,0
+1,0,1,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 1 Event"
+""
+56,"S1-SLOOP_S","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Offsite Power due to Seismic"
+""
+57,"#S1-SEISMIC-2","B",0,0
+1,0,1,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 2 Event"
+""
+58,"S1-SEIS_CHKVL","B",0,0
+0.000225,0,0.000225,0,0,"L",0,"","",0,0,0
+"SIT Check Valve Failure"
+""
+59,"S1-SEISMIC-5","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"S1-SEISMIC Sequence 5"
+""
+60,"DUMMY","?",0,2
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+"T:+No Input"
+61,"S1-GIE-CSLOCA","?",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+62,"S1-SEISMIC-1_SEQ","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+63,"S1-SEISMIC-2_SEQ","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+64,"S1-SEISMIC-3_SEQ","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+""
+""
+"#TreeLogic"
+1,"*",1
+3
+3,"+",1
+4
+62,"*",2
+6
+55
+63,"*",2
+5
+57
+64,"*",2
+61
+57
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

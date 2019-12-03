@@ -1,0 +1,23 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=",""
+"GenericFileName=",""
+"Comments=",""
+"#NoXEvent=",1
+"#XEventData"
+1,"TOP","+",0,0
+0,0,0,0,0,"L",0,"","",0
+""
+""
+"#TreeLogic"
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

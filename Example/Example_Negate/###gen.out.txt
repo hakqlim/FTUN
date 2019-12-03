@@ -1,0 +1,25 @@
+
+FtBdd Version 1.0 (2016.6.16)
+Fault Tree Solver using BDD Algorithm
+Copyright(C) 2009 KAERI, all rights reserved
+Developed by Korea Atomic Energy Research Institute
+	Sat Mar 09 20:53:20 2019
+
+
+ solve gates
+ gate : G1, v(8.100000e-001), n(1)
+ gate : G2, v(9.100000e-001), n(2)
+ gate : TOP, v(1.000000e-001), n(2)
+
+ Truncation by 1.000000e-011
+ Top : TOP, v(1.000000e-001), n(2)
+
+ # of Prime Implicants = 2
+ Value(BDD) : 1.000000e-001
+
+ BDD solved : 0 sec
+
+ # of Cut Sets = 2
+ Value(Rare Event) = 1.900000e-001
+
+ Run time = 0 sec

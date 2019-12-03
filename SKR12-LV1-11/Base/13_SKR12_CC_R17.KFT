@@ -1,0 +1,1777 @@
+"#KIRAP_TREE Version 3.5"
+"Title=","Prime R2.0 System FT"
+"UserName=",""
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 모델 개정\Base\data.mdb"
+"RecoveryFileName=","RecoveryFile.krc"
+"Comments=","PRiME 1.2 System FT + ASC 성공기준 1 of 2, SLOCA에서 TBV를 통한 덤프 모델 제거
+"
+"#NoXEvent=",304
+"#XEventData"
+1,"S1-GEM-01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LOSS OF POWER FROM 480V AC MCC MC01A"
+""
+2,"S1-GEA-01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel A"
+""
+3,"S1-GEA-01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel B"
+""
+4,"S1-GCC-TRA","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No flow from CCW train A"
+""
+5,"S1-GEM-01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LOSS OF POWER FROM 480V AC MCC MC01B"
+""
+6,"S1-GCC-TRB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Insufficient flow from CCW train B"
+""
+7,"S1-GED-01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01B"
+""
+8,"S1-GEK-01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of power at 4.16 KV SWGR BUS SW01A"
+""
+9,"S1-GEK-01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of power at 4.16 KV SWGR BUS SW01B"
+""
+10,"S1-GCC-HXA","+",0,1
+0,0,0,0,0,"",0,"","",0,0,0
+"CCW heat exchamger train A insufficient cooling"
+""
+11,"S1-CCMPR001PA","B",0,0
+0.00010896,1,4.54E-06,24,4.17,"L",0,"h","h",0,0,3.1
+"CC MP 01PA fails to run"
+""
+12,"S1-GCC-HVAC1A","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of room cooling for CCW pump 01A"
+""
+13,"S1-CCMPS002PA","B",0,0
+0.00223,0,0.00223,0,5.77,"L",0,"","h",0,0,4.8
+"CC MP 02PA fails to start"
+""
+14,"S1-CCMPR002PA","B",0,0
+0.00010896,1,4.54E-06,24,4.17,"L",0,"h","h",0,0,3.1
+"CC MP 02PA fails to run"
+""
+15,"S1-CCMPM002PA","B",0,0
+0.000407,0,0.000407,0,2.3,"L",0,"","",0,0,5
+"CC MP 02PA unavailable due to maintenance"
+""
+16,"S1-GCC-DG01A","+",0,1
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of CCW for 1E DG-01A"
+""
+17,"S1-GCC-MV0105","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"DG01KA heat exchanger isolation MOV 105 fails to open"
+""
+18,"S1-CCOPUVV1021","B",0,2
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"DG01KA HX disch. line valve V1021 is not restored after T&M"
+""
+19,"S1-GEM-02A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power AT 480V MCC Bus MC02A"
+""
+20,"S1-CCMVO0105","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"","",0,0,3.6
+"DG01KA HX isolation MOV MV105 fails to open"
+""
+21,"S1-CCHXBHE01A","B",0,0
+1.548E-05,1,6.45E-07,24,5.7,"L",0,"h","h",0,0,3.4
+"CC HX HE01A fails while operating (severe leakage, plugging)"
+""
+22,"S1-CCHXBHE02A","B",0,0
+1.548E-05,1,6.45E-07,24,5.7,"L",0,"h","h",0,0,3.4
+"CC HX HE02A fails while operating (severe leakage, plugging)"
+""
+23,"S1-CCTKF01A","D",0,0
+1E-10,0,1E-10,0,0,"",0,"","",0,0,0
+"CCW Surge Tank 1A Depletion"
+"Dummy 값"
+24,"S1-CCVVT1127","B",0,0
+7.632E-08,3,6.36E-09,24,3.9,"L",0,"h","h",0,0,3.9
+"Surge Tank 1A Discharge Valve V1127 Fails"
+"Dummy Value"
+25,"S1-CCVVT1013","B",0,0
+7.632E-08,3,6.36E-09,24,3.9,"L",0,"h","h",0,0,3.9
+"CCW Train A Discharge Valve V1013 Fails"
+"Dummy Value"
+26,"S1-CCVVT1015","B",0,0
+7.632E-08,3,6.36E-09,24,3.9,"L",0,"h","h",0,0,3.9
+"CCW Train A discharge Valve V1015 Fails"
+"Dummy Value"
+27,"S1-CCMPS001PA","B",0,0
+0.00223,0,0.00223,0,5.77,"L",0,"","h",0,0,4.8
+"CC MP 01PA fails to start"
+""
+28,"S1-GCC-TRA-OOS","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"CC Tr.A Dummy event w/ almost zero probability (events only to represent OOS status)"
+""
+29,"S1-GCC-PCSMV0105","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for MV105A (D/G Start Signal)"
+""
+30,"S1-CCISAMV0105","B",0,0
+6.333334E-09,3,7.6E-07,0.01666667,5,"L",0,"h","h",0,0,5
+"Failure of PCS for MV105A"
+""
+31,"S1-CCISAMP01A","B",0,0
+2.28E-06,3,7.6E-07,6,0,"L",0,"h","h",0,0,5
+"FAilure of PCS for CC P/P 01A"
+""
+32,"S1-GCC-DG105A-SIG","=",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Signal Failure of MOV105A"
+""
+33,"S1-GCC-HXB","+",-1,1
+0,0,0,0,0,"",0,"","",0,0,0
+"CCW heat exchanger train B insufficient cooling"
+""
+34,"S1-CCMPR001PB","B",0,0
+0.00010896,1,4.54E-06,24,4.17,"L",0,"h","h",0,0,3.1
+"CC MP 01PB fails to run"
+""
+35,"S1-CCMPS002PB","B",0,0
+0.00223,0,0.00223,0,5.77,"L",0,"","h",0,0,4.8
+"CC MP 02PB fails to start"
+""
+36,"S1-CCMPR002PB","B",0,0
+0.00010896,1,4.54E-06,24,4.17,"L",0,"h","h",0,0,3.1
+"CC MP 02PB fails to run"
+""
+37,"S1-CCMPM002PB","B",0,0
+0.000407,0,0.000407,0,2.3,"L",0,"","",0,0,5
+"CC MP 02PB unavailable due to maintenance"
+""
+38,"S1-GCC-DG01B","+",-1,1
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of CCW for 1E DG-01B"
+""
+39,"S1-CCOPUVV1022","B",0,2
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"DG01KB HX disch. line valve V1022 is not restored after T&M"
+""
+40,"S1-GEM-02B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power AT 480V MCC Bus MC02B"
+""
+41,"S1-CCMVO0106","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"","",0,0,3.6
+"DG01KB HX isolation MOV MV106 fails to open"
+""
+42,"S1-CCHXBHE01B","B",0,0
+1.548E-05,1,6.45E-07,24,5.7,"L",0,"h","h",0,0,3.4
+"CC HX HE01B fails while operating (severe leakage, plugging)"
+""
+43,"S1-CCHXBHE02B","B",0,0
+1.548E-05,1,6.45E-07,24,5.7,"L",0,"h","h",0,0,3.4
+"CC HX HE02B fails while operating (severe leakage, plugging)"
+""
+44,"S1-CCTKF01B","D",0,0
+1E-10,0,1E-10,0,0,"",0,"","",0,0,0
+"CCW Surge Tank 1B Depletion"
+"Dummy Value"
+45,"S1-CCVVT1128","B",0,0
+1.5264E-07,1,6.36E-09,24,3.9,"L",0,"h","h",0,0,3.9
+"Surge Tank 1B discharge valve V1128 fails"
+"Dummy Value"
+46,"S1-CCVVT1014","B",0,0
+7.632E-08,3,6.36E-09,24,3.9,"L",0,"h","h",0,0,3.9
+"CCW TrainB Discharge Valve V1014 Fails"
+"Dummu Value"
+47,"S1-CCVVT1016","B",0,0
+7.632E-08,3,6.36E-09,24,3.9,"L",0,"h","h",0,0,3.9
+"CCW Train B discharge valve V1016 Fails"
+"Dummy Value"
+48,"S1-CCMPS001PB","B",0,0
+0.00223,0,0.00223,0,5.77,"L",0,"","h",0,0,4.8
+"CC MP 01PB fails to start"
+""
+49,"S1-CCMPM001PB","B",0,0
+0.000407,0,0.000407,0,2.3,"L",0,"","",0,0,5
+"CC MP 01PB unavailable due to maintenance"
+""
+50,"S1-GCC-TRB-OOS","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"CC Tr.B Dummy event w/ almost zero probability (events only to represent OOS status)"
+""
+51,"S1-GCC-MV0106","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"DG01KB heat exchanger isolation MOV 106 fails to open"
+""
+52,"S1-GCC-PCSMV0106","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for MV106B (D/G Start Signal)"
+""
+53,"S1-CCISAMV0106","B",0,0
+6.333334E-09,3,7.6E-07,0.01666667,5,"L",0,"h","h",0,0,5
+"Failure of PCS for MV106B"
+""
+54,"S1-GCC-PCSMP01B","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for CC P/P 01B"
+""
+55,"S1-CCISAMP01B","B",0,0
+2.28E-06,3,7.6E-07,6,0,"L",0,"h","h",0,0,5
+"FAilure of PCS for CC P/P 01B"
+""
+56,"S1-GCC-PCSMP02B","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for CC P/P 02B"
+""
+57,"S1-CCISAMP02B","B",0,0
+2.28E-06,3,7.6E-07,6,0,"L",0,"h","h",0,0,5
+"FAilure of PCS for CC P/P 02B"
+""
+58,"S1-GCC-DG106B-SIG","=",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Signal Failure of DG B"
+""
+59,"S1-GCC-SDCHX1A-ISOL","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"SDC HX01A is isolated due to valve failure"
+""
+60,"S1-CCMVO0073","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"","",0,0,3.6
+"SDC HX01A isolation MOV MV073 fails to open"
+""
+61,"S1-CCOPUVV1027","B",0,2
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"SDC HX01A discharge line valve V1027 is not restored after T&M"
+""
+62,"S1-GCC-CSMV0073","+",0,1
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for MV073A"
+""
+63,"S1-CCISAMV0073","B",0,0
+1.9E-08,3,7.6E-07,0.05,5,"L",0,"h","h",0,0,5
+"Failure of PCS for MV073A"
+""
+64,"S1-GCC-SDCHX1B-ISOL","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"SDC HX01B is isolated due to valve failure"
+""
+65,"S1-CCMVO0074","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"","",0,0,3.6
+"SDC HX01B isolation MOV MV074 fails to open"
+""
+66,"S1-CCOPUVV1028","B",0,2
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"SDC HX01B discharge line valve V1028 is not restored after T&M"
+""
+67,"S1-GCC-CSMV0074","+",0,1
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for MV074B"
+""
+68,"S1-CCISAMV0074","B",0,0
+1.9E-08,3,7.6E-07,0.05,5,"L",0,"h","h",0,0,5
+"Failure of PCS for MV074B"
+""
+69,"S1-CCHXMHE03A","B",0,0
+0.0021,0,0.0021,0,0,"L",0,"","",0,0,10
+"CC HX HE03A unavailable due to maintenance"
+""
+70,"S1-CCVVO1145","B",0,0
+0.000743,0,0.000743,0,0,"L",0,"","",0,0,8.4
+"CC HX HE03A isolation valve V1145 fails to open"
+""
+71,"S1-CCOPUVV1151","B",0,0
+0.0011,0,0.0011,0,0,"L",0,"","",0,0,0
+"CC HX HE03A disch. line valve V1151 is not restored after T&M"
+""
+72,"S1-CCHXBHE03A","B",0,0
+1.548E-05,1,6.45E-07,24,0,"L",0,"h","h",0,0,3.4
+"CC HX HE03A fails while operating (severe leakage, plugging)"
+""
+73,"S1-CCHXBHE03B","B",0,0
+1.548E-05,1,6.45E-07,24,0,"L",0,"h","h",0,0,3.4
+"CC HX HE03B fails while operating (severe leakage, plugging)"
+""
+74,"S1-GHC-CCPP01A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of CCW Pump A Room Cooling"
+""
+75,"S1-CCHXMHE03B","B",0,0
+0.0021,0,0.0021,0,0,"L",0,"","",0,0,10
+"CC HX HE03B unavailable due to maintenance"
+""
+76,"S1-CCVVO1146","B",0,0
+0.000743,0,0.000743,0,0,"L",0,"","",0,0,8.4
+"CC HX HE03B isolation valve V1146 fails to open"
+""
+77,"S1-CCMVO0026","B",0,1
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"CC HX HE03B isolation valve MV0026 fails to open"
+""
+78,"S1-CCMVW-SDCHX-AB","B",0,0
+2.4396E-05,0,0.00107,0,0,"L",0,"","",0.0228,0,3.6
+"CCF - CCW to SDC HX isolation MOVS A:073, B:074 fail to open (2/2)"
+""
+79,"S1-GHC-CCPP01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of CCW Pump B Room Cooling"
+""
+80,"S1-CCMVW-DGHX-AB","B",0,0
+2.4396E-05,0,0.00107,0,0,"L",0,"","",0.0228,0,3.6
+"CCF - CCW to DG HX isolation MOV A:105/B:106 fail to open(2/2)"
+""
+81,"S1-CCAVO0901","B",0,1
+0.00111,0,0.00111,0,0,"L",0,"","",0,0,4.3
+"ECW CONDENSER 01A PRESS.CONTROL AOV 0901 FAILS TO MODUL."
+""
+82,"S1-GCC-AV0905","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF CONDENS.02A ISOLATION AOV 0905"
+""
+83,"S1-CCAVO0905","B",0,0
+0.00111,0,0.00111,0,0,"L",0,"","",0,0,4.3
+"ECW CONDENSER 02A PRESS.CONTROL AOV 905 FAILS TO MODUL."
+""
+84,"S1-CCAVT0905","B",0,0
+0.000162,3,1.5E-07,2160,0,"L",0,"h","h",0,0,8.4
+"ECW COND.02A PRESS. CONTROL AOV 905 TRANSFER CLOSED"
+""
+85,"S1-CCAVW-CWHX-AB","B",0,0
+2.4309E-05,0,0.00111,0,0,"L",0,"","",0.0219,0,4.3
+"AOV A:905/B:906(2/2)"
+""
+86,"S1-GCC-MV0095","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF CONDENS.02A ISOLATION MOV 0095"
+""
+87,"S1-GCC-MV0095-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF CONDENS.02A ISOLATION MOV 095"
+""
+88,"S1-GCC-MV0095-SF","+",-1,4
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPPORT SYSTEM FOR MV 095"
+""
+89,"S1-CCMVO0095","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"ECW CONDENSER 02A ISO. MV 095 FAILS TO OPEN"
+""
+90,"S1-CCMVW-CWHX-AB","B",0,0
+2.4396E-05,0,0.00107,0,0,"L",0,"","",0.0228,0,3.6
+"CCF FOR MOV A:095/B:096(2/2)"
+""
+91,"S1-CCAVO0902","B",0,1
+0.00111,0,0.00111,0,0,"L",0,"","",0,0,4.3
+"ECW CONDENSER 01B PRESS.CONTROL AOV 902 FAILS TO MODUL."
+""
+92,"S1-GCC-AV0906","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF CONDENS.02B ISOLATION AOV 0906"
+""
+93,"S1-CCAVO0906","B",0,0
+0.00111,0,0.00111,0,0,"L",0,"","",0,0,4.3
+"ECW CONDENSER 02B PRESS.CONTROL AOV 906 FAILS TO MODUL."
+""
+94,"S1-CCAVT0906","B",0,0
+0.000162,3,1.5E-07,2160,0,"L",0,"h","h",0,0,8.4
+"ECW COND.02B PRESS. CONTROL AOV 906 TRANSFER CLOSED"
+""
+95,"S1-GCC-MV0096","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF CONDENS.02B ISOLATION MOV 096"
+""
+96,"S1-GCC-MV0096-RF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ISO MOV 096 RANDOM FAILURE"
+""
+97,"S1-CCMVO0096","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"ECW CONDENSER 02B ISO. MV 096 FAILS TO OPEN"
+""
+98,"S1-GEM-05B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT CLASS 1E 480V MCC MC05B"
+""
+99,"S1-GCC-CWTR1A","+",-1,1
+0,0,0,0,0,"",0,"","",0,0,0
+"No CCW Flow TO Essential Chiller Condenser 01A"
+""
+100,"S1-GCC-CWTR2A","+",-1,1
+0,0,0,0,0,"",0,"","",0,0,0
+"No CCW Flow TO Essential Chiller Condenser 02A"
+""
+101,"S1-GCC-CWTR1B","+",-1,1
+0,0,0,0,0,"",0,"","",0,0,0
+"No CCW Flow TO Essential Chiller Condenser 01B"
+""
+102,"S1-GCC-CWTR2B","+",-1,1
+0,0,0,0,0,"",0,"","",0,0,0
+"No CCW Flow TO Essential Chiller Condenser 02B"
+""
+103,"S1-CCOPUVV1152","B",0,2
+0.0011,0,0.0011,0,0,"L",0,"","",0,0,0
+"CC HX HE02B disch. line valve V1152 is not restored after T&M"
+""
+104,"S1-GCC-SCHXTRB","+",-1,1
+0,0,0,0,0,"",0,"","",0,0,0
+"No CCW FLOW TO SDC HX 2"
+""
+105,"S1-GCC-SCHXTRA","+",-1,1
+0,0,0,0,0,"",0,"","",0,0,0
+"No CCW FLOW TO SDC HX 1"
+""
+106,"S1-GCC-ISOL-A","*",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW TRA IN A FAILS TO SEPARATE WHEN S IAS OCCURS"
+""
+107,"S1-GCC-ISOL-IN-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS INLET A LINE MOVS FAIL TO CLOSE"
+""
+108,"S1-GCC-ISOL-INCCF-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS INLET LINE MOVS FAIL TO CLOS E (CCF)"
+""
+109,"S1-GCC-ISOL-IN-IND-A","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS INLET A LINE MOVS FAIL TO CLOSE"
+""
+110,"S1-GCC-ISOL-MV0081","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW NON-SAFETY INLET ISO. VV MV081A FAILS TO CLOSE"
+""
+111,"S1-GCC-ISOL-MV0101","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW DIV INLET A ISOL. VALVE MV101A FAILS TO CLOSE"
+""
+112,"S1-CCMVC0081","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"DIV. ISOL.VALVE MV 081 FAILS TO CLOSE"
+""
+113,"S1-GCC-MV081-SUPPORT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPP ORT SYSTEM FOR MV081"
+""
+114,"S1-GCC-ISOL-OUT-A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS RETURN A LINE MOVS FAIL TO CLOSE"
+""
+115,"S1-GCC-ISOL-OUTCCF-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS RETURN LINE MOVS MV083 FAIL TO CLOSE (CCF)"
+""
+116,"S1-GCC-ISOL-OUT-IND-A","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS OUTLE T A LINE MOVS FAIL TO CLOSE"
+""
+117,"S1-GCC-ISOL-MV0083","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW NON-SAFETY OUTLET ISO. VALVE MV083 FAILS TO CLOSE"
+""
+118,"S1-GCC-ISOL-OUT1-IND-A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW TRAIN FAILS TO SEPARATE"
+""
+119,"S1-CCMVC0083","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"DIV. ISOL.VALVE MV 083 FAILS TO CLOSE"
+""
+120,"S1-GCC-MV083-SUPPORT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPPORT SYSTEM FOR MV083"
+""
+121,"S1-CCMVC0101","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"DIV. ISOL.VALVE MV 101 FAILS TO CLOSE"
+""
+122,"S1-GCC-MV101-SUPPORT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPPORT SYSTEM FOR MV101"
+""
+123,"S1-GCC-ISOL-MV0103","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW DIV OUTLET A ISOL. VV MV103A FAILS TO CLOSE"
+""
+124,"S1-GCC-ISOL-MV0104","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW DIV OUTLET A ISOL. VV MV104B FAILS TO CLOSE"
+""
+125,"S1-CCMVC0103","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"DIV. ISOL.VALVE MV 103 FAILS TO CLOSE"
+""
+126,"S1-GCC-MV103-SUPPORT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPPORT SYSTEM FOR MV103"
+""
+127,"S1-CCMVC0104","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"DIV. ISOL.VALVE MV 104 FAILS TO CLOSE"
+""
+128,"S1-GCC-MV104-SUPPORT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPPORT SYSTEM FOR MV104"
+""
+129,"S1-GCC-ISOL-B","*",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW TRAIN B FAILS TO SEPARATE WHEN SIAS OCCURS"
+""
+130,"S1-GCC-ISOL-IN-B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS INLET B LINE MOVS FAIL TO CLOSE"
+""
+131,"S1-GCC-ISOL-INCCF-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS INLET LINE MOVS FAIL TO CLOSE (CCF)"
+""
+132,"S1-GCC-ISOL-IN-IND-B","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS INLET B LINE MOVS FAIL TO CLOSE"
+""
+133,"S1-GCC-ISOL-MV0102","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW DIV INLET A ISOL. VALVE MV102 FAILS TO CLOSE"
+""
+134,"S1-CCMVC0102","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"DIV. ISOL.VALVE MV 102 FAILS TO CLOSE"
+""
+135,"S1-GCC-MV102-SUPPORT","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPPORT SYSTEM FOR MV102"
+""
+136,"S1-GCC-ISOL-OUT-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS RETURN B LINE MOVS FAIL TO CLOSE"
+""
+137,"S1-GCC-ISOL-OUTCCF-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS RETURN LINE MOVS FAIL TO CLOSE (CCF)"
+""
+138,"S1-GCC-ISOL-OUT-IND-B","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW LOADS OUTLE T B LINE MOVS FAIL TO CLOSE"
+""
+139,"S1-GCC-ISOL-OUT1-IND-B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW TRAIN FAILS TO SEPARATE"
+""
+140,"S1-CCCVC1001","B",0,0
+0.000104,0,0.000104,0,0,"L",0,"","",0,0,8.4
+"PP01A DISCH. CV V1001 FAILS TO CLOSE"
+""
+141,"S1-CCCVO1003","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",0,"","",0,0,8.4
+"PP02A DISCH. CV V1003 FAILS TO OPEN"
+""
+142,"%S1-TLOCCW","H",0,0
+0.000246,4,0.000246,0,0,"L",0,"y","",0,0,0
+"TOTAL LOSS OF A CCW OCCURS"
+""
+143,"S1-GEM-05A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT CLASS 1E 480V MCC MC05A"
+""
+144,"S1-GCC-MV0096-SF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SUPPORT SYSTEM FOR MV 096"
+""
+145,"S1-CCMPK-AB","B",0,0
+7.333009E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00673,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+146,"S1-CCMPK-ABC","B",0,0
+3.43224E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00315,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+147,"S1-CCMPK-ABCD","B",0,0
+5.763984E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00529,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (4/4)"
+""
+148,"S1-CCMPK-ABD","B",0,0
+3.43224E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00315,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+149,"S1-CCMPK-AC","B",0,0
+7.333009E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00673,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+150,"S1-CCMPK-ACD","B",0,0
+3.43224E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00315,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+151,"S1-CCMPK-AD","B",0,0
+7.333009E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00673,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+152,"S1-GCC-MPK-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B"
+""
+153,"S1-CCMPK-BC","B",0,0
+7.333009E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00673,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+154,"S1-CCMPK-BCD","B",0,0
+3.43224E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00315,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+155,"S1-CCMPK-BD","B",0,0
+7.333009E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00673,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+156,"S1-GCC-MPK-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+157,"S1-GCC-MPK-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+158,"S1-GCC-MPK-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (4/4)"
+""
+159,"S1-GCC-MPK-C","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B"
+""
+160,"S1-CCMPK-CD","B",0,0
+7.333009E-07,1,4.54E-06,24,0,"l",0,"h","h",0.00673,0,3.1
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+161,"S1-GCC-MPK-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+162,"S1-GCC-MPK-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+163,"S1-GCC-MPK-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (4/4)"
+""
+164,"S1-GCC-MPK-D","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B"
+""
+165,"S1-GCC-MPK-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+166,"S1-GCC-MPK-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+167,"S1-GCC-MPK-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (4/4)"
+""
+168,"S1-CCMPW-AB","B",0,0
+3.5903E-05,0,0.00223,0,0,"l",0,"h","h",0.0161,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4) (OPEN)"
+""
+169,"S1-CCMPW-ABC","B",0,0
+1.10162E-05,0,0.00223,0,0,"l",0,"h","h",0.00494,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4) (OPEN)"
+""
+170,"S1-CCMPW-ABCD","B",0,0
+7.2475E-06,0,0.00223,0,0,"l",0,"h","h",0.00325,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (4/4) (OPEN)"
+""
+171,"S1-CCMPW-ABD","B",0,0
+1.10162E-05,0,0.00223,0,0,"l",0,"h","h",0.00494,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4) (OPEN)"
+""
+172,"S1-CCMPW-AC","B",0,0
+3.5903E-05,0,0.00223,0,0,"l",0,"h","h",0.0161,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4) (OPEN)"
+""
+173,"S1-CCMPW-ACD","B",0,0
+1.10162E-05,0,0.00223,0,0,"l",0,"h","h",0.00494,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4) (OPEN)"
+""
+174,"S1-CCMPW-AD","B",0,0
+3.5903E-05,0,0.00223,0,0,"l",0,"h","h",0.0161,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4) (OPEN)"
+""
+175,"S1-GCC-MPW-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B"
+""
+176,"S1-CCMPW-BC","B",0,0
+3.5903E-05,0,0.00223,0,0,"l",0,"h","h",0.0161,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4) (OPEN)"
+""
+177,"S1-CCMPW-BCD","B",0,0
+1.10162E-05,0,0.00223,0,0,"l",0,"h","h",0.00494,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4) (OPEN)"
+""
+178,"S1-CCMPW-BD","B",0,0
+3.5903E-05,0,0.00223,0,0,"l",0,"h","h",0.0161,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4) (OPEN)"
+""
+179,"S1-GCC-MPW-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+180,"S1-GCC-MPW-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+181,"S1-GCC-MPW-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (4/4)"
+""
+182,"S1-GCC-MPW-C","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B"
+""
+183,"S1-CCMPW-CD","B",0,0
+3.5903E-05,0,0.00223,0,0,"l",0,"h","h",0.0161,0,4.8
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4) (OPEN)"
+""
+184,"S1-GCC-MPW-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+185,"S1-GCC-MPW-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+186,"S1-GCC-MPW-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (4/4)"
+""
+187,"S1-GCC-MPW-D","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B"
+""
+188,"S1-GCC-MPW-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+189,"S1-GCC-MPW-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+190,"S1-GCC-MPW-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (4/4)"
+""
+191,"S1-CCMVO0025","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"CC HX HE03A isolation valve MV0025 fails to open"
+""
+192,"S1-CCMVW-CWHXB-AB","B",0,0
+2.4396E-05,0,0.00107,0,0,"L",0,"","",0.0228,0,3.6
+"DEMAND CCF FOR MOV A:086/B:096(2/2) (OPEN)"
+""
+193,"S1-CCMVW-CWHXA-AB","B",0,0
+2.4396E-05,0,0.00107,0,0,"L",0,"","",0.0228,0,3.6
+"CCF FOR MOV A:095/B:096(2/2)"
+""
+194,"%S1-LOOP","H",0,0
+0.0248,4,0.0248,0,0,"L",0,"y","",0,0,0
+"LOOP IE FREQUENCY"
+"NUREG/CR-3862, 136년 3회"
+195,"S1-GED-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01A"
+""
+196,"S1-GCC-MP1A-SUP-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CCW pump 01A support system"
+""
+197,"S1-GCC-MPA","*",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"No flow from CCW pump train A"
+""
+198,"S1-GCC-PCSMP01A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for CC P/P 01A"
+""
+199,"S1-GCC-MPK-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B"
+""
+200,"S1-GCC-MPW-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B"
+""
+201,"S1-CCCVO1001","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",0,"","",0,0,8.4
+"PP01A DISCH. CV V1001 FAILS TO OPEN"
+""
+202,"S1-GCC-MPK-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+203,"S1-GCC-MPK-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+204,"S1-GCC-MPK-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"RUNNING CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (4/4)"
+""
+205,"S1-GCC-MPW-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (2/4)"
+""
+206,"S1-GCC-MPW-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (3/4)"
+""
+207,"S1-GCC-MPW-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF CC MP A: PP01A, B: PP02A, C: PP01B, D: PP02B (4/4)"
+""
+208,"S1-GSW-HX01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Insufficient flow from SW Pumps(1/2) to CC heat exchanger 01A"
+""
+209,"S1-GSW-HX02A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Insufficient flow to CCW heat exchanger 02A"
+""
+210,"S1-GSW-HX03A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Insufficient flow to CCW heat exchanger 03A"
+""
+211,"S1-GSW-HX01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Insufficient flow to CCW heat exchanger 01B"
+""
+212,"S1-GSW-HX02B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Insufficient flow to CCW heat exchanger 02B"
+""
+213,"S1-GSW-HX03B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Insufficient flow to CCW heat exchanger 03B"
+""
+214,"S1-GCC-HXA-12","2",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW heat exchamger train A insufficient cooling (01A, 02A RUN)"
+""
+215,"S1-GCC-HX01A-12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CC HX HE01A segment"
+""
+216,"S1-GCC-HX02A-12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CC HX HE02A segment"
+""
+217,"S1-GCC-HX03A-12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CC HX HE03A segment"
+""
+218,"S1-GCC-HX03A-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW HX03A UNAVAILABLE"
+""
+219,"S1-GCC-HXB-12","2",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW heat exchamger train B insufficient cooling (01B, 02B RUN)"
+""
+220,"S1-GCC-HX01B-12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CC HX HE01B segment"
+""
+221,"S1-GCC-HX02B-12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CC HX HE02B segment"
+""
+222,"S1-GCC-HX03B-12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CC HX HE03B segment"
+""
+223,"S1-GCC-HX03B-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW HX03B UNAVAILABLE"
+""
+224,"S1-GCC-MPB","*",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"No flow from CCW pump train B"
+""
+225,"S1-CCCVO1002","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",0,"","",0,0,8.4
+"PP01B DISCH. CV V1002 FAILS TO OPEN"
+""
+226,"S1-CCCVC1002","B",0,0
+0.000104,0,0.000104,0,0,"L",0,"","",0,0,8.4
+"PP01B DISCH. CV V1002 FAILS TO CLOSE"
+""
+227,"S1-CCCVO1004","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",0,"","",0,0,8.4
+"PP02B DISCH. CV V1004 FAILS TO OPEN"
+""
+228,"S1-CCCVQ-BC","B",0,0
+4.4408E-06,0,0.000104,0,0,"L",0,"","",0.0427,0,8.4
+"DEMAND CCF OF PUMP PP01A/01B DISCH. CV A:1001, B:1002, C:1003, D:1004 (1/2) (CLOSE)"
+""
+229,"S1-CCCVW-AD","B",0,0
+1.794E-07,0,1.3E-05,0,0,"L",0,"","",0.0138,0,8.4
+"DEMAND CCF OF PUMP PP01A/01B DISCH. CV A:1001, B:1002, C:1003, D:1004 (1/2) (OPEN)"
+""
+230,"S1-CCCVQ-AD","B",0,0
+4.4408E-06,0,0.000104,0,0,"L",0,"","",0.0427,0,8.4
+"DEMAND CCF OF PUMP PP01A/01B DISCH. CV A:1001, B:1002, C:1003, D:1004 (1/2) (CLOSE)"
+""
+231,"S1-CCCVW-BC","B",0,0
+1.794E-07,0,1.3E-05,0,0,"L",0,"","",0.0138,0,8.4
+"DEMAND CCF OF PUMP PP01A/01B DISCH. CV A:1001, B:1002, C:1003, D:1004 (1/2) (OPEN)"
+""
+232,"S1-CCCVQ-CD","B",0,0
+4.4408E-06,0,0.000104,0,0,"L",0,"","",0.0427,0,8.4
+"DEMAND CCF OF PUMP PP01A/01B DISCH. CV A:1001, B:1002, C:1003, D:1004 (1/2) (CLOSE)"
+""
+233,"S1-CCCVW-AB","B",0,0
+1.794E-07,0,1.3E-05,0,0,"L",0,"","",0.0138,0,8.4
+"DEMAND CCF OF PUMP PP01A/01B DISCH. CV A:1001, B:1002, C:1003, D:1004 (1/2) (OPEN)"
+""
+234,"S1-CCCVC1004","B",0,0
+0.000104,0,0.000104,0,0,"L",0,"","",0,0,8.4
+"PP02B DISCH. CV V1004 FAILS TO CLOSE"
+""
+235,"S1-CCMVQ-AC","B",0,0
+2.568E-06,0,0.00107,0,0,"L",0,"","",0.0024,0,3.6
+"DEMAND CCF CC MOV A: 081, B: 083, C: 101, D: 102, E: 103, F: 104  (CLOSE)"
+""
+236,"S1-CCMVQ-BE","B",0,0
+2.568E-06,0,0.00107,0,0,"L",0,"","",0.0024,0,3.6
+"DEMAND CCF CC MOV A: 081, B: 083, C: 101, D: 102, E: 103, F: 104  (CLOSE)"
+""
+237,"S1-CCMVQ-BF","B",0,0
+2.568E-06,0,0.00107,0,0,"L",0,"","",0.0024,0,3.6
+"DEMAND CCF CC MOV A: 081, B: 083, C: 101, D: 102, E: 103, F: 104  (CLOSE)"
+""
+238,"S1-CCMVQ-BEF","B",0,0
+4.7936E-07,0,0.00107,0,0,"L",0,"","",0.000448,0,3.6
+"DEMAND CCF CC MOV A: 081, B: 083, C: 101, D: 102, E: 103, F: 104  (CLOSE)"
+""
+239,"S1-CCMVQ-AD","B",0,0
+2.568E-06,0,0.00107,0,0,"L",0,"","",0.0024,0,3.6
+"DEMAND CCF CC MOV A: 081, B: 083, C: 101, D: 102, E: 103, F: 104  (CLOSE)"
+""
+240,"S1-GCC-CS0101","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV 101 Control Signal"
+""
+241,"S1-GCC-PCSMV0101","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for MV0101"
+""
+242,"S1-GCC-ARCMV0101","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Signal Geration for MV0101"
+""
+243,"S1-GEX-PA03A-06","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A-06)"
+""
+244,"S1-CCISAMV0101","B",0,0
+1.9E-08,3,7.6E-07,0.05,0,"L",0,"h","h",0,0,5
+"Failure of PCS for MV0101"
+""
+245,"S1-GCC-CS0081","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV 081 Control Signal"
+""
+246,"S1-GCC-PCSMV0081","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for MV0081"
+""
+247,"S1-GCC-ARCMV0081","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Signal Geration for MV0081"
+""
+248,"S1-CCISAMV0081","B",0,0
+1.9E-08,3,7.6E-07,0.05,0,"L",0,"h","h",0,0,5
+"Failure of PCS for MV0081"
+""
+249,"S1-GCC-CS0083","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV 083 Control Signal"
+""
+250,"S1-GCC-PCSMV0083","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for MV0083"
+""
+251,"S1-GCC-ARCMV0083","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Signal Geration for MV0083"
+""
+252,"S1-CCISAMV0083","B",0,0
+1.9E-08,3,7.6E-07,0.05,0,"L",0,"h","h",0,0,5
+"Failure of PCS for MV0083"
+""
+253,"S1-GCC-CS0103","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV 103 Control Signal"
+""
+254,"S1-GCC-PCSMV0103","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for MV0102"
+""
+255,"S1-GCC-ARCMV0103","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Signal Geration for MV0103"
+""
+256,"S1-CCISAMV0103","B",0,0
+1.9E-08,3,7.6E-07,0.05,0,"L",0,"h","h",0,0,5
+"Failure of PCS for MV0103"
+""
+257,"S1-GCC-CS0104","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV 104 Control Signal"
+""
+258,"S1-GCC-PCSMV0104","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for MV0104"
+""
+259,"S1-GCC-ARCMV0104","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Signal Geration for MV0104"
+""
+260,"S1-CCISAMV0104","B",0,0
+1.9E-08,3,7.6E-07,0.05,0,"L",0,"h","h",0,0,5
+"Failure of PCS for MV0104"
+""
+261,"S1-GEX-PA03B-03","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03B-03)"
+""
+262,"S1-GCC-CS0102","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV 102 Control Signal"
+""
+263,"S1-CCISAMV0102","B",0,0
+1.9E-08,3,7.6E-07,0.05,0,"L",0,"h","h",0,0,5
+"Failure of PCS for MV0102"
+""
+264,"S1-GCC-PCSMV0102","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for MV0102"
+""
+265,"S1-GCC-ARCMV0102","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Signal Geration for MV0102"
+""
+266,"S1-GEX-PA03A-02","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A-02)"
+""
+267,"S1-GCC-PCSMP02A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for CC P/P 02A"
+""
+268,"S1-CCISAMP02A","B",0,0
+2.28E-06,3,7.6E-07,6,0,"L",0,"h","h",0,0,5
+"FAilure of PCS for CC P/P 02A"
+""
+269,"S1-GEX-PA03B-02","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03B-02)"
+""
+270,"S1-GCC-MP1A-A1","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No flow from CCW pump 01PA (01A RUN/01B STANBY)"
+""
+271,"S1-GCC-MP2A-A1","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No flow from CCW pump 02PA (01A RUN/02A STANDBY)"
+""
+272,"S1-GCC-MP1A-A1-RF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW PUMP 01A UNAVAILABLE [RF]"
+""
+273,"S1-GCC-MP1A-A1-LOOP","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CC PUMP 01PA FAILURE AFTER LOOP"
+""
+274,"S1-GCC-MP1A-RUN-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CC PUMP 01PA FAILURE AFTER LOOP"
+""
+275,"S1-GCC-MP1A-CCF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW PUMP PP01A FAILS TO RESTART AFTER LOOP DUE TO CCF"
+""
+276,"S1-GCC-MP1A-RF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW PUMP 01A UNAVAILABLE"
+""
+277,"S1-GCC-MP2A-A1-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW PUMP 02A UNAVAILABLE"
+""
+278,"S1-GCC-MP2A-DIS-A1","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF CCW PP02A DISCH. CHECK VV"
+""
+279,"S1-GCC-MP1A-A1-SUP","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of CCW pump 01A support system"
+""
+280,"S1-GCC-MP1B-A1","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No flow from CCW pump 01PB"
+""
+281,"S1-GCC-MP2B-A1","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No flow from CCW pump 02PB"
+""
+282,"S1-GCC-MP1B-A1-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW PUMP 01B UNAVAILABLE"
+""
+283,"S1-GCC-MP1B-DIS-A1","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF CCW PP01B DISCH. CHECK VV"
+""
+284,"S1-GCC-MP1B-A1-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CCW pump 01B support system"
+""
+285,"S1-GCC-MP2B-A1-RF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCW PUMP 02B UNAVAILABLE"
+""
+286,"S1-GCC-MP2B-A1-SUP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CCW pump 02B support system"
+""
+287,"S1-GCC-MP2B-DIS-A1","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF CCW PP02B DISCH. CHECK VV"
+""
+288,"S1-GCC-MP2A-A1-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CCW pump 02A support system"
+""
+289,"S1-FSRSAMV0083","B",0,4
+5.05E-09,3,3.03E-07,0.03333333,0,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay MOV0083"
+""
+290,"S1-FSRSAMV0103","B",0,4
+5.05E-09,3,3.03E-07,0.03333333,0,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay MOV0103"
+""
+291,"S1-FSRSAMV0104","B",0,4
+5.05E-09,3,3.03E-07,0.03333333,0,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay MOV0104"
+""
+292,"S1-FSRSAMV0081","B",0,4
+5.05E-09,3,3.03E-07,0.03333333,0,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay MOV0081"
+""
+293,"S1-FSRSAMV0102","B",0,4
+5.05E-09,3,3.03E-07,0.03333333,0,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay MOV0102"
+""
+294,"S1-FSRSAMV0101","B",0,4
+5.05E-09,3,3.03E-07,0.03333333,0,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay MOV0101"
+""
+295,"S1-FSSIASB","B",0,1
+0.000113,0,0.000113,0,0,"L",0,"","",0,0,5
+"Failure of SIAS Train B"
+""
+296,"S1-FSSIASA","B",0,1
+0.000113,0,0.000113,0,0,"L",0,"","",0,0,5
+"Failure of SIAS Train A"
+""
+297,"S1-FSRASA","B",0,1
+6.161E-05,0,6.161E-05,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train A"
+""
+298,"S1-FSRASB","B",0,1
+6.161E-05,0,6.161E-05,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train B"
+""
+299,"S1-GHC-CCPP01A-RUN","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of CCW Pump A Room Cooling(Running)"
+""
+300,"S1-GFS-SIASA","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of SIAS Train A"
+""
+301,"S1-FSPMW-AB","B",0,0
+0.000140279,3,3.96E-06,1440,0,"L",0,"","",0.0492,0,0
+"CCF OF GC PM3 MODULES"
+""
+302,"S1-GFS-SIASB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of SIAS Train B"
+""
+303,"S1-GFS-RASA","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train A"
+""
+304,"S1-GFS-RASB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train B"
+""
+"#TreeLogic"
+4,"+",5
+197
+10
+28
+106
+142
+6,"+",5
+224
+33
+50
+129
+142
+10,"+",1
+214
+12,"+",1
+299
+16,"+",3
+4
+17
+18
+17,"+",4
+20
+80
+32
+19
+28,"+",4
+23
+24
+25
+26
+29,"+",3
+30
+266
+300
+32,"=",1
+29
+33,"+",1
+219
+38,"+",3
+6
+51
+39
+50,"+",4
+44
+45
+46
+47
+51,"+",4
+41
+80
+58
+40
+52,"+",3
+53
+269
+302
+54,"+",3
+55
+269
+302
+56,"+",3
+57
+269
+302
+58,"=",1
+52
+59,"+",5
+60
+78
+61
+62
+1
+62,"+",3
+63
+266
+303
+64,"+",5
+5
+65
+78
+66
+67
+67,"+",3
+68
+269
+304
+82,"+",3
+83
+84
+85
+86,"+",2
+87
+88
+87,"+",2
+89
+90
+88,"+",2
+143
+266
+92,"+",3
+93
+94
+85
+95,"+",2
+96
+144
+96,"+",3
+97
+193
+192
+99,"+",2
+4
+81
+100,"+",3
+4
+82
+86
+101,"+",2
+6
+91
+102,"+",3
+6
+92
+95
+104,"+",2
+6
+64
+105,"+",2
+4
+59
+106,"*",2
+107
+114
+107,"+",2
+108
+109
+108,"+",1
+235
+109,"*",2
+110
+111
+110,"+",2
+112
+113
+111,"+",2
+121
+122
+113,"+",2
+1
+245
+114,"+",2
+115
+116
+115,"+",3
+236
+237
+238
+116,"*",2
+117
+118
+117,"+",2
+119
+120
+118,"+",2
+123
+124
+120,"+",2
+1
+249
+122,"+",2
+1
+240
+123,"+",2
+125
+126
+124,"+",2
+127
+128
+126,"+",2
+1
+253
+128,"+",2
+5
+257
+129,"*",2
+130
+136
+130,"+",2
+131
+132
+131,"+",1
+239
+132,"*",2
+110
+133
+133,"+",2
+134
+135
+135,"+",2
+5
+262
+136,"+",2
+137
+138
+137,"+",3
+237
+236
+238
+138,"*",2
+117
+139
+139,"+",2
+124
+123
+144,"+",2
+98
+269
+152,"+",3
+156
+157
+158
+156,"+",3
+145
+153
+155
+157,"+",3
+146
+148
+154
+158,"+",1
+147
+159,"+",3
+161
+162
+163
+161,"+",3
+149
+153
+160
+162,"+",3
+146
+150
+154
+163,"+",1
+147
+164,"+",3
+165
+166
+167
+165,"+",3
+151
+155
+160
+166,"+",3
+148
+150
+154
+167,"+",1
+147
+175,"+",3
+179
+180
+181
+179,"+",3
+168
+176
+178
+180,"+",3
+169
+171
+177
+181,"+",1
+170
+182,"+",3
+184
+185
+186
+184,"+",3
+172
+176
+183
+185,"+",3
+169
+173
+177
+186,"+",1
+170
+187,"+",3
+188
+189
+190
+188,"+",3
+174
+178
+183
+189,"+",3
+171
+173
+177
+190,"+",1
+170
+196,"+",3
+12
+8
+195
+197,"*",2
+270
+271
+198,"+",3
+31
+266
+300
+199,"+",3
+202
+203
+204
+200,"+",3
+205
+206
+207
+202,"+",3
+145
+149
+151
+203,"+",3
+146
+148
+150
+204,"+",1
+147
+205,"+",3
+168
+172
+174
+206,"+",3
+169
+171
+173
+207,"+",1
+170
+214,"2",3
+215
+216
+217
+215,"+",2
+21
+208
+216,"+",2
+22
+209
+217,"+",2
+218
+210
+218,"+",5
+72
+191
+70
+71
+69
+219,"2",3
+220
+221
+222
+220,"+",2
+42
+211
+221,"+",2
+43
+212
+222,"+",2
+223
+213
+223,"+",5
+73
+76
+77
+75
+103
+224,"*",2
+280
+281
+240,"+",2
+241
+242
+241,"+",2
+244
+243
+242,"+",2
+294
+300
+243,"+",1
+2
+245,"+",2
+246
+247
+246,"+",2
+248
+243
+247,"+",1
+292
+249,"+",2
+250
+251
+250,"+",2
+252
+243
+251,"+",1
+289
+253,"+",2
+254
+255
+254,"+",2
+256
+243
+255,"+",2
+290
+300
+257,"+",2
+258
+259
+258,"+",2
+260
+261
+259,"+",2
+291
+302
+261,"+",1
+3
+262,"+",2
+264
+265
+264,"+",2
+263
+261
+265,"+",2
+293
+302
+266,"+",1
+2
+267,"+",3
+268
+266
+300
+269,"+",1
+3
+270,"+",3
+272
+279
+273
+271,"+",3
+277
+288
+278
+272,"+",2
+11
+199
+273,"*",2
+194
+274
+274,"+",2
+276
+196
+275,"+",2
+233
+200
+276,"+",4
+201
+27
+198
+275
+277,"+",6
+15
+14
+13
+267
+175
+152
+278,"+",4
+141
+140
+231
+230
+279,"+",2
+8
+299
+280,"+",3
+282
+283
+284
+281,"+",3
+285
+287
+286
+282,"+",6
+49
+34
+48
+54
+182
+159
+283,"+",4
+225
+234
+233
+232
+284,"+",3
+9
+7
+79
+285,"+",6
+37
+36
+35
+56
+187
+164
+286,"+",3
+9
+7
+79
+287,"+",4
+227
+226
+229
+228
+288,"+",3
+8
+195
+299
+300,"+",2
+296
+301
+302,"+",2
+295
+301
+303,"+",2
+297
+301
+304,"+",2
+298
+301
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

@@ -1,0 +1,3156 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 모델 개정\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",485
+"#XEventData"
+1,"S1-GEM-05A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of power from 480V AC MCC BUS MC05A"
+""
+2,"S1-CCAVO0905","B",0,0
+0.00111,0,0.00111,0,1.53,"L",0,"","",0,0,4.3
+"CC: AOV 905 for CW Chiller 02A press. control fails to open"
+""
+3,"S1-CCMVO0095","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"CC: MOV 095 for CW Chiller 02A isolation fails to open"
+""
+4,"S1-WOMPR001PA","B",0,0
+0.00010896,1,4.54E-06,24,2.92,"L",0,"h","h",0,0,3.1
+"Essential Chilled Water Pump 01PA Fails to Run"
+""
+5,"S1-WOCVO1014A","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",0,"","",0,0,8.4
+"S/B ECW Pump Disch. Line CV V1014A Fails to Open"
+""
+6,"S1-WOCVC1010A","B",0,0
+0.000104,0,0.000104,0,3.1,"L",0,"","",0,0,8.4
+"CW MP 01PA line CV V1010A Fails to Close After MP 01PA Stops (MP02A Reverse Flow)"
+""
+7,"S1-WOMPS002PA","B",0,0
+0.00223,0,0.00223,0,0,"L",0,"","",0,0,4.8
+"ECW Pump 02PA Fails to Start"
+""
+8,"S1-WOMPR002PA","B",0,0
+0.00010896,1,4.54E-06,24,2.92,"L",0,"h","h",0,0,3.1
+"Essential Chilled Water Pump 02PA Fails to Run"
+""
+9,"S1-WOMPM002PA","B",0,0
+0.000348,0,0.000348,0,10,"L",0,"","",0,0,10
+"ECW Pump 02PA Unavailable due to Maintenance"
+"Standby + Running => 2 Times"
+10,"S1-GWO-MP1A-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support System Failure for ECW Pump 01PA"
+""
+11,"S1-WOCUR001A","B",0,0
+0.0022608,1,9.42E-05,24,1.17,"L",0,"h","h",0,0,8.7
+"Essential Chiller 01A Fails to Continue Operating"
+""
+12,"S1-GWO-CH1A-SUP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support System Failure for ECW Chiller 01A"
+""
+13,"S1-WOCUR002A","B",0,0
+0.0022608,1,9.42E-05,24,1.17,"L",0,"h","h",0,0,8.7
+"Essential Chiller 02A Fails to Continue Operating"
+""
+14,"S1-GWO-CH2A-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support System Failure for ECW Chiller 02A to Run"
+""
+15,"S1-WOCUM002A","B",0,0
+0.00339,0,0.00339,0,10,"L",0,"","",0,0,10
+"Essential Chiller 02A Unavailable during T&M"
+"2 Times"
+16,"S1-WOCUS002A","B",0,0
+0.00983,0,0.00983,0,0,"L",0,"","",0,0,5
+"Essential Chiller 02A Fails to Start"
+""
+17,"S1-GWO-MP2A-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support System Failure for ECW Pump 02PA"
+""
+18,"S1-GWO-TR1A-FS-1","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Tr.1A (PP01A, CH01A) to start"
+""
+19,"S1-GWO-TR1A-SU-S","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Breaker Control Power & CCW for Train 1A"
+""
+20,"S1-WOCVO1010A","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",0,"","",0,0,8.4
+"S/B ECW Pump Disch. Line CV V1010A Fails to Open"
+""
+21,"S1-GWO-TR1A-REV","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Reverse Flow to PP02A Train"
+""
+22,"S1-WOMPS001PA","B",0,0
+0.00223,0,0.00223,0,0,"L",0,"","",0,0,4.8
+"ECW Pump 01PA Fails to Start"
+""
+23,"S1-WOMPM001PA","B",0,0
+0.000348,0,0.000348,0,10,"L",0,"","",0,0,10
+"ECW Pump 01PA Unavailable due to Maintenance"
+"Standby + Running ==> 2 times"
+24,"S1-WOISA001PA","B",0,0
+3.8E-08,3,7.6E-07,0.1,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for ECW Pp 01PA"
+""
+25,"S1-WOISA002PA","B",0,0
+3.8E-08,3,7.6E-07,0.1,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for ECW Pp 02PA"
+""
+26,"S1-GEX-PA03A-09","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A)"
+""
+27,"S1-WOCUS001A","B",0,0
+0.00983,0,0.00983,0,0,"L",0,"","",0,0,5
+"Essential Chiller 01A Fails to Start"
+""
+28,"S1-WOISA001CA","B",0,0
+3.8E-08,3,7.6E-07,0.1,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for ECW Chiller CH01A"
+""
+29,"S1-WOCUM001A","B",0,0
+0.00339,0,0.00339,0,10,"L",0,"","",0,0,10
+"Essential Chiller 01A Unavailable during T&M"
+"2 Times"
+30,"S1-WOCVC1014A","B",0,0
+0.000104,0,0.000104,0,3.1,"L",0,"","",0,0,8.4
+"CW MP 02PA line CV 1014A fails to close after MP 02PA stops (MP 01PA Reverse Flow)"
+""
+31,"S1-GWO-TR2A-FS-1","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Tr.2A (PP02A, CH02A) to start"
+""
+32,"S1-GWO-TR2A-SU-S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Breaker Control Power & CCW for Train 2A"
+""
+33,"S1-GWO-TR2A-REV","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Reverse Flow to PP01A Train"
+""
+34,"S1-WOISA002CA","B",0,0
+3.8E-08,3,7.6E-07,0.1,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for ECW Chiller CH02A"
+""
+35,"S1-GWO-CH2A-CC-FO","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CCW supply line for CW chiller 02A (on Demand)"
+"(CCW MVs to be closed if CW MP 02A does not operating)"
+36,"S1-GCC-MV0095-FO","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CC: MOV 095 for CW Chiller 02A isolation fails to open"
+""
+37,"S1-CCOPUVV1025","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"CC: butterfly VV 1025 for CW chiller 02CA isolation is not restored after T&M"
+""
+38,"S1-CCOPUVV1019","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"CC: butterfly VV 1019 for CW chiller 02CA isolation is not restored after T&M"
+""
+39,"S1-GCC-AV0905-FO","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CC: AOV 905 for CW Chiller 02A press. control fails to open"
+""
+40,"S1-CCISA0095","B",0,0
+1.9E-08,3,7.6E-07,0.05,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for MV 095"
+""
+41,"S1-GWO-CH1A-CC-FO","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CCW supply line for CW chiller 01A (on Demand)"
+"(CCW MVs to be closed if CW MP 01A does not operating)"
+42,"S1-GCC-MV0085-FO","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CC: MOV 085 for CW Chiller 01A isolation fails to open"
+""
+43,"S1-CCOPUVV1023","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"CC: butterfly VV 1023 for CW chiller 01CA isolation is not restored after T&M"
+""
+44,"S1-CCOPUVV1017","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"CC: butterfly VV 1017 for CW chiller 01CA isolation is not restored after T&M"
+""
+45,"S1-GCC-AV0901-FO","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CC: AOV 901 for CW Chiller 01A press. control fails to open"
+""
+46,"S1-CCAVO0901","B",0,0
+0.00111,0,0.00111,0,0,"L",0,"","",0,0,4.3
+"CC: AOV 901 for CW Chiller 01A press. control fails to open"
+""
+47,"S1-CCMVO0085","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"CC: MOV 085 for CW Chiller 01A isolation fails to open"
+""
+48,"S1-CCISA0085","B",0,0
+1.9E-08,3,7.6E-07,0.05,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for MV 085"
+""
+49,"S1-CCAVO0906","B",0,0
+0.00111,0,0.00111,0,1.53,"L",0,"","",0,0,4.3
+"CC: AOV 906 for CW Chiller 02B press. control fails to open"
+""
+50,"S1-CCMVO0096","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"CC: MOV 096 for CW Chiller 02B isolation fails to open"
+""
+51,"S1-WOMPS002PB","B",0,0
+0.00223,0,0.00223,0,0,"L",0,"","",0,0,4.8
+"ECW Pump 02PB Fails to Start"
+""
+52,"S1-WOMPR002PB","B",0,0
+0.00010896,1,4.54E-06,24,2.92,"L",0,"h","h",0,0,3.1
+"Essential Chilled Water Pump 02PB Fails to Run"
+""
+53,"S1-WOMPM002PB","B",0,0
+0.000348,0,0.000348,0,10,"L",0,"","",0,0,10
+"ECW Pump 02PB Unavailable due to Maintenance"
+"Standby + Running => 2 Times"
+54,"S1-WOMPR001PB","B",0,0
+0.00010896,1,4.54E-06,24,2.92,"L",0,"h","h",0,0,3.1
+"Essential Chilled Water Pump 01PB Fails to Run"
+""
+55,"S1-WOCVO1014B","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",0,"","",0,0,8.4
+"S/B ECW Pump Disch. Line CV V1014V Fails to Open"
+""
+56,"S1-WOCVC1010B","B",0,0
+0.000104,0,0.000104,0,3.1,"L",0,"","",0,0,8.4
+"CW MP 01PB line CV 1010B fails to close after MP 01PB stops (MP 02PB Reverse Flow)"
+""
+57,"S1-WOCUR001B","B",0,0
+0.0022608,1,9.42E-05,24,1.17,"L",0,"h","h",0,0,8.7
+"Essential Chiller 01B Fails to Continue Operating"
+""
+58,"S1-WOCUR002B","B",0,0
+0.0022608,1,9.42E-05,24,1.17,"L",0,"h","h",0,0,8.7
+"Essential Chiller 02CB Fails to Continue Operating"
+""
+59,"S1-WOCUM002B","B",0,0
+0.00339,0,0.00339,0,10,"L",0,"","",0,0,10
+"Essential Chiller 02CB Unavailable DURING T&M"
+"2 Times"
+60,"S1-WOCUS002B","B",0,0
+0.00983,0,0.00983,0,0,"L",0,"","",0,0,5
+"Essential Chiller 02B Fails to Start"
+""
+61,"S1-WOCVC1014B","B",0,0
+0.000104,0,0.000104,0,3.1,"L",0,"","",0,0,8.4
+"CW MP 02PB line CV 1014B fails to close after MP 02PB stops (MP 01PB Reverse Flow)"
+""
+62,"S1-CCOPUVV1018","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"CC: butterfly VV 1018 for CW chiller 01CB isolation is not restored after T&M"
+""
+63,"S1-CCOPUVV1024","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"CC: butterfly VV 1024 for CW chiller 01CB isolation is not restored after T&M"
+""
+64,"S1-CCAVO0902","B",0,0
+0.00111,0,0.00111,0,1.53,"L",0,"","",0,0,4.3
+"CC: AOV 902 for CW Chiller 01B press. control fails to open"
+""
+65,"S1-CCMVO0086","B",0,0
+0.00107,0,0.00107,0,0,"L",0,"","",0,0,3.6
+"CC: MOV 086 for CW Chiller 01B isolation fails to open"
+""
+66,"S1-WOCVO1010B","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",0,"","",0,0,8.4
+"S/B ECW Pump Disch. Line CV V1010B Fails to Open"
+""
+67,"S1-WOCUS001B","B",0,0
+0.00983,0,0.00983,0,0,"L",0,"","",0,0,5
+"Essential Chiller 01B Fails to Start"
+""
+68,"S1-WOCUM001B","B",0,0
+0.00339,0,0.00339,0,10,"L",0,"","",0,0,10
+"Essential Chiller 01B Unavailable during T&M"
+"2 Times"
+69,"S1-WOMPS001PB","B",0,0
+0.00223,0,0.00223,0,0,"L",0,"","",0,0,4.8
+"ECW Pump 01PB Fails to Start"
+""
+70,"S1-WOMPM001PB","B",0,0
+0.000348,0,0.000348,0,10,"L",0,"","",0,0,10
+"ECW Pump 01PB Unavailable due to Maintenance"
+"Standby + Running => 2 Times"
+71,"S1-CCOPUVV1026","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"CC: butterfly VV 1026 for CW chiller 02CB isolation is not restored after T&M"
+""
+72,"S1-CCOPUVV1020","B",0,0
+2.5E-05,0,2.5E-05,0,10,"L",0,"","",0,0,10
+"CC: butterfly VV 1020 for CW chiller 02CB isolation is not restored after T&M"
+""
+73,"S1-WOISA001PB","B",0,0
+3.8E-08,3,7.6E-07,0.1,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for ECW Pp 01PB"
+""
+74,"S1-WOISA002PB","B",0,0
+3.8E-08,3,7.6E-07,0.1,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for ECW Pp 02PB"
+""
+75,"S1-WOISA001CB","B",0,0
+3.8E-08,3,7.6E-07,0.1,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for ECW Chiller CH01B"
+""
+76,"S1-CCISA0086","B",0,0
+1.9E-08,3,7.6E-07,0.05,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for MV 086"
+""
+77,"S1-WOISA002CB","B",0,0
+3.8E-08,3,7.6E-07,0.1,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for ECW Chiller CH02B"
+""
+78,"S1-CCISA0096","B",0,0
+1.9E-08,3,7.6E-07,0.05,5,"L",0,"h","h",0,0,5
+"PCS Card Failure for MV 096"
+""
+79,"S1-GEM-05B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of power from 480V AC MCC BUS MC05B"
+""
+80,"S1-GWO-01PB-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support System Failure for ECW Pump 01PB"
+""
+81,"S1-GWO-TR1B-FS-1","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Tr.1B (PP01B, CH01B) to start"
+""
+82,"S1-GWO-CH1B-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support System Failure for ECW Chiller 01B"
+""
+83,"S1-GWO-TR1B-SU-S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Breaker Control Power & CCW for Train 1B"
+""
+84,"S1-GWO-TR1B-REV","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Reverse Flow to PP02B Train"
+""
+85,"S1-GEX-PA03B-09","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03B)"
+""
+86,"S1-GWO-CH1B-CC-FO","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CCW supply line for CW chiller 01B (on Demand)"
+"(CCW MVs to be closed if CW MP 01B does not operating)"
+87,"S1-GCC-MV0086-FO","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CC: MOV 086 for CW Chiller 01B isolation fails to open"
+""
+88,"S1-GCC-AV0902-FO","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CC: AOV 902 for CW Chiller 01B press. control fails to open"
+""
+89,"S1-GWO-TR2B-FS-1","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Tr.2B (PP02B, CH02B) to start"
+""
+90,"S1-GWO-MP2B-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support System Failure for ECW Pump 02PB"
+""
+91,"S1-GWO-CH2B-SUP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Support System Failure for ECW Chiller 02CB"
+""
+92,"S1-GWO-TR2B-SU-S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Breaker Control Power & CCW for Train 2B"
+""
+93,"S1-GWO-TR2B-REV","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Reverse Flow to PP01B Train"
+""
+94,"S1-GWO-CH2B-CC-FO","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CCW supply line for CW chiller 02B (on Demand)"
+"(CCW MVs to be closed if CW MP 02A does not operating)"
+95,"S1-GCC-MV0096-FO","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CC: MOV 096 for CW Chiller 02B isolation fails to open"
+""
+96,"S1-GCC-AV0906-FO","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CC: AOV 906 for CW Chiller 02B press. control fails to open"
+""
+97,"S1-GWO-TOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Essential Chilled Water"
+""
+98,"S1-GWO-TRA","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Essential Chilled Water from TrainA"
+""
+99,"S1-GWO-TRB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Essential Chilled Water from Train B"
+""
+100,"S1-GWO-TRA-CU","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Flow from Essential Chillers"
+""
+101,"S1-GWO-TRB-CU","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Flow from Essential Chillers"
+""
+102,"S1-GEA-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 120V AC BUS 01A"
+""
+103,"S1-GHH-CWTRA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Room Cooling for Chilled Water Pump"
+""
+104,"S1-GEK-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of power at 4.16 KV SWGR BUS SW01A"
+""
+105,"S1-GED-01A","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01A"
+""
+106,"S1-GEA-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 120V AC BUS 01B"
+""
+107,"S1-GHH-CWTRB","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Room Cooling for Chilled Water Pump"
+""
+108,"S1-GED-01B","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01B"
+""
+109,"S1-GEK-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of power at 4.16 KV SWGR BUS SW01B"
+""
+110,"S1-GCC-CWTR1A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No CCW Flow TO Essential Chiller Condenser 01A"
+""
+111,"S1-GCC-CWTR2A","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"No CCW Flow TO Essential Chiller Condenser 02A"
+""
+112,"S1-GCC-CWTR1B","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"No CCW Flow TO Essential Chiller Condenser 01B"
+""
+113,"S1-GCC-CWTR2B","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"No CCW Flow TO Essential Chiller Condenser 02B"
+""
+114,"S1-GWO-TR1ATK","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Tank Rupture"
+""
+115,"S1-WOTKBTK01AA","B",0,0
+1.6008E-06,1,6.67E-08,24,0,"L",0,"h","h",0,0,8.4
+"COMPRESSION TANK TK01A RUPTURED"
+""
+116,"S1-WOTKBTK02AA","B",0,0
+1.6008E-06,1,6.67E-08,24,0,"L",0,"h","h",0,0,8.4
+"AIR SEPERATOR TANK TK02A RUPTURED"
+""
+117,"S1-GWO-TR1BTK","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Tank Rupture"
+""
+118,"S1-WOTKBTK01BB","B",0,0
+1.6008E-06,1,6.67E-08,24,0,"L",0,"h","h",0,0,8.4
+"COMPRESSION TANK TK01b RUPTURED"
+""
+119,"S1-WOTKBTK02BB","B",0,0
+1.6008E-06,1,6.67E-08,24,0,"L",0,"h","h",0,0,8.4
+"AIR SEPERATOR TANK TK02B RUPTURED"
+""
+120,"S1-GWO-TRA11","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Essential Chiller 01A & 02A (01A, 01B Run)"
+""
+121,"S1-GWO-TRA12","*",-1,4
+0,0,0,0,0,"L",0,"","",0,0,0
+"Essential Chiller 01A & 02A (01A, 02B Run)"
+""
+122,"S1-GWO-TRA21","*",-1,4
+0,0,0,0,0,"L",0,"","",0,0,0
+"Essential Chiller 01A & 02A (02A, 01B Run)"
+""
+123,"S1-GWO-TRA22","*",-1,4
+0,0,0,0,0,"L",0,"","",0,0,0
+"Essential Chiller 01A & 02A (02A, 02B Run)"
+""
+124,"S1-GWO-CUW-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+125,"S1-WOCUW-AB","B",0,0
+0.000120909,0,0.00983,0,0,"L",0,"","",0.0123,0,5
+"CCF (2/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+126,"S1-WOCUW-ABC","B",0,0
+9.58425E-05,0,0.00983,0,0,"L",0,"","",0.00975,0,5
+"CCF (3/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+127,"S1-WOCUW-ABCD","B",0,0
+0.000202498,0,0.00983,0,0,"L",0,"","",0.0206,0,5
+"CCF (4/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+128,"S1-WOCUW-ABD","B",0,0
+9.58425E-05,0,0.00983,0,0,"L",0,"","",0.00975,0,5
+"CCF (3/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+129,"S1-WOCUW-BC","B",0,0
+0.000120909,0,0.00983,0,0,"L",0,"","",0.0123,0,5
+"CCF (2/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+130,"S1-WOCUW-BCD","B",0,0
+9.58425E-05,0,0.00983,0,0,"L",0,"","",0.00975,0,5
+"CCF (3/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+131,"S1-WOCUW-BD","B",0,0
+0.000120909,0,0.00983,0,0,"L",0,"","",0.0123,0,5
+"CCF (2/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+132,"S1-GWO-CUW-B-2","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+133,"S1-GWO-CUW-B-3","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+134,"S1-GWO-CUW-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+135,"S1-GWO-CUK-B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+136,"S1-WOCUK-AB","B",0,0
+8.23308E-07,0,9.42E-05,24,0,"L",0,"h","",0.00874,0,8.7
+"CCF (2/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+137,"S1-WOCUK-ABC","B",0,0
+7.51716E-07,0,9.42E-05,24,0,"L",0,"h","",0.00798,0,8.7
+"CCF (3/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+138,"S1-WOCUK-ABCD","B",0,0
+1.6956E-06,0,9.42E-05,24,0,"L",0,"h","",0.018,0,8.7
+"CCF (4/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+139,"S1-WOCUK-ABD","B",0,0
+7.51716E-07,0,9.42E-05,24,0,"L",0,"h","",0.00798,0,8.7
+"CCF (3/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+140,"S1-WOCUK-BC","B",0,0
+8.23308E-07,0,9.42E-05,24,0,"L",0,"h","",0.00874,0,8.7
+"CCF (2/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+141,"S1-WOCUK-BCD","B",0,0
+7.51716E-07,0,9.42E-05,24,0,"L",0,"h","",0.00798,0,8.7
+"CCF (3/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+142,"S1-WOCUK-BD","B",0,0
+8.23308E-07,0,9.42E-05,24,0,"L",0,"h","",0.00874,0,8.7
+"CCF (2/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+143,"S1-GWO-CUK-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+144,"S1-GWO-CUK-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+145,"S1-GWO-CUK-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+146,"S1-GWO-MPW-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+147,"S1-WOMPW-AB","B",0,0
+1.3157E-05,0,0.00223,0,0,"L",0,"","",0.0059,0,4.8
+"CCF (2/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+148,"S1-WOMPW-ABC","B",0,0
+7.1806E-06,0,0.00223,0,0,"L",0,"","",0.00322,0,4.8
+"CCF (3/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+149,"S1-WOMPW-ABCD","B",0,0
+1.02803E-05,0,0.00223,0,0,"L",0,"","",0.00461,0,4.8
+"CCF (4/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+150,"S1-WOMPW-ABD","B",0,0
+7.1806E-06,0,0.00223,0,0,"L",0,"","",0.00322,0,4.8
+"CCF (3/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+151,"S1-WOMPW-BC","B",0,0
+1.3157E-05,0,0.00223,0,0,"L",0,"","",0.0059,0,4.8
+"CCF (2/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+152,"S1-WOMPW-BCD","B",0,0
+7.1806E-06,0,0.00223,0,0,"L",0,"","",0.00322,0,4.8
+"CCF (3/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+153,"S1-WOMPW-BD","B",0,0
+1.3157E-05,0,0.00223,0,0,"L",0,"","",0.0059,0,4.8
+"CCF (2/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+154,"S1-GWO-MPW-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+155,"S1-GWO-MPW-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+156,"S1-GWO-MPW-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+157,"S1-GWO-MPK-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+158,"S1-WOMPK-AB","B",0,0
+3.606576E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00331,0,3.1
+"CCF (2/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+159,"S1-WOMPK-ABC","B",0,0
+2.429808E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00223,0,3.1
+"CCF (3/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+160,"S1-WOMPK-ABCD","B",0,0
+2.680416E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00246,0,3.1
+"CCF (4/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+161,"S1-WOMPK-ABD","B",0,0
+2.429808E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00223,0,3.1
+"CCF (3/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+162,"S1-WOMPK-AC","B",0,0
+3.606576E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00331,0,3.1
+"CCF (2/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+163,"S1-WOMPK-ACD","B",0,0
+2.429808E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00223,0,3.1
+"CCF (3/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+164,"S1-WOMPK-AD","B",0,0
+3.606576E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00331,0,3.1
+"CCF (2/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+165,"S1-GWO-MPK-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+166,"S1-GWO-MPK-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+167,"S1-GWO-MPK-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+168,"S1-GWO-CUK-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+169,"S1-WOCUK-AC","B",0,0
+8.23308E-07,0,9.42E-05,24,0,"L",0,"h","",0.00874,0,8.7
+"CCF (2/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+170,"S1-WOCUK-ACD","B",0,0
+7.51716E-07,0,9.42E-05,24,0,"L",0,"h","",0.00798,0,8.7
+"CCF (3/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+171,"S1-WOCUK-AD","B",0,0
+8.23308E-07,0,9.42E-05,24,0,"L",0,"h","",0.00874,0,8.7
+"CCF (2/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+172,"S1-GWO-CUK-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+173,"S1-GWO-CUK-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+174,"S1-GWO-CUK-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+175,"S1-GWO-MPK-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+176,"S1-WOMPK-BC","B",0,0
+3.606576E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00331,0,3.1
+"CCF (2/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+177,"S1-WOMPK-BCD","B",0,0
+2.429808E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00223,0,3.1
+"CCF (3/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+178,"S1-WOMPK-BD","B",0,0
+3.606576E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00331,0,3.1
+"CCF (2/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+179,"S1-GWO-MPK-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+180,"S1-GWO-MPK-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+181,"S1-GWO-MPK-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+182,"S1-GWO-TR1A11","=",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 01A"
+""
+183,"S1-GWO-TR2A11","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 02A"
+""
+184,"S1-GWO-TR1A12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 01A"
+""
+185,"S1-GWO-TR2A12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 02A"
+""
+186,"S1-GWO-TR1A21","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 01A"
+""
+187,"S1-GWO-TR2A21","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 02A"
+""
+188,"S1-GWO-CUW-A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+189,"S1-WOCUW-AC","B",0,0
+0.000120909,0,0.00983,0,0,"L",0,"","",0.0123,0,5
+"CCF (2/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+190,"S1-WOCUW-ACD","B",0,0
+9.58425E-05,0,0.00983,0,0,"L",0,"","",0.00975,0,5
+"CCF (3/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+191,"S1-WOCUW-AD","B",0,0
+0.000120909,0,0.00983,0,0,"L",0,"","",0.0123,0,5
+"CCF (2/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+192,"S1-GWO-CUW-A-2","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+193,"S1-GWO-CUW-A-3","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+194,"S1-GWO-CUW-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+195,"S1-GWO-MPW-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+196,"S1-WOMPW-AC","B",0,0
+1.3157E-05,0,0.00223,0,0,"L",0,"","",0.0059,0,4.8
+"CCF (2/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+197,"S1-WOMPW-ACD","B",0,0
+7.1806E-06,0,0.00223,0,0,"L",0,"","",0.00322,0,4.8
+"CCF (3/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+198,"S1-WOMPW-AD","B",0,0
+1.3157E-05,0,0.00223,0,0,"L",0,"","",0.0059,0,4.8
+"CCF (2/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+199,"S1-GWO-MPW-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+200,"S1-GWO-MPW-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+201,"S1-GWO-MPW-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+202,"S1-GWO-MP1A-FS21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW MP 01A to start"
+""
+203,"S1-GWO-CH1A-FS21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Chiller 01A to start"
+""
+204,"S1-GWO-TR1A-FS21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1A (PP01A, CH01A) fails to start"
+""
+205,"S1-GWO-TR1A-FR21","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1A (PP01A, CH01A) fails to run"
+""
+206,"S1-GWO-TR1A-FR11","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1A (PP01A, CH01A) fails to run"
+""
+207,"S1-GWO-TR2A-FS11","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2A (PP02A, CH02A) fails to start"
+""
+208,"S1-GWO-TR2A-FR11","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2A (PP02A, CH02A) fails to run"
+""
+209,"S1-GWO-TR1A-FR12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1A (PP01A, CH01A) fails to run"
+""
+210,"S1-GWO-TR2A-FS12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2A (PP02A, CH02A) fails to start"
+""
+211,"S1-GWO-TR2A-FR12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2A (PP02A, CH02A) fails to run"
+""
+212,"S1-GWO-MP1A-FR21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 01PA to run or Supporting system"
+""
+213,"S1-GWO-CH1A-FR21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 01A to run or Supporting System"
+""
+214,"S1-GWO-TR2A-FR21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2A (PP02A, CH02A) fails to run"
+""
+215,"S1-GWO-TR1A22","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 01A"
+""
+216,"S1-GWO-TR2A22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 02A"
+""
+217,"S1-GWO-TR1A-FS22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1A (PP01A, CH01A) fails to start"
+""
+218,"S1-GWO-TR1A-FR22","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1A (PP01A, CH01A) fails to run"
+""
+219,"S1-GWO-TR2A-FR22","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2A (PP02A, CH02A) fails to run"
+""
+220,"S1-GWO-MP2A-FR22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 02PA to run or Supporting system"
+""
+221,"S1-GWO-CH2A-FR22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 02A to run or Supporting System"
+""
+222,"S1-GWO-MP2A-FR21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 02PA to run or Supporting system"
+""
+223,"S1-GWO-CH2A-FR21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 02A to run or Supporting System"
+""
+224,"S1-GWO-MP1A-FR12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 01PA to run or Supporting system"
+""
+225,"S1-GWO-CH1A-FR12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 01A to run or Supporting System"
+""
+226,"S1-GWO-MP2A-FS12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW MP 02A to start"
+""
+227,"S1-GWO-CH2A-FS12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Chiller 02A to start"
+""
+228,"S1-GWO-MP2A-FR12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 02PA to run or Supporting system"
+""
+229,"S1-GWO-CH2A-FR12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 02A to run or Supporting System"
+""
+230,"S1-GWO-MP1A-FR11","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 01PA to run or Supporting system"
+""
+231,"S1-GWO-CH1A-FR11","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 01A to run or Supporting System"
+""
+232,"S1-GWO-MP2A-FR11","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 02PA to run or Supporting system"
+""
+233,"S1-GWO-CH2A-FR11","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 02A to run or Supporting System"
+""
+234,"S1-GWO-TRB11","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Essential Chiller 01A & 02A (01A, 01B Run)"
+""
+235,"S1-GWO-TRB12","*",-1,4
+0,0,0,0,0,"L",0,"","",0,0,0
+"Essential Chiller 01A & 02A (01A, 02B Run)"
+""
+236,"S1-GWO-TRB21","*",-1,4
+0,0,0,0,0,"L",0,"","",0,0,0
+"Essential Chiller 01A & 02A (02A, 01B Run)"
+""
+237,"S1-GWO-TRB22","*",-1,4
+0,0,0,0,0,"L",0,"","",0,0,0
+"Essential Chiller 01A & 02A (02A, 02B Run)"
+""
+238,"S1-GWO-TR1B11","=",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 01CB"
+""
+239,"S1-GWO-TR2B11","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 02CB"
+""
+240,"S1-GWO-TR1B12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 01CB"
+""
+241,"S1-GWO-TR2B12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 02CB"
+""
+242,"S1-GWO-CUK-C","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+243,"S1-WOCUK-CD","B",0,0
+8.23308E-07,0,9.42E-05,24,0,"L",0,"h","",0.00874,0,8.7
+"CCF (2/4) Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+244,"S1-GWO-CUK-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+245,"S1-GWO-CUK-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+246,"S1-GWO-CUK-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+247,"S1-GWO-TR1B-FR11","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1B (PP01B, CH01B) fails to run"
+""
+248,"S1-GWO-MP1B-FR11","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 01PB to run or Supporting system"
+""
+249,"S1-GWO-CH1B-FR11","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 01B to run or Supporting System"
+""
+250,"S1-GWO-MPK-C","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+251,"S1-WOMPK-CD","B",0,0
+3.606576E-07,1,4.54E-06,24,0,"L",0,"h","h",0.00331,0,3.1
+"CCF (2/4) Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+252,"S1-GWO-MPK-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+253,"S1-GWO-MPK-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+254,"S1-GWO-MPK-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+255,"S1-GWO-TR2B-FS11","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2B (PP02B, CH02B) fails to start"
+""
+256,"S1-GWO-TR2B-FR11","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2B (PP02B, CH02B) fails to run"
+""
+257,"S1-GWO-MPW-C","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+258,"S1-WOMPW-CD","B",0,0
+1.3157E-05,0,0.00223,0,0,"L",0,"","",0.0059,0,4.8
+"CCF (2/4) Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+259,"S1-GWO-MPW-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+260,"S1-GWO-MPW-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+261,"S1-GWO-MPW-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+262,"S1-GWO-CUW-C","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+263,"S1-WOCUW-CD","B",0,0
+0.000120909,0,0.00983,0,0,"L",0,"","",0.0123,0,5
+"CCF (2/4) Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+264,"S1-GWO-CUW-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+265,"S1-GWO-CUW-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+266,"S1-GWO-CUW-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+267,"S1-GWO-MP2B-FR11","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 02PB to run or Supporting system"
+""
+268,"S1-GWO-CH2B-FR11","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 02B to run or Supporting System"
+""
+269,"S1-GWO-TR1B21","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 01CB"
+""
+270,"S1-GWO-TR2B21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 02CB"
+""
+271,"S1-GWO-TR1B-FR21","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1B (PP01B, CH01B) fails to run"
+""
+272,"S1-GWO-TR2B-FS21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2B (PP02B, CH02B) fails to start"
+""
+273,"S1-GWO-TR2B-FR21","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2B (PP02B, CH02B) fails to run"
+""
+274,"S1-GWO-MP1B-FR21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 01PB to run or Supporting system"
+""
+275,"S1-GWO-CH1B-FR21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 01B to run or Supporting System"
+""
+276,"S1-GWO-MP2B-FR21","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 02PB to run or Supporting system"
+""
+277,"S1-GWO-CH2B-FR21","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 02B to run or Supporting System"
+""
+278,"S1-GWO-CH2B-FS21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Chiller 02B to start"
+""
+279,"S1-GWO-MP2B-FS21","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW MP 02B to start"
+""
+280,"S1-GWO-CH2B-FS11","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Chiller 02B to start"
+""
+281,"S1-GWO-MP2B-FS11","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW MP 02B to start"
+""
+282,"S1-GWO-MP2A-FS11","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW MP 02A to start"
+""
+283,"S1-GWO-CH2A-FS11","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Chiller 02A to start"
+""
+284,"S1-GWO-TR1B-FS12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1B (PP01B, CH01B) fails to start"
+""
+285,"S1-GWO-TR1B-FR12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1B (PP01B, CH01B) fails to run"
+""
+286,"S1-GWO-TR2B-FR12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2B (PP02B, CH02B) fails to run"
+""
+287,"S1-GWO-CUW-D","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+288,"S1-GWO-CUW-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+289,"S1-GWO-CUW-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+290,"S1-GWO-CUW-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : Demand CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+291,"S1-GWO-MPW-D","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+292,"S1-GWO-MPW-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+293,"S1-GWO-MPW-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+294,"S1-GWO-MPW-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : Demand CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+295,"S1-GWO-MP1B-FS12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW MP 01B to start"
+""
+296,"S1-GWO-CH1B-FS12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Chiller 01B to start"
+""
+297,"S1-GWO-MP1B-FR12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 01PB to run or Supporting system"
+""
+298,"S1-GWO-CH1B-FR12","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 01B to run or Supporting System"
+""
+299,"S1-GWO-MPK-D","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+300,"S1-GWO-MPK-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+301,"S1-GWO-MPK-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+302,"S1-GWO-MPK-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : Running CCF for ECW PUMP (A:01A, B:02A, C:01B, D:02B)"
+""
+303,"S1-GWO-CUK-D","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+304,"S1-GWO-CUK-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+305,"S1-GWO-CUK-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+306,"S1-GWO-CUK-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : Running CCF for Essential Chiller (A:01A, B:02A, C:01B, D:02B)"
+""
+307,"S1-GWO-MP2B-FR12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 02PB to run or Supporting system"
+""
+308,"S1-GWO-CH2B-FR12","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 02B to run or Supporting System"
+""
+309,"S1-GWO-TR1B22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 01CB"
+""
+310,"S1-GWO-TR2B22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Chilled Water from Essential Chiller 02CB"
+""
+311,"S1-GWO-TR1B-FS22","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1B (PP01B, CH01B) fails to start"
+""
+312,"S1-GWO-TR1B-FR22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.1B (PP01B, CH01B) fails to run"
+""
+313,"S1-GWO-MP1B-FS22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW MP 01B to start"
+""
+314,"S1-GWO-CH1B-FS22","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Chiller 01B to start"
+""
+315,"S1-GWO-MP1B-FR22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 01PB to run or Supporting system"
+""
+316,"S1-GWO-CH1B-FR22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 01B to run or Supporting System"
+""
+317,"S1-GWO-TR2B-FR22","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CW Tr.2B (PP02B, CH02B) fails to run"
+""
+318,"S1-GWO-MP2B-FR22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 02PB to run or Supporting system"
+""
+319,"S1-GWO-CH2B-FR22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 02B to run or Supporting System"
+""
+320,"S1-GEL-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF 480V AC POWER FROM LC01A"
+""
+321,"S1-GCC-PCSMV0085","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for MV085A"
+""
+322,"S1-CXPMACCMV0085","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for MV 085"
+""
+323,"S1-GWO-PCSCH01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS CARD FAILURE FOR ECW CHILLER 01A"
+""
+324,"S1-CXPMACWCH01A","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for ECW Chiller CH01A"
+""
+325,"S1-GWO-PCS001PA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS CARD FAILURE FOR ECW PUMP 01PA"
+""
+326,"S1-CXPMACWMP01A","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for ECW Pp 01A"
+""
+327,"S1-CXPMACWMP02A","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for ECW Pp 02A"
+""
+328,"S1-GWO-01A-A1B1-RUN-LOOP-1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 01A FAILURE AFTER LOOP"
+""
+329,"S1-GWO-01A-A1B1-RUN-LOOP-2","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 01PA FAILURE AFTER LOOP"
+""
+330,"S1-GWO-01CHA-A1B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 01A FAILURE AFTER LOOP"
+""
+331,"S1-GWO-01PA-A1B1-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 01PA FAILURE AFTER LOOP"
+""
+332,"S1-GWO-01CHA-RF-A1B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW CHILLER 01A UNAVAILABLE [RF]"
+""
+333,"S1-GWO-01CHA-EX-A1B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW CHILLER 01A - OPERATING [EX]"
+""
+334,"S1-GWO-01CHA-RF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CHILLER CH01A FAILS TO RESTART AFTER LOOP"
+""
+335,"S1-GWO-01CHA-CCF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CHILLER CH01A FAILS TO RESTART AFTER LOOP DUE TO CCF"
+""
+336,"S1-GWO-CH01A-A1B1-SUP-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM FAILURE FOR ECW CHILLER 01A"
+""
+337,"S1-GCC-ECWC1A-A1B1-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CCW FLOW TO ESSENTIAL CHILLER CONDENSER 01A (VALVES)"
+""
+338,"S1-GCC-MVO0085","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CONDENSER 01A ISOL. MOV MV085 FAILS TO OPEN"
+""
+339,"S1-GWO-01PA-RF-A1B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP 01A UNAVAILABLE [RF]"
+""
+340,"S1-GWO-01PA-EX-A1B1-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW PUMP 01A - OPERATING [EX]"
+""
+341,"S1-GWO-01PA-RF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW PUMP PP01A FAILS TO RESTART AFTER LOOP"
+""
+342,"S1-GWO-01PA-CCF-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW PUMP PP01A FAILS TO RESTART AFTER LOOP DUE TO CCF"
+""
+343,"S1-GWO-01A-11-RUN-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CHILLED WATER FROM ESSENTIAL CHILLER 01A AFTER LOOP (CH01A, 01B RUN)"
+""
+344,"S1-GWO-02A-A2B1-RUN-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CHILLED WATER FROM ESSENTIAL CHILLER 02A AFTER LOOP (CH02A/01B RUN)"
+""
+345,"S1-GCC-PCSMV0095","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for MV095A"
+""
+346,"S1-CXPMACCMV0095","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for MV 095"
+""
+347,"S1-GWO-PCSCH02A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS CARD FAILURE FOR ECW CHILLER 02A"
+""
+348,"S1-CXPMACWCH02A","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for ECW Chiller CH02A"
+""
+349,"S1-GWO-PCS002PA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS CARD FAILURE FOR ECW PUMP 02PA"
+""
+350,"S1-GWO-02A-A2B1-RUN-LOOP-1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 02A FAILURE AFTER LOOP"
+""
+351,"S1-GWO-02A-A2B1-RUN-LOOP-2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 02PA FAILURE AFTER LOOP"
+""
+352,"S1-GWO-02CHA-A2B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 02A FAILURE"
+""
+353,"S1-GWO-02PA-A2B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 02PA FAILURE"
+""
+354,"S1-GCC-MVO0095","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CONDENSER 02A ISOL. MOV MV095 FAILS TO OPEN"
+""
+355,"S1-GWO-02CHA-RF-A2B1-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW CHILLER 02A UNAVAILABLE [RF]"
+""
+356,"S1-GWO-02CHA-EX-A2B1-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW CHILLER 02A - OPERATING [EX]"
+""
+357,"S1-GWO-02CHA-RF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CHILLER CH02A FAILS TO RESTART AFTER LOOP"
+""
+358,"S1-GWO-02CHA-CCF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CHILLER CH02A FAILS TO RESTART AFTER LOOP DUE TO CCF"
+""
+359,"S1-GWO-CH02A-A2B1-SUP-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM FAILURE FOR ECW CHILLER 02A"
+""
+360,"S1-GCC-ECWC2A-A2B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CCW FLOW TO ESSENTIAL CHILLER CONDENSER 02A (VALVES)"
+""
+361,"S1-GWO-02PA-RF-A2B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP 02A UNAVAILABLE [RF]"
+""
+362,"S1-GWO-02PA-EX-A2B1-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW PUMP 02A - OPERATING [EX]"
+""
+363,"S1-GWO-02PA-RF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW PUMP PP02A FAILS TO RESTART AFTER LOOP"
+""
+364,"S1-GWO-02PA-CCF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW PUMP PP02A FAILS TO RESTART AFTER LOOP DUE TO CCF"
+""
+365,"S1-GWO-02A-A2B2-RUN-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CHILLED WATER FROM ESSENTIAL CHILLER 02A AFTER LOOP (CH02A/02B RUN)"
+""
+366,"S1-GWO-02A-A2B2-RUN-LOOP-1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 02A FAILURE AFTER LOOP"
+""
+367,"S1-GWO-02A-A2B2-RUN-LOOP-2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 02PA FAILURE AFTER LOOP"
+""
+368,"S1-GWO-02CHA-A2B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 02A FAILURE"
+""
+369,"S1-GWO-02PA-A2B2-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 02PA FAILURE"
+""
+370,"S1-GWO-02CHA-RF-A2B2-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW CHILLER 02A UNAVAILABLE [RF]"
+""
+371,"S1-GWO-02CHA-EX-A2B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW CHILLER 02A - OPERATING [EX]"
+""
+372,"S1-GWO-CH02A-A2B2-SUP-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM FAILURE FOR ECW CHILLER 02A"
+""
+373,"S1-GCC-ECWC2A-A2B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CCW FLOW TO ESSENTIAL CHILLER CONDENSER 02A (VALVES)"
+""
+374,"S1-GWO-02PA-RF-A2B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP 02A UNAVAILABLE [RF]"
+""
+375,"S1-GWO-02PA-EX-A2B2-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW PUMP 02A - OPERATING [EX]"
+""
+376,"S1-GWO-01A-A1B2-RUN-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CHILLED WATER FROM ESSENTIAL CHILLER 01A AFTER LOOP (CH01A, 02B RUN)"
+""
+377,"S1-GWO-01A-A1B2-RUN-LOOP-1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 01A FAILURE AFTER LOOP"
+""
+378,"S1-GWO-01A-A1B2-RUN-LOOP-2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 01PA FAILURE AFTER LOOP"
+""
+379,"S1-GWO-01CHA-A1B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 01A FAILURE AFTER LOOP"
+""
+380,"S1-GWO-01PA-A1B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 01PA FAILURE"
+""
+381,"S1-GWO-01CHA-RF-A1B2-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW CHILLER 01A UNAVAILABLE [RF]"
+""
+382,"S1-GWO-01CHA-EX-A1B2-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW CHILLER 01A - STANDBY [EX]"
+""
+383,"S1-GWO-CH01A-A1B2-SUP-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM FAILURE FOR ECW CHILLER 01A"
+""
+384,"S1-GCC-ECWC1A-A1B2-LOOP","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CCW FLOW TO ESSENTIAL CHILLER CONDENSER 01A (VALVES)"
+""
+385,"S1-GWO-01PA-RF-A1B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP 01A UNAVAILABLE [RF]"
+""
+386,"S1-GWO-01PA-EX-A1B2-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW PUMP 01A - OPERATING [EX]"
+""
+387,"S1-GWO-01B-A1B1-RUN-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CHILLED WATER FROM ESSENTIAL CHILLER 01B AFTER LOOP (CH01A, 01B RUN)"
+""
+388,"S1-GEL-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF 480V AC POWER FROM LC01B"
+""
+389,"S1-GCC-PCSMV0086","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF PCS CARD FOR MV086B"
+""
+390,"S1-CXPMACCMV0086","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for MV 086"
+""
+391,"S1-GWO-PCSCH01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS CARD FAILURE FOR ECW CHILLER 01B"
+""
+392,"S1-CXPMACWCH01B","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for ECW Chiller CH01B"
+""
+393,"S1-GWO-PCS001PB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS CARD FAILURE FOR ECW PUMP 01PB"
+""
+394,"S1-CXPMACWMP01B","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for ECW Pp 01B"
+""
+395,"S1-CXPMACWMP02B","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for ECW PP 02B"
+""
+396,"S1-GWO-01B-A1B1-RUN-LOOP-1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 01B FAILURE AFTER LOOP"
+""
+397,"S1-GWO-01B-A1B1-RUN-LOOP-2","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 01PB FAILURE AFTER LOOP"
+""
+398,"S1-GWO-01CHB-A1B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 01B FAILURE"
+""
+399,"S1-GWO-01PB-A1B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 01PB FAILURE"
+""
+400,"S1-GWO-01CHB-RF-A1B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW CHILLER 01B UNAVAILABLE [RF]"
+""
+401,"S1-GWO-01CHB-EX-A1B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW CHILLER 01B - OPERATING [EX]"
+""
+402,"S1-GWO-01CHB-RF-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CHILLER CH01B FAILS TO RESTART AFTER LOOP"
+""
+403,"S1-GWO-01CHB-CCF-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CHILLER CH01B FAILS TO RESTART AFTER LOOP DUE TO CCF"
+""
+404,"S1-GWO-01PB-RF-A1B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP 01B UNAVAILABLE [RF]"
+""
+405,"S1-GWO-01PB-EX-A1B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW PUMP 01B - OPERATING [EX]"
+""
+406,"S1-GWO-01PB-RF-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP PP01B FAILS TO RESTART AFTER LOOP"
+""
+407,"S1-GWO-01PB-CCF-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP PP01B FAILS TO RESTART AFTER LOOP DUE TO CCF"
+""
+408,"S1-GWO-CH01B-A1B1-SUP-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM FAILURE FOR ECW CHILLER 01B"
+""
+409,"S1-GCC-ECWC1B-A1B1-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CCW FLOW TO ESSENTIAL CHILLER CONDENSER 01B (VALVES)"
+""
+410,"S1-GCC-MVO0086","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CONDENSER 01B CA ISOL. MOV MV086 FAILS TO OPEN"
+""
+411,"S1-GWO-01B-A2B1-RUN-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CHILLED WATER FROM ESSENTIAL CHILLER 01B AFTER LOOP (CH02A, 01B RUN)"
+""
+412,"S1-GWO-01B-A2B1-RUN-LOOP-1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 01B FAILURE AFTER LOOP"
+""
+413,"S1-GWO-01B-A2B1-RUN-LOOP-2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 01PB FAILURE AFTER LOOP"
+""
+414,"S1-GWO-01CHB-A2B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 01B FAILURE"
+""
+415,"S1-GWO-01PB-A2B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 01PB FAILURE"
+""
+416,"S1-GWO-01CHB-RF-A2B1-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW CHILLER 01B UNAVAILABLE [RF]"
+""
+417,"S1-GWO-01CHB-EX-A2B1-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW CHILLER 01B - OPERATING [EX]"
+""
+418,"S1-GWO-CH01B-A2B1-SUP-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM FAILURE FOR ECW CHILLER 01B"
+""
+419,"S1-GCC-ECWC1B-A2B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CCW FLOW TO ESSENTIAL CHILLER CONDENSER 01B (VALVES)"
+""
+420,"S1-GWO-01PB-RF-A2B1-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP 01B UNAVAILABLE [RF]"
+""
+421,"S1-GWO-01PB-EX-A2B1-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW PUMP 01B - OPERATING [EX]"
+""
+422,"S1-GWO-02B-A1B2-RUN-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CHILLED WATER FROM ESSENTIAL CHILLER 02B AFTER LOOP (CH01A, 02B RUN)"
+""
+423,"S1-GWO-CH02B-A1B1-SUP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM FAILURE FOR ECW CHILLER 02B (A1B1 RUN)"
+""
+424,"S1-GCC-ECWC2B-A1B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CCW FLOW TO ESSENTIAL CHILLER CONDENSER 02B (VALVES)"
+""
+425,"S1-GCC-PCSMV0096","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF PCS CARD FOR MV096B"
+""
+426,"S1-CXPMACCMV0096","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for MV 096"
+""
+427,"S1-GWO-PCSCH02B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS CARD FAILURE FOR ECW CHILLER 02B"
+""
+428,"S1-CXPMACWCH02B","B",0,0
+0.000130272,3,1.18E-07,2208,0,"L",0,"h","h",0,0,0
+"PCS Card Failure for ECW Chiller CH02B"
+""
+429,"S1-GWO-PCS002PB","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS CARD FAILURE FOR ECW PUMP 02PB"
+""
+430,"S1-GWO-02B-A1B2-RUN-LOOP-1","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 02B FAILURE AFTER LOOP"
+""
+431,"S1-GWO-02B-A1B2-RUN-LOOP-2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 02PB FAILURE AFTER LOOP"
+""
+432,"S1-GWO-02CHB-A1B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 02B FAILURE"
+""
+433,"S1-GWO-02PB-A1B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 02PB FAILURE"
+""
+434,"S1-GCC-MVO0096","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CONDENSER 02B ISOL. MOV MV096 FAILS TO OPEN"
+""
+435,"S1-GWO-02CHB-RF-A1B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW CHILLER 02B UNAVAILABLE [RF]"
+""
+436,"S1-GWO-02CHB-EX-A1B2-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW CHILLER 02B - OPERATING [EX]"
+""
+437,"S1-GWO-02CHB-RF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CHILLER CH02B FAILS TO RESTART AFTER LOOP"
+""
+438,"S1-GWO-02CHB-CCF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECW CHILLER CH02B FAILS TO RESTART AFTER LOOP DUE TO CCF"
+""
+439,"S1-GWO-02PB-RF-A1B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP 02B UNAVAILABLE [RF]"
+""
+440,"S1-GWO-02PB-EX-A1B2-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW PUMP 02B - OPEARATING [EX]"
+""
+441,"S1-GWO-02PB-RF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP PP02B FAILS TO RESTART AFTER LOOP"
+""
+442,"S1-GWO-02PB-CCF-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP PP02B FAILS TO RESTART AFTER LOOP DUE TO CCF"
+""
+443,"S1-GWO-02B-A2B2-RUN-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CHILLED WATER FROM ESSENTIAL CHILLER 02B AFTER LOOP (CH02A, 02B RUN)"
+""
+444,"S1-GWO-02B-A2B2-RUN-LOOP-1","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 02B FAILURE AFTER LOOP"
+""
+445,"S1-GWO-02B-A2B2-RUN-LOOP-2","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 02PB FAILURE AFTER LOOP"
+""
+446,"S1-GWO-02CHB-A2B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLER 02B FAILURE"
+""
+447,"S1-GWO-02PB-A2B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ESSENTIAL CHILLED WATER PUMP 02PB FAILURE"
+""
+448,"S1-GWO-02CHB-RF-A2B2-LOOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW CHILLER 02B UNAVAILABLE [RF]"
+""
+449,"S1-GWO-02CHB-EX-A2B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW CHILLER 02B - OPERATING [EX]"
+""
+450,"S1-GWO-CH02B-A2B2-SUP-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORT SYSTEM FAILURE FOR ECW CHILLER 02B"
+""
+451,"S1-GCC-ECWC2B-A2B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CCW FLOW TO ESSENTIAL CHILLER CONDENSER 02B (VALVES)"
+""
+452,"S1-GWO-02PB-RF-A2B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"ECHW PUMP 02B UNAVAILABLE [RF]"
+""
+453,"S1-GWO-02PB-EX-A2B2-LOOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SUPPORTING FAILURE FOR ECHW PUMP 02B - OPERATING [EX]"
+""
+454,"S1-GCC-MVW-ECW-A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+455,"S1-CCMVW-ECW-AB","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+456,"S1-CCMVW-ECW-ABC","B",0,0
+2.2256E-06,0,0.00107,0,0,"L",0,"","",0.00208,0,3.6
+"CCF (3/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+457,"S1-CCMVW-ECW-ABCD","B",0,0
+2.8676E-06,0,0.00107,0,0,"L",0,"","",0.00268,0,3.6
+"CCF (4/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+458,"S1-CCMVW-ECW-ABD","B",0,0
+2.2256E-06,0,0.00107,0,0,"L",0,"","",0.00208,0,3.6
+"CCF (3/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+459,"S1-CCMVW-ECW-AC","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+460,"S1-CCMVW-ECW-ACD","B",0,0
+2.2256E-06,0,0.00107,0,0,"L",0,"","",0.00208,0,3.6
+"CCF (3/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+461,"S1-CCMVW-ECW-AD","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+462,"S1-GCC-MVW-ECW-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+463,"S1-GCC-MVW-ECW-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+464,"S1-GCC-MVW-ECW-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+465,"S1-GCC-MVW-ECW-C","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+466,"S1-CCMVW-ECW-BC","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+467,"S1-CCMVW-ECW-BCD","B",0,0
+2.2256E-06,0,0.00107,0,0,"L",0,"","",0.00208,0,3.6
+"CCF (3/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+468,"S1-CCMVW-ECW-CD","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+469,"S1-GCC-MVW-ECW-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+470,"S1-GCC-MVW-ECW-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+471,"S1-GCC-MVW-ECW-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+472,"S1-GCC-MVW-ECW-B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+473,"S1-CCMVW-ECW-BD","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+474,"S1-GCC-MVW-ECW-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+475,"S1-GCC-MVW-ECW-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+476,"S1-GCC-MVW-ECW-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+477,"S1-GCC-MVW-ECW-D","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+478,"S1-GCC-MVW-ECW-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+479,"S1-GCC-MVW-ECW-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+480,"S1-GCC-MVW-ECW-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : CCF - ECW CONDEN ISOL. MOV MV A:085, B:086, C:95, D:096 FAIL TO OPEN"
+""
+481,"%S1-LOOP","H",0,0
+0.0248,4,0.0248,0,0,"L",0,"y","",0,0,0
+"LOOP IE FREQUENCY"
+"NUREG/CR-3862, 136년 3회"
+482,"S1-GWO-CH1A-FS22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW Chiller 01A to start"
+""
+483,"S1-GWO-MP1A-FS22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CW MP 01A to start"
+""
+484,"S1-GWO-MP1A-FR22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chilled Water Pump 01PA to run or Supporting system"
+""
+485,"S1-GWO-CH1A-FR22","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Essential Chiller 01A to run or Supporting System"
+""
+"#TreeLogic"
+10,"+",3
+1
+102
+103
+12,"+",4
+104
+110
+103
+105
+14,"+",4
+104
+111
+105
+103
+17,"+",3
+1
+102
+103
+18,"+",3
+19
+20
+21
+19,"+",2
+105
+41
+21,"+",1
+30
+26,"+",1
+102
+31,"+",3
+32
+5
+33
+32,"+",2
+105
+35
+33,"+",1
+6
+35,"+",4
+36
+37
+38
+39
+36,"+",4
+3
+1
+40
+26
+39,"+",1
+2
+41,"+",4
+42
+43
+44
+45
+42,"+",4
+47
+1
+48
+26
+45,"+",1
+46
+80,"+",3
+79
+106
+107
+81,"+",3
+83
+66
+84
+82,"+",4
+109
+112
+108
+107
+83,"+",2
+86
+108
+84,"+",1
+61
+85,"+",1
+106
+86,"+",4
+87
+63
+62
+88
+87,"+",4
+65
+79
+76
+85
+88,"+",1
+64
+89,"+",3
+92
+55
+93
+90,"+",3
+79
+106
+107
+91,"+",4
+109
+113
+108
+107
+92,"+",2
+94
+108
+93,"+",1
+56
+94,"+",4
+95
+71
+72
+96
+95,"+",4
+50
+79
+78
+85
+96,"+",1
+49
+97,"+",2
+98
+99
+98,"+",1
+100
+99,"+",1
+101
+100,"+",5
+114
+120
+121
+122
+123
+101,"+",5
+117
+234
+236
+235
+237
+114,"+",2
+115
+116
+117,"+",2
+118
+119
+120,"*",2
+182
+183
+121,"*",2
+184
+185
+122,"*",2
+186
+187
+123,"*",2
+215
+216
+124,"+",3
+132
+133
+134
+132,"+",3
+125
+129
+131
+133,"+",3
+126
+128
+130
+134,"+",1
+127
+135,"+",3
+143
+144
+145
+143,"+",3
+136
+140
+142
+144,"+",3
+137
+139
+141
+145,"+",1
+138
+146,"+",3
+154
+155
+156
+154,"+",3
+147
+151
+153
+155,"+",3
+148
+150
+152
+156,"+",1
+149
+157,"+",3
+165
+166
+167
+165,"+",3
+158
+162
+164
+166,"+",3
+159
+161
+163
+167,"+",1
+160
+168,"+",3
+172
+173
+174
+172,"+",3
+136
+169
+171
+173,"+",3
+137
+139
+170
+174,"+",1
+138
+175,"+",3
+179
+180
+181
+179,"+",3
+158
+176
+178
+180,"+",3
+159
+161
+177
+181,"+",1
+160
+182,"=",1
+206
+183,"+",2
+207
+208
+184,"+",1
+209
+185,"+",2
+210
+211
+186,"+",2
+204
+205
+187,"+",1
+214
+188,"+",3
+192
+193
+194
+192,"+",3
+125
+189
+191
+193,"+",3
+126
+128
+190
+194,"+",1
+127
+195,"+",3
+199
+200
+201
+199,"+",3
+147
+196
+198
+200,"+",3
+148
+150
+197
+201,"+",1
+149
+202,"+",7
+22
+24
+25
+26
+23
+195
+10
+203,"+",6
+27
+28
+26
+29
+188
+12
+204,"+",3
+18
+202
+203
+205,"+",2
+212
+213
+206,"+",3
+230
+231
+343
+207,"+",3
+31
+282
+283
+208,"+",2
+232
+233
+209,"+",3
+224
+225
+376
+210,"+",3
+31
+226
+227
+211,"+",2
+228
+229
+212,"+",3
+4
+10
+157
+213,"+",3
+11
+12
+168
+214,"+",3
+222
+223
+344
+215,"+",2
+217
+218
+216,"+",1
+219
+217,"+",3
+18
+483
+482
+218,"+",2
+484
+485
+219,"+",3
+220
+221
+365
+220,"+",3
+8
+17
+175
+221,"+",3
+13
+14
+135
+222,"+",3
+8
+17
+175
+223,"+",3
+13
+14
+135
+224,"+",3
+4
+10
+157
+225,"+",3
+11
+12
+168
+226,"+",7
+7
+25
+24
+26
+9
+146
+17
+227,"+",6
+16
+34
+26
+15
+124
+14
+228,"+",3
+8
+17
+175
+229,"+",3
+13
+14
+135
+230,"+",3
+4
+10
+157
+231,"+",3
+168
+12
+11
+232,"+",3
+8
+17
+175
+233,"+",3
+13
+14
+135
+234,"*",2
+238
+239
+235,"*",2
+240
+241
+236,"*",2
+269
+270
+237,"*",2
+309
+310
+238,"=",1
+247
+239,"+",2
+255
+256
+240,"+",2
+284
+285
+241,"+",1
+286
+242,"+",3
+244
+245
+246
+244,"+",3
+169
+140
+243
+245,"+",3
+137
+170
+141
+246,"+",1
+138
+247,"+",3
+248
+249
+387
+248,"+",3
+54
+80
+250
+249,"+",3
+57
+82
+242
+250,"+",3
+252
+253
+254
+252,"+",3
+162
+176
+251
+253,"+",3
+159
+163
+177
+254,"+",1
+160
+255,"+",3
+89
+281
+280
+256,"+",2
+267
+268
+257,"+",3
+259
+260
+261
+259,"+",3
+196
+151
+258
+260,"+",3
+148
+197
+152
+261,"+",1
+149
+262,"+",3
+264
+265
+266
+264,"+",3
+189
+129
+263
+265,"+",3
+126
+190
+130
+266,"+",1
+127
+267,"+",3
+52
+90
+299
+268,"+",3
+58
+91
+303
+269,"+",1
+271
+270,"+",2
+272
+273
+271,"+",3
+274
+275
+411
+272,"+",3
+89
+279
+278
+273,"+",2
+276
+277
+274,"+",3
+54
+80
+250
+275,"+",3
+57
+82
+242
+276,"+",3
+52
+90
+299
+277,"+",3
+58
+91
+303
+278,"+",6
+60
+77
+85
+59
+82
+287
+279,"+",7
+51
+74
+73
+85
+53
+80
+291
+280,"+",6
+60
+77
+85
+59
+82
+287
+281,"+",7
+51
+74
+73
+85
+53
+80
+291
+282,"+",7
+7
+25
+24
+26
+9
+146
+17
+283,"+",6
+16
+34
+26
+15
+124
+14
+284,"+",3
+81
+295
+296
+285,"+",2
+297
+298
+286,"+",3
+307
+308
+422
+287,"+",3
+288
+289
+290
+288,"+",3
+191
+131
+263
+289,"+",3
+128
+190
+130
+290,"+",1
+127
+291,"+",3
+292
+293
+294
+292,"+",3
+198
+153
+258
+293,"+",3
+150
+197
+152
+294,"+",1
+149
+295,"+",7
+69
+73
+74
+85
+70
+80
+257
+296,"+",6
+67
+75
+85
+68
+82
+262
+297,"+",3
+54
+80
+250
+298,"+",3
+57
+82
+242
+299,"+",3
+300
+301
+302
+300,"+",3
+164
+178
+251
+301,"+",3
+161
+163
+177
+302,"+",1
+160
+303,"+",3
+304
+305
+306
+304,"+",3
+171
+142
+243
+305,"+",3
+139
+170
+141
+306,"+",1
+138
+307,"+",3
+52
+90
+299
+308,"+",3
+58
+91
+303
+309,"+",2
+311
+312
+310,"+",1
+317
+311,"+",3
+81
+313
+314
+312,"+",2
+315
+316
+313,"+",7
+69
+73
+74
+85
+70
+80
+291
+314,"+",6
+67
+75
+85
+68
+82
+262
+315,"+",3
+54
+80
+299
+316,"+",3
+57
+82
+303
+317,"+",3
+318
+319
+443
+318,"+",3
+52
+90
+299
+319,"+",3
+58
+91
+303
+321,"+",2
+322
+26
+323,"+",2
+324
+26
+325,"+",2
+326
+26
+328,"*",2
+481
+330
+329,"*",2
+481
+331
+330,"+",2
+332
+333
+331,"+",2
+339
+340
+332,"+",2
+334
+335
+333,"+",1
+336
+334,"+",2
+27
+323
+335,"+",1
+188
+336,"+",5
+105
+104
+1
+337
+110
+337,"+",1
+338
+338,"+",3
+47
+321
+454
+339,"+",2
+341
+342
+340,"+",2
+320
+105
+341,"+",3
+20
+22
+325
+342,"+",1
+195
+343,"+",2
+328
+329
+344,"+",2
+350
+351
+345,"+",2
+346
+26
+347,"+",2
+348
+26
+349,"+",2
+327
+26
+350,"*",2
+481
+352
+351,"*",2
+481
+353
+352,"+",2
+355
+356
+353,"+",2
+361
+362
+354,"+",3
+3
+345
+465
+355,"+",2
+357
+358
+356,"+",1
+359
+357,"+",2
+16
+347
+358,"+",1
+124
+359,"+",5
+105
+104
+1
+360
+111
+360,"+",1
+354
+361,"+",2
+363
+364
+362,"+",2
+320
+105
+363,"+",3
+5
+7
+349
+364,"+",1
+146
+365,"+",2
+366
+367
+366,"*",2
+481
+368
+367,"*",2
+481
+369
+368,"+",2
+370
+371
+369,"+",2
+374
+375
+370,"+",2
+357
+358
+371,"+",1
+372
+372,"+",5
+105
+104
+1
+373
+111
+373,"+",1
+354
+374,"+",2
+363
+364
+375,"+",2
+320
+105
+376,"+",2
+377
+378
+377,"*",2
+481
+379
+378,"*",2
+481
+380
+379,"+",2
+381
+382
+380,"+",2
+385
+386
+381,"+",2
+334
+335
+382,"+",1
+383
+383,"+",5
+105
+104
+1
+384
+110
+384,"+",1
+338
+385,"+",2
+341
+342
+386,"+",2
+320
+105
+387,"+",2
+396
+397
+389,"+",2
+390
+85
+391,"+",2
+392
+85
+393,"+",2
+394
+85
+396,"*",2
+481
+398
+397,"*",2
+481
+399
+398,"+",2
+400
+401
+399,"+",2
+404
+405
+400,"+",2
+402
+403
+401,"+",1
+408
+402,"+",2
+67
+391
+403,"+",1
+262
+404,"+",2
+406
+407
+405,"+",2
+388
+108
+406,"+",3
+66
+69
+393
+407,"+",1
+257
+408,"+",5
+108
+109
+79
+409
+112
+409,"+",1
+410
+410,"+",3
+65
+389
+472
+411,"+",2
+412
+413
+412,"*",2
+481
+414
+413,"*",2
+481
+415
+414,"+",2
+416
+417
+415,"+",2
+420
+421
+416,"+",2
+402
+403
+417,"+",1
+418
+418,"+",5
+108
+109
+79
+419
+112
+419,"+",1
+410
+420,"+",2
+406
+407
+421,"+",2
+388
+108
+422,"+",2
+430
+431
+423,"+",5
+424
+108
+109
+79
+113
+424,"+",1
+434
+425,"+",2
+426
+85
+427,"+",2
+428
+85
+429,"+",2
+395
+85
+430,"*",2
+481
+432
+431,"*",2
+481
+433
+432,"+",2
+435
+436
+433,"+",2
+439
+440
+434,"+",3
+50
+425
+477
+435,"+",2
+437
+438
+436,"+",1
+423
+437,"+",2
+60
+427
+438,"+",1
+287
+439,"+",2
+441
+442
+440,"+",2
+388
+108
+441,"+",3
+55
+51
+429
+442,"+",1
+291
+443,"+",2
+444
+445
+444,"*",2
+481
+446
+445,"*",2
+481
+447
+446,"+",2
+448
+449
+447,"+",2
+452
+453
+448,"+",2
+437
+438
+449,"+",1
+450
+450,"+",5
+451
+108
+109
+79
+113
+451,"+",1
+434
+452,"+",2
+441
+442
+453,"+",2
+388
+108
+454,"+",3
+462
+463
+464
+462,"+",3
+455
+459
+461
+463,"+",3
+456
+458
+460
+464,"+",1
+457
+465,"+",3
+469
+470
+471
+469,"+",3
+459
+466
+468
+470,"+",3
+456
+460
+467
+471,"+",1
+457
+472,"+",3
+474
+475
+476
+474,"+",3
+455
+466
+473
+475,"+",3
+456
+458
+467
+476,"+",1
+457
+477,"+",3
+478
+479
+480
+478,"+",3
+461
+473
+468
+479,"+",3
+458
+460
+467
+480,"+",1
+457
+482,"+",6
+27
+28
+26
+29
+188
+12
+483,"+",7
+22
+24
+25
+26
+23
+195
+10
+484,"+",3
+4
+10
+157
+485,"+",3
+11
+12
+168
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

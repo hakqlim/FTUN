@@ -1,0 +1,277 @@
+"#KIRAP_TREE Version 3.5"
+"Title=","Prime R2.0 System FT"
+"UserName=",""
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 모델 개정\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=","PRiME 1.2 System FT + ASC 성공기준 1 of 2, SLOCA에서 TBV를 통한 덤프 모델 제거
+"
+"#NoXEvent=",44
+"#XEventData"
+1,"S1-GED-01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01A"
+""
+2,"S1-GED-01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01B"
+""
+3,"S1-GPG-VENT","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PZR vent via RCGVS"
+""
+4,"S1-GPG-VENTLI","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF P/Z VENT LINE"
+""
+5,"S1-GPG-RGVENT","*",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF RDT OR CTMT VENT LINE"
+""
+6,"S1-GPG-VENTVL","*",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF P/Z VENT LINE"
+""
+7,"S1-GPG-RG0107","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF PG CTMT VENT LINE LV RG107"
+""
+8,"S1-GPG-RG0108","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF PG RDT VENT LINE LV RG108"
+""
+9,"S1-GPG-RG0104","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF PG P/Z VENT LINE LV RG104"
+""
+10,"S1-GPG-RG0305","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF PG P/Z VENT LINE B LV'S"
+""
+11,"S1-PGLVORG0107","B",0,0
+0.000954,0,0.000954,0,8.07,"L",5,"d","",0,0,9.1
+"PG CTMT VENT LINE LV RG107 FAILS TO OPEN"
+""
+12,"S1-PGLVORG0108","B",0,0
+0.000954,0,0.000954,0,8.07,"L",5,"d","",0,0,9.1
+"PG RDT VENT LINE LV RG108 FAILS TO OPEN"
+""
+13,"S1-PGLVORG0104","B",0,0
+0.000954,0,0.000954,0,8.07,"L",5,"d","",0,0,9.1
+"PG P/Z VENT LINE A LV RG104 FAILS TO OPEN"
+""
+14,"S1-GPG-RG0103","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF PG P/Z VENT LINE B LV RG103"
+""
+15,"S1-GPG-RG0105","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF PG P/Z VENT LINE B LV RG105"
+""
+16,"S1-PGLVORG0103","B",0,0
+0.000954,0,0.000954,0,8.07,"L",5,"d","",0,0,9.1
+"PG P/Z VENT LINE B LV RG103 FAILS TO OPEN"
+""
+17,"S1-PGLVORG0105","B",0,0
+0.000954,0,0.000954,0,8.07,"L",5,"d","",0,0,9.1
+"PG P/Z VENT LINE B LV RG105 FAILS TO OPEN"
+""
+18,"S1-GEA-01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel A"
+""
+19,"S1-GEA-01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel B"
+""
+20,"S1-GPG-PCSLV0108","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for LV RG108"
+""
+21,"S1-PGISALV0108","B",0,0
+1.14E-07,3,7.6E-07,0.3,5,"L",0,"h","h",0,0,5
+"Failure of PCS for LV RG108"
+""
+22,"S1-GPG-PCSLV0104","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for LV RG 104"
+""
+23,"S1-PGISALV0104","B",0,0
+1.14E-07,3,7.6E-07,0.3,5,"L",0,"h","h",0,0,5
+"Failure of PCS for LV RG104"
+""
+24,"S1-GPG-PCSLV0103","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for LV RG103"
+""
+25,"S1-PGISALV0103","B",0,0
+1.14E-07,3,7.6E-07,0.3,5,"L",0,"h","h",0,0,5
+"Failure of PCS for LV RG103"
+""
+26,"S1-GPG-PCSLV0105","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for LV RG105"
+""
+27,"S1-PGISALV0105","B",0,0
+1.14E-07,3,7.6E-07,0.3,5,"L",0,"h","h",0,0,5
+"Failure of PCS for LV RG105"
+""
+28,"S1-GPG-PCSLV0107","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for LV RG107"
+""
+29,"S1-PGISALV0107","B",0,0
+1.14E-07,3,7.6E-07,0.3,5,"L",0,"h","h",0,0,5
+"Failure of PCS for LV RG107"
+""
+30,"S1-PGLVW-ABC","B",0,0
+1.26882E-05,0,0.000954,0,0,"L",0,"d","",0.0133,0,9.1
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105 (3/3)"
+""
+31,"S1-GPG-LVW-B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105"
+""
+32,"S1-GPG-LVW-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105 (2/3)"
+""
+33,"S1-GPG-LVW-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105 (3/3)"
+""
+34,"S1-PGLVW-BC","B",0,0
+2.42316E-05,0,0.000954,0,0,"L",0,"d","",0.0254,0,9.1
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105 (2/3)"
+""
+35,"S1-PGLVW-AB","B",0,0
+2.42316E-05,0,0.000954,0,0,"L",0,"d","",0.0254,0,9.1
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105 (2/3)"
+""
+36,"S1-GPG-LVW-A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105"
+""
+37,"S1-GPG-LVW-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105 (2/3)"
+""
+38,"S1-GPG-LVW-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105 (3/3)"
+""
+39,"S1-PGLVW-AC","B",0,0
+2.42316E-05,0,0.000954,0,0,"L",0,"d","",0.0254,0,9.1
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105 (2/3)"
+""
+40,"S1-GPG-LVW-C","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105"
+""
+41,"S1-GPG-LVW-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105 (2/3)"
+""
+42,"S1-GPG-LVW-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF OF PG P/Z VENT LINE LV A: RG103, B: 104, C: 105 (3/3)"
+""
+43,"S1-GEX-PA03A-03","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A-03)"
+""
+44,"S1-GEX-PA03B-04","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03B-04)"
+""
+"#TreeLogic"
+3,"+",2
+4
+5
+4,"+",2
+6
+30
+5,"*",2
+7
+8
+6,"*",2
+9
+10
+7,"+",3
+11
+1
+28
+8,"+",3
+12
+2
+20
+9,"+",4
+13
+2
+22
+31
+10,"+",2
+14
+15
+14,"+",4
+16
+1
+24
+36
+15,"+",4
+17
+1
+26
+40
+20,"+",2
+21
+44
+22,"+",2
+23
+44
+24,"+",2
+25
+43
+26,"+",2
+27
+43
+28,"+",2
+29
+43
+31,"+",2
+32
+33
+32,"+",2
+35
+34
+33,"+",1
+30
+36,"+",2
+37
+38
+37,"+",2
+35
+39
+38,"+",1
+30
+40,"+",2
+41
+42
+41,"+",2
+39
+34
+42,"+",1
+30
+43,"+",1
+18
+44,"+",1
+19
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

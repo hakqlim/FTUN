@@ -1,0 +1,1773 @@
+"#KIRAP_TREE Version 3.5"
+"Title=","Prime R2.0 System FT"
+"UserName=",""
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 모델 개정\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=","PRiME 1.2 System FT + ASC 성공기준 1 of 2, SLOCA에서 TBV를 통한 덤프 모델 제거
+"
+"#NoXEvent=",290
+"#XEventData"
+1,"S1-GLS-IG1O4","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF LPSI INJECTION (1/4)"
+""
+2,"S1-HSCVO0247","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"HPSI INJ. line to LOOP 1B CV SI-247 fails to open"
+""
+3,"S1-HSCVO0217","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"HPSI Inj. line to LOOP 2A CV SI-217 fails to open"
+""
+4,"S1-HSCVO0227","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"HPSI INJ. line to LOOP 2B CV SI-227 fails to open"
+""
+5,"S1-HSCVO0237","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"HPSI INJ. line to LOOP 1A CV SI-237 fails to open"
+""
+6,"S1-GED-01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01A"
+""
+7,"S1-GED-01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01B"
+""
+8,"S1-GEM-08A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LOSS OF POWER AT 480V MOTOR CONTROL CENTER BUS MC08A"
+""
+9,"S1-GEM-08B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LOSS OF POWER AT 480V MCC BUS MC08B"
+""
+10,"S1-GEK-01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of power at 4.16 KV SWGR BUS SW01A"
+""
+11,"S1-GEK-01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of power at 4.16 KV SWGR BUS SW01B"
+""
+12,"S1-HSSPPSUMP","B",0,0
+7.38E-06,0,7.38E-06,0,100,"L",0,"h","",0,0,18.8
+"CTMT. SUMP FAILURE DUE TO PLUGGING"
+""
+13,"S1-CVTKBRWT00","B",0,0
+7.656E-07,1,3.19E-08,24,5.5,"L",109,"h","h",0,0,8.4
+"RWT fails catastrophically"
+""
+14,"S1-CVMVT0530","B",0,0
+4.9128E-05,3,4.45E-08,2208,1.56,"L",22,"h","h",0,0,8.4
+"CVCS RWT Iso. MOV CH530 fails closed"
+""
+15,"S1-CVCVO0305","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"CVCS RWT DISCH CH305 fails to open"
+""
+16,"S1-GCV-RWTB","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM RWT DISCHARGE LINE B"
+""
+17,"S1-GCV-RWTA","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM RWT DISCHARGE LINE A"
+""
+18,"S1-HSCVO0542","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"HPSI INJ. line to LOOP 1A CV SI-542 fails to open"
+""
+19,"S1-HSCVO0543","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"HPSI INJ. line to LOOP 1B CV SI-543 fails to open"
+""
+20,"S1-HSCVO0540","B",-1,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"HPSI INJ. line to LOOP 2A CV SI-540 fails to open"
+""
+21,"S1-HSCVO0541","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"HPSI INJ. line to LOOP 2B CV SI-541 fails to open"
+""
+22,"S1-GLS-G0635","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF LPSI HEADER ISO. MOV SI-635"
+""
+23,"S1-LSMVO0635","B",0,0
+0.00107,0,0.00107,0,1.61,"L",1,"","",0,0,3.6
+"LPSI header Iso. MOV SI-635 fails to open"
+""
+24,"S1-GLS-G0645","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF LPSI HEADER ISO. MOV SI-645"
+""
+25,"S1-LSMVO0645","B",0,0
+0.00107,0,0.00107,0,1.61,"L",1,"","",0,0,3.6
+"LPSI header Iso. MOV SI-645 fails to open"
+""
+26,"S1-GLS-G0615","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF LPSI HEADER ISO. MOV SI-615"
+""
+27,"S1-LSMVO0615","B",0,0
+0.00107,0,0.00107,0,1.61,"L",1,"","",0,0,3.6
+"LPSI header Iso. MOV SI-615 fails to open"
+""
+28,"S1-GLS-G0625","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LPSI HEADER ISO. MV-SI625 FAILS TO OPEN"
+""
+29,"S1-LSMVO0625","B",0,0
+0.00107,0,0.00107,0,1.61,"L",1,"","",0,0,3.6
+"LPSI header Iso. MOV SI-625 fails to open"
+""
+30,"S1-GLS-IGF1A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI TR. A TO RCS LOOP 1A"
+""
+31,"S1-GLS-IGCVF1A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF CHECK VALVES IN RCS LOOP IA"
+""
+32,"S1-GLS-ITRAINA","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI TRAIN A"
+""
+33,"S1-LSCVO1341","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"LPSI INJ. line to LOOP 1A CV SI-134 fails to open"
+""
+34,"S1-LSVVT0435","B",0,0
+7.02144E-06,3,6.36E-09,2208,3.9,"L",22,"h","",0,0,8.4
+"LPSI pump DISCH. line VV SI-435 fails closed"
+""
+35,"S1-GLS-IFP1","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF LPSI PUMP 1"
+""
+36,"S1-LSCVO0434","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"LPSI PUMP DISCH. LINE CV SI-434 fails to open"
+""
+37,"S1-GLS-IMPSUC1","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI PUMP 1 SUCTION LINE"
+""
+38,"S1-GLS-IFP1-1","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE 0F LPSI PUMP 1 (CONTINUED)"
+""
+39,"S1-LSMVT0691","B",0,0
+4.9128E-05,3,4.45E-08,2208,1.56,"L",3,"h","h",0,0,8.4
+"LPSI PUMP SUCTION LINE MOV SI-691 FAILS CLOSED"
+""
+40,"S1-LSCVO0201","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"LPSI PUMP SUCTION LINE CV SI-201 FAILS TO OPEN"
+""
+41,"S1-GLS-MINIA","*",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of LPSI Tr. A mini flow line (IE conditioning : LLOCA)"
+""
+42,"S1-LSCVO0451","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"LPSI MINI FLOW LINE CV SI-451 FAILS TO OPEN"
+""
+43,"S1-GLS-IGF1B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI TR. A TO RCS LOOP 1B"
+""
+44,"S1-GLS-IGCVF1B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF CHECK VALVES IN RCS LOOP 1B"
+""
+45,"S1-LSCVO1441","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"LPSI INJ. line to LOOP 1B CV SI-144 fails to open"
+""
+46,"S1-GLS-IGF2A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI TR. B TO RCS LOOP 2A"
+""
+47,"S1-GLS-IGCVF2A","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF CHECK VALVES IN RCS LOOP 2A"
+""
+48,"S1-GLS-ITRAINB","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI TRAIN B"
+""
+49,"S1-LSCVO1142","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"LPSI INJ. line to LOOP 2A CV SI-114 fails to open"
+""
+50,"S1-LSVVT0447","B",0,0
+7.02144E-06,3,6.36E-09,2208,3.9,"L",22,"h","",0,0,8.4
+"LPSI PUMP 2 DISCH. VV SI-447 fails closed"
+""
+51,"S1-GLS-IFP2","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF LPSI PUMP 2"
+""
+52,"S1-LSCVO0446","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"LPSI PUMP 2 DISCH. LINE CV SI-446 FAILS TO OPEN"
+""
+53,"S1-GLS-IMPSUC2","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI PUMP 2 SUCTION LINE"
+""
+54,"S1-GLS-IFP2-1","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF LPSI PUMP 2"
+""
+55,"S1-LSMVT0692","B",0,0
+4.9128E-05,3,4.45E-08,2208,1.56,"L",3,"h","h",0,0,8.4
+"LPSI PUMP SUCTION LINE MOV SI-692 FAILS CLOSED"
+""
+56,"S1-LSCVO0200","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"LPSI PUMP SUCTION LINE CV SI-200 FAILS TO OPEN"
+""
+57,"S1-GLS-MINIB","*",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of LPSI Tr. B mini flow line (IE conditioning : LLOCA)"
+""
+58,"S1-GLS-ILPSI2","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of LPSI pump 2 supporting system"
+""
+59,"S1-LSCVO0448","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"LPSI MINI FLOW LINE CV SI-448 FAILS TO OPEN"
+""
+60,"S1-GLS-IGF2B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI TR. B TO RCS LOOP 2B"
+""
+61,"S1-GLS-IGCVF2B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF CHECK VALVES IN RCS LOOP 2B"
+""
+62,"S1-LSCVO1242","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"LPSI INJ. line to LOOP 2B CV SI-124 fails to open"
+""
+63,"S1-GEA-01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel A"
+""
+64,"S1-GEA-01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel B"
+""
+65,"S1-G-IECON-LS","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LLOCA does NOT require alignment of miniflow line"
+"SLOCA, SGTR"
+66,"S1-GLS-MINIA-F","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failire of LPSI Tr.A mini-flow line"
+""
+67,"S1-GLS-MINIB-F","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failire of LPSI Tr.B mini-flow line"
+""
+68,"S1-HSISAMV0676","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS for SI-676"
+""
+69,"S1-HSLVT0659","B",0,0
+1.59E-05,3,0.000954,0.03333333,3.2,"L",0,"h","h",0,0,9.1
+"Mini-flow line SOV SI-659 fails closed"
+""
+70,"S1-HSLVT0660","B",0,0
+1.59E-05,3,0.000954,0.03333333,3.2,"L",0,"h","h",0,0,9.1
+"Mini-flow line SOV SI-660 fails closed"
+"Fail 가능성 낮아 0로 사용"
+71,"S1-GLS-CS0635","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of MOV SI-635 Control Signal"
+""
+72,"S1-GLS-ARCMV0635","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"No Signal Generation for SI-635"
+""
+73,"S1-GLS-PCSMV0635","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS card for SI-635A"
+""
+74,"S1-LSISAMV0635","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS for SI-635"
+""
+75,"S1-GLS-CS0645","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of MOV SI-645 Control Signal"
+""
+76,"S1-GLS-ARCMV0645","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"No Signal Generation for SI-645"
+""
+77,"S1-GLS-PCSMV0645","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for SI-645B"
+""
+78,"S1-LSISAMV0645","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS for SI-645"
+""
+79,"S1-GLS-CS0625","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of MOV SI-625 Control Signal"
+""
+80,"S1-GLS-ARCMV0625","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"No Signal Generation for SI-625"
+""
+81,"S1-GLS-PCSMV0625","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for SI-625"
+""
+82,"S1-LSISAMV0625","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS for SI-625"
+""
+83,"S1-GLS-CS0615","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of MOV SI-615 Control Signal"
+""
+84,"S1-GLS-ARCMV0615","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"No Signal Generation for SI-615"
+""
+85,"S1-GLS-PCSMV0615","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for SI-615"
+""
+86,"S1-LSISAMV0615","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS for SI-615"
+""
+87,"S1-GLS-PCSMP01A","+",0,1
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS card for LPSI P/P 01A"
+""
+88,"S1-GLS-ARCMP01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"No signal generation for LPSI P/P 01A"
+""
+89,"S1-LSISAMP01A","B",0,0
+0,3,7.6E-07,0,5,"L",0,"h","m",0.00547,0,5
+"Failure of PCS for LPSI P/P 01A"
+""
+90,"S1-GLS-CSMP01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of LPSI P/P 01A Control Signal"
+""
+91,"S1-GLS-CSMP01B","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of LPSI P/P 01B Control Signal"
+""
+92,"S1-GLS-ARCMP01B","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"No signal generation for LPSI P/P 01B"
+""
+93,"S1-GLS-PCSMP01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS card for LPSI P/P 1B"
+""
+94,"S1-LSISAMP01B","B",0,0
+0,3,7.6E-07,0,5,"L",0,"h","m",0.022,0,5
+"Failure of PCS for LPSI P/P 01B"
+""
+95,"S1-LSMVT0669","B",0,0
+4.9128E-05,3,4.45E-08,2208,1.56,"L",0,"h","h",0,0,8.4
+"Mini flow line MOV SI-669 fails closed"
+"Fail 가능성 낮아 0"
+96,"S1-LSMVT0668","B",0,0
+4.9128E-05,3,4.45E-08,2208,1.56,"L",0,"h","h",0,0,8.4
+"Mini-flow line MOV SI-668 fails closed"
+"5.31e-7"
+97,"S1-LSMVT0307","B",0,0
+4.9128E-05,3,4.45E-08,2208,1.56,"L",22,"h","h",0,0,8.4
+"LPSI pump discharge line modulating valve SI307A fails closed"
+""
+98,"S1-LSMVT0306","B",0,0
+4.9128E-05,3,4.45E-08,2208,1.56,"L",22,"h","h",0,0,8.4
+"LPSI pump discharge line modulating valve SI306B fails closed"
+""
+99,"S1-LSOPHRECIRC","B",0,0
+7E-05,0,7E-05,0,5,"L",0,"","",0,0,5
+"Operator fails to perform recirculation"
+""
+100,"S1-FSRSALSMP01A","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,8.4
+"Failure of ESFAS-ARC Relay K-110 for LPSI P/P01A"
+""
+101,"S1-FSRSALSMP01B","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,8.4
+"Failure of ESFAS-ARC Relay K-312 for LPSI P/P01B"
+""
+102,"S1-FSRSAMV6152A","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,8.4
+"Failure of ESFAS-ARC Relay K-302 for SI-615"
+""
+103,"S1-FSRSAMV6252B","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,8.4
+"Failure of ESFAS-ARC Relay K-301 for SI-625"
+""
+104,"S1-FSRSAMV6351A","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,8.4
+"Failure of ESFAS-ARC Relay K-302 for SI-635A"
+""
+105,"S1-GLS-CVCCF1A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of check valves in RCS Loop 1A"
+""
+106,"S1-GLS-CVCCF1B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of check valves in RCS Loop 1B"
+""
+107,"S1-GLS-CVCCF2A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of check valves in RCS Loop 2A"
+""
+108,"S1-GLS-CVCCF2B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of check valves in RCS Loop 2B"
+""
+109,"S1-GLS-IG1O4-LL","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF LPSI INJECTION (1/4)  (no credit for broken loop)"
+"1/4 -> 3-out-of-4 failure criteria"
+110,"S1-GLS-RG1O4","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF LPSI RECIRCULATION (1/4)"
+""
+111,"S1-GHS-RSUMPB","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM SUMP LINE B"
+""
+112,"S1-GHS-RSUMPA","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM SUMP LINE A"
+""
+113,"S1-GLS-RGF1A","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM RCS LOOP 1A"
+""
+114,"S1-GLS-RTRAINA","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI TRAIN A (RECIRCULATION)"
+""
+115,"S1-GLS-RMPSUC1","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI PUMP 1 SUCTION LINE"
+""
+116,"S1-GHS-MV0675","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM CTMT. SUMP ISO. MOV SI-675"
+""
+117,"S1-GLS-RGF1B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM RCS LOOP 1B"
+""
+118,"S1-GLS-RGCVF1B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF CHECK VALVES IN RCS LOOP 1B"
+""
+119,"S1-GLS-RGF2A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM RCS LOOP 2A"
+""
+120,"S1-GLS-RGCVF2A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF CHECK VALVES IN RCS LOOP 2A"
+""
+121,"S1-GLS-RTRAINB","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI TRAIN B (RECIRCULATION)"
+""
+122,"S1-GLS-RMPSUC2","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM LPSI PUMP SUCTION LINE B"
+""
+123,"S1-GHS-MV0676","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM CTMT. SUMP ISO. MOV SI-676"
+""
+124,"S1-GLS-RGF2B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"NO FLOW FROM RCS LOOP 2B"
+""
+125,"S1-GLS-RGCVF2B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF CHECK VALVES IN RCS LOOP 2B"
+""
+126,"S1-GHS-CS0676","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of MOV SI-676 Control Signal"
+""
+127,"S1-GHS-PCSMV0676","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for SI-676B"
+""
+128,"S1-GHS-ARCMV0676","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"No signal Generation for SI-676B"
+""
+129,"S1-GHC-LSPP01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF LPSI PUMP 1 ROOM COOLING"
+""
+130,"S1-GHC-LSPP01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF LPSI PUMP 2 ROOM COOLING"
+""
+131,"%S1-SL","H",0,0
+0.00173,4,0.00173,0,0,"L",0,"y","",0,0,0
+"SMALL LOCA"
+"Domestic zero occurrence; ALWR KAG data 사용 (1.5e-3/yr)/2"
+132,"%S1-SGTR-SG1","H",0,0
+0.00492,4,0.00492,0,0,"L",0,"y","",0,0,0
+"SGTR occurs at SG #1"
+"Domestic PWR zero occurrence; ALWR KAG data 사용 (4.5e-3/yr)/2"
+133,"%S1-SGTR-SG2","H",0,0
+0.00492,4,0.00492,0,0,"L",0,"y","",0,0,0
+"SGTR occurs at SG #2"
+"Domestic PWR zero occurrence; ALWR KAG data 사용 (4.5e-3/yr)/2"
+134,"%S1-LL-CL1A","H",0,0
+7.46E-07,4,7.46E-07,0,0,"L",0,"y","",0,0,0
+"LARGE LOCA - RCS COLD LEG 1A BREAK (SKR1)"
+""
+135,"%S1-LL-CL1B","H",0,0
+7.46E-07,4,7.46E-07,0,0,"L",0,"y","",0,0,0
+"LARGE LOCA - RCS COLD LEG 1B BREAK (SKR1)"
+""
+136,"%S1-LL-CL2A","H",0,0
+7.46E-07,4,7.46E-07,0,0,"L",0,"y","",0,0,0
+"LARGE LOCA - RCS COLD LEG 2A BREAK (SKR1)"
+""
+137,"%S1-LL-CL2B","H",0,0
+7.46E-07,4,7.46E-07,0,0,"L",0,"y","",0,0,0
+"LARGE LOCA - RCS COLD LEG 2B BREAK (SKR1)"
+""
+138,"S1-GLS-MVW-ISO-A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A : Iso MOVs"
+""
+139,"S1-LSMVW-ISO-AB","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) Iso MOVs"
+""
+140,"S1-LSMVW-ISO-ABC","B",0,0
+2.2256E-06,0,0.00107,0,0,"L",0,"","",0.00208,0,3.6
+"CCF (3/4) Iso MOVs"
+""
+141,"S1-LSMVW-ISO-ABCD","B",0,0
+2.8676E-06,0,0.00107,0,0,"L",0,"","",0.00268,0,3.6
+"CCF (4/4) Iso MOVs"
+""
+142,"S1-LSMVW-ISO-ABD","B",0,0
+2.2256E-06,0,0.00107,0,0,"L",0,"","",0.00208,0,3.6
+"CCF (3/4) Iso MOVs"
+""
+143,"S1-LSMVW-ISO-AC","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) Iso MOVs"
+""
+144,"S1-LSMVW-ISO-ACD","B",0,0
+2.2256E-06,0,0.00107,0,0,"L",0,"","",0.00208,0,3.6
+"CCF (3/4) Iso MOVs"
+""
+145,"S1-LSMVW-ISO-AD","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) Iso MOVs"
+""
+146,"S1-GLS-MVW-ISO-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  2 Combination : Iso MOVs"
+""
+147,"S1-GLS-MVW-ISO-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  3 Combination : Iso MOVs"
+""
+148,"S1-GLS-MVW-ISO-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train A:  4 Combination : Iso MOVs"
+""
+149,"S1-GLS-MVW-ISO-B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B : Iso MOVs"
+""
+150,"S1-LSMVW-ISO-BC","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) Iso MOVs"
+""
+151,"S1-LSMVW-ISO-BCD","B",0,0
+2.2256E-06,0,0.00107,0,0,"L",0,"","",0.00208,0,3.6
+"CCF (3/4) Iso MOVs"
+""
+152,"S1-LSMVW-ISO-BD","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) Iso MOVs"
+""
+153,"S1-GLS-MVW-ISO-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  2 Combination : Iso MOVs"
+""
+154,"S1-GLS-MVW-ISO-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  3 Combination : Iso MOVs"
+""
+155,"S1-GLS-MVW-ISO-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train B:  4 Combination : Iso MOVs"
+""
+156,"S1-GLS-MVW-ISO-C","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C : Iso MOVs"
+""
+157,"S1-LSMVW-ISO-CD","B",0,0
+3.1993E-06,0,0.00107,0,0,"L",0,"","",0.00299,0,3.6
+"CCF (2/4) Iso MOVs"
+""
+158,"S1-GLS-MVW-ISO-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  2 Combination : Iso MOVs"
+""
+159,"S1-GLS-MVW-ISO-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  3 Combination : Iso MOVs"
+""
+160,"S1-GLS-MVW-ISO-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train C:  4 Combination : Iso MOVs"
+""
+161,"S1-GLS-MVW-ISO-D","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D : Iso MOVs"
+""
+162,"S1-GLS-MVW-ISO-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  2 Combination : Iso MOVs"
+""
+163,"S1-GLS-MVW-ISO-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  3 Combination : Iso MOVs"
+""
+164,"S1-GLS-MVW-ISO-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF Logic for Train D:  4 Combination : Iso MOVs"
+""
+165,"S1-LSCVW-DL-AB","B",0,0
+5.07E-08,0,1.3E-05,0,0,"L",0,"","",0.0039,0,8.4
+"CCF of LPSI pump discharge line CV A: SI 434, B: 446 (2/2)"
+""
+166,"S1-GLS-CVW-RL1-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124"
+""
+167,"S1-LSCVW-RL1-AB","B",0,0
+5.07E-08,0,1.3E-05,0,0,"L",0,"","",0.0039,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (2/4)"
+""
+168,"S1-LSCVW-RL1-ABC","B",0,0
+2.652E-08,0,1.3E-05,0,0,"L",0,"","",0.00204,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (3/4)"
+""
+169,"S1-LSCVW-RL1-ABCD","B",0,0
+1.846E-08,0,1.3E-05,0,0,"L",0,"","",0.00142,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (4/4)"
+""
+170,"S1-LSCVW-RL1-ABD","B",0,0
+2.652E-08,0,1.3E-05,0,0,"L",0,"","",0.00204,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (3/4)"
+""
+171,"S1-LSCVW-RL1-AC","B",0,0
+5.07E-08,0,1.3E-05,0,0,"L",0,"","",0.0039,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (2/4)"
+""
+172,"S1-LSCVW-RL1-ACD","B",0,0
+2.652E-08,0,1.3E-05,0,0,"L",0,"","",0.00204,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (3/4)"
+""
+173,"S1-LSCVW-RL1-AD","B",0,0
+5.07E-08,0,1.3E-05,0,0,"L",0,"","",0.0039,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (2/4)"
+""
+174,"S1-GLS-CVW-RL1-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (2/4)"
+""
+175,"S1-GLS-CVW-RL1-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (3/4)"
+""
+176,"S1-GLS-CVW-RL1-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (4/4)"
+""
+177,"S1-GLS-CVW-RL1-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124"
+""
+178,"S1-LSCVW-RL1-BC","B",0,0
+5.07E-08,0,1.3E-05,0,0,"L",0,"","",0.0039,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (2/4)"
+""
+179,"S1-LSCVW-RL1-BCD","B",0,0
+2.652E-08,0,1.3E-05,0,0,"L",0,"","",0.00204,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (3/4)"
+""
+180,"S1-LSCVW-RL1-BD","B",0,0
+5.07E-08,0,1.3E-05,0,0,"L",0,"","",0.0039,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (2/4)"
+""
+181,"S1-GLS-CVW-RL1-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (2/4)"
+""
+182,"S1-GLS-CVW-RL1-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (3/4)"
+""
+183,"S1-GLS-CVW-RL1-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (4/4)"
+""
+184,"S1-GLS-CVW-RL1-C","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124"
+""
+185,"S1-LSCVW-RL1-CD","B",0,0
+5.07E-08,0,1.3E-05,0,0,"L",0,"","",0.0039,0,8.4
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (2/4)"
+""
+186,"S1-GLS-CVW-RL1-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (2/4)"
+""
+187,"S1-GLS-CVW-RL1-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (3/4)"
+""
+188,"S1-GLS-CVW-RL1-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (4/4)"
+""
+189,"S1-GLS-CVW-RL1-D","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124"
+""
+190,"S1-GLS-CVW-RL1-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (2/4)"
+""
+191,"S1-GLS-CVW-RL1-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (3/4)"
+""
+192,"S1-GLS-CVW-RL1-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CCF of RCS LOOP CV A: 134, B: 144, C: 114, D: 124 (4/4)"
+""
+193,"S1-LSMPW-AB","B",0,0
+6.3455E-05,0,0.00185,0,0,"L",0,"","",0.0343,0,4.6
+"Demand CCF of LPSI PUMPS A: MP01, B: MP02 (2/2)"
+""
+194,"S1-LSMPK-AB","B",0,0
+2.8536E-06,1,5.8E-06,24,0,"L",0,"h","h",0.0205,0,8.4
+"Running CCF of LPSI PUMPS A: MP01, B: MP02 (2/2)"
+""
+195,"S1-GLS-RFP1A","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF LPSI PUMP 1"
+""
+196,"S1-LSMPS01A","B",0,0
+0.00185,0,0.00185,24,0,"L",53,"h","h",0,0,4.6
+"LPSI PUMP 1A fails to start"
+""
+197,"S1-LSMPR01A","B",0,0
+0.0001392,1,5.8E-06,24,0,"L",54,"h","h",0,0,8.4
+"LPSI PUMP 1A fails to run"
+""
+198,"S1-LSCVW-SL-AB","B",0,1
+5.07E-08,0,1.3E-05,0,0,"L",0,"","",0.0039,0,8.4
+"Demand CCF OF LPSI PUMP SUCTION LINE CV A: 200, B: 201 (2/2)"
+""
+199,"S1-LSCVW-MF-AB","B",0,0
+5.07E-08,0,1.3E-05,0,0,"L",0,"","",0.0039,0,8.4
+"Demand CCF OF LPSI MINI FLOW LINE CV A: 448, B: 451 (2/2)"
+""
+200,"S1-HSCVW-SP-AB","B",0,1
+1.664E-07,0,1.3E-05,0,0,"L",0,"d","",0.0128,0,8.4
+"DEMAND CCF OF CTMT. SUMP ISO. CV SI A:205, B: 206 (2/2)"
+""
+201,"S1-HSMVW-SP-AB","B",0,0
+3.0281E-05,0,0.00107,0,0,"L",0,"","",0.0283,0,3.6
+"DEMAND CCF OF CTMT. SUMP ISO. MOV SI A:675 B: 676 (2/2)"
+""
+202,"S1-GHS-CVW-RL3-A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1A CV SI-237 A: 237, B: 247, C: 217, D: 227"
+""
+203,"S1-GHS-CVW-RL3-A-2","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1A CV SI-237 A: 237, B: 247, C: 217, D: 227 (2/4)"
+""
+204,"S1-GHS-CVW-RL3-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1A CV SI-237 A: 237, B: 247, C: 217, D: 227 (3/4)"
+""
+205,"S1-GHS-CVW-RL3-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1A CV SI-237 A: 237, B: 247, C: 217, D: 227 (4/4)"
+""
+206,"S1-HSCVW-RL3-AB","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 1B CV SI-247 A: 237, B: 247, C: 217, D: 227 (2/4)"
+""
+207,"S1-HSCVW-RL3-AC","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 2A CV SI-217 A: 237, B: 247, C: 217, D: 227 (2/4)"
+""
+208,"S1-HSCVW-RL3-AD","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227 (2/4)"
+""
+209,"S1-HSCVW-RL3-ABC","B",0,0
+2.041E-08,0,1.3E-05,0,0,"L",0,"d","",0.00157,0,8.4
+"DEMAND CCF OF RCS LOOP 2A CV SI-217 A: 237, B: 247, C: 217, D: 227 (3/4)"
+""
+210,"S1-HSCVW-RL3-ABD","B",0,0
+2.041E-08,0,1.3E-05,0,0,"L",0,"d","",0.00157,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227 (3/4)"
+""
+211,"S1-HSCVW-RL3-ACD","B",0,0
+2.041E-08,0,1.3E-05,0,0,"L",0,"d","",0.00157,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227 (3/4)"
+""
+212,"S1-HSCVW-RL3-ABCD","B",0,0
+3.107E-08,0,1.3E-05,0,0,"L",0,"d","",0.00239,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227 (4/4)"
+""
+213,"S1-GHS-CVW-RL3-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1B CV SI-247 A: 237, B: 247, C: 217, D: 227"
+""
+214,"S1-GHS-CVW-RL3-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1B CV SI-247 A: 237, B: 247, C: 217, D: 227 (2/4)"
+""
+215,"S1-GHS-CVW-RL3-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1B CV SI-247 A: 237, B: 247, C: 217, D: 227 (3/4)"
+""
+216,"S1-GHS-CVW-RL3-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1B CV SI-247 A: 237, B: 247, C: 217, D: 227 (4/4)"
+""
+217,"S1-HSCVW-RL3-BC","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 2A CV SI-217 A: 237, B: 247, C: 217, D: 227 (2/4)"
+""
+218,"S1-HSCVW-RL3-BD","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227 (2/4)"
+""
+219,"S1-HSCVW-RL3-BCD","B",0,0
+2.041E-08,0,1.3E-05,0,0,"L",0,"d","",0.00157,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227 (3/4)"
+""
+220,"S1-GHS-CVW-RL3-C","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2A CV SI-217 A: 237, B: 247, C: 217, D: 227"
+""
+221,"S1-GHS-CVW-RL3-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2A CV SI-217 A: 237, B: 247, C: 217, D: 227 (2/4)"
+""
+222,"S1-GHS-CVW-RL3-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2A CV SI-217 A: 237, B: 247, C: 217, D: 227 (3/4)"
+""
+223,"S1-GHS-CVW-RL3-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2A CV SI-217 A: 237, B: 247, C: 217, D: 227 (4/4)"
+""
+224,"S1-HSCVW-RL3-CD","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227 (2/4)"
+""
+225,"S1-GHS-CVW-RL3-D","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227"
+""
+226,"S1-GHS-CVW-RL3-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227 (2/4)"
+""
+227,"S1-GHS-CVW-RL3-D-3","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227 (3/4)"
+""
+228,"S1-GHS-CVW-RL3-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2B CV SI-227 A: 237, B: 247, C: 217, D: 227 (4/4)"
+""
+229,"S1-GHS-CVW-RL2-A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1A CV SI-542 A: 542, B: 543, C: 540, D: 541"
+""
+230,"S1-GHS-CVW-RL2-A-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1A CV SI-542 A: 542, B: 543, C: 540, D: 541 (2/4)"
+""
+231,"S1-GHS-CVW-RL2-A-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1A CV SI-542 A: 542, B: 543, C: 540, D: 541 (3/4)"
+""
+232,"S1-GHS-CVW-RL2-A-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1A CV SI-542 A: 542, B: 543, C: 540, D: 541 (4/4)"
+""
+233,"S1-HSCVW-RL2-AB","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 1B CV SI-543 A: 542, B: 543, C: 540, D: 541 (2/4)"
+""
+234,"S1-HSCVW-RL2-AC","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 2A CV SI-540 A: 542, B: 543, C: 540, D: 541 (2/4)"
+""
+235,"S1-HSCVW-RL2-AD","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541 (2/4)"
+""
+236,"S1-HSCVW-RL2-ABC","B",0,0
+2.041E-08,0,1.3E-05,0,0,"L",0,"d","",0.00157,0,8.4
+"DEMAND CCF OF RCS LOOP 2A CV SI-540 A: 542, B: 543, C: 540, D: 541 (3/4)"
+""
+237,"S1-HSCVW-RL2-ABD","B",0,0
+2.041E-08,0,1.3E-05,0,0,"L",0,"d","",0.00157,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541 (3/4)"
+""
+238,"S1-HSCVW-RL2-ACD","B",0,0
+2.041E-08,0,1.3E-05,0,0,"L",0,"d","",0.00157,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541 (3/4)"
+""
+239,"S1-HSCVW-RL2-ABCD","B",0,0
+3.107E-08,0,1.3E-05,0,0,"L",0,"d","",0.00239,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541 (4/4)"
+""
+240,"S1-GHS-CVW-RL2-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1B CV SI-543 A: 542, B: 543, C: 540, D: 541"
+""
+241,"S1-GHS-CVW-RL2-B-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1B CV SI-543 A: 542, B: 543, C: 540, D: 541 (2/4)"
+""
+242,"S1-GHS-CVW-RL2-B-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1B CV SI-543 A: 542, B: 543, C: 540, D: 541 (3/4)"
+""
+243,"S1-GHS-CVW-RL2-B-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 1B CV SI-543 A: 542, B: 543, C: 540, D: 541 (4/4)"
+""
+244,"S1-HSCVW-RL2-BC","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 2A CV SI-540 A: 542, B: 543, C: 540, D: 541 (2/4)"
+""
+245,"S1-HSCVW-RL2-BD","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541 (2/4)"
+""
+246,"S1-HSCVW-RL2-BCD","B",0,0
+2.041E-08,0,1.3E-05,0,0,"L",0,"d","",0.00157,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541 (3/4)"
+""
+247,"S1-GHS-CVW-RL2-C","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2A CV SI-540 A: 542, B: 543, C: 540, D: 541"
+""
+248,"S1-GHS-CVW-RL2-C-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2A CV SI-540 A: 542, B: 543, C: 540, D: 541 (2/4)"
+""
+249,"S1-GHS-CVW-RL2-C-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2A CV SI-540 A: 542, B: 543, C: 540, D: 541 (3/4)"
+""
+250,"S1-GHS-CVW-RL2-C-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2A CV SI-540 A: 542, B: 543, C: 540, D: 541 (4/4)"
+""
+251,"S1-HSCVW-RL2-CD","B",0,0
+5.941E-08,0,1.3E-05,0,0,"L",0,"d","",0.00457,0,8.4
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541 (2/4)"
+""
+252,"S1-GHS-CVW-RL2-D","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541"
+""
+253,"S1-GHS-CVW-RL2-D-2","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541 (2/4)"
+""
+254,"S1-GHS-CVW-RL2-D-3","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541 (3/4)"
+""
+255,"S1-GHS-CVW-RL2-D-4","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"DEMAND CCF OF RCS LOOP 2B CV SI-541 A: 542, B: 543, C: 540, D: 541 (4/4)"
+""
+256,"S1-GHS-CS0675","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV SI-675 Control Signal"
+""
+257,"S1-HSISAMV0675","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS for SI-675"
+""
+258,"S1-GHS-PCSMV0675","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for SI-675A"
+""
+259,"S1-GHS-ARCMV0675","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No signal Generation for SI-675A"
+""
+260,"S1-CVCVO0306","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"CVCS RWT DISCH CH305 fails to open"
+""
+261,"S1-HSCVO0206","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"CTMT SUMP DISCH. LINE CV SI-206 FAILS TO OPEN"
+""
+262,"S1-HSCVO0205","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"CTMT. SUMP DISCH. LINE CV SI-205 FAILS TO OPEN"
+""
+263,"S1-HSMVO0675","B",0,0
+0.00107,0,0.00107,92,1.61,"L",1,"d","d",0,0,3.6
+"CTMT SUMP ISO. MOV SI-675 FAILS TO OPEN"
+""
+264,"S1-HSMVO0676","B",0,0
+0.00107,0,0.00107,92,1.61,"L",1,"d","d",0,0,3.6
+"CTMT SUMP ISO. MOV SI-676 FAILS TO OPEN"
+""
+265,"S1-GEX-PA03A-01","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A-01)"
+""
+266,"S1-GEX-PA03B-01","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03B-01)"
+""
+267,"S1-GLP-IG-CL1A","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LPI for LLOCA CL1A (conditioning)"
+"mutual exclusive : %U3-LL-CL1A * FLAG-Not-CL1A"
+268,"S1-GLP-IG-CL1B","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LPI for LLOCA CL1B (conditioning)"
+"mutual exclusive : %U3-LL-CL1B * Not-CL1B"
+269,"S1-GLP-IG-CL2A","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LPI for LLOCA  CL2A (conditioning)"
+"mutual exclusive : %U3-LL-CL2A * Not-CL2A"
+270,"S1-GLP-IG-CL2B","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"LPI for LLOCA  CL2B (conditioning)"
+"mutual exclusive : %U3-LL-CL2B * Not-CL2B"
+271,"S1-CVMVT0531","B",0,0
+4.9128E-05,3,4.45E-08,2208,0,"L",22,"h","h",0,0,8.4
+"CVCS RWT Iso. MOV CH531 fails closed"
+""
+272,"S1-CVCVW-RWT-AB","B",0,0
+1.794E-07,0,1.3E-05,0,0,"L",0,"","",0.0138,0,8.4
+"CCF of RWT discharge Iso. CV CH305&306(2/2) (FtO)"
+""
+273,"S1-FSRSAMV0676","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,8.4
+"Failure of ESFAS-ARC Relay K-104 for SI-676"
+""
+274,"S1-FSRSAMV0675","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,8.4
+"Failure of ESFAS-ARC Relay K-104 for SI-675"
+""
+275,"S1-GLS-ILPSI1A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of LPSI pump 1A supporting system"
+""
+276,"S1-LSMPM01A","B",0,0
+1.79E-05,0,1.79E-05,0.03333333,0,"l",0,"h","h",0,0,10
+"LPSI PUMP 1A UNAVAILABLE DUE TO MAINTENANCE"
+""
+277,"S1-LSMPM02B","B",0,0
+3.6695E-07,0,1.79E-05,24,0,"l",0,"h","h",0.0205,0,10
+"LPSI PUMP 2B UNAVAILABLE DUE TO MAINTENANCE"
+""
+278,"S1-GLS-RFP2B","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"FAILURE OF LPSI PUMP 2B"
+""
+279,"S1-LSMPR02B","B",0,0
+0.0001392,1,5.8E-06,24,0,"l",54,"h","h",0,0,8.4
+"LPSI PUMP 2B FAILS TO RUN"
+""
+280,"S1-LSMPS02B","B",0,0
+0.00185,0,0.00185,0,0,"l",53,"","",0,0,4.6
+"LPSI PUMP 2B FAILS TO START"
+""
+281,"S1-FSSIASA","B",0,0
+0.000113,0,0.000113,0,0,"L",0,"","",0,0,0
+"Failure of SIAS Train A"
+""
+282,"S1-FSSIASB","B",0,0
+0.000113,0,0.000113,0,0,"L",0,"","",0,0,0
+"Failure of SIAS Train B"
+""
+283,"S1-FSRASA","B",0,0
+6.161E-05,0,6.161E-05,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train A"
+""
+284,"S1-FSRASB","B",0,0
+6.161E-05,0,6.161E-05,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train B"
+""
+285,"S1-GFS-SIASA","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of SIAS Train A"
+""
+286,"S1-FSPMW-AB","B",0,0
+0.000140279,3,3.96E-06,1440,0,"L",0,"","",0.0492,0,0
+"CCF OF GC PM3 MODULES"
+""
+287,"S1-FSRSAMV6451A","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,0,"L",0,"h","h",0,0,8.4
+"Failure of ESFAS-ARC Relay K-301 for SI-645"
+""
+288,"S1-GFS-SIASB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of SIAS Train B"
+""
+289,"S1-GFS-RASA","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train A"
+""
+290,"S1-GFS-RASB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train B"
+""
+"#TreeLogic"
+1,"*",4
+30
+43
+46
+60
+16,"+",4
+15
+14
+13
+272
+17,"+",4
+13
+260
+271
+272
+22,"+",4
+23
+138
+8
+71
+24,"+",4
+25
+149
+8
+75
+26,"+",4
+27
+156
+9
+83
+28,"+",4
+29
+161
+9
+79
+30,"+",3
+31
+22
+32
+31,"+",4
+5
+18
+33
+105
+32,"+",6
+34
+36
+165
+35
+37
+97
+35,"+",6
+276
+38
+196
+197
+193
+194
+37,"+",4
+39
+40
+198
+17
+38,"+",3
+41
+275
+289
+41,"*",2
+65
+66
+43,"+",3
+44
+24
+32
+44,"+",4
+2
+19
+45
+106
+46,"+",3
+47
+26
+48
+47,"+",4
+3
+20
+49
+107
+48,"+",6
+50
+51
+52
+165
+53
+98
+51,"+",6
+277
+54
+280
+279
+193
+194
+53,"+",4
+55
+16
+56
+198
+54,"+",3
+57
+58
+290
+57,"*",2
+65
+67
+58,"+",4
+11
+7
+91
+130
+60,"+",3
+61
+28
+48
+61,"+",4
+4
+21
+62
+108
+65,"+",3
+131
+132
+133
+66,"+",5
+42
+199
+6
+95
+69
+67,"+",5
+59
+199
+7
+96
+70
+71,"+",2
+72
+73
+72,"+",2
+104
+285
+73,"+",2
+74
+265
+75,"+",2
+76
+77
+76,"+",2
+287
+285
+77,"+",2
+78
+265
+79,"+",2
+80
+81
+80,"+",2
+103
+288
+81,"+",2
+82
+266
+83,"+",2
+84
+85
+84,"+",2
+102
+288
+85,"+",2
+86
+266
+87,"+",2
+89
+265
+88,"+",2
+100
+285
+90,"+",2
+87
+88
+91,"+",2
+93
+92
+92,"+",2
+101
+288
+93,"+",2
+94
+266
+105,"+",3
+166
+202
+229
+106,"+",3
+177
+240
+213
+107,"+",3
+184
+247
+220
+108,"+",3
+189
+252
+225
+109,"*",4
+267
+268
+269
+270
+110,"*",4
+113
+117
+119
+124
+111,"+",4
+200
+123
+12
+261
+112,"+",4
+200
+116
+12
+262
+113,"+",3
+31
+22
+114
+114,"+",7
+34
+195
+115
+36
+165
+99
+97
+115,"+",4
+39
+112
+40
+198
+116,"+",4
+263
+201
+6
+256
+117,"+",3
+118
+24
+114
+118,"+",4
+2
+19
+45
+106
+119,"+",3
+120
+26
+121
+120,"+",4
+3
+20
+49
+107
+121,"+",7
+122
+50
+278
+52
+165
+99
+98
+122,"+",4
+55
+111
+56
+198
+123,"+",4
+264
+201
+7
+126
+124,"+",3
+125
+28
+121
+125,"+",4
+4
+21
+62
+108
+126,"+",2
+127
+128
+127,"+",2
+68
+266
+128,"+",2
+273
+290
+138,"+",3
+146
+147
+148
+146,"+",3
+139
+143
+145
+147,"+",3
+140
+142
+144
+148,"+",1
+141
+149,"+",3
+153
+154
+155
+153,"+",3
+139
+150
+152
+154,"+",3
+140
+142
+151
+155,"+",1
+141
+156,"+",3
+158
+159
+160
+158,"+",3
+143
+150
+157
+159,"+",3
+140
+144
+151
+160,"+",1
+141
+161,"+",3
+162
+163
+164
+162,"+",3
+145
+152
+157
+163,"+",3
+142
+144
+151
+164,"+",1
+141
+166,"+",3
+174
+175
+176
+174,"+",3
+167
+171
+173
+175,"+",3
+168
+170
+172
+176,"+",1
+169
+177,"+",3
+181
+182
+183
+181,"+",3
+167
+178
+180
+182,"+",3
+168
+170
+179
+183,"+",1
+169
+184,"+",3
+186
+187
+188
+186,"+",3
+171
+178
+185
+187,"+",3
+168
+172
+179
+188,"+",1
+169
+189,"+",3
+190
+191
+192
+190,"+",3
+173
+180
+185
+191,"+",3
+170
+172
+179
+192,"+",1
+169
+195,"+",6
+276
+275
+196
+197
+193
+194
+202,"+",3
+203
+204
+205
+203,"+",3
+206
+207
+208
+204,"+",3
+209
+210
+211
+205,"+",1
+212
+213,"+",3
+214
+215
+216
+214,"+",3
+206
+217
+218
+215,"+",3
+209
+210
+219
+216,"+",1
+212
+220,"+",3
+221
+222
+223
+221,"+",3
+207
+217
+224
+222,"+",3
+209
+211
+219
+223,"+",1
+212
+225,"+",3
+226
+227
+228
+226,"+",3
+208
+218
+224
+227,"+",3
+210
+211
+219
+228,"+",1
+212
+229,"+",3
+230
+231
+232
+230,"+",3
+233
+234
+235
+231,"+",3
+236
+237
+238
+232,"+",1
+239
+240,"+",3
+241
+242
+243
+241,"+",3
+233
+244
+245
+242,"+",3
+236
+237
+246
+243,"+",1
+239
+247,"+",3
+248
+249
+250
+248,"+",3
+234
+244
+251
+249,"+",3
+236
+238
+246
+250,"+",1
+239
+252,"+",3
+253
+254
+255
+253,"+",3
+235
+245
+251
+254,"+",3
+237
+238
+246
+255,"+",1
+239
+256,"+",2
+258
+259
+258,"+",2
+257
+265
+259,"+",2
+274
+289
+265,"+",1
+63
+266,"+",1
+64
+267,"+",2
+30
+134
+268,"+",2
+43
+135
+269,"+",2
+46
+136
+270,"+",2
+60
+137
+275,"+",4
+10
+6
+129
+90
+278,"+",6
+277
+58
+280
+279
+193
+194
+285,"+",2
+281
+286
+288,"+",2
+282
+286
+289,"+",2
+283
+286
+290,"+",2
+284
+286
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",2
+8
+20
+24
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

@@ -1,0 +1,106 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=",""
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",20
+"#XEventData"
+1,"GSEI-TOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SK1 Seismic IE Supporting Logic"
+""
+2,"S1-SLOCS_S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Control due to seismic"
+""
+3,"S1-SLEP_S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Essential Power"
+""
+4,"GSEI-TOPX","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Seismic IE Supporting Logic"
+""
+5,"SIE_SICPB","B",0,0
+0.1,0,0.1,0,0,"L",0,"","",0,0,0
+"Instument Pipe Failure"
+""
+6,"SIE_SLOOP","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of offsite power"
+""
+7,"SIE_PCSSF","B",0,0
+0.1,0,0.1,0,0,"L",0,"","",0,0,0
+"PCS Cabinet Structural Failure"
+""
+8,"SIE_SBCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Battery Charger Structural Failure"
+""
+9,"SIE_SDCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"125V dc Control Center Structural Failure"
+""
+10,"SIE_SIRSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Inverter Structural Failure"
+""
+11,"SIE_SDGSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"EDG Structural Failure"
+""
+12,"SIE_SSWSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"4.16kV SWGR Structural Failure"
+""
+13,"SIE_SLCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"480V LC Structural Failure"
+""
+14,"SIE_SINSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Inverter IN01C/D Structural Failure"
+""
+15,"SIE_SMCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"480V MCC MC04A/B Structural Failure"
+""
+16,"SIE_SLCRC","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"480V LC Functional Failure"
+""
+17,"OP-HR","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Function Recovery"
+""
+18,"SIE_SSWRC","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"4.16kV SWGR Functional Failure"
+""
+19,"SIE_SITSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Safety Injection Tank Failure"
+""
+20,"CHKVL","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SIT Check Valve Failure"
+""
+"#TreeLogic"
+1,"+",2
+2
+3
+2,"+",1
+7
+3,"+",1
+8
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

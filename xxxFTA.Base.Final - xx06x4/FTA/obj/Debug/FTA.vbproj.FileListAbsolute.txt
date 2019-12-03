@@ -1,0 +1,289 @@
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Debug\FT_Read.exe.config
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Debug\FT_Read.exe
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Debug\FT_Read.pdb
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Debug\FT_Read.xml
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.Form1.resources
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.Resources.resources
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Debug\FTA.vbproj.GenerateResource.Cache
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.exe
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.xml
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.pdb
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.frmMessage.resources
+D:\Kirap\VisualStudio\FTA Execise\FTA\FTA\bin\Debug\FT_Read.exe.config
+D:\Kirap\VisualStudio\FTA Execise\FTA\FTA\obj\Debug\FT_Read.exe
+D:\Kirap\VisualStudio\FTA Execise\FTA\FTA\obj\Debug\FT_Read.xml
+D:\Kirap\VisualStudio\FTA Execise\FTA\FTA\obj\Debug\FT_Read.pdb
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\bin\Debug\FT_Read.exe.config
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.exe
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.xml
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.pdb
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\bin\Debug\FT_Read.exe
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\bin\Debug\FT_Read.pdb
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\bin\Debug\FT_Read.xml
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.Form1.resources
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.frmMessage.resources
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\obj\Debug\FT_Read.Resources.resources
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA\FTA\obj\Debug\FTA.vbproj.GenerateResource.Cache
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\bin\Debug\FT_Read.exe.config
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.exe
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.xml
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.pdb
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\bin\Debug\FT_Read.exe
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\bin\Debug\FT_Read.pdb
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\bin\Debug\FT_Read.xml
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.Form1.resources
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.frmMessage.resources
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.Resources.resources
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA-List\FTA\obj\Debug\FTA.vbproj.GenerateResource.Cache
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\bin\Debug\FT_Read.exe.config
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.exe
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.xml
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.pdb
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\bin\Debug\FT_Read.exe
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\bin\Debug\FT_Read.pdb
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\bin\Debug\FT_Read.xml
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.Form1.resources
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.frmMessage.resources
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\obj\Debug\FT_Read.Resources.resources
+D:\Kirap\VisualStudio\FTA_Execise\FTA-List\FTA\obj\Debug\FTA.vbproj.GenerateResource.Cache
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\bin\Debug\FT_Read.exe.config
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.exe
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.xml
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.pdb
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\bin\Debug\FT_Read.exe
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\bin\Debug\FT_Read.pdb
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\bin\Debug\FT_Read.xml
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.Form1.resources
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.frmMessage.resources
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.Resources.resources
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.List\FTA\obj\Debug\FTA.vbproj.GenerateResource.Cache
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\bin\Debug\FT_Read.exe.config
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.exe
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.xml
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.pdb
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\bin\Debug\FT_Read.exe
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\bin\Debug\FT_Read.pdb
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\bin\Debug\FT_Read.xml
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.Form1.resources
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.frmMessage.resources
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\obj\Debug\FT_Read.Resources.resources
+D:\Kirap\VisualStudio\FTA_Execise\FTA.List\FTA\obj\Debug\FTA.vbproj.GenerateResource.Cache
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\bin\Debug\FT_Read.exe.config
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.exe
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.xml
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.pdb
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\bin\Debug\FT_Read.exe
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\bin\Debug\FT_Read.pdb
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\bin\Debug\FT_Read.xml
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.Form1.resources
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.frmMessage.resources
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.Resources.resources
+D:\Kirap\VisualStudio\FTA_Execise\FTA.Base\FTA\obj\Debug\FTA.vbproj.GenerateResource.Cache
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.Base\FTA\bin\Debug\FT_Read.exe.config
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.exe
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.xml
+D:\아빠\Lang\VB_Example\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.pdb
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\obj\Debug\FT_Read.exe
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\obj\Debug\FT_Read.xml
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\obj\Debug\FT_Read.pdb
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\bin\Debug\FT_Read.exe
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\bin\Debug\FT_Read.pdb
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\bin\Debug\FT_Read.xml
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\User\Desktop\VS\FTA_Execise-20151023\FTA.Base\FTA\obj\Debug\FTA.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.xml
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.pdb
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\bin\Debug\FT_Read.exe
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\bin\Debug\FT_Read.pdb
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\bin\Debug\FT_Read.xml
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\obj\Debug\FTA.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\VS\FTA_Execise\FTA.Base\FTA\obj\Debug\FT_Read.exe
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - xx\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x01\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+E:\내문서\0-다수기과제\2018\01과제\FTA_Execise - x02\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x03\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\kings\Desktop\FTA_Execise - x04\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\kings\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x05\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\임학규\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe.config
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Debug\FT_Read.exe
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Debug\FT_Read.pdb
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\bin\Debug\FT_Read.xml
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FTA.vbprojAssemblyReference.cache
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.Form1.resources
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.frmMessage.resources
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.Resources.resources
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.GenerateResource.cache
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FTA.vbproj.CoreCompileInputs.cache
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.exe
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.xml
+C:\Users\kings\Desktop\FTA_Execise - x06\FTA.Base.Final\FTA\obj\Debug\FT_Read.pdb

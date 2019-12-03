@@ -1,0 +1,12 @@
+RdEqn .
+S1-SEIS-CDF = S1-SEIS-CDF-1 .
+S1-SEIS-CDF-1 = %SEIS * #S1-SEIS-CDF-1 .
+End .
+ 
+Value .
+5.230000e-7 , %SEIS .
+1.000000e0 , #S1-SEIS-CDF-1 .
+End .
+ INITIATORS $ = Initiator * %SEIS . 
+Genprg ( S1-SEIS-CDF / Proba * 1.000e-13 / TRUEEVENTS $  / FALSEEVENTS $  / INITIATORS $  ) . 
+SaveRaw ( S1-SEIS-CDF ) .

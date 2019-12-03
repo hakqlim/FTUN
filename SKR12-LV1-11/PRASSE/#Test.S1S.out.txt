@@ -1,0 +1,20 @@
+
+FtBdd Version 0.9.5 (2010.3.9)
+Fault Tree Solver using BDD Algorithm
+Copyright(C) 2009 KAERI, all rights reserved
+Developed by Korea Atomic Energy Research Institute
+	Fri Sep 28 14:58:04 2018
+
+
+ solve gates
+
+
+ # of Prime Implicants = 1
+ Value(BDD) : 1.000000e+000
+
+ BDD solved : 0 sec
+
+ # of Cut Sets = 1
+ Value(Rare Event) = 1.000000e+000
+
+ Run time = 0 sec

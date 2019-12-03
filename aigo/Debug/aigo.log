@@ -1,0 +1,5 @@
+﻿  aigo.cpp
+c:\users\임학규\desktop\xaigo\aigo\aigo.cpp(26): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\임학규\desktop\xaigo\aigo\aigo.cpp(39): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\임학규\desktop\xaigo\aigo\aigo.cpp(52): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  aigo.vcxproj -> C:\Users\임학규\Desktop\xaigo\Debug\aigo.dll

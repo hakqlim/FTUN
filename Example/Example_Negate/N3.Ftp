@@ -1,0 +1,9 @@
+TOP * G1 -G2 -G3
+G1 + A -B
+G2 + A C
+G3 + B C
+ENDTREE
+IMPORT
+0.5 A
+0.5 B
+0.5 C

@@ -1,0 +1,12 @@
+C:\Users\임학규\source\repos\testvb\testvb\bin\Debug\testvb.exe.config
+C:\Users\임학규\source\repos\testvb\testvb\bin\Debug\testvb.exe
+C:\Users\임학규\source\repos\testvb\testvb\bin\Debug\testvb.pdb
+C:\Users\임학규\source\repos\testvb\testvb\bin\Debug\testvb.xml
+C:\Users\임학규\source\repos\testvb\testvb\obj\Debug\testvb.vbprojAssemblyReference.cache
+C:\Users\임학규\source\repos\testvb\testvb\obj\Debug\testvb.Form1.resources
+C:\Users\임학규\source\repos\testvb\testvb\obj\Debug\testvb.Resources.resources
+C:\Users\임학규\source\repos\testvb\testvb\obj\Debug\testvb.vbproj.GenerateResource.cache
+C:\Users\임학규\source\repos\testvb\testvb\obj\Debug\testvb.vbproj.CoreCompileInputs.cache
+C:\Users\임학규\source\repos\testvb\testvb\obj\Debug\testvb.exe
+C:\Users\임학규\source\repos\testvb\testvb\obj\Debug\testvb.xml
+C:\Users\임학규\source\repos\testvb\testvb\obj\Debug\testvb.pdb

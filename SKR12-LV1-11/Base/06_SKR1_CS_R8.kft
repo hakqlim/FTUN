@@ -1,0 +1,820 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 ¸ðµ¨ °³Á¤\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",140
+"#XEventData"
+1,"S1-CSCVO1011","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",11,"","",0,0,8.4
+"CS HEAD. TRAIN A CV 1011 FAILS TO OPEN ON DEMAND"
+""
+2,"S1-CSMVO0035","B",0,0
+0.00107,0,0.00107,0,0,"L",1,"","",0,0,3.6
+"CS HEAD. TRAIN A MV 0035 FAILS TO OPEN ON DEMAND"
+""
+3,"S1-GCS-MV0035-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS HEAD. TRAIN A ISO. VALVE MV0035 NOT OPEN (Random Failure)"
+""
+4,"S1-GCS-MV0035-SF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS HEAD. TRAIN A ISO. VALVE MV0035 NOT OPEN (Supporting Failure)"
+""
+5,"S1-GCS-MV0035-0035","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS HEAD. TRAIN A ISO. VALVE MV0035 NOT OPEN"
+""
+6,"S1-GCS-CV1011-1011","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS HEAD. TRAIN A CV 1011 Fail to open"
+""
+7,"S1-GCS-TRA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF TRAIN A (CS REC. MODE)"
+""
+8,"S1-GCS-TRB","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF TRAIN B (CS REC. MODE)"
+""
+9,"S1-GCS-RCTOP","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CS REC"
+""
+10,"S1-GEM-08A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT 480V MOTOR CONTROL CENTER BUS MC08A"
+""
+11,"S1-GEA-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 120V AC VITAL BUS CHANNEL A"
+""
+12,"S1-GCS-MV0027-0033","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Heat Exchanger Failure - 01 TRA"
+""
+13,"S1-CSMVO0033","B",0,0
+0.00107,0,0.00107,0,0,"L",22,"h","",0,0,3.6
+"CS HX HE01A DISC. MOV 0033 Fails to Open"
+""
+14,"S1-GCS-MV0027-RF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of SUCNTION MOV 0027 (Random Failure)"
+""
+15,"S1-GCS-MV0027","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of SUCTION MOV 0027"
+""
+16,"S1-GCS-MV0033","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of DISCHARGE MOV 0033"
+""
+17,"S1-GCS-MV0027-SF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of SUCNTION MOV 0027 (Supporting Failure)"
+""
+18,"S1-GCS-MV0033-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of DISCHARGE MOV 0033 (Random Failure)"
+""
+19,"S1-GCS-MV0033-SF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of DISCHARGE MOV 0033 (Supporting Failure)"
+""
+20,"S1-CSHXYHE01A","B",0,0
+1.548E-05,1,6.45E-07,24,0,"L",108,"h","h",0,0,3.4
+"HX HE01A fails while operating (severe leakage, plugging)"
+""
+21,"S1-CSHXMHE01A","B",0,0
+0.00027,0,0.00027,0,1.6,"L",0,"","",0,0,10
+"CS HX HE01A UNAVAILABLE DUE TO MAINTENANCE"
+""
+22,"S1-GCS-HX01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Heat Exchanger 01A"
+""
+23,"S1-GCS-RCCSSPA","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF FLOW FROM CS PP01A (REC. MODE)"
+""
+24,"S1-CSCVO1003","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",11,"","",0,0,8.4
+"CS pump PP01A suction CV 1003 fails to open on demand"
+""
+25,"S1-CSVVT1001","B",0,0
+7.02144E-06,3,6.36E-09,2208,3.9,"L",22,"h","h",0,0,8.4
+"CS PP01A suction manual valveE V1001 transfer closed"
+""
+26,"S1-GCS-PP01A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS PUMP PP01A NOT OPERATED"
+""
+27,"S1-GHS-RSUMPA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO FLOW FROM SUMP LINE A"
+""
+28,"S1-CSMPMCSSPA","B",0,0
+8.74E-06,0,8.74E-06,0,2.3,"L",0,"","",0,0,10
+"CSS PUMP 1 unavailable due to maintenance"
+""
+29,"S1-GCS-CSSPAF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS PUMP PP01A FAILURE"
+""
+30,"S1-GCS-CSSPAF-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS PUMP PP01A FAILURE (Random Failure)"
+""
+31,"S1-GCS-CSSPAF-SF","+",-1,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS PUMP PP01A FAILURE (Supporting Failure)"
+""
+32,"S1-CSMPSCSSPA","B",0,0
+0.00185,0,0.00185,0,2.77,"L",63,"","",0,0,4.6
+"CSS PUMP 1 fails to start"
+"CSS PUMP 2 fails to start"
+33,"S1-CSMPRCSSPA","B",0,0
+0.0001392,1,5.8E-06,24,16,"L",64,"h","h",0,0,8.4
+"CSS PUMP 1 fails to run"
+""
+34,"S1-GEK-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of power at 4.16 KV SWGR BUS SW01A"
+""
+35,"S1-GED-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01A"
+""
+36,"S1-HSCVO0205","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",11,"","",0,0,8.4
+"CTMT. SUMP DISCH. LINE CV SI-205 FAILS TO OPEN"
+""
+37,"S1-HSSPPSUMP","B",0,0
+7.38E-06,0,7.38E-06,0,100,"L",0,"","",0,0,18.8
+"CTMT. SUMP FAILURE DUE TO PLUGGING"
+""
+38,"S1-HSMVO0675","B",0,0
+0.00107,0,0.00107,0,1.61,"L",1,"","",0,0,3.6
+"CTMT SUMP ISO. MOV SI-675 FAILS TO OPEN"
+""
+39,"S1-GEM-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 480V AC MCC MC01A"
+""
+40,"S1-GHS-MV0675","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO FLOW FROM CTMT. SUMP ISO. MOV SI-675"
+""
+41,"S1-GCS-RCPA","=",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Flow from PUMP"
+""
+42,"S1-HSISAMV0675","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS for SI-675"
+""
+43,"S1-GHS-PCSMV0675","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for SI-675A"
+""
+44,"S1-GHS-ARCMV0675","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No signal Generation for SI-675A"
+""
+45,"S1-GCS-CV1012-1012","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS HEAD. TRAIN A CV 1012 Fail to open"
+""
+46,"S1-CSCVO1012","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",11,"","",0,0,8.4
+"CS HEAD. TRAIN A CV 1011 FAILS TO OPEN ON DEMAND"
+""
+47,"S1-GCS-MV0036-0036","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS HEAD. TRAIN B ISO. VALVE MV0036 NOT OPEN"
+""
+48,"S1-GCS-MV0036-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS HEAD. TRAIN B ISO. VALVE MV0036 NOT OPEN (Random Failure)"
+""
+49,"S1-GCS-MV0036-SF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS HEAD. TRAIN B ISO. VALVE MV0036 NOT OPEN (Supporting Failure)"
+""
+50,"S1-CSMVO0036","B",0,0
+0.00107,0,0.00107,0,0,"L",1,"","",0,0,3.6
+"CS HEAD. TRAIN B MV 0036 FAILS TO OPEN ON DEMAND"
+""
+51,"S1-GCS-MV0028-0034","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Heat Exchanger Failure - 02 TRB"
+""
+52,"S1-GCS-MV0028","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of SUCTION MOV 0028"
+""
+53,"S1-GCS-MV0034","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of DISCHARGE MOV 0034"
+""
+54,"S1-GCS-MV0028-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of SUCNTION MOV 0028 (Random Failure)"
+""
+55,"S1-GCS-MV0028-SF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of SUCNTION MOV 0028 (Supporting Failure)"
+""
+56,"S1-GCS-MV0034-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of DISCHARGE MOV 0034 (Random Failure)"
+""
+57,"S1-GCS-MV0034-SF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of DISCHARGE MOV 0034 (Supporting Failure)"
+""
+58,"S1-CSMVO0034","B",0,0
+0.00107,0,0.00107,0,0,"L",22,"","",0,0,3.6
+"CS HX HE01A DISC. MOV 0034 Fails to Open"
+""
+59,"S1-GCS-HX02B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Heat Exchanger 02B"
+""
+60,"S1-CSHXYHE02B","B",0,0
+1.548E-05,1,6.45E-07,24,0,"L",108,"h","h",0,0,3.4
+"HX HE02B fails while operating (severe leakage, plugging)"
+""
+61,"S1-CSHXMHE02B","B",0,0
+0.00027,0,0.00027,0,0,"L",0,"","",0,0,10
+"CS HX HE02B UNAVAILABLE DUE TO MAINTENANCE"
+""
+62,"S1-GCS-RCPB","=",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Flow from PUMP"
+""
+63,"S1-GCS-RCCSSPB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF FLOW FROM CS PP01B (REC. MODE)"
+""
+64,"S1-CSCVO1004","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",11,"","",0,0,8.4
+"CS pump PP01B suction CV 1004 fails to open on demand"
+""
+65,"S1-GCS-PP01B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS PUMP PP01B NOT OPERATED"
+""
+66,"S1-CSVVT1002","B",0,0
+7.02144E-06,3,6.36E-09,2208,0,"L",22,"h","h",0,0,8.4
+"CS PP01A suction manual valve V1002 transfer closed"
+""
+67,"S1-GHS-RSUMPB","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO FLOW FROM SUMP LINE B"
+""
+68,"S1-GCS-CSSPBF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS PUMP PP01B FAILURE"
+""
+69,"S1-GCS-CSSPBF-RF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS PUMP PP01B FAILURE (Random Failure)"
+""
+70,"S1-GCS-CSSPBF-SF","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"CS PUMP PP01B FAILURE (Supporting Failure)"
+""
+71,"S1-CSMPSCSSPB","B",0,0
+0.00185,0,0.00185,0,0,"L",63,"","",0,0,4.6
+"CSS PUMP 1 fails to start"
+"CSS PUMP 2 fails to start"
+72,"S1-CSMPRCSSPB","B",0,0
+0.0001392,1,5.8E-06,24,0,"L",64,"h","h",0,0,8.4
+"CSS PUMP 1 fails to run"
+""
+73,"S1-CSMPMCSSPB","B",0,0
+8.74E-06,0,8.74E-06,0,0,"L",0,"","",0,0,10
+"CSS PUMP 1 unavailable due to maintenance"
+""
+74,"S1-HSCVO0206","B",0,0
+1.3E-05,0,1.3E-05,0,0,"L",11,"","",0,0,8.4
+"CTMT. SUMP DISCH. LINE CV SI-206 FAILS TO OPEN"
+""
+75,"S1-GHS-MV0676","+",0,1
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO FLOW FROM CTMT. SUMP ISO. MOV SI-676"
+""
+76,"S1-HSMVO0676","B",0,0
+0.00107,0,0.00107,0,0,"L",1,"","",0,0,3.6
+"CTMT SUMP ISO. MOV SI-676 FAILS TO OPEN"
+""
+77,"S1-GHS-PCSMV0676","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for SI-676B"
+""
+78,"S1-GHS-ARCMV0676","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No signal Generation for SI-676B"
+""
+79,"S1-HSISAMV0676","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS for SI-676"
+""
+80,"S1-CSCVW-SH-AB","B",0,0
+3.536E-07,0,1.3E-05,0,0,"L",0,"","",0.0272,0,8.4
+"CS HEAD. CV AB CCF TO OPEN (A: 1011A, B: 1012B) (2/2)"
+""
+81,"S1-CSMVW-SH-AB","B",0,0
+1.8511E-05,0,0.00107,0,0,"L",0,"","",0.0173,0,3.6
+"CCF(DEMAND,FTO) OF CS HEAD. ISO. VALVES MV A: 0035 & B: 0036 (2/2)"
+""
+82,"S1-CSMVW-SDCDL-AB","B",0,0
+1.8511E-05,0,0.00107,0,0,"L",0,"","",0.0173,0,3.6
+"CS HX HE01A SUCTION. MOV A: 0033 & B: 0034 CCF on Demand (2/2)"
+""
+83,"S1-CSCVW-CSSL-AB","B",0,0
+1.794E-07,0,1.3E-05,0,0,"L",0,"","",0.0138,0,8.4
+"CS HEAD. CV A: 1003A & B: 1004B CCF TO OPEN (2/2)"
+""
+84,"S1-CSMPW-CSP-AB","B",0,0
+7.714501E-05,0,0.00185,0,0,"L",0,"","",0.0417,0,4.6
+"CCF (demand) of CSS pumps (2/2) A: PP01A, B: PP01B"
+""
+85,"S1-CSMPK-CSP-AB","B",0,0
+1.74E-06,1,5.8E-06,24,0,"L",0,"h","h",0.0125,0,8.4
+"CCF (running) of CSS pumps (2/2)  A: PP01A, B: PP01B"
+""
+86,"S1-GEK-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT 4.16 KV SWGR BUS SW01B"
+""
+87,"S1-GED-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01B"
+""
+88,"S1-GEA-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 120V AC VITAL BUS CHANNEL B"
+""
+89,"S1-GEM-08B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT 480V MOTOR CONTROL CENTER BUS MC08B"
+""
+90,"S1-CSMVO0027","B",0,0
+0.00107,0,0.00107,0,0,"L",22,"","",0,0,3.6
+"CS HX HE01A SUNCTION. MOV 0027 Fails to Open"
+""
+91,"S1-CSMVO0028","B",0,0
+0.00107,0,0.00107,0,0,"L",22,"","",0,0,3.6
+"CS HX HE01A SUNCTION. MOV 0028 Fails to Open"
+""
+92,"S1-CSMVW-AB","B",0,0
+1.8511E-05,0,0.00107,0,0,"l",0,"","",0.0173,0,3.6
+"DEMAND CCF OF CSS-SDC HX2B  INLET LINE MV 0028  A: 0027, B: 0028"
+""
+93,"S1-GEM-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 480V AC MCC MC01B"
+""
+94,"S1-GHS-CS0675","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV SI-675 Control Signal"
+""
+95,"S1-GHS-CS0676","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV SI-676 Control Signal"
+""
+96,"S1-GHC-CSPP01A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF CSS PUMP 1 ROOM COOLING"
+""
+97,"S1-GHC-CSPP01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF CSS PUMP 2 ROOM COOLING"
+""
+98,"S1-GCC-SCHXTRA","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CCW FLOW TO SC  HX HE01A"
+""
+99,"S1-GCC-SCHXTRB","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"NO CCW FLOW TO SC  HX HE02B"
+""
+100,"S1-HSCVW-SP-AB","B",0,0
+1.664E-07,0,1.3E-05,0,0,"L",0,"","",0.0128,0,8.4
+"DEMAND CCF OF CTMT. SUMP ISO. CV SI A:205, B: 206 (2/2)"
+""
+101,"S1-HSMVW-SP-AB","B",0,0
+3.0281E-05,0,0.00107,0,0,"L",0,"","",0.0283,0,3.6
+"DEMAND CCF OF CTMT. SUMP ISO. MOV SI A:675 B: 676 (2/2)"
+""
+102,"S1-GCS-ARCMP01B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Signal generation for CS P/P 01B"
+""
+103,"S1-CSISAMP1B","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS Card for CS P/P 1B"
+""
+104,"S1-FSRSACSMP01B","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-111 for CS P/P 01B"
+""
+105,"S1-GCS-CS01B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CS P/P 01B Control Signal"
+""
+106,"S1-GCS-PCSMP01B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for CS P/P 01B"
+""
+107,"S1-GCS-CS01A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CS P/P 01A Control Signal"
+""
+108,"S1-GCS-PCSMP01A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for CS P/P 01A"
+""
+109,"S1-GCS-ARCMP01A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Signal generation for CS P/P 01A"
+""
+110,"S1-CSISAMP1A","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure f PCS Card for CS P/P 1A"
+""
+111,"S1-FSRSACSMP01A","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-111 for CS P/P 01A"
+""
+112,"S1-GCS-CS0035","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV 0035 Control Signal"
+""
+113,"S1-GCS-PCSMV0035","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card fo MOV 035A"
+""
+114,"S1-GCS-ARCMV0035","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Signal Generation for MOV 035A"
+""
+115,"S1-CSISAMV0035","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS for MOV 035A"
+""
+116,"S1-FSRSAMV035A","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-111 for MOV 035"
+""
+117,"S1-GCS-CS0036","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of MOV 0036 Control Signal"
+""
+118,"S1-GCS-PCSMV0036","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card fo MOV 036B"
+""
+119,"S1-GCS-ARCMV0036","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"No Signal Generation for MOV 036B"
+""
+120,"S1-CSISAMV0036","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of PCS for MOV 036B"
+""
+121,"S1-FSRSAMV036B","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-304 for MOV 036"
+""
+122,"S1-GEX-PA03A-01","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A-01)"
+""
+123,"S1-GEX-PA03B-01","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03B-01)"
+""
+124,"S1-GEX-PA03A-04","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A-04)"
+""
+125,"S1-GEX-PA03B-06","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03B-06)"
+""
+126,"S1-GCS-PCSMV0027","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF PCS CARD FOR CS MV 0027"
+""
+127,"S1-CSISAMV0027","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,0,"l",0,"h","h",0,0,5
+"PCS CARD FOR CS MV 0027 FAILS TO ACTUATE"
+""
+128,"S1-FSRSAMV0675","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,5,"L",0,"h","h",0,0,5
+"Failure of ESFAS-ARC Relay K-104 for SI-675"
+""
+129,"S1-GCS-PCSMV028B","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of PCS Card for CS-028B"
+""
+130,"S1-CSISAMV0028","B",0,0
+1.266667E-08,3,7.6E-07,0.03333333,0,"l",0,"h","h",0,0,5
+"PCS CARD FOR CS MV 0028 FAILS TO ACTUATE"
+""
+131,"S1-FSRSAMV0676","B",0,0
+5.05E-09,3,3.03E-07,0.03333333,0,"L",0,"h","h",0,0,0
+"Failure of ESFAS-ARC Relay K-104 for SI-676"
+""
+132,"S1-FSRASA","B",0,0
+6.161E-05,0,6.161E-05,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train A"
+""
+133,"S1-FSRASB","B",0,0
+6.161E-05,0,6.161E-05,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train B"
+""
+134,"S1-FSCSASB","B",0,0
+0.000393,0,0.000393,0,0,"L",0,"","",0,0,0
+"Failure of CSAS Train B (S4B: CSAS-B)"
+""
+135,"S1-FSCSASA","B",0,0
+7.24E-05,0,7.24E-05,0,0,"L",0,"","",0,0,3.6
+"Failure of CSAS Train A"
+""
+136,"S1-GFS-CSASA","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CSAS Train A"
+""
+137,"S1-FSPMW-AB","B",0,0
+0.000140279,3,3.96E-06,1440,0,"L",0,"","",0.0492,0,0
+"CCF OF GC PM3 MODULES"
+""
+138,"S1-GFS-CSASB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of CSAS Train B"
+""
+139,"S1-GFS-RASA","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train A"
+""
+140,"S1-GFS-RASB","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of RAS Train B"
+""
+"#TreeLogic"
+3,"+",2
+2
+81
+4,"+",3
+10
+11
+112
+5,"+",2
+3
+4
+6,"+",2
+1
+80
+7,"+",4
+6
+5
+12
+41
+8,"+",4
+45
+47
+51
+62
+9,"*",2
+7
+8
+12,"+",3
+15
+16
+22
+14,"+",2
+90
+92
+15,"+",2
+14
+17
+16,"+",2
+18
+19
+17,"+",2
+39
+126
+18,"+",2
+13
+82
+19,"+",2
+39
+11
+22,"+",3
+98
+20
+21
+23,"+",5
+24
+83
+26
+25
+27
+26,"+",2
+29
+28
+27,"+",4
+36
+100
+40
+37
+29,"+",2
+30
+31
+30,"+",4
+32
+84
+33
+85
+31,"+",5
+34
+35
+11
+96
+107
+40,"+",4
+38
+101
+35
+94
+41,"=",1
+23
+43,"+",2
+42
+122
+44,"+",2
+128
+139
+45,"+",2
+46
+80
+47,"+",2
+48
+49
+48,"+",2
+50
+81
+49,"+",3
+89
+88
+117
+51,"+",3
+52
+53
+59
+52,"+",2
+54
+55
+53,"+",2
+56
+57
+54,"+",2
+91
+92
+55,"+",2
+93
+129
+56,"+",2
+58
+82
+57,"+",2
+93
+88
+59,"+",3
+99
+60
+61
+62,"=",1
+63
+63,"+",5
+64
+83
+65
+66
+67
+65,"+",2
+68
+73
+67,"+",4
+74
+75
+37
+100
+68,"+",2
+69
+70
+69,"+",4
+71
+84
+72
+85
+70,"+",5
+86
+87
+88
+97
+105
+75,"+",4
+76
+101
+87
+95
+77,"+",2
+79
+123
+78,"+",2
+131
+140
+94,"+",2
+43
+44
+95,"+",2
+77
+78
+102,"+",2
+104
+138
+105,"+",2
+106
+102
+106,"+",2
+103
+125
+107,"+",2
+108
+109
+108,"+",2
+110
+124
+109,"+",2
+111
+136
+112,"+",2
+113
+114
+113,"+",2
+115
+124
+114,"+",2
+116
+136
+117,"+",2
+118
+119
+118,"+",2
+120
+125
+119,"+",2
+121
+138
+122,"+",1
+11
+123,"+",1
+88
+124,"+",1
+11
+125,"+",1
+88
+126,"+",2
+127
+122
+129,"+",2
+130
+123
+136,"+",2
+135
+137
+138,"+",2
+134
+137
+139,"+",2
+132
+137
+140,"+",2
+133
+137
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

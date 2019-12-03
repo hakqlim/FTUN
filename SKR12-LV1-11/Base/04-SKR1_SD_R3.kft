@@ -1,0 +1,424 @@
+"#KIRAP_TREE Version 3.5"
+"Title=","Prime R2.0 System FT"
+"UserName=",""
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 모델 개정\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=","PRiME 1.2 System FT + ASC 성공기준 1 of 2, SLOCA에서 TBV를 통한 덤프 모델 제거
+"
+"#NoXEvent=",70
+"#XEventData"
+1,"S1-GSD-OE","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"<20 min."
+""
+2,"S1-GED-01C","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT 125V DC BUS DC01C"
+""
+3,"S1-GED-01D","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of power at 125V DC BUS DC01D"
+""
+4,"S1-GEM-03A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of power at 480V AC MCC BUS MC03A"
+""
+5,"S1-GEM-03B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of power at 480V AC MCC BUS MC03B"
+""
+6,"S1-GSD-ORC0101","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOLATION MV RC-101"
+""
+7,"S1-GSD-ORC0103","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD BLEED VALVE RC-103"
+""
+8,"S1-SDMVO0101","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"d","",0,0,3.6
+"SD ISOL. MV RC-101 FAILS TO OPEN"
+""
+9,"S1-GED-ORC0101","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ELECTRICAL POWER FOR SD BLEED MV RC-101"
+""
+10,"S1-SDMVO0103","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"d","",0,0,3.6
+"SD BLEED MV RC-103 FAILS TO OPEN"
+""
+11,"S1-GEM-ORC0103","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ELECTRICAL POWER FOR RC-103"
+""
+12,"S1-SDLBC0103","B",0,0
+0.00107,0,0.00107,0,5.4,"L",0,"","",0,0,5.4
+"MAGNETIC CONTACTOR FOR SD BLEED MV RC-103 FAILS TO CLOSE"
+""
+13,"S1-GED-ORC0102","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ELECTRICAL POWER FOR RC-102"
+""
+14,"S1-GSD-ORC0102","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD BLEED MV RC-102"
+""
+15,"S1-GSD-ORC0104","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD BLEED MV RC-104"
+""
+16,"S1-SDMVO0102","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"d","",0,0,3.6
+"SD BLEED MV RC-102 FAILS TO OPEN"
+""
+17,"S1-SDMVO0104","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"d","",0,0,3.6
+"SD BLEED MV RC-104 FAILS TO OPEN"
+""
+18,"S1-GEM-ORC0104","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ELECTRICAL POWER FOR SD BLEED MV RC-104"
+""
+19,"S1-SDLBC0104","B",0,0
+0.00107,0,0.00107,0,5.4,"L",0,"","",0,0,5.4
+"MAGNETIC CONTACTOR FOR SD BLEED MV RC-104 FAILS TO CLOSE"
+""
+20,"S1-SDMVC0101","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"d","",0,0,3.6
+"SD ISOL. MV RC-101 FAILS TO CLOSE"
+""
+21,"S1-SDMVC0103","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"d","",0,0,3.6
+"SD BLEED MV RC-103 FAILS TO CLOSE"
+""
+22,"S1-SDMVC0102","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"d","",0,0,3.6
+"SD ISOL. MV RC-102 FAILS TO CLOSE"
+""
+23,"S1-SDMVC0104","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"d","",0,0,3.6
+"SD BLEED MV RC-104 FAILS TO CLOSE"
+""
+24,"S1-SDOPHLATE","B",0,0
+0.00083,0,0.00083,0,0,"L",0,"","",0,0,0
+"OPERATOR FAILS TO PERFORM F&B OPERATION (LATE)"
+""
+25,"S1-SDOPHEARLY","B",0,0
+0.15,0,0.15,0,0,"L",0,"","",0,0,0
+"OPERATOR FAILS TO PERFORM F&B OPERATION (EARLY)"
+""
+26,"S1-GEA-01A","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel A"
+""
+27,"S1-GEA-01B","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel B"
+""
+28,"S1-GEA-01C","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel C"
+""
+29,"S1-GEA-01D","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel D"
+""
+30,"S1-EDIRK01CD","B",0,0
+8.61696E-06,1,5.28E-06,24,1.71,"L",0,"h","",0.068,0,3.8
+"CCF of inverter 3-441-E-IN01C&D  (2/2)"
+""
+31,"S1-EDIRY01D","B",0,0
+0.00012672,1,5.28E-06,24,1.71,"L",246,"h","",0,0,3.8
+"INVERTER 3-441-E-IN01D FAILS DURING OPER."
+""
+32,"S1-EDIRY01C","B",0,0
+0.00012672,1,5.28E-06,24,1.71,"L",246,"h","",0,0,3.8
+"INVERTER 3-441-E-IN01C FAILS DURING OPER."
+""
+33,"S1-GSD-PCSMV0101","+",0,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for RC-101"
+""
+34,"S1-SDISAMV0101","B",0,0
+1.14E-07,3,7.6E-07,0.3,5,"L",0,"h","h",0,0,5
+"Failure of PCS for RC-101"
+""
+35,"S1-GSD-PCSMV0103","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for RC-103"
+""
+36,"S1-SDISAMV0103","B",0,0
+1.14E-07,3,7.6E-07,0.3,5,"L",0,"h","h",0,0,5
+"Failure of PCS for RC-103"
+""
+37,"S1-GSD-PCSMV0102","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for RC-102"
+""
+38,"S1-SDISAMV0102","B",0,0
+1.14E-07,3,7.6E-07,0.3,5,"L",0,"h","h",0,0,5
+"Failure of PCS for RC-102"
+""
+39,"S1-GSD-PCSMV0104","+",-1,0
+0,0,0,0,0,"",0,"","",0,0,0
+"Failure of PCS Card for RC-104"
+""
+40,"S1-SDISAMV0104","B",0,0
+1.14E-07,3,7.6E-07,0.3,5,"L",0,"h","h",0,0,5
+"Failure of PCS for RC-104"
+""
+41,"S1-GSD-FTCA","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD BLEED LINE A (FAILS TO CLOSE)"
+""
+42,"S1-GSD-CRC0101","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOL. MV RC-101 (FAIL TO CLOSE)"
+""
+43,"S1-GSD-CRC0103","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD BLEED MV RC-103 (FAIL TO CLOSE)"
+""
+44,"S1-GED-CRC0101","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ELECTRICAL POWER FOR CLOSING SD ISOL. MV RC-101"
+""
+45,"S1-GSD-FTCB","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD BLEED LINE B (FAILS TO CLOSE)"
+""
+46,"S1-GSD-CRC0102","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOL. MV RC-102 (FAIL TO CLOSE)"
+""
+47,"S1-GSD-CRC0104","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD BLEED MV RC-104 (FAIL TO CLOSE)"
+""
+48,"S1-GED-CRC0102","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF ELECTRICAL POWER FOR SD ISOL. MV RC-102"
+""
+49,"S1-GSD-CL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SDS ISOL. FOR SWITCH TO SDC OPERATION"
+""
+50,"S1-GSD-OL","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"<1.5 hrs."
+""
+51,"S1-GSD-BL-AB","*",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURES TO OPEN 1 BLEED LINE VALVE"
+""
+52,"S1-GSD-RC0101-RF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOLATION MV RC-101 (RANDOM FAILURE)"
+""
+53,"S1-GSD-RC0101-SF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOLATION MV RC-101 (SUPPORT FAILURE)"
+""
+54,"S1-GSD-RC0103-RF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOLATION MV RC-103 (RANDOM FAILURE)"
+""
+55,"S1-GSD-RC0103-SF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOLATION MV RC-103 (SUPPORT FAILURE)"
+""
+56,"S1-GSD-RC0102-RF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOLATION MV RC-102 (RANDOM FAILURE)"
+""
+57,"S1-GSD-RC0102-SF","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOLATION MV RC-102 (SUPPORT FAILURE)"
+""
+58,"S1-GSD-RC0104-RF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOLATION MV RC-104 (RANDOM FAILURE)"
+""
+59,"S1-GSD-RC0104-SF","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD ISOLATION MV RC-104 (SUPPORT FAILURE)"
+""
+60,"S1-SDMVQ-AC","B",0,0
+4.360549E-05,0,0.00107,0,0,"L",0,"d","",0.04075279,0,3.6
+"CCF OF SD MV RC IN TR.A A:101 C: 103"
+""
+61,"S1-SDMVQ-BD","B",0,0
+4.360549E-05,0,0.00107,0,0,"L",0,"d","",0.04075279,0,3.6
+"CCF OF SD MV RC IN TR.B B:102, D:104"
+""
+62,"S1-GSD-BL-A","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD BLEED LINE A VALVES (FAILS TO OPEN)"
+""
+63,"S1-GSD-BL-B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF SD BLEED LINE B VALVES (FAILS TO OPEN)"
+""
+64,"S1-SDMVW-AB","B",0,0
+4.360549E-05,0,0.00107,0,0,"L",0,"d","",0.04075279,0,3.6
+"CCF OF SD ISOL. MV RC A:101, B:102"
+""
+65,"S1-SDMVW-CD","B",0,0
+4.360549E-05,0,0.00107,0,0,"L",0,"d","",0.04075279,0,3.6
+"CCF OF SD BLEED MV RC C:103, D:104"
+""
+66,"S1-SDLBW-CD","B",0,0
+9.606495E-05,0,0.00107,0,0,"L",0,"","",0.08978032,0,0
+"CCF OF MAGNETIC CONTACTORS FOR SD BLEED MV RC C:103, D:104 (2/2)"
+""
+67,"S1-GEX-PA03A-03","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A-03)"
+""
+68,"S1-GEX-PA03B-04","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03B-04)"
+""
+69,"S1-GEX-PA03C-01","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03C-01)"
+""
+70,"S1-GEX-PA03D-01","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03D-01)"
+""
+"#TreeLogic"
+1,"+",2
+51
+25
+6,"+",2
+52
+53
+7,"+",2
+54
+55
+9,"+",3
+2
+32
+30
+11,"+",3
+12
+66
+4
+13,"+",3
+3
+31
+30
+14,"+",2
+56
+57
+15,"+",2
+58
+59
+18,"+",3
+19
+66
+5
+33,"+",2
+34
+69
+35,"+",2
+36
+67
+37,"+",2
+38
+70
+39,"+",2
+40
+68
+41,"*",2
+42
+43
+42,"+",4
+20
+44
+60
+33
+43,"+",4
+21
+60
+4
+35
+44,"+",3
+2
+32
+30
+45,"*",2
+46
+47
+46,"+",4
+22
+48
+61
+37
+47,"+",4
+23
+61
+5
+39
+48,"+",3
+3
+31
+30
+49,"+",2
+41
+45
+50,"+",2
+51
+24
+51,"*",2
+62
+63
+52,"+",2
+8
+64
+53,"+",2
+9
+33
+54,"+",2
+10
+65
+55,"+",2
+11
+35
+56,"+",2
+16
+64
+57,"+",2
+13
+37
+58,"+",2
+17
+65
+59,"+",2
+18
+39
+62,"+",2
+6
+7
+63,"+",2
+14
+15
+67,"+",1
+26
+68,"+",1
+27
+69,"+",1
+28
+70,"+",1
+29
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

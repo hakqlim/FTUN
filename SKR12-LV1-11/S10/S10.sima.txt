@@ -1,0 +1,1 @@
+Value	 %SEIS		5.23E-07

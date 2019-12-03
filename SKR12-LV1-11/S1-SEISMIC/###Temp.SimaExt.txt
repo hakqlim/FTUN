@@ -1,0 +1,7 @@
+ProjectFolder C:\°úÁ¦\SK12-L1\SKR12-LV1-11
+Page S1-SEISMIC
+ProjectCase S10
+File S10-S1_SEIS.KET
+File S10.sima.txt
+TopEvent S1-SEIS-CDF
+CutOff 

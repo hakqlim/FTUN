@@ -1,0 +1,8 @@
+SK12
+1									LHS:1	MCS:2
+1000								NSP
+0.10 2.00 0.01		MIN,MAX,INCREMENT (Acceleration)
+
+SK12				Fragility    file name (*_frg.inp)
+SK12				Boolean eq.  file name (*_bln.inp)
+SK12				Hazard curve file name (*_hzd.inp)

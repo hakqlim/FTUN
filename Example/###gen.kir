@@ -1,0 +1,18 @@
+RdEqn .
+TOP = G1 + G2 .
+G1 = X1 * G3 .
+G2 = X2 * G3 .
+G3 = E1 + G2A + G2B .
+G2A = X1 * E2 .
+G2B = X2 * E3 .
+End .
+ 
+Value .
+3.000000e-1 , E1 .
+5.000000e-1 , X1 .
+3.000000e-1 , E2 .
+5.000000e-1 , X2 .
+3.000000e-1 , E3 .
+End .
+Genprg ( TOP / Proba * 1.000e-11 / TRUEEVENTS $  / FALSEEVENTS $  ) . 
+SaveRaw ( TOP ) .

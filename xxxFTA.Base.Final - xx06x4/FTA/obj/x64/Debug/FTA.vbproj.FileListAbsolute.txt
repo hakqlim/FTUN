@@ -1,0 +1,13 @@
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\bin\x64\Debug\FT_Read.exe.config
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\bin\x64\Debug\FT_Read.exe
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\bin\x64\Debug\FT_Read.pdb
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\bin\x64\Debug\FT_Read.xml
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\obj\x64\Debug\FTA.vbprojAssemblyReference.cache
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\obj\x64\Debug\FT_Read.Form1.resources
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\obj\x64\Debug\FT_Read.frmMessage.resources
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\obj\x64\Debug\FT_Read.Resources.resources
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\obj\x64\Debug\FTA.vbproj.GenerateResource.cache
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\obj\x64\Debug\FTA.vbproj.CoreCompileInputs.cache
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\obj\x64\Debug\FT_Read.exe
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\obj\x64\Debug\FT_Read.xml
+F:\Download document\DeskTop\FTA_Execise - x06 - 복사본\FTA.Base.Final - xx06x4\FTA\obj\x64\Debug\FT_Read.pdb

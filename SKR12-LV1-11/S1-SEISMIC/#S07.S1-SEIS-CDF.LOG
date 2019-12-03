@@ -1,0 +1,299 @@
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 1.9.0.8 KAERI (64 BIT, APR 17, 2019)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.04 sec.  MCS # =           0 (Read FT)
+---------------------------------------------------------------------------
+ INITIATORS THAT ARE NOT DEFINED IN THE DATA BLOCK
+---------------------------------------------------------------------------
+ %S1-GTRN
+ %S1-ISL
+ %S1-LL-CL1A
+ %S1-LL-CL1B
+ %S1-LL-CL2A
+ %S1-LL-CL2B
+ %S1-LOCV
+ %S1-LOFW
+ %S1-LOOP
+ %S1-ML-CL1A
+ %S1-ML-CL1B
+ %S1-ML-CL2A
+ %S1-ML-CL2B
+ %S1-MSLB-IC-SG1
+ %S1-MSLB-IC-SG2
+ %S1-MSLB-OC-SG1
+ %S1-MSLB-OC-SG2
+ %S1-RVR
+ %S1-SEIS
+ %S10_S1-SEIS
+ ---[WARNING]---------------------------------------------------------------
+ MSG1 = 20 initiators are not defined in the data block.
+ MSG2 = Examine your initiators. See [#S07.S1-SEIS-CDF.LOG].
+ ---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ HOUSE EVENTS THAT ARE NOT DEFINED IN THE DATA BLOACK
+---------------------------------------------------------------------------
+ %S1-LL-CL1B
+ %S1-LL-CL2A
+ %S1-LL-CL2B
+ %S1-ML-CL1B
+ %S1-ML-CL2A
+ %S1-ML-CL2B
+ %S1-MSLB-IC-SG2
+ %S1-MSLB-OC-SG2
+ NOT FOUND
+---------------------------------------------------------------------------
+ GATES DEFINED IN INPUT AND RULE FILES  THE SAME NAME
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=0 by /ASSP=0)
+---------------------------------------------------------------------------
+ S1-MFOPHSUFWP
+ S1-MFOPHSUFWP-LD
+ S1-MXOPHRWT-MD,
+ ---[WARNING]---------------------------------------------------------------
+ MSG1 = 3 events are not defined (type and probability).
+ MSG2 = Their probabilities are set to one. See [#S07.S1-SEIS-CDF.LOG].
+ ---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ NEGATE DOWN
+---------------------------------------------------------------------------
+FROM
+S1-GSEIS_LC * S07_S1-SEIS_SLCRC S1-SEIS_OP-HR 
+S1-GSEIS_SWGR * S07_S1-SEIS_SSWRC S1-SEIS_OP-HR 
+S1-SLEP_S + S07_S1-SEIS_SBCSF S07_S1-SEIS_SDCSF S07_S1-SEIS_SIRSF S07_S1-SEIS_SLCSF S07_S1-SEIS_SSWSF S1-GSEIS_LC S1-GSEIS_SWGR 
+S1-SLLOCA_S * S07_S1-SEIS_SITSF S1-SEIS_CHKVL 
+S1-SLOCS_S + S07_S1-SEIS_PCSSF 
+S1-SLOOP_S + S07_S1-SEIS_SLOOP 
+S1-SSLOCA_S + S07_S1-SEIS_SICPB 
+EVENTS UNDER NEGATE_DOWN
+4.867000e-001 S07_S1-SEIS_SLCRC
+1.000000e-002 S1-SEIS_OP-HR
+6.616000e-001 S07_S1-SEIS_SSWRC
+1.000000e-002 S1-SEIS_OP-HR
+6.415000e-002 S07_S1-SEIS_SBCSF
+1.211000e-001 S07_S1-SEIS_SDCSF
+6.215000e-002 S07_S1-SEIS_SIRSF
+1.941000e-001 S07_S1-SEIS_SLCSF
+3.119000e-001 S07_S1-SEIS_SSWSF
+1.889000e-001 S07_S1-SEIS_SITSF
+2.250000e-004 S1-SEIS_CHKVL
+3.061000e-001 S07_S1-SEIS_PCSSF
+9.978000e-001 S07_S1-SEIS_SLOOP
+3.622000e-002 S07_S1-SEIS_SICPB
+TO
+~G3765-S1-GSEIS_LC + -S1-SEIS_OP-HR -S07_S1-SEIS_SLCRC 
+~G3766-S1-GSEIS_SWGR + -S1-SEIS_OP-HR -S07_S1-SEIS_SSWRC 
+~G3767-S1-SLEP_S * -S07_S1-SEIS_SSWSF -S07_S1-SEIS_SLCSF -S07_S1-SEIS_SIRSF -S07_S1-SEIS_SDCSF -S07_S1-SEIS_SBCSF ~G3765-S1-GSEIS_LC ~G3766-S1-GSEIS_SWGR 
+~G3768-S1-SLLOCA_S + -S1-SEIS_CHKVL -S07_S1-SEIS_SITSF 
+~G3769-S1-SLOCS_S * -S07_S1-SEIS_PCSSF 
+~G3770-S1-SLOOP_S * -S07_S1-SEIS_SLOOP 
+~G3771-S1-SSLOCA_S * -S07_S1-SEIS_SICPB 
+CONNECTED
+S1-SEISMIC-1 * %S07_S1-SEIS ~G3767-S1-SLEP_S ~G3768-S1-SLLOCA_S ~G3769-S1-SLOCS_S ~G3770-S1-SLOOP_S ~G3771-S1-SSLOCA_S 
+S1-SEISMIC-2 * %S07_S1-SEIS S1-SLOOP_S ~G3767-S1-SLEP_S ~G3768-S1-SLLOCA_S ~G3769-S1-SLOCS_S ~G3771-S1-SSLOCA_S 
+S1-SEISMIC-3 * #S1-SEISMIC-3 %S07_S1-SEIS S1-SLLOCA_S ~G3767-S1-SLEP_S ~G3769-S1-SLOCS_S ~G3771-S1-SSLOCA_S 
+S1-SEISMIC-4 * #S1-SEISMIC-4 %S07_S1-SEIS S1-SSLOCA_S ~G3767-S1-SLEP_S ~G3769-S1-SLOCS_S 
+S1-SEISMIC-5 * #S1-SEISMIC-5 %S07_S1-SEIS S1-SLOCS_S ~G3767-S1-SLEP_S 
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [###gen.kir]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = ###gen.kir
+ OUTPUT FILE      = #S07.S1-SEIS-CDF.raw
+ TOP EVENT      # = 1 (S1-SEIS-CDF ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-013
+ GATE           # =        2147
+ EVENT          # =        1622
+-GATE           # =          14
+-EVENT          # =          13
+ EVENT (P=1)    # =          69
+ EVENT (P>1)    # =           4
+ EVENT (F=1)    # =           0
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           6 (MAX = 4.9200e-003)
+ EVENT TRUE     # =           9
+ EVENT FALSE    # =           1
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           4
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = S1-SEIS-CDF
+ INITIATING EVENT = 2.7200e-006 %S07_S1-SEIS
+                  = 2.5900e-003 %S1-LODCA
+                  = 2.5900e-003 %S1-LODCB
+                  = 4.9200e-003 %S1-SGTR-SG1
+                  = 4.9200e-003 %S1-SGTR-SG2
+                  = 1.7300e-003 %S1-SL
+                  = 2.4600e-004 %S1-TLOCCW
+ EVENT (P=1)      = 1.0000e+000 #S1-GIE-CSLOCA-02
+                  = 1.0000e+000 #S1-GIE-CSLOCA-04
+                  = 1.0000e+000 #S1-GIE-CSLOCA-05
+                  = 1.0000e+000 #S1-GIE-CSLOCA-06
+                  = 1.0000e+000 #S1-GIE-CSLOCA-08
+                  = 1.0000e+000 #S1-GIE-CSLOCA-09
+                  = 1.0000e+000 #S1-GIE-CSLOCA-10
+                  = 1.0000e+000 #S1-GIE-CSLOCA-12
+                  = 1.0000e+000 #S1-GIE-CSLOCA-13
+                  = 1.0000e+000 #S1-GIE-CSLOCA-14
+                  = 1.0000e+000 #S1-GIE-CSLOCA-16
+                  = 1.0000e+000 #S1-GIE-CSLOCA-17
+                  = 1.0000e+000 #S1-GIE-CSLOCA-18
+                  = 1.0000e+000 #S1-GIE-CSLOCA-19
+                  = 1.0000e+000 #S1-GIE-GTRN-03
+                  = 1.0000e+000 #S1-GIE-GTRN-04
+                  = 1.0000e+000 #S1-GIE-GTRN-05
+                  = 1.0000e+000 #S1-GIE-GTRN-06
+                  = 1.0000e+000 #S1-GIE-GTRN-08
+                  = 1.0000e+000 #S1-GIE-GTRN-09
+                  = 1.0000e+000 #S1-GIE-GTRN-10
+                  = 1.0000e+000 #S1-GIE-GTRN-11
+                  = 1.0000e+000 #S1-GIE-LOOP-03
+                  = 1.0000e+000 #S1-GIE-LOOP-04
+                  = 1.0000e+000 #S1-GIE-LOOP-05
+                  = 1.0000e+000 #S1-GIE-LOOP-06
+                  = 1.0000e+000 #S1-GIE-LOOP-08
+                  = 1.0000e+000 #S1-GIE-LOOP-09
+                  = 1.0000e+000 #S1-GIE-LOOP-10
+                  = 1.0000e+000 #S1-GIE-LOOP-11
+                  = 1.0000e+000 #S1-GIE-LOOP-13
+                  = 1.0000e+000 #S1-LOOP-AND
+                  = 1.0000e+000 #S1-LOOP-OR
+                  = 1.0000e+000 #S1-SEISMIC-1
+                  = 1.0000e+000 #S1-SEISMIC-2
+                  = 1.0000e+000 #S1-SEISMIC-3
+                  = 1.0000e+000 #S1-SEISMIC-4
+                  = 1.0000e+000 #S1-SEISMIC-5
+                  = 1.0000e+000 #S1-SEISMIC-6
+                  = 1.0000e+000 S1-CVOPH212QTRAIN
+                  = 1.0000e+000 S1-EGOPHDG01E
+                  = 1.0000e+000 S1-FWOPHSUFWP
+                  = 1.0000e+000 S1-HEOPVAH02AA
+                  = 1.0000e+000 S1-HEOPVAH02BB
+                  = 1.0000e+000 S1-HEOPVAH02BB-CD
+                  = 1.0000e+000 S1-HEOPVAH04AA
+                  = 1.0000e+000 S1-HEOPVAH04BB
+                  = 1.0000e+000 S1-HEOPVAH08AA
+                  = 1.0000e+000 S1-HEOPVAH08BB
+                  = 1.0000e+000 S1-HEOPVAH08BB-CD
+                  = 1.0000e+000 S1-HEOPVAH09AA
+                  = 1.0000e+000 S1-HEOPVAH10BB
+                  = 1.0000e+000 S1-IAOPV-ALT-V1030
+                  = 1.0000e+000 S1-LSOPHRECIRC
+                  = 1.0000e+000 S1-MSOPHEVADV-2
+                  = 1.0000e+000 S1-MSOPHSR
+                  = 1.0000e+000 S1-MXOPHEBOR
+                  = 1.0000e+000 S1-MXOPHRWT-MD1
+                  = 1.0000e+000 S1-NLOPHBC01M03N
+                  = 1.0000e+000 S1-NLOPHBC01N03N
+                  = 1.0000e+000 S1-SDOPHEARLY
+                  = 1.0000e+000 S1-SDOPHLATE
+                  = 1.0000e+000 S1-SWOPH3014
+                  = 1.0000e+000 S1-SWOPH3015
+                  = 1.0000e+000 S1-WHOPHMV0027
+                  = 1.0000e+000 S1-WHOPHMV0027-CD
+                  = 1.0000e+000 S1-WTOPHHE03VALVES
+                  = 1.0000e+000 S1-WTOPHHE03VALVES-MD
+                  = 1.0000e+000 S1-WTOPVPP02B
+ EVENT (P>1)      = 3.0300e+000 S1-RCOPHPCON-MD1
+                  = 2.0900e+000 S1-SDOPHLATE-MD1
+                  = 5.9670e+000 S1-SDOPHLATE-MD2
+                  = 5.9867e+000 S1-WHOPHMV0027-MD
+ TRUE EVENT       = 1.7500e-003 S1-AFOPHALTWT
+                  = 2.7400e-005 S1-CDMPZCOND
+                  = 1.8500e-003 S1-FWMPS07P
+                  = 1.0000e+000 S1-GEG-DG01E
+                  = 1.0000e+000 S1-GND-BC01M
+                  = 1.0000e+000 S1-GND-BC01N
+                  = 1.0000e+000 S1-GND-BC03N
+                  = 1.0000e+000 S1-GNK-02M
+                  = 1.0000e+000 S1-GNK-02N
+ FALSE EVENT      = 4.9200e-003 %S1-SGTR-SG2
+ ---[WARNING]---------------------------------------------------------------
+ MSG1 = 4 events have probability larger than 1.
+	Assign them as initiators. Else, 
+	FTREX does not guarantee all MCSs.
+ MSG2 = 3.030e+000 S1-RCOPHPCON-MD1
+	2.090e+000 S1-SDOPHLATE-MD1
+	5.967e+000 S1-SDOPHLATE-MD2
+	5.987e+000 S1-WHOPHMV0027-MD
+ ---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ From  S1-SEISMIC-1 * %S07_S1-SEIS ~G3767-S1-SLEP_S ~G3768-S1-SLLOCA_S -S07_S1-SEIS_PCSSF -S07_S1-SEIS_SLOOP ~G3771-S1-SSLOCA_S
+ To    S1-SEISMIC-1 * -S07_S1-SEIS_SLOOP -S07_S1-SEIS_SICPB -S07_S1-SEIS_PCSSF %S07_S1-SEIS ~G3767-S1-SLEP_S ~G3768-S1-SLLOCA_S
+ From  S1-SEISMIC-2 * %S07_S1-SEIS S1-SLOOP_S ~G3767-S1-SLEP_S ~G3768-S1-SLLOCA_S -S07_S1-SEIS_PCSSF ~G3771-S1-SSLOCA_S
+ To    S1-SEISMIC-2 * -S07_S1-SEIS_SICPB -S07_S1-SEIS_PCSSF %S07_S1-SEIS S1-SLOOP_S ~G3767-S1-SLEP_S ~G3768-S1-SLLOCA_S
+ From  S1-SEISMIC-3 * #S1-SEISMIC-3 %S07_S1-SEIS S1-SLLOCA_S ~G3767-S1-SLEP_S -S07_S1-SEIS_PCSSF ~G3771-S1-SSLOCA_S
+ To    S1-SEISMIC-3 * -S07_S1-SEIS_SICPB -S07_S1-SEIS_PCSSF #S1-SEISMIC-3 %S07_S1-SEIS S1-SLLOCA_S ~G3767-S1-SLEP_S
+ From  S1-SEISMIC-4 * #S1-SEISMIC-4 %S07_S1-SEIS S1-SSLOCA_S ~G3767-S1-SLEP_S ~G3769-S1-SLOCS_S
+ To    S1-SEISMIC-4 * -S07_S1-SEIS_PCSSF #S1-SEISMIC-4 %S07_S1-SEIS S1-SSLOCA_S ~G3767-S1-SLEP_S
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ C:\Program Files (x86)\Ftrex\FTREX.exe ###gen.kir #S07.S1-SEIS-CDF.raw /ASSP=0 /SEQ=0 /Flag=###SeqNo.txt /Rule=###RecRule.kir /RCUT=1 /flag=#base.flag.txt /AMCS=2
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+ [B].    0.17 sec.  MCS # =           0 (Prune house events)
+ [C].    0.17 sec.  MCS # =           0 (Check logical loops)
+ [D].    0.17 sec.  MCS # =           0 (Restructure FT)
+ [E].    0.19 sec.  MCS # =           0 (Break logical loops)
+                                        Broken  loop # = 49179
+                                        Created gate # = 87083
+                                        Final   gate # = 87773
+                                        Module 1     # = 264
+                                        Module 2     # = 2
+ [F].    1.11 sec.  MCS # =           0 (Solve top event)
+                   1720  +
+ [G].   13.61 sec.  MCS # =        1720 (S1-SEIS-CDF Expand module 2)
+ [H].   13.62 sec.  MCS # =        1942 (S1-SEIS-CDF Expand module 1)
+ [I].   13.64 sec.  MCS # =        9213 (S1-SEIS-CDF Delmex A * /A)
+ [J].   13.65 sec.  MCS # =        9213 (S1-SEIS-CDF Delterm G1 * /G2)
+ [K].   15.82 sec.  MCS # =        2508 (S1-SEIS-CDF Write MCSs)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ TOP EVENT        = S1-SEIS-CDF
+ TRUNCATION       = 1.0000e-013
+ PROB (SUM)       = 4.4713e-006 (4.471255e-006)
+ PROB (MCUB)      = 4.4712e-006 (4.471246e-006)
+ CUTSET #         =        2508
+
+ [L].   15.84 sec.  MCS # =        2508 (Recover cutsets)
+ [M].   15.85 sec.  MCS # =        2508 (Perform rule-based post-processing)
+ ---[WARNING]---------------------------------------------------------------
+ MSG1 = 34 out of 39 rules have no effect.
+ MSG2 = See [#S07.S1-SEIS-CDF.LOG].
+ ---------------------------------------------------------------------------
+ [N].   16.08 sec.  MCS # =        2477 (After recovery)
+ [O].   16.09 sec.  MCS # =        2477 (S1-SEIS-CDF Write MCSs)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ TOP EVENT        = S1-SEIS-CDF
+ TRUNCATION       = 1.0000e-013
+ PROB (SUM)       = 3.3276e-006 (3.327646e-006)
+ PROB (MCUB)      = 3.3276e-006 (3.327642e-006)
+ CUTSET #         =        2477
+
+ BYTES REMAINING  = 0.0000e+000 MBytes
+ BYTES USED PEAK  = 1.5952e+002 MBytes
+

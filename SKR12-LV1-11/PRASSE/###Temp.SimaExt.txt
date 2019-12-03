@@ -1,0 +1,11 @@
+ProjectCase Test
+ProjectFolder H:\Work\FTA_Execise - x06 - 복사본 - 복사본\SKR12-LV1-11\PRASSE
+
+File S1-Seis_IE.kft
+File 0.Et-Seismic_IE.Ket
+
+TopEvent S1SEISMIC
+CutOff  0
+CutSetGenerator FtBdd
+SavePrasse
+

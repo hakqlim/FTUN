@@ -1,0 +1,6 @@
+
+FTA.List : 미리 개발해둔 프로그램
+FTA.Base : FTA.List 에서 주요 routine을 삭제한 것. 이를 기초로 강습 시작
+FTA.Base.Final : FTA.List를 기반으로 개발한 프로그램. Comment가 많이 추가됨.
+
+Old : 미리 다른 방식으로 개발해둔 프록그램

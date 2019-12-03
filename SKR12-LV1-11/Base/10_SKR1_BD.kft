@@ -1,0 +1,374 @@
+"#KIRAP_TREE Version 3.5"
+"Title=",""
+"UserName=","isa"
+"DataFileName=","C:\Users\Seong\Desktop\190122 SKR12 ¸ðµ¨ °³Á¤\Base\data.mdb"
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",64
+"#XEventData"
+1,"S1-GBD-SG1TOP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure to Blowdown Rupture SG (SG1) to Prevent Overfill"
+""
+2,"S1-GED-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01A"
+""
+3,"S1-GIA-TOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF INSTRUMENT AIR"
+""
+4,"S1-GND-01M","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT NON-1E 125V DC BUS DC01M"
+""
+5,"S1-GEM-04A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT 480V AC MCC BUS MC04A"
+""
+6,"S1-GBD-SG1V","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF VALVES ON BD LINE TO HCB TANK from SG1"
+""
+7,"S1-GBD-HCMP-HX","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF BD LINE FROM HCBD TANK TO NON-REG. HX"
+""
+8,"S1-GBD-SG1-IV","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF BD ISLOATION VALVES"
+""
+9,"S1-GBD-AV0017","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"BD HCBD TANK INLET CONTROL AV 017 FAILS TO OPEN (SG1)"
+""
+10,"S1-GBD-AV0023","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF BD HCBD PUMP DISCH. LINE AV 023"
+""
+11,"S1-BDVVT1201","B",0,0
+4.17852E-05,3,6.36E-09,13140,3.9,"L",0,"h","h",0,0,3.9
+"BD HCBD DISCH. LINE VV V1201 TRANSFER CLOSED"
+""
+12,"S1-BDVVT1202","B",0,0
+4.17852E-05,3,6.36E-09,13140,3.9,"L",0,"h","h",0,0,3.9
+"BD HCBD PUMP DISCH. LINE VV V1202 TRANSFER CLOSED"
+""
+13,"S1-GBD-HCBDMP","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF BD HCBD TRANSFER PUMP 022"
+""
+14,"S1-BDCVO1203","B",0,0
+1.3E-05,0,1.3E-05,0,2.49,"L",0,"","",0,0,2.49
+"BD HCBD PUMP DISCH. LINE CV V1203 FAILS TO OPEN"
+""
+15,"S1-BDAVO0017","B",0,0
+0.00111,0,0.00111,0,1.53,"L",0,"","",0,0,1.53
+"BD HCBD TANK INLET CONTROL AV 017 FAILS TO OPEN"
+""
+16,"S1-BDLTYHCBDT","B",0,0
+2.448E-06,1,1.02E-07,24,1.28,"L",0,"h","",0,0,1.28
+"BD HCBD TANK LT OUTPUT FAILS DURING OPERATION"
+""
+17,"S1-BDVVT1517","B",0,0
+4.17852E-05,3,6.36E-09,13140,3.9,"L",0,"h","h",0,0,3.9
+"HCBD TK Lvl Ctrl Inlet Iso VV1517 Transfer Closed"
+""
+18,"S1-GBD-PCSAV0017","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"AV017 FAILS TO OPEN DUE TO PCS FAILURE"
+""
+19,"S1-BDMPS022","B",0,0
+0.00223,0,0.00223,0,1.4,"L",0,"","",0,0,1.4
+"BD HCBD TRANSFER PUMP 022 FAILS TO START"
+""
+20,"S1-BDMPR022","B",0,0
+0.00010896,1,4.54E-06,24,1.23,"L",0,"h","",0,0,1.23
+"BD HCBD TRANSFER PUMP 022 FAILS TO RUN"
+""
+21,"S1-BDMPM0022","B",0,0
+0.00751,0,0.00751,0,4.4,"L",0,"","",0,0,4.4
+"BD HCBD TRANSFER PUMP 022 UNAVAILABLE DUE TO MAINTENANCE"
+""
+22,"S1-GNM-02M","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT NON-1E 480V MCC BUS MC02M"
+""
+23,"S1-GBD-AV0005","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF BD ISOLATION AV 005 (SG1)"
+""
+24,"S1-BDVVT1001","B",0,0
+1.5264E-07,1,6.36E-09,24,3.9,"L",0,"h","h",0,0,3.9
+"SG-1 H/L Blowdown Iso VV1001 Transfer Closed (SG1)"
+""
+25,"S1-BDMVT0001","B",0,0
+1.068E-06,1,4.45E-08,24,1.56,"L",0,"h","h",0,0,1.56
+"SG-1 H/L Blowdown Iso MV 001 Transfer Closed (SG1)"
+""
+26,"S1-GBD-MV0007","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF BD ISOLATION MV 007 (SG1)"
+""
+27,"S1-BDAVO0023","B",0,0
+0.00111,0,0.00111,0,1.58,"L",0,"","",0,0,1.58
+"BD HCBD PUMP DISCH. LINE AV 023 FAILS TO OPEN"
+""
+28,"S1-BDAVO0005","B",0,0
+0.00111,0,0.00111,0,1.53,"L",0,"","",0,0,1.53
+"BD ISOLATION AV 005 FAILS TO OPEN"
+""
+29,"S1-GBD-PCSAV0005","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"AV 005 FAILS TO OPEN DUE TO PCS FAILURE"
+""
+30,"S1-BDMVO0007","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"","",0,0,1.61
+"BD ISOLATION MV 007 FAILS TO OPEN"
+""
+31,"S1-GBD-PCSMV0007","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MV 007 FAILS TO OPEN DUE TO PCS FAILURE"
+""
+32,"S1-GNA-01M","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of N1E 120V AC Distribution Panel DP01M"
+""
+33,"S1-GEA-01A","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel A"
+""
+34,"S1-BDISAAV0005","B",0,0
+0.00508896,3,7.6E-07,18,5,"L",0,"h","m",0,0,5
+"PCS FOR AV05 FAILS TO GENERATE SIGNAL"
+""
+35,"S1-BDISAMV0007","B",0,0
+0.00508896,3,7.6E-07,18,5,"L",0,"h","m",0,0,5
+"PCS FOR MV007 FAILS TO GENERATE SIGNAL"
+""
+36,"S1-BDISAAV0017","B",0,0
+0.00508896,3,7.6E-07,18,5,"L",0,"h","m",0,0,5
+"PCS FOR AV017 FAILS TO GENERATE SIGNAL"
+""
+37,"S1-GBD-SG2TOP","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure to Blowdown Rupture SG (SG2) to Prevent Overfill"
+""
+38,"S1-GED-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 125V DC BUS DC01B"
+""
+39,"S1-GND-01N","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER AT NON-1E 125V DC BUS DC01N"
+""
+40,"S1-GNA-01N","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of N1E 120V AC Distribution Panel DP01N"
+""
+41,"S1-GEA-01B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Power from 120V AC Vital Bus Channel B"
+""
+42,"S1-BDAVO0006","B",0,0
+0.00111,0,0.00111,0,1.53,"L",0,"","",0,0,1.53
+"BD ISOLATION AV 006 FAILS TO OPEN"
+""
+43,"S1-BDVVT1002","B",0,0
+1.5264E-07,1,6.36E-09,24,3.9,"L",0,"h","h",0,0,3.9
+"SG-2 H/L Blowdown Iso VV1002 Transfer Closed (SG2)"
+""
+44,"S1-BDMVT0002","B",0,0
+1.068E-06,1,4.45E-08,24,1.56,"L",0,"h","h",0,0,1.56
+"SG-2 H/L Blowdown Iso MV 002 Transfer Closed (SG2)"
+""
+45,"S1-BDMVO0008","B",0,0
+0.00107,0,0.00107,0,1.61,"L",0,"","",0,0,1.61
+"BD ISOLATION MV 008 FAILS TO OPEN"
+""
+46,"S1-BDVVT1518","B",0,0
+4.17852E-05,3,6.36E-09,13140,3.9,"L",0,"h","h",0,0,3.9
+"HCBD TK Lvl Ctrl Inlet Iso VV1518 Transfer Closed (SG2)"
+""
+47,"S1-BDAVO0018","B",0,0
+0.00111,0,0.00111,0,1.53,"L",0,"","",0,0,1.53
+"BD HCBD TANK INLET CONTROL AV 018 FAILS TO OPEN"
+""
+48,"S1-BDISAAV0006","B",0,0
+0.00508896,3,7.6E-07,18,5,"L",0,"h","m",0,0,5
+"PCS FOR AV006 FAILS TO GENERATE SIGNAL"
+""
+49,"S1-BDISAMV0008","B",0,0
+0.00508896,3,7.6E-07,18,5,"L",0,"h","m",0,0,5
+"PCS FOR MV008 FAILS TO GENERATE SIGNAL"
+""
+50,"S1-BDISAAV0018","B",0,0
+0.00508896,3,7.6E-07,18,5,"L",0,"h","m",0,0,5
+"PCS FOR AV018 FAILS TO GENERATE SIGNAL"
+""
+51,"S1-GNM-24N","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 480V MCC MC24N"
+""
+52,"S1-GEM-04B","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"LOSS OF POWER FROM 480V AC MCC BUS MC04B"
+""
+53,"S1-GBD-SG2V","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF VALVES ON BD LINE TO HCB TANK from SG2"
+""
+54,"S1-GBD-SG2-IV","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF BD ISLOATION VALVES (SG2)"
+""
+55,"S1-GBD-AV0018","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"BD HCBD TANK INLET CONTROL AV 018 FAILS TO OPEN (SG2)"
+""
+56,"S1-GBD-AV0006","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF BD ISOLATION AV 006 (SG2)"
+""
+57,"S1-GBD-MV0008","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"FAILURE OF BD ISOLATION MV 008 (SG2)"
+""
+58,"S1-GBD-PCSAV0006","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"AV 006 FAILS TO OPEN DUE TO PCS FAILURE"
+""
+59,"S1-GBD-PCSMV0008","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"MV 008 FAILS TO OPEN DUE TO PCS FAILURE"
+""
+60,"S1-GBD-PCSAV0018","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"AV018 FAILS TO OPEN DUE TO PCS FAILURE"
+""
+61,"S1-GEX-PA03A-06","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03A-06)"
+""
+62,"S1-GEX-PA03B-06","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA03B-06)"
+""
+63,"S1-GEX-PA01-02","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA01-02)"
+""
+64,"S1-GEX-PA01-01","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"PCS Card Power (PA01-01)"
+""
+"#TreeLogic"
+1,"+",2
+6
+7
+6,"+",2
+8
+9
+7,"+",5
+10
+11
+12
+13
+14
+8,"+",4
+23
+24
+25
+26
+9,"+",6
+15
+16
+3
+17
+18
+4
+10,"+",4
+27
+16
+4
+3
+13,"+",5
+19
+20
+21
+16
+22
+18,"+",2
+36
+63
+23,"+",4
+28
+2
+3
+29
+26,"+",4
+30
+16
+5
+31
+29,"+",2
+34
+61
+31,"+",2
+35
+61
+37,"+",2
+53
+7
+53,"+",2
+54
+55
+54,"+",4
+56
+43
+44
+57
+55,"+",6
+47
+16
+39
+3
+46
+60
+56,"+",4
+42
+38
+3
+58
+57,"+",4
+45
+16
+52
+59
+58,"+",2
+48
+62
+59,"+",2
+49
+62
+60,"+",2
+50
+64
+61,"+",1
+33
+62,"+",1
+41
+63,"+",1
+32
+64,"+",1
+40
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

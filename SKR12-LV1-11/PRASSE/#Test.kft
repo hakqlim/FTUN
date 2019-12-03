@@ -1,0 +1,149 @@
+"#KIRAP_TREE Version 3.5"
+"Title=","Seismic IET"
+"UserName=",""
+"DataFileName=",""
+"RecoveryFileName=",""
+"Comments=",""
+"#NoXEvent=",27
+"#XEventData"
+1,"S1-SLOCS_S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Control due to seismic"
+""
+2,"S1-SLEP_S","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of Essential Power"
+""
+3,"GSEI-TOPX","+",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Seismic IE Supporting Logic"
+""
+4,"SIE_SICPB","B",0,0
+0.1,0,0.1,0,0,"L",0,"","",0,0,0
+"Instument Pipe Failure"
+""
+5,"SIE_SLOOP","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Loss of offsite power"
+""
+6,"SIE_PCSSF","B",0,0
+0.1,0,0.1,0,0,"L",0,"","",0,0,0
+"PCS Cabinet Structural Failure"
+""
+7,"SIE_SBCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Battery Charger Structural Failure"
+""
+8,"SIE_SDCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"125V dc Control Center Structural Failure"
+""
+9,"SIE_SIRSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Inverter Structural Failure"
+""
+10,"SIE_SDGSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"EDG Structural Failure"
+""
+11,"SIE_SSWSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"4.16kV SWGR Structural Failure"
+""
+12,"SIE_SLCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"480V LC Structural Failure"
+""
+13,"SIE_SINSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Inverter IN01C/D Structural Failure"
+""
+14,"SIE_SMCSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"480V MCC MC04A/B Structural Failure"
+""
+15,"SIE_SLCRC","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"480V LC Functional Failure"
+""
+16,"OP-HR","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Failure of Function Recovery"
+""
+17,"SIE_SSWRC","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"4.16kV SWGR Functional Failure"
+""
+18,"SIE_SITSF","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Safety Injection Tank Failure"
+""
+19,"CHKVL","B",0,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"SIT Check Valve Failure"
+""
+20,"S1SEISMIC","+",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"Seismic IET"
+""
+21,"S1SEISMIC-1","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"S1SEISMIC Sequence 1"
+""
+22,"S1S","H",0,0
+1,4,1,0,0,"L",0,"","",0,0,0
+""
+""
+23,"#S1SEISMIC-1","B",0,0
+1,0,1,0,0,"L",0,"","",0,0,0
+"S1SEISMIC Sequence 1 Event"
+""
+24,"S1SEISMIC-2","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"S1SEISMIC Sequence 2"
+""
+25,"#S1SEISMIC-2","B",0,0
+1,0,1,0,0,"L",0,"","",0,0,0
+"S1SEISMIC Sequence 2 Event"
+""
+26,"S1SEISMIC-3","*",-1,0
+0,0,0,0,0,"L",0,"","",0,0,0
+"S1SEISMIC Sequence 3"
+""
+27,"#S1SEISMIC-3","B",0,0
+1,0,1,0,0,"L",0,"","",0,0,0
+"S1SEISMIC Sequence 3 Event"
+""
+"#TreeLogic"
+1,"+",1
+6
+2,"+",1
+7
+20,"+",3
+21
+24
+26
+21,"*",4
+22
+-2
+-1
+23
+24,"*",4
+22
+-2
+1
+25
+26,"*",3
+22
+2
+27
+-1,"?",0
+" "
+"Continue"
+"#NoPage=",-1
+" "
+"Continue"
+"NoEventOmega=",-1
+"NoEventPhi=",-1
+" "
+"End"

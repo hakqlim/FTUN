@@ -1,0 +1,11 @@
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Release\FT_Read.exe.config
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Release\FT_Read.exe
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Release\FT_Read.pdb
+D:\아빠\Lang\FTA_Execise\FTA\FTA\bin\Release\FT_Read.xml
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.Form1.resources
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.frmMessage.resources
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.Resources.resources
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FTA.vbproj.GenerateResource.Cache
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.exe
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.xml
+D:\아빠\Lang\FTA_Execise\FTA\FTA\obj\Release\FT_Read.pdb

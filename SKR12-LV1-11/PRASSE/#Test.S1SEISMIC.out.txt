@@ -1,0 +1,26 @@
+
+FtBdd Version 0.9.5 (2010.3.9)
+Fault Tree Solver using BDD Algorithm
+Copyright(C) 2009 KAERI, all rights reserved
+Developed by Korea Atomic Energy Research Institute
+	Wed Jun 05 13:21:47 2019
+
+
+ solve gates
+ gate : S1-SLEP_S, v(0.000000e+000), n(1)
+ gate : S1-SLOCS_S, v(1.000000e-001), n(1)
+ gate : S1SEISMIC-1, v(9.000000e-001), n(1)
+ gate : S1SEISMIC-2, v(1.000000e-001), n(1)
+ gate : S1SEISMIC-3, v(0.000000e+000), n(1)
+ gate : S1SEISMIC, v(1.000000e+000), n(3)
+
+
+ # of Prime Implicants = 3
+ Value(BDD) : 1.000000e+000
+
+ BDD solved : 0 sec
+
+ # of Cut Sets = 3
+ Value(Rare Event) = 1.100000e+000
+
+ Run time = 0 sec

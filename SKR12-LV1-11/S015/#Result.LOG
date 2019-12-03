@@ -1,0 +1,149 @@
+---------------------------------------------------------------------------
+ FTREX INFORMATION
+---------------------------------------------------------------------------
+ FTREX version 1.9.0.8 KAERI (64 BIT, APR 17, 2019)
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+
+ [A].    0.06 sec.  MCS # =           0 (Read FT)
+---------------------------------------------------------------------------
+ INITIATORS THAT ARE NOT DEFINED IN THE DATA BLOCK
+---------------------------------------------------------------------------
+ %S1-GTRN
+ %S1-ISL
+ %S1-LL-CL1A
+ %S1-LL-CL1B
+ %S1-LL-CL2A
+ %S1-LL-CL2B
+ %S1-LOCV
+ %S1-LODCA
+ %S1-LODCB
+ %S1-LOFW
+ %S1-LOOP
+ %S1-ML-CL1A
+ %S1-ML-CL1B
+ %S1-ML-CL2A
+ %S1-ML-CL2B
+ %S1-MSLB-IC-SG1
+ %S1-MSLB-IC-SG2
+ %S1-MSLB-OC-SG1
+ %S1-MSLB-OC-SG2
+ %S1-RVR
+ %S1-SGTR-SG1
+ %S1-SGTR-SG2
+ %S1-SL
+ %S1-TLOCCW
+ %S10_S1-SEIS
+ ---[WARNING]---------------------------------------------------------------
+ MSG1 = 25 initiators are not defined in the data block.
+ MSG2 = Examine your initiators. See [#Result.LOG].
+ ---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ HOUSE EVENTS THAT ARE NOT DEFINED IN THE DATA BLOACK
+---------------------------------------------------------------------------
+ %S1-LL-CL1B
+ %S1-LL-CL2A
+ %S1-LL-CL2B
+ %S1-ML-CL1B
+ %S1-ML-CL2A
+ %S1-ML-CL2B
+ %S1-MSLB-IC-SG2
+ %S1-MSLB-OC-SG2
+ %S1-SGTR-SG2
+ NOT FOUND
+---------------------------------------------------------------------------
+ DUPLICATED EVENTS IN THE FAULT TREE
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ EVENTS THAT HAVE NO DEFINED TYPE AND PROB (TYPE=EVENT, PROB=0 by /ASSP=0)
+---------------------------------------------------------------------------
+ NOT FOUND
+---------------------------------------------------------------------------
+ NEGATE DOWN
+---------------------------------------------------------------------------
+FROM
+S1-SLEP_S + S1-SEIS_SBCSF 
+S1-SLOCS_S + S1-SEIS_PCSSF 
+EVENTS UNDER NEGATE_DOWN
+1.000000e-001 S1-SEIS_SBCSF
+1.000000e-001 S1-SEIS_PCSSF
+TO
+~G17-S1-SLEP_S * -S1-SEIS_SBCSF 
+~G18-S1-SLOCS_S * -S1-SEIS_PCSSF 
+CONNECTED
+S1-SEISMIC-1 * #S1-SEISMIC-1 %S1-SEIS ~G17-S1-SLEP_S ~G18-S1-SLOCS_S 
+S1-SEISMIC-2 * #S1-SEISMIC-2 %S1-SEIS S1-SLOCS_S ~G17-S1-SLEP_S 
+---------------------------------------------------------------------------
+ FAULT TREE INFORMATION OF [###gen.kir]
+---------------------------------------------------------------------------
+
+ INPUT  FILE      = ###gen.kir
+ OUTPUT FILE      = #Result.raw
+ TOP EVENT      # = 1 (S1-SEIS-CDF ...)
+ TRUNCATION ORDER =           0
+ TRUNCATION LIMIT = 1.0000e-013
+ GATE           # =          10
+ EVENT          # =           6
+-GATE           # =           0
+-EVENT          # =           2
+ EVENT (P=1)    # =           3
+ EVENT (P>1)    # =           0
+ EVENT (F=1)    # =           1
+ EVENT (F>1)    # =           0
+ EVENT INIT.    # =           1 (MAX = 1.0000e+000)
+ EVENT TRUE     # =           0
+ EVENT FALSE    # =           0
+ EVENT IGNORE   # =           0
+ EVENT DISJOINT # =           0
+ EVENT FLAG     # =           0
+ EVENT RECOVERY # =           0
+ GATE  (KOON)   # =           0
+ GATE  (XNEG)   # =           0
+ GATE  (LDEL)   # =           0
+
+ TOP EVENT        = S1-SEIS-CDF
+ INITIATING EVENT = 1.0000e+000 %S1-SEIS
+ EVENT (P=1)      = 1.0000e+000 #S1-SEISMIC-1
+                  = 1.0000e+000 #S1-SEISMIC-2
+                  = 1.0000e+000 #S1-SEISMIC-3
+---------------------------------------------------------------------------
+ FTREX RUNNING MESSAGE
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ CONVERTED GATES DUE TO NEGATES OR COMPLEMENTARY EVENTS
+---------------------------------------------------------------------------
+ From  S1-SEISMIC-1 * #S1-SEISMIC-1 %S1-SEIS -S1-SEIS_SBCSF ~G18-S1-SLOCS_S
+ To    S1-SEISMIC-1 * -S1-SEIS_SBCSF -S1-SEIS_PCSSF #S1-SEISMIC-1 %S1-SEIS
+ From  S1-SEISMIC-2 * #S1-SEISMIC-2 %S1-SEIS S1-SLOCS_S ~G17-S1-SLEP_S
+ To    S1-SEISMIC-2 * -S1-SEIS_SBCSF #S1-SEISMIC-2 %S1-SEIS S1-SLOCS_S
+---------------------------------------------------------------------------
+ FTREX COMMAND LINE
+---------------------------------------------------------------------------
+ C:\Program Files (x86)\R&R\Common Files\FTREX.exe ###gen.kir #Result.raw /ASSP=0 /SEQ=0 /flag=#base.flag.txt /L_FILE=#S_ONETOP.FTP /AMCS=2
+---------------------------------------------------------------------------
+ FTREX PROGRESS
+---------------------------------------------------------------------------
+ [B].    0.10 sec.  MCS # =           0 (Check logical loops)
+ [C].    0.10 sec.  MCS # =           0 (Restructure FT)
+                                        Module 1     # = 3
+                                        Module 2     # = 1
+ [D].    0.10 sec.  MCS # =           0 (Solve top event)
+                      1  +
+ [E].    0.11 sec.  MCS # =           1 (S1-SEIS-CDF Expand module 2)
+ [F].    0.11 sec.  MCS # =           3 (S1-SEIS-CDF Expand module 1)
+ [G].    0.11 sec.  MCS # =           3 (S1-SEIS-CDF Delmex A * /A)
+ [H].    0.12 sec.  MCS # =           3 (S1-SEIS-CDF Write MCSs)
+---------------------------------------------------------------------------
+ FTREX CALCULATION SUMMARY
+---------------------------------------------------------------------------
+ TOP EVENT        = S1-SEIS-CDF
+ TRUNCATION       = 1.0000e-013
+ PROB (SUM)       = 1.0000e+000 (1.000000e+000)
+ PROB (MCUB)      = 8.4439e-001 (8.443900e-001)
+ CUTSET #         =           3
+
+ BYTES REMAINING  = 0.0000e+000 MBytes
+ BYTES USED PEAK  = 1.0031e+001 MBytes
+
